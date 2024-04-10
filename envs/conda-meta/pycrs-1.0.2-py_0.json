@@ -1,0 +1,234 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python"
+  ],
+  "extracted_package_dir": "D:\\xxx\\anaconda3\\pkgs\\pycrs-1.0.2-py_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/PyCRS-1.0.2.dist-info/INSTALLER",
+    "Lib/site-packages/PyCRS-1.0.2.dist-info/METADATA",
+    "Lib/site-packages/PyCRS-1.0.2.dist-info/RECORD",
+    "Lib/site-packages/PyCRS-1.0.2.dist-info/WHEEL",
+    "Lib/site-packages/PyCRS-1.0.2.dist-info/top_level.txt",
+    "Lib/site-packages/pycrs/__init__.py",
+    "Lib/site-packages/pycrs/elements/__init__.py",
+    "Lib/site-packages/pycrs/elements/cs.py",
+    "Lib/site-packages/pycrs/elements/datums.py",
+    "Lib/site-packages/pycrs/elements/directions.py",
+    "Lib/site-packages/pycrs/elements/ellipsoids.py",
+    "Lib/site-packages/pycrs/elements/parameters.py",
+    "Lib/site-packages/pycrs/elements/projections.py",
+    "Lib/site-packages/pycrs/elements/units.py",
+    "Lib/site-packages/pycrs/load.py",
+    "Lib/site-packages/pycrs/parse.py",
+    "Lib/site-packages/pycrs/utils.py",
+    ".nonadmin",
+    "Lib/site-packages/pycrs/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/pycrs/elements/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/pycrs/elements/__pycache__/cs.cpython-312.pyc",
+    "Lib/site-packages/pycrs/elements/__pycache__/datums.cpython-312.pyc",
+    "Lib/site-packages/pycrs/elements/__pycache__/directions.cpython-312.pyc",
+    "Lib/site-packages/pycrs/elements/__pycache__/ellipsoids.cpython-312.pyc",
+    "Lib/site-packages/pycrs/elements/__pycache__/parameters.cpython-312.pyc",
+    "Lib/site-packages/pycrs/elements/__pycache__/projections.cpython-312.pyc",
+    "Lib/site-packages/pycrs/elements/__pycache__/units.cpython-312.pyc",
+    "Lib/site-packages/pycrs/__pycache__/load.cpython-312.pyc",
+    "Lib/site-packages/pycrs/__pycache__/parse.cpython-312.pyc",
+    "Lib/site-packages/pycrs/__pycache__/utils.cpython-312.pyc"
+  ],
+  "fn": "pycrs-1.0.2-py_0.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "D:\\xxx\\anaconda3\\pkgs\\pycrs-1.0.2-py_0",
+    "type": 1
+  },
+  "md5": "ffb4ee4b7ef67bd415df4cb92d53ab68",
+  "name": "pycrs",
+  "noarch": "python",
+  "package_tarball_full_path": "D:\\xxx\\anaconda3\\pkgs\\pycrs-1.0.2-py_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/PyCRS-1.0.2.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/PyCRS-1.0.2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "da3ecaeca7a952b7a5d87c8a22910f4b0cda6958b4b9dde7963a03cc2938c1fb",
+        "sha256_in_prefix": "da3ecaeca7a952b7a5d87c8a22910f4b0cda6958b4b9dde7963a03cc2938c1fb",
+        "size_in_bytes": 25676
+      },
+      {
+        "_path": "site-packages/PyCRS-1.0.2.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "e25351794fff9353330e1bc151bc42dfa1ca2e37f3a4f5cbba1b28cb8cbca6b2",
+        "sha256_in_prefix": "e25351794fff9353330e1bc151bc42dfa1ca2e37f3a4f5cbba1b28cb8cbca6b2",
+        "size_in_bytes": 1664
+      },
+      {
+        "_path": "site-packages/PyCRS-1.0.2.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "09b51d2d3a83dfee3359e99ff37ae047fdbf302e13797c3da97c2b5ed7b9c38c",
+        "sha256_in_prefix": "09b51d2d3a83dfee3359e99ff37ae047fdbf302e13797c3da97c2b5ed7b9c38c",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/PyCRS-1.0.2.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "a4409acc57a57ef55cb432caa7dcea278bf6d341b9dea1a063d0927070495269",
+        "sha256_in_prefix": "a4409acc57a57ef55cb432caa7dcea278bf6d341b9dea1a063d0927070495269",
+        "size_in_bytes": 21
+      },
+      {
+        "_path": "site-packages/pycrs/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "1588b12dc1b722dadbb75ea9944288e88e58b1c794d97b385efe9f0577eb22d9",
+        "sha256_in_prefix": "1588b12dc1b722dadbb75ea9944288e88e58b1c794d97b385efe9f0577eb22d9",
+        "size_in_bytes": 417
+      },
+      {
+        "_path": "site-packages/pycrs/elements/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "bbf718a1cc4c333a9d19462cfe660707982f796673b9fcdd90cef665cfb55371",
+        "sha256_in_prefix": "bbf718a1cc4c333a9d19462cfe660707982f796673b9fcdd90cef665cfb55371",
+        "size_in_bytes": 235
+      },
+      {
+        "_path": "site-packages/pycrs/elements/cs.py",
+        "path_type": "hardlink",
+        "sha256": "a2614d1ca0de354697cef97671bd58221dc5d34ac6ce20070ac03a61e07c0ec1",
+        "sha256_in_prefix": "a2614d1ca0de354697cef97671bd58221dc5d34ac6ce20070ac03a61e07c0ec1",
+        "size_in_bytes": 9256
+      },
+      {
+        "_path": "site-packages/pycrs/elements/datums.py",
+        "path_type": "hardlink",
+        "sha256": "279bd711c7427932d3e12e8278697ff692a6c9aa1ded00dc75fa1f70e17135b6",
+        "sha256_in_prefix": "279bd711c7427932d3e12e8278697ff692a6c9aa1ded00dc75fa1f70e17135b6",
+        "size_in_bytes": 4939
+      },
+      {
+        "_path": "site-packages/pycrs/elements/directions.py",
+        "path_type": "hardlink",
+        "sha256": "36e8a301229fda2844e8e76541894275bc9272aca1b9fe0297c32e6d8ab60088",
+        "sha256_in_prefix": "36e8a301229fda2844e8e76541894275bc9272aca1b9fe0297c32e6d8ab60088",
+        "size_in_bytes": 437
+      },
+      {
+        "_path": "site-packages/pycrs/elements/ellipsoids.py",
+        "path_type": "hardlink",
+        "sha256": "b4efc16db3d68701c1534080eab97d618d1a8cc5039c45a69adbb1f22148974a",
+        "sha256_in_prefix": "b4efc16db3d68701c1534080eab97d618d1a8cc5039c45a69adbb1f22148974a",
+        "size_in_bytes": 8456
+      },
+      {
+        "_path": "site-packages/pycrs/elements/parameters.py",
+        "path_type": "hardlink",
+        "sha256": "077810eb2dcd8ab2e10fa8e47b5c4d53808369e8a9a829410d9bdedb79f6155b",
+        "sha256_in_prefix": "077810eb2dcd8ab2e10fa8e47b5c4d53808369e8a9a829410d9bdedb79f6155b",
+        "size_in_bytes": 12379
+      },
+      {
+        "_path": "site-packages/pycrs/elements/projections.py",
+        "path_type": "hardlink",
+        "sha256": "38bed805466c6d2662b0de9581be808e3b833ea2401ee1b822cb788ba6442acf",
+        "sha256_in_prefix": "38bed805466c6d2662b0de9581be808e3b833ea2401ee1b822cb788ba6442acf",
+        "size_in_bytes": 8280
+      },
+      {
+        "_path": "site-packages/pycrs/elements/units.py",
+        "path_type": "hardlink",
+        "sha256": "cce78ebe8ff94bf10e909f98f6362db353e112ebbd82b1e209bf4f2f8c091e99",
+        "sha256_in_prefix": "cce78ebe8ff94bf10e909f98f6362db353e112ebbd82b1e209bf4f2f8c091e99",
+        "size_in_bytes": 4081
+      },
+      {
+        "_path": "site-packages/pycrs/load.py",
+        "path_type": "hardlink",
+        "sha256": "dbfe6ed1b31d14ceeab2a027ec8a93f43996bd4ccc1043aa3958bdb069072078",
+        "sha256_in_prefix": "dbfe6ed1b31d14ceeab2a027ec8a93f43996bd4ccc1043aa3958bdb069072078",
+        "size_in_bytes": 2526
+      },
+      {
+        "_path": "site-packages/pycrs/parse.py",
+        "path_type": "hardlink",
+        "sha256": "a7e58328f4c6605617d1c8270ee99dd145620dd04f27ba8b7094d474df4c8198",
+        "sha256_in_prefix": "a7e58328f4c6605617d1c8270ee99dd145620dd04f27ba8b7094d474df4c8198",
+        "size_in_bytes": 26872
+      },
+      {
+        "_path": "site-packages/pycrs/utils.py",
+        "path_type": "hardlink",
+        "sha256": "e24e93b9ba62d37330bccb6fbf53227a193af4e733283a2059545b55efac3aff",
+        "sha256_in_prefix": "e24e93b9ba62d37330bccb6fbf53227a193af4e733283a2059545b55efac3aff",
+        "size_in_bytes": 7191
+      },
+      {
+        "_path": "Lib/site-packages/pycrs/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pycrs/elements/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pycrs/elements/__pycache__/cs.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pycrs/elements/__pycache__/datums.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pycrs/elements/__pycache__/directions.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pycrs/elements/__pycache__/ellipsoids.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pycrs/elements/__pycache__/parameters.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pycrs/elements/__pycache__/projections.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pycrs/elements/__pycache__/units.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pycrs/__pycache__/load.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pycrs/__pycache__/parse.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pycrs/__pycache__/utils.cpython-312.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "2fac3839be8ef9c7353b1e4b49720c206237fa382e8aff8911f344910371f111",
+  "size": 30232,
+  "subdir": "noarch",
+  "timestamp": 1583762388000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/pycrs-1.0.2-py_0.tar.bz2",
+  "version": "1.0.2"
+}

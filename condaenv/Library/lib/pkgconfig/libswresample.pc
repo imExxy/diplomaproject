@@ -1,0 +1,14 @@
+prefix=D:/xxx/Documents/geeproject/condaenv/Library
+exec_prefix=${prefix}
+libdir=D:/xxx/Documents/geeproject/condaenv/Library/lib
+includedir=D:/xxx/Documents/geeproject/condaenv/Library/include
+
+Name: libswresample
+Description: FFmpeg audio resampling library
+Version: 4.12.100
+Requires: 
+Requires.private: libavutil >= 58.29.100
+Conflicts:
+Libs: -L${libdir}  -lswresample 
+Libs.private: 
+Cflags: -I${includedir}

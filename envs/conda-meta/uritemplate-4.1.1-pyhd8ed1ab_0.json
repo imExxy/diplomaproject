@@ -1,0 +1,168 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.6"
+  ],
+  "extracted_package_dir": "D:\\xxx\\anaconda3\\pkgs\\uritemplate-4.1.1-pyhd8ed1ab_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/uritemplate-4.1.1.dist-info/INSTALLER",
+    "Lib/site-packages/uritemplate-4.1.1.dist-info/LICENSE",
+    "Lib/site-packages/uritemplate-4.1.1.dist-info/METADATA",
+    "Lib/site-packages/uritemplate-4.1.1.dist-info/RECORD",
+    "Lib/site-packages/uritemplate-4.1.1.dist-info/REQUESTED",
+    "Lib/site-packages/uritemplate-4.1.1.dist-info/WHEEL",
+    "Lib/site-packages/uritemplate-4.1.1.dist-info/direct_url.json",
+    "Lib/site-packages/uritemplate-4.1.1.dist-info/top_level.txt",
+    "Lib/site-packages/uritemplate/__init__.py",
+    "Lib/site-packages/uritemplate/api.py",
+    "Lib/site-packages/uritemplate/orderedset.py",
+    "Lib/site-packages/uritemplate/template.py",
+    "Lib/site-packages/uritemplate/variable.py",
+    ".nonadmin",
+    "Lib/site-packages/uritemplate/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/uritemplate/__pycache__/api.cpython-312.pyc",
+    "Lib/site-packages/uritemplate/__pycache__/orderedset.cpython-312.pyc",
+    "Lib/site-packages/uritemplate/__pycache__/template.cpython-312.pyc",
+    "Lib/site-packages/uritemplate/__pycache__/variable.cpython-312.pyc"
+  ],
+  "fn": "uritemplate-4.1.1-pyhd8ed1ab_0.tar.bz2",
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "link": {
+    "source": "D:\\xxx\\anaconda3\\pkgs\\uritemplate-4.1.1-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "0c4beeff1cbaba9b1a494c6b3dfc5bcc",
+  "name": "uritemplate",
+  "noarch": "python",
+  "package_tarball_full_path": "D:\\xxx\\anaconda3\\pkgs\\uritemplate-4.1.1-pyhd8ed1ab_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/uritemplate-4.1.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/uritemplate-4.1.1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "3cfc9f01cdeec92900f228cf5677ffa57e7ed304c4263532bcad9cbd9969e46c",
+        "sha256_in_prefix": "3cfc9f01cdeec92900f228cf5677ffa57e7ed304c4263532bcad9cbd9969e46c",
+        "size_in_bytes": 196
+      },
+      {
+        "_path": "site-packages/uritemplate-4.1.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "ae8b441162f9ad489ede02b26078715ea8dda58c35ea42c24f4030d1bbed6bda",
+        "sha256_in_prefix": "ae8b441162f9ad489ede02b26078715ea8dda58c35ea42c24f4030d1bbed6bda",
+        "size_in_bytes": 2882
+      },
+      {
+        "_path": "site-packages/uritemplate-4.1.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "d0c47ebff6e38515bf46b055966e8c7d62eb91ac0daaf4be88144d62f41659b3",
+        "sha256_in_prefix": "d0c47ebff6e38515bf46b055966e8c7d62eb91ac0daaf4be88144d62f41659b3",
+        "size_in_bytes": 1349
+      },
+      {
+        "_path": "site-packages/uritemplate-4.1.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/uritemplate-4.1.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "5b367c7308e1f25d23b542cd8d8ab51e9afe582a824603ebfbe4d7e0fe48d56a",
+        "sha256_in_prefix": "5b367c7308e1f25d23b542cd8d8ab51e9afe582a824603ebfbe4d7e0fe48d56a",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "site-packages/uritemplate-4.1.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "7a2a9a555681abb2115ce1a166d6bf59b61256f7c7c7e11de9b3a7ef4ab6e486",
+        "sha256_in_prefix": "7a2a9a555681abb2115ce1a166d6bf59b61256f7c7c7e11de9b3a7ef4ab6e486",
+        "size_in_bytes": 107
+      },
+      {
+        "_path": "site-packages/uritemplate-4.1.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "589ce414420d59b830bb3b9410ff240fc4a4d9f147610cc182b8cedef8b2b9b1",
+        "sha256_in_prefix": "589ce414420d59b830bb3b9410ff240fc4a4d9f147610cc182b8cedef8b2b9b1",
+        "size_in_bytes": 12
+      },
+      {
+        "_path": "site-packages/uritemplate/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b6859db4979a356b1fb55ce10c0483ff6c30c6477ce07757836dab1703245647",
+        "sha256_in_prefix": "b6859db4979a356b1fb55ce10c0483ff6c30c6477ce07757836dab1703245647",
+        "size_in_bytes": 816
+      },
+      {
+        "_path": "site-packages/uritemplate/api.py",
+        "path_type": "hardlink",
+        "sha256": "790dc376034d0e59e879d484fab439010bfc26f3337658cf5fc97ed7cee6c9f2",
+        "sha256_in_prefix": "790dc376034d0e59e879d484fab439010bfc26f3337658cf5fc97ed7cee6c9f2",
+        "size_in_bytes": 2305
+      },
+      {
+        "_path": "site-packages/uritemplate/orderedset.py",
+        "path_type": "hardlink",
+        "sha256": "e19f2ef2ec37dfd0ff456bdb52c96fe5de849c0db0c500baeb7d7ba132f3a74a",
+        "sha256_in_prefix": "e19f2ef2ec37dfd0ff456bdb52c96fe5de849c0db0c500baeb7d7ba132f3a74a",
+        "size_in_bytes": 3367
+      },
+      {
+        "_path": "site-packages/uritemplate/template.py",
+        "path_type": "hardlink",
+        "sha256": "a9770d6717063c6c604276910c869f68ab2b4e7bc1ce994e0413c033c1dbabb8",
+        "sha256_in_prefix": "a9770d6717063c6c604276910c869f68ab2b4e7bc1ce994e0413c033c1dbabb8",
+        "size_in_bytes": 4774
+      },
+      {
+        "_path": "site-packages/uritemplate/variable.py",
+        "path_type": "hardlink",
+        "sha256": "1e2c5f2ee17b4777fbcf0210a2107d705551559b0dffc636448643447a4d838d",
+        "sha256_in_prefix": "1e2c5f2ee17b4777fbcf0210a2107d705551559b0dffc636448643447a4d838d",
+        "size_in_bytes": 12870
+      },
+      {
+        "_path": "Lib/site-packages/uritemplate/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/uritemplate/__pycache__/api.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/uritemplate/__pycache__/orderedset.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/uritemplate/__pycache__/template.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/uritemplate/__pycache__/variable.cpython-312.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "2c78ed590f77502544adc6df8c2338cd8b59ca98075b3562855f7837f528aa40",
+  "size": 12252,
+  "subdir": "noarch",
+  "timestamp": 1634152808866,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/uritemplate-4.1.1-pyhd8ed1ab_0.tar.bz2",
+  "version": "4.1.1"
+}

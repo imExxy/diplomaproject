@@ -1,0 +1,246 @@
+{
+  "build": "py312haa95532_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "flask >=2.2",
+    "python >=3.12,<3.13.0a0",
+    "sqlalchemy >=1.4.18"
+  ],
+  "extracted_package_dir": "D:\\xxx\\anaconda3\\pkgs\\flask-sqlalchemy-3.0.2-py312haa95532_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/Flask_SQLAlchemy-3.0.2.dist-info/INSTALLER",
+    "Lib/site-packages/Flask_SQLAlchemy-3.0.2.dist-info/METADATA",
+    "Lib/site-packages/Flask_SQLAlchemy-3.0.2.dist-info/RECORD",
+    "Lib/site-packages/Flask_SQLAlchemy-3.0.2.dist-info/REQUESTED",
+    "Lib/site-packages/Flask_SQLAlchemy-3.0.2.dist-info/WHEEL",
+    "Lib/site-packages/Flask_SQLAlchemy-3.0.2.dist-info/direct_url.json",
+    "Lib/site-packages/Flask_SQLAlchemy-3.0.2.dist-info/licenses/LICENSE.rst",
+    "Lib/site-packages/flask_sqlalchemy/__init__.py",
+    "Lib/site-packages/flask_sqlalchemy/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/flask_sqlalchemy/__pycache__/cli.cpython-312.pyc",
+    "Lib/site-packages/flask_sqlalchemy/__pycache__/extension.cpython-312.pyc",
+    "Lib/site-packages/flask_sqlalchemy/__pycache__/model.cpython-312.pyc",
+    "Lib/site-packages/flask_sqlalchemy/__pycache__/pagination.cpython-312.pyc",
+    "Lib/site-packages/flask_sqlalchemy/__pycache__/query.cpython-312.pyc",
+    "Lib/site-packages/flask_sqlalchemy/__pycache__/record_queries.cpython-312.pyc",
+    "Lib/site-packages/flask_sqlalchemy/__pycache__/session.cpython-312.pyc",
+    "Lib/site-packages/flask_sqlalchemy/__pycache__/track_modifications.cpython-312.pyc",
+    "Lib/site-packages/flask_sqlalchemy/cli.py",
+    "Lib/site-packages/flask_sqlalchemy/extension.py",
+    "Lib/site-packages/flask_sqlalchemy/model.py",
+    "Lib/site-packages/flask_sqlalchemy/pagination.py",
+    "Lib/site-packages/flask_sqlalchemy/py.typed",
+    "Lib/site-packages/flask_sqlalchemy/query.py",
+    "Lib/site-packages/flask_sqlalchemy/record_queries.py",
+    "Lib/site-packages/flask_sqlalchemy/session.py",
+    "Lib/site-packages/flask_sqlalchemy/track_modifications.py",
+    ".nonadmin"
+  ],
+  "fn": "flask-sqlalchemy-3.0.2-py312haa95532_0.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "D:\\xxx\\anaconda3\\pkgs\\flask-sqlalchemy-3.0.2-py312haa95532_0",
+    "type": 1
+  },
+  "md5": "e2d49fa0e0460041420f03e20d0bf1a9",
+  "name": "flask-sqlalchemy",
+  "package_tarball_full_path": "D:\\xxx\\anaconda3\\pkgs\\flask-sqlalchemy-3.0.2-py312haa95532_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/Flask_SQLAlchemy-3.0.2.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "Lib/site-packages/Flask_SQLAlchemy-3.0.2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "c1f83b7a02b840702334cee187e71d6b363306966b5e8a6f9129822ae50bff85",
+        "sha256_in_prefix": "c1f83b7a02b840702334cee187e71d6b363306966b5e8a6f9129822ae50bff85",
+        "size_in_bytes": 3505
+      },
+      {
+        "_path": "Lib/site-packages/Flask_SQLAlchemy-3.0.2.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "3ea41d2bcc4b9b12720b1d14395f3d7a8637fa66bed2aafb8aec16067cdfe644",
+        "sha256_in_prefix": "3ea41d2bcc4b9b12720b1d14395f3d7a8637fa66bed2aafb8aec16067cdfe644",
+        "size_in_bytes": 2030
+      },
+      {
+        "_path": "Lib/site-packages/Flask_SQLAlchemy-3.0.2.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/Flask_SQLAlchemy-3.0.2.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "f701d870a8a4d8883f9c731cade230cc52ed934a3c0313bdf9f3e4ad92e913b0",
+        "sha256_in_prefix": "f701d870a8a4d8883f9c731cade230cc52ed934a3c0313bdf9f3e4ad92e913b0",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "Lib/site-packages/Flask_SQLAlchemy-3.0.2.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "f47bd992e246620482d80788b995f91ba73238a3abf6fb8e13ae9d240c257d81",
+        "sha256_in_prefix": "f47bd992e246620482d80788b995f91ba73238a3abf6fb8e13ae9d240c257d81",
+        "size_in_bytes": 124
+      },
+      {
+        "_path": "Lib/site-packages/Flask_SQLAlchemy-3.0.2.dist-info/licenses/LICENSE.rst",
+        "path_type": "hardlink",
+        "sha256": "489a8e1108509ed98a37bb983e11e0f7e1d31f0bd8f99a79c8448e7ff37d07ea",
+        "sha256_in_prefix": "489a8e1108509ed98a37bb983e11e0f7e1d31f0bd8f99a79c8448e7ff37d07ea",
+        "size_in_bytes": 1475
+      },
+      {
+        "_path": "Lib/site-packages/flask_sqlalchemy/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "400a861135bf8351b34f1c6f343e4cf7489ddd6f1d711f08c6c3b96f049c66d2",
+        "sha256_in_prefix": "400a861135bf8351b34f1c6f343e4cf7489ddd6f1d711f08c6c3b96f049c66d2",
+        "size_in_bytes": 1250
+      },
+      {
+        "_path": "Lib/site-packages/flask_sqlalchemy/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "40ed8511abfa75968542e2b3cda8463fe7c24aff98aee3b4a2ad41ff11f7aef0",
+        "sha256_in_prefix": "40ed8511abfa75968542e2b3cda8463fe7c24aff98aee3b4a2ad41ff11f7aef0",
+        "size_in_bytes": 1650
+      },
+      {
+        "_path": "Lib/site-packages/flask_sqlalchemy/__pycache__/cli.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "45bfccfdb7ba48c396a39f1674e09d7727cb09f9a80e979145f3f180ab285bd6",
+        "sha256_in_prefix": "45bfccfdb7ba48c396a39f1674e09d7727cb09f9a80e979145f3f180ab285bd6",
+        "size_in_bytes": 972
+      },
+      {
+        "_path": "Lib/site-packages/flask_sqlalchemy/__pycache__/extension.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "fc11cab060f7abcce1139c722491207c5ff2699f33c4749c40ee3d8e8602fc5a",
+        "sha256_in_prefix": "fc11cab060f7abcce1139c722491207c5ff2699f33c4749c40ee3d8e8602fc5a",
+        "size_in_bytes": 39670
+      },
+      {
+        "_path": "Lib/site-packages/flask_sqlalchemy/__pycache__/model.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "030fc6e7b4402284b7b351a70cbb8c35433bf3f44ec4d1653ef63c9c855f1f30",
+        "sha256_in_prefix": "030fc6e7b4402284b7b351a70cbb8c35433bf3f44ec4d1653ef63c9c855f1f30",
+        "size_in_bytes": 9273
+      },
+      {
+        "_path": "Lib/site-packages/flask_sqlalchemy/__pycache__/pagination.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "553914e58e10979a3c2cbc4aa2cfae442519ff69a9c98a2d93aa281d493336b7",
+        "sha256_in_prefix": "553914e58e10979a3c2cbc4aa2cfae442519ff69a9c98a2d93aa281d493336b7",
+        "size_in_bytes": 14040
+      },
+      {
+        "_path": "Lib/site-packages/flask_sqlalchemy/__pycache__/query.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "887f28edf3106e837287547ee668760609d0f8be219ec9bbab8fdd4e21ee91f4",
+        "sha256_in_prefix": "887f28edf3106e837287547ee668760609d0f8be219ec9bbab8fdd4e21ee91f4",
+        "size_in_bytes": 4539
+      },
+      {
+        "_path": "Lib/site-packages/flask_sqlalchemy/__pycache__/record_queries.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "da79c050231627a5e129a9e3c067463900100c4ab96467e989842a7716ca92b0",
+        "sha256_in_prefix": "da79c050231627a5e129a9e3c067463900100c4ab96467e989842a7716ca92b0",
+        "size_in_bytes": 5798
+      },
+      {
+        "_path": "Lib/site-packages/flask_sqlalchemy/__pycache__/session.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "6e09901b3ab9cffcd16f8d0604a2446b29061afae0402b26b30ac47beb2ca869",
+        "sha256_in_prefix": "6e09901b3ab9cffcd16f8d0604a2446b29061afae0402b26b30ac47beb2ca869",
+        "size_in_bytes": 3699
+      },
+      {
+        "_path": "Lib/site-packages/flask_sqlalchemy/__pycache__/track_modifications.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "02f843478c33d549ebf6e134f325d7dd2ed21759233d2f505a039529b0acf8cb",
+        "sha256_in_prefix": "02f843478c33d549ebf6e134f325d7dd2ed21759233d2f505a039529b0acf8cb",
+        "size_in_bytes": 3653
+      },
+      {
+        "_path": "Lib/site-packages/flask_sqlalchemy/cli.py",
+        "path_type": "hardlink",
+        "sha256": "a60dd00f13f7e865b6aa7c1efc2a4fb644613dc87255218ceb3941356b8d0851",
+        "sha256_in_prefix": "a60dd00f13f7e865b6aa7c1efc2a4fb644613dc87255218ceb3941356b8d0851",
+        "size_in_bytes": 484
+      },
+      {
+        "_path": "Lib/site-packages/flask_sqlalchemy/extension.py",
+        "path_type": "hardlink",
+        "sha256": "8be9a8f24b1b7299ff20a14a9950ef7d698afdbff5467198b2f6e29defc81ec2",
+        "sha256_in_prefix": "8be9a8f24b1b7299ff20a14a9950ef7d698afdbff5467198b2f6e29defc81ec2",
+        "size_in_bytes": 37597
+      },
+      {
+        "_path": "Lib/site-packages/flask_sqlalchemy/model.py",
+        "path_type": "hardlink",
+        "sha256": "ecff2be9c250a29923d7c01f7fe89cc3676b0d6d19636b87f3cd8a34d1e432f7",
+        "sha256_in_prefix": "ecff2be9c250a29923d7c01f7fe89cc3676b0d6d19636b87f3cd8a34d1e432f7",
+        "size_in_bytes": 7077
+      },
+      {
+        "_path": "Lib/site-packages/flask_sqlalchemy/pagination.py",
+        "path_type": "hardlink",
+        "sha256": "9bbb8a28f6ceb466cb5c1dbcf4ee13d578368621dad64972a8f402d8696816df",
+        "sha256_in_prefix": "9bbb8a28f6ceb466cb5c1dbcf4ee13d578368621dad64972a8f402d8696816df",
+        "size_in_bytes": 10953
+      },
+      {
+        "_path": "Lib/site-packages/flask_sqlalchemy/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/flask_sqlalchemy/query.py",
+        "path_type": "hardlink",
+        "sha256": "c0e019c31432bfd047272db01c5f1f0ebffc29cf22a421ad1e89c4df4cfd3941",
+        "sha256_in_prefix": "c0e019c31432bfd047272db01c5f1f0ebffc29cf22a421ad1e89c4df4cfd3941",
+        "size_in_bytes": 3752
+      },
+      {
+        "_path": "Lib/site-packages/flask_sqlalchemy/record_queries.py",
+        "path_type": "hardlink",
+        "sha256": "683806a9481cdca76b83395d3c2c74e665023479c34e3f15b40cc14d65913bd7",
+        "sha256_in_prefix": "683806a9481cdca76b83395d3c2c74e665023479c34e3f15b40cc14d65913bd7",
+        "size_in_bytes": 4294
+      },
+      {
+        "_path": "Lib/site-packages/flask_sqlalchemy/session.py",
+        "path_type": "hardlink",
+        "sha256": "500bdb69dcc9ac75107c5cbe5b75bc2041db9a031297e915b9ac7fa9196cc703",
+        "sha256_in_prefix": "500bdb69dcc9ac75107c5cbe5b75bc2041db9a031297e915b9ac7fa9196cc703",
+        "size_in_bytes": 2624
+      },
+      {
+        "_path": "Lib/site-packages/flask_sqlalchemy/track_modifications.py",
+        "path_type": "hardlink",
+        "sha256": "c27ebcd5e4ad5f21c91bb2aae85399e752d37fa76a1a43dca03a2fcbca5d4316",
+        "sha256_in_prefix": "c27ebcd5e4ad5f21c91bb2aae85399e752d37fa76a1a43dca03a2fcbca5d4316",
+        "size_in_bytes": 2724
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "flask-sqlalchemy",
+  "sha256": "95b0b6ddfe1f2d96cca33b0f1f26ce250a9e42e1b6128658466e14a7bd88150f",
+  "size": 46590,
+  "subdir": "win-64",
+  "timestamp": 1707442034000,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/flask-sqlalchemy-3.0.2-py312haa95532_0.conda",
+  "version": "3.0.2"
+}

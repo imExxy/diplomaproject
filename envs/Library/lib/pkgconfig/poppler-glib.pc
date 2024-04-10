@@ -1,0 +1,12 @@
+prefix=D:/xxx/Documents/psud/envs/Library
+libdir=D:/xxx/Documents/psud/envs/Library/lib
+includedir=D:/xxx/Documents/psud/envs/Library/include
+
+Name: poppler-glib
+Description: GLib wrapper for poppler
+Version: 23.12.0
+Requires: glib-2.0 >= 2.64 gobject-2.0 >= 2.64 cairo >= 1.16.0 
+Requires.private: poppler = 23.12.0
+
+Libs: -L${libdir} -lpoppler-glib
+Cflags: -I${includedir}/poppler/glib

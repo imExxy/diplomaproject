@@ -1,0 +1,206 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.8"
+  ],
+  "extracted_package_dir": "D:\\xxx\\anaconda3\\pkgs\\scooby-0.9.2-pyhd8ed1ab_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/scooby-0.9.2.dist-info/INSTALLER",
+    "Lib/site-packages/scooby-0.9.2.dist-info/LICENSE",
+    "Lib/site-packages/scooby-0.9.2.dist-info/METADATA",
+    "Lib/site-packages/scooby-0.9.2.dist-info/RECORD",
+    "Lib/site-packages/scooby-0.9.2.dist-info/REQUESTED",
+    "Lib/site-packages/scooby-0.9.2.dist-info/WHEEL",
+    "Lib/site-packages/scooby-0.9.2.dist-info/direct_url.json",
+    "Lib/site-packages/scooby-0.9.2.dist-info/entry_points.txt",
+    "Lib/site-packages/scooby-0.9.2.dist-info/top_level.txt",
+    "Lib/site-packages/scooby/__init__.py",
+    "Lib/site-packages/scooby/__main__.py",
+    "Lib/site-packages/scooby/knowledge.py",
+    "Lib/site-packages/scooby/py.typed",
+    "Lib/site-packages/scooby/report.py",
+    "Lib/site-packages/scooby/tracker.py",
+    "Lib/site-packages/scooby/version.py",
+    ".nonadmin",
+    "Lib/site-packages/scooby/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/scooby/__pycache__/__main__.cpython-312.pyc",
+    "Lib/site-packages/scooby/__pycache__/knowledge.cpython-312.pyc",
+    "Lib/site-packages/scooby/__pycache__/report.cpython-312.pyc",
+    "Lib/site-packages/scooby/__pycache__/tracker.cpython-312.pyc",
+    "Lib/site-packages/scooby/__pycache__/version.cpython-312.pyc",
+    "Scripts/scooby-script.py",
+    "Scripts/scooby.exe"
+  ],
+  "fn": "scooby-0.9.2-pyhd8ed1ab_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "D:\\xxx\\anaconda3\\pkgs\\scooby-0.9.2-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "66dc03353b88f5f2db8c630854174a3f",
+  "name": "scooby",
+  "noarch": "python",
+  "package_tarball_full_path": "D:\\xxx\\anaconda3\\pkgs\\scooby-0.9.2-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/scooby-0.9.2.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/scooby-0.9.2.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "82208b11be7124de546e1ea8d7fd8bc478ffb2d62be46d8221007978d2483a5b",
+        "sha256_in_prefix": "82208b11be7124de546e1ea8d7fd8bc478ffb2d62be46d8221007978d2483a5b",
+        "size_in_bytes": 1092
+      },
+      {
+        "_path": "site-packages/scooby-0.9.2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "4a14d7d2ca5358f1a56c57e820b3b341711892e8c6c39ab86e452bafc1899eb0",
+        "sha256_in_prefix": "4a14d7d2ca5358f1a56c57e820b3b341711892e8c6c39ab86e452bafc1899eb0",
+        "size_in_bytes": 15365
+      },
+      {
+        "_path": "site-packages/scooby-0.9.2.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "69de03170cb9515e9d63721c2099c85da0d8229b251fff1d61a2074213b379fb",
+        "sha256_in_prefix": "69de03170cb9515e9d63721c2099c85da0d8229b251fff1d61a2074213b379fb",
+        "size_in_bytes": 1628
+      },
+      {
+        "_path": "site-packages/scooby-0.9.2.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/scooby-0.9.2.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "c903798389a0e00c9b4639208bef72cb889010589b1909a5cfbf0f8a4e4eafe0",
+        "sha256_in_prefix": "c903798389a0e00c9b4639208bef72cb889010589b1909a5cfbf0f8a4e4eafe0",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/scooby-0.9.2.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "99d79bd764ddadac7adaac4daa66c7e68e3ecd917f077f82b8cd5d6ad89d8f3f",
+        "sha256_in_prefix": "99d79bd764ddadac7adaac4daa66c7e68e3ecd917f077f82b8cd5d6ad89d8f3f",
+        "size_in_bytes": 102
+      },
+      {
+        "_path": "site-packages/scooby-0.9.2.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "29396fe9868bc92efa3d32e67fba72ed81e25d958508026e05752b1f364c9799",
+        "sha256_in_prefix": "29396fe9868bc92efa3d32e67fba72ed81e25d958508026e05752b1f364c9799",
+        "size_in_bytes": 48
+      },
+      {
+        "_path": "site-packages/scooby-0.9.2.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "a17fd51359ce7fd55c53e3fa68d5716338eb0a4868c3a546cb0d4f6cb2a45145",
+        "sha256_in_prefix": "a17fd51359ce7fd55c53e3fa68d5716338eb0a4868c3a546cb0d4f6cb2a45145",
+        "size_in_bytes": 7
+      },
+      {
+        "_path": "site-packages/scooby/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "26cbb6a68cd39a265adca1c4f80f0f2647accbd447bd27466f51d10ebc22f47d",
+        "sha256_in_prefix": "26cbb6a68cd39a265adca1c4f80f0f2647accbd447bd27466f51d10ebc22f47d",
+        "size_in_bytes": 1471
+      },
+      {
+        "_path": "site-packages/scooby/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "815616531740abef75d398ce35df1d50fb98321d85554dd05b5f13b8c9eb41e4",
+        "sha256_in_prefix": "815616531740abef75d398ce35df1d50fb98321d85554dd05b5f13b8c9eb41e4",
+        "size_in_bytes": 2990
+      },
+      {
+        "_path": "site-packages/scooby/knowledge.py",
+        "path_type": "hardlink",
+        "sha256": "41c741da4ef1de85e964cb54f1b06ba2787c4e5d3146bd6304195aa1c277c756",
+        "sha256_in_prefix": "41c741da4ef1de85e964cb54f1b06ba2787c4e5d3146bd6304195aa1c277c756",
+        "size_in_bytes": 5584
+      },
+      {
+        "_path": "site-packages/scooby/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/scooby/report.py",
+        "path_type": "hardlink",
+        "sha256": "eb020608d633f7af3032867ae28f0275312bd6f81ceabdbbe0ca78f17dc1fdd9",
+        "sha256_in_prefix": "eb020608d633f7af3032867ae28f0275312bd6f81ceabdbbe0ca78f17dc1fdd9",
+        "size_in_bytes": 17568
+      },
+      {
+        "_path": "site-packages/scooby/tracker.py",
+        "path_type": "hardlink",
+        "sha256": "0ad80fdc8e3e171660a2aa0446182e294a03fd9506750149fb2b8b12425f2a8c",
+        "sha256_in_prefix": "0ad80fdc8e3e171660a2aa0446182e294a03fd9506750149fb2b8b12425f2a8c",
+        "size_in_bytes": 3123
+      },
+      {
+        "_path": "site-packages/scooby/version.py",
+        "path_type": "hardlink",
+        "sha256": "96c68fdbd974aced53f5773e373a91235ba708717e4ba6a3f83e2add4ae8e24a",
+        "sha256_in_prefix": "96c68fdbd974aced53f5773e373a91235ba708717e4ba6a3f83e2add4ae8e24a",
+        "size_in_bytes": 411
+      },
+      {
+        "_path": "Lib/site-packages/scooby/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/scooby/__pycache__/__main__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/scooby/__pycache__/knowledge.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/scooby/__pycache__/report.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/scooby/__pycache__/tracker.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/scooby/__pycache__/version.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Scripts/scooby-script.py",
+        "path_type": "windows_python_entry_point_script"
+      },
+      {
+        "_path": "Scripts/scooby.exe",
+        "path_type": "windows_python_entry_point_exe"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "2da33192d89f313fcda87b1c852d4bce9cda32bc3dc06c9348c2415f637d0deb",
+  "size": 22071,
+  "subdir": "noarch",
+  "timestamp": 1697858997000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/scooby-0.9.2-pyhd8ed1ab_0.conda",
+  "version": "0.9.2"
+}

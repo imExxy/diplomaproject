@@ -1,0 +1,11 @@
+prefix=D:/xxx/Documents/geeproject/condaenv/Library 
+exec_prefix=D:/xxx/Documents/geeproject/condaenv/Library 
+libdir=D:/xxx/Documents/geeproject/condaenv/Library/lib 
+includedir=D:/xxx/Documents/geeproject/condaenv/Library/include 
+modules=0 
+Name: libXML 
+Version: 2.12.5 
+Description: libXML library version2. 
+Requires: 
+Libs: -LD:/xxx/Documents/geeproject/condaenv/Library/lib -lxml2 -liconv -lz 
+Cflags: -ID:/xxx/Documents/geeproject/condaenv/Library/include/libxml2 -ID:/xxx/Documents/geeproject/condaenv/Library/include 

@@ -1,0 +1,828 @@
+{
+  "build": "py312hc725b1e_5",
+  "build_number": 5,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "certifi",
+    "vc >=14.2,<15",
+    "ucrt >=10.0.20348.0",
+    "vc14_runtime >=14.29.30139",
+    "python_abi 3.12.* *_cp312",
+    "python >=3.12,<3.13.0a0",
+    "proj >=9.3.1,<9.3.2.0a0"
+  ],
+  "extracted_package_dir": "D:\\xxx\\anaconda3\\pkgs\\pyproj-3.6.1-py312hc725b1e_5",
+  "features": "",
+  "files": [
+    "Lib/site-packages/pyproj-3.6.1.dist-info/INSTALLER",
+    "Lib/site-packages/pyproj-3.6.1.dist-info/LICENSE",
+    "Lib/site-packages/pyproj-3.6.1.dist-info/LICENSE_proj",
+    "Lib/site-packages/pyproj-3.6.1.dist-info/METADATA",
+    "Lib/site-packages/pyproj-3.6.1.dist-info/RECORD",
+    "Lib/site-packages/pyproj-3.6.1.dist-info/REQUESTED",
+    "Lib/site-packages/pyproj-3.6.1.dist-info/WHEEL",
+    "Lib/site-packages/pyproj-3.6.1.dist-info/direct_url.json",
+    "Lib/site-packages/pyproj-3.6.1.dist-info/entry_points.txt",
+    "Lib/site-packages/pyproj-3.6.1.dist-info/top_level.txt",
+    "Lib/site-packages/pyproj/__init__.py",
+    "Lib/site-packages/pyproj/__main__.py",
+    "Lib/site-packages/pyproj/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/pyproj/__pycache__/__main__.cpython-312.pyc",
+    "Lib/site-packages/pyproj/__pycache__/_show_versions.cpython-312.pyc",
+    "Lib/site-packages/pyproj/__pycache__/aoi.cpython-312.pyc",
+    "Lib/site-packages/pyproj/__pycache__/datadir.cpython-312.pyc",
+    "Lib/site-packages/pyproj/__pycache__/enums.cpython-312.pyc",
+    "Lib/site-packages/pyproj/__pycache__/exceptions.cpython-312.pyc",
+    "Lib/site-packages/pyproj/__pycache__/geod.cpython-312.pyc",
+    "Lib/site-packages/pyproj/__pycache__/network.cpython-312.pyc",
+    "Lib/site-packages/pyproj/__pycache__/proj.cpython-312.pyc",
+    "Lib/site-packages/pyproj/__pycache__/sync.cpython-312.pyc",
+    "Lib/site-packages/pyproj/__pycache__/transformer.cpython-312.pyc",
+    "Lib/site-packages/pyproj/__pycache__/utils.cpython-312.pyc",
+    "Lib/site-packages/pyproj/_compat.c",
+    "Lib/site-packages/pyproj/_compat.cp312-win_amd64.pyd",
+    "Lib/site-packages/pyproj/_compat.pxd",
+    "Lib/site-packages/pyproj/_compat.pyi",
+    "Lib/site-packages/pyproj/_compat.pyx",
+    "Lib/site-packages/pyproj/_crs.c",
+    "Lib/site-packages/pyproj/_crs.cp312-win_amd64.pyd",
+    "Lib/site-packages/pyproj/_crs.pxd",
+    "Lib/site-packages/pyproj/_crs.pyi",
+    "Lib/site-packages/pyproj/_crs.pyx",
+    "Lib/site-packages/pyproj/_datadir.c",
+    "Lib/site-packages/pyproj/_datadir.cp312-win_amd64.pyd",
+    "Lib/site-packages/pyproj/_datadir.pxd",
+    "Lib/site-packages/pyproj/_datadir.pyi",
+    "Lib/site-packages/pyproj/_datadir.pyx",
+    "Lib/site-packages/pyproj/_geod.c",
+    "Lib/site-packages/pyproj/_geod.cp312-win_amd64.pyd",
+    "Lib/site-packages/pyproj/_geod.pxd",
+    "Lib/site-packages/pyproj/_geod.pyi",
+    "Lib/site-packages/pyproj/_geod.pyx",
+    "Lib/site-packages/pyproj/_network.c",
+    "Lib/site-packages/pyproj/_network.cp312-win_amd64.pyd",
+    "Lib/site-packages/pyproj/_network.pyi",
+    "Lib/site-packages/pyproj/_network.pyx",
+    "Lib/site-packages/pyproj/_show_versions.py",
+    "Lib/site-packages/pyproj/_sync.c",
+    "Lib/site-packages/pyproj/_sync.cp312-win_amd64.pyd",
+    "Lib/site-packages/pyproj/_sync.pyi",
+    "Lib/site-packages/pyproj/_sync.pyx",
+    "Lib/site-packages/pyproj/_transformer.c",
+    "Lib/site-packages/pyproj/_transformer.cp312-win_amd64.pyd",
+    "Lib/site-packages/pyproj/_transformer.pxd",
+    "Lib/site-packages/pyproj/_transformer.pyi",
+    "Lib/site-packages/pyproj/_transformer.pyx",
+    "Lib/site-packages/pyproj/aoi.py",
+    "Lib/site-packages/pyproj/base.pxi",
+    "Lib/site-packages/pyproj/crs/__init__.py",
+    "Lib/site-packages/pyproj/crs/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/pyproj/crs/__pycache__/_cf1x8.cpython-312.pyc",
+    "Lib/site-packages/pyproj/crs/__pycache__/coordinate_operation.cpython-312.pyc",
+    "Lib/site-packages/pyproj/crs/__pycache__/coordinate_system.cpython-312.pyc",
+    "Lib/site-packages/pyproj/crs/__pycache__/crs.cpython-312.pyc",
+    "Lib/site-packages/pyproj/crs/__pycache__/datum.cpython-312.pyc",
+    "Lib/site-packages/pyproj/crs/__pycache__/enums.cpython-312.pyc",
+    "Lib/site-packages/pyproj/crs/_cf1x8.py",
+    "Lib/site-packages/pyproj/crs/coordinate_operation.py",
+    "Lib/site-packages/pyproj/crs/coordinate_system.py",
+    "Lib/site-packages/pyproj/crs/crs.py",
+    "Lib/site-packages/pyproj/crs/datum.py",
+    "Lib/site-packages/pyproj/crs/enums.py",
+    "Lib/site-packages/pyproj/database.c",
+    "Lib/site-packages/pyproj/database.cp312-win_amd64.pyd",
+    "Lib/site-packages/pyproj/database.pyi",
+    "Lib/site-packages/pyproj/database.pyx",
+    "Lib/site-packages/pyproj/datadir.py",
+    "Lib/site-packages/pyproj/enums.py",
+    "Lib/site-packages/pyproj/exceptions.py",
+    "Lib/site-packages/pyproj/geod.py",
+    "Lib/site-packages/pyproj/list.c",
+    "Lib/site-packages/pyproj/list.cp312-win_amd64.pyd",
+    "Lib/site-packages/pyproj/list.pyi",
+    "Lib/site-packages/pyproj/list.pyx",
+    "Lib/site-packages/pyproj/network.py",
+    "Lib/site-packages/pyproj/proj.pxi",
+    "Lib/site-packages/pyproj/proj.py",
+    "Lib/site-packages/pyproj/py.typed",
+    "Lib/site-packages/pyproj/sync.py",
+    "Lib/site-packages/pyproj/transformer.py",
+    "Lib/site-packages/pyproj/utils.py",
+    "Scripts/pyproj-script.py",
+    "Scripts/pyproj.exe",
+    ".nonadmin"
+  ],
+  "fn": "pyproj-3.6.1-py312hc725b1e_5.conda",
+  "license": "MIT",
+  "link": {
+    "source": "D:\\xxx\\anaconda3\\pkgs\\pyproj-3.6.1-py312hc725b1e_5",
+    "type": 1
+  },
+  "md5": "03b58ca2e2652462e83db38e241a352d",
+  "name": "pyproj",
+  "package_tarball_full_path": "D:\\xxx\\anaconda3\\pkgs\\pyproj-3.6.1-py312hc725b1e_5.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/pyproj-3.6.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "Lib/site-packages/pyproj-3.6.1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "b3f4b194e9dd8c0371fc77bce65954d1774f7af510870dac48c6feb2e6559544",
+        "sha256_in_prefix": "b3f4b194e9dd8c0371fc77bce65954d1774f7af510870dac48c6feb2e6559544",
+        "size_in_bytes": 1118
+      },
+      {
+        "_path": "Lib/site-packages/pyproj-3.6.1.dist-info/LICENSE_proj",
+        "path_type": "hardlink",
+        "sha256": "ac9caff7979c906774d756815d1d473145284ba7ba9a5ef1c5fa77e6a30cef82",
+        "sha256_in_prefix": "ac9caff7979c906774d756815d1d473145284ba7ba9a5ef1c5fa77e6a30cef82",
+        "size_in_bytes": 1720
+      },
+      {
+        "_path": "Lib/site-packages/pyproj-3.6.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "a3d3e33d681738f77e6426d94072996fe76b6f91644869609c63a510fbefe9a4",
+        "sha256_in_prefix": "a3d3e33d681738f77e6426d94072996fe76b6f91644869609c63a510fbefe9a4",
+        "size_in_bytes": 31351
+      },
+      {
+        "_path": "Lib/site-packages/pyproj-3.6.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "65161dccefd692df425975aa6cf4f576fe7cb23dd9d1d5089682fbb5b2da8216",
+        "sha256_in_prefix": "65161dccefd692df425975aa6cf4f576fe7cb23dd9d1d5089682fbb5b2da8216",
+        "size_in_bytes": 6912
+      },
+      {
+        "_path": "Lib/site-packages/pyproj-3.6.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/pyproj-3.6.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "8fd022b2ccdadfbe742d01c5010c987ab3639a410e375fbcc3f45a64d16d292b",
+        "sha256_in_prefix": "8fd022b2ccdadfbe742d01c5010c987ab3639a410e375fbcc3f45a64d16d292b",
+        "size_in_bytes": 102
+      },
+      {
+        "_path": "Lib/site-packages/pyproj-3.6.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "19661b96fbbfb93b1de9c0560d2f4ff9b921792cf02780d4aee6c411ff27e217",
+        "sha256_in_prefix": "19661b96fbbfb93b1de9c0560d2f4ff9b921792cf02780d4aee6c411ff27e217",
+        "size_in_bytes": 67
+      },
+      {
+        "_path": "Lib/site-packages/pyproj-3.6.1.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "f2daab7ae22ad145c846c30291634e92cd31e84818536967c95f6694f3b3b3b9",
+        "sha256_in_prefix": "f2daab7ae22ad145c846c30291634e92cd31e84818536967c95f6694f3b3b3b9",
+        "size_in_bytes": 48
+      },
+      {
+        "_path": "Lib/site-packages/pyproj-3.6.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "d4337e6e4f28c268b5c035332fbbc72a0a9d533d0387d38eb05338a2ea5e65bb",
+        "sha256_in_prefix": "d4337e6e4f28c268b5c035332fbbc72a0a9d533d0387d38eb05338a2ea5e65bb",
+        "size_in_bytes": 7
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "9617a07a6dd1954d8257be257e75021ae939f69f548564828db1c2a5f9d8c2ef",
+        "sha256_in_prefix": "9617a07a6dd1954d8257be257e75021ae939f69f548564828db1c2a5f9d8c2ef",
+        "size_in_bytes": 2920
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "a061915b881a1f17e1fc996b27da88319e1928deaeff0f3ba7ef6124d36946a6",
+        "sha256_in_prefix": "a061915b881a1f17e1fc996b27da88319e1928deaeff0f3ba7ef6124d36946a6",
+        "size_in_bytes": 6351
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "fdd3f64ee1e51d01508119a8582f178d440b5aa5deee53c5ceb6058695f41fa4",
+        "sha256_in_prefix": "fdd3f64ee1e51d01508119a8582f178d440b5aa5deee53c5ceb6058695f41fa4",
+        "size_in_bytes": 2824
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/__pycache__/__main__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "08a4fdd297e49f79234d0bdbe7aaee2fc84e490aa4bc0ecac842704208055475",
+        "sha256_in_prefix": "08a4fdd297e49f79234d0bdbe7aaee2fc84e490aa4bc0ecac842704208055475",
+        "size_in_bytes": 7237
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/__pycache__/_show_versions.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "252a561cce6ca352a25cbcfeec69cefc2123e30d00639f56f2cfec5945e41940",
+        "sha256_in_prefix": "252a561cce6ca352a25cbcfeec69cefc2123e30d00639f56f2cfec5945e41940",
+        "size_in_bytes": 4098
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/__pycache__/aoi.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "60ab45b1b8a5d9a0f19a4aa495dde08bad965fbff097b421f3366790ab07627d",
+        "sha256_in_prefix": "60ab45b1b8a5d9a0f19a4aa495dde08bad965fbff097b421f3366790ab07627d",
+        "size_in_bytes": 4781
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/__pycache__/datadir.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "3854e6158363836325875fa9ddcc43a9c41194ca1ba3e8747c27af9ac7b8a846",
+        "sha256_in_prefix": "3854e6158363836325875fa9ddcc43a9c41194ca1ba3e8747c27af9ac7b8a846",
+        "size_in_bytes": 4279
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/__pycache__/enums.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "1752ec4fbbe51235ec20838348e46f89a96a92a5afef7df96b6c2dccc816f707",
+        "sha256_in_prefix": "1752ec4fbbe51235ec20838348e46f89a96a92a5afef7df96b6c2dccc816f707",
+        "size_in_bytes": 4736
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/__pycache__/exceptions.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "8cbd3ce48e773aa00b7ac5f50c489c6f7fd599d70339d81bb89ef9619ff1432a",
+        "sha256_in_prefix": "8cbd3ce48e773aa00b7ac5f50c489c6f7fd599d70339d81bb89ef9619ff1432a",
+        "size_in_bytes": 1515
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/__pycache__/geod.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "a66204d962c468989e6f7ba30a9ce47bfc4d3c0fafd48dd63c5c704aa3fd99ca",
+        "sha256_in_prefix": "a66204d962c468989e6f7ba30a9ce47bfc4d3c0fafd48dd63c5c704aa3fd99ca",
+        "size_in_bytes": 43112
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/__pycache__/network.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "e4f846f013722efc382c38f8c295984dbfca3b8722cab66c9da0cf3b3051fe96",
+        "sha256_in_prefix": "e4f846f013722efc382c38f8c295984dbfca3b8722cab66c9da0cf3b3051fe96",
+        "size_in_bytes": 2111
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/__pycache__/proj.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "34373f3d4ed56533db4f6ff3c9de00a95b31fc5152e7ec1a6d3864c245c07bed",
+        "sha256_in_prefix": "34373f3d4ed56533db4f6ff3c9de00a95b31fc5152e7ec1a6d3864c245c07bed",
+        "size_in_bytes": 12701
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/__pycache__/sync.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "9ff6fbbe3b24421fccbacc3f4635e26859871dad0116ade6db5f06f79aadcc01",
+        "sha256_in_prefix": "9ff6fbbe3b24421fccbacc3f4635e26859871dad0116ade6db5f06f79aadcc01",
+        "size_in_bytes": 11286
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/__pycache__/transformer.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "b2c116440d2be65c96ea852ce7ec6de7ee6a9d46607bb725aed8ced822d3574a",
+        "sha256_in_prefix": "b2c116440d2be65c96ea852ce7ec6de7ee6a9d46607bb725aed8ced822d3574a",
+        "size_in_bytes": 50474
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/__pycache__/utils.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "e99556669e142b3809df4b90741bd39ab52f9b4e48a839dda54bd1b2c1a91fb3",
+        "sha256_in_prefix": "e99556669e142b3809df4b90741bd39ab52f9b4e48a839dda54bd1b2c1a91fb3",
+        "size_in_bytes": 5680
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/_compat.c",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "D:\\\\bld\\\\pyproj_1702028201447\\\\_h_env",
+        "sha256": "189a9283551fd5be7eb60eb2af308bbe9fbc5d577ec03f8453f96925f9ea130b",
+        "sha256_in_prefix": "d72c145f05082c0d09a6ab2a1ac9c2e8251cacf04d2b8b44487e95bfe030bea8",
+        "size_in_bytes": 332006
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/_compat.cp312-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "6b24a67b167c3c4110f8fb5a2460e53919896e493cc80e56f29ac421a33ff7d1",
+        "sha256_in_prefix": "6b24a67b167c3c4110f8fb5a2460e53919896e493cc80e56f29ac421a33ff7d1",
+        "size_in_bytes": 40960
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/_compat.pxd",
+        "path_type": "hardlink",
+        "sha256": "6a8889bc1bae2b61f8d335332a6554d9721d8ac74599b99f2f90a4001292bead",
+        "sha256_in_prefix": "6a8889bc1bae2b61f8d335332a6554d9721d8ac74599b99f2f90a4001292bead",
+        "size_in_bytes": 283
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/_compat.pyi",
+        "path_type": "hardlink",
+        "sha256": "8a765f8f5e3abe79964bdd7a8ee9289fa5128a144bf600a5a7f69077e5d81e59",
+        "sha256_in_prefix": "8a765f8f5e3abe79964bdd7a8ee9289fa5128a144bf600a5a7f69077e5d81e59",
+        "size_in_bytes": 41
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/_compat.pyx",
+        "path_type": "hardlink",
+        "sha256": "6b31ba405891150e83f2340368f3ad61e9f2b86e4e583bd7d977234e6249b6d7",
+        "sha256_in_prefix": "6b31ba405891150e83f2340368f3ad61e9f2b86e4e583bd7d977234e6249b6d7",
+        "size_in_bytes": 727
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/_crs.c",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "D:\\\\bld\\\\pyproj_1702028201447\\\\_h_env",
+        "sha256": "79e9e5218214bafc09164ac906e122f736f9c1623fc1bee935eed54c38368117",
+        "sha256_in_prefix": "cf0d0fedd5ca9b216d648c5120f915c90676dc24c5e162d447f80aa0804b6baf",
+        "size_in_bytes": 2393262
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/_crs.cp312-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "1c447bc421896ac8581be2191951c5e95e11cc967b0a204fed4892acbae086a1",
+        "sha256_in_prefix": "1c447bc421896ac8581be2191951c5e95e11cc967b0a204fed4892acbae086a1",
+        "size_in_bytes": 391680
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/_crs.pxd",
+        "path_type": "hardlink",
+        "sha256": "26035c92b25683393d2a26dc3ce7f5b00742e20a853ffb5b96c31dac70021e01",
+        "sha256_in_prefix": "26035c92b25683393d2a26dc3ce7f5b00742e20a853ffb5b96c31dac70021e01",
+        "size_in_bytes": 4180
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/_crs.pyi",
+        "path_type": "hardlink",
+        "sha256": "c6acffb2de7feaffc7762a36c1600b76f59f08840e79bba7ded7a6136dc4bb34",
+        "sha256_in_prefix": "c6acffb2de7feaffc7762a36c1600b76f59f08840e79bba7ded7a6136dc4bb34",
+        "size_in_bytes": 7969
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/_crs.pyx",
+        "path_type": "hardlink",
+        "sha256": "4f01fa908262dd5eababe149a3aed2e9d37645796be1ec269b1e271cd6f9197a",
+        "sha256_in_prefix": "4f01fa908262dd5eababe149a3aed2e9d37645796be1ec269b1e271cd6f9197a",
+        "size_in_bytes": 92777
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/_datadir.c",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "D:\\\\bld\\\\pyproj_1702028201447\\\\_h_env",
+        "sha256": "c1d63ef0d15017217425220c1649a72230a2184cfa15a9c1d5f25ee7418dc230",
+        "sha256_in_prefix": "3e39c62ee1f0f6d3b9a52e8dfb187ca2d52f52e23b1cfe47ee8a9ff60f22a345",
+        "size_in_bytes": 494142
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/_datadir.cp312-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "c74b4d0383bf6a7314f0b216685a1a30bce8ad831d1325fc70f2f6f985aa84e9",
+        "sha256_in_prefix": "c74b4d0383bf6a7314f0b216685a1a30bce8ad831d1325fc70f2f6f985aa84e9",
+        "size_in_bytes": 67072
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/_datadir.pxd",
+        "path_type": "hardlink",
+        "sha256": "f921b08b85281d5191da5a316fb3bc317ef34c1959cc0a24571a1fb3473082ab",
+        "sha256_in_prefix": "f921b08b85281d5191da5a316fb3bc317ef34c1959cc0a24571a1fb3473082ab",
+        "size_in_bytes": 249
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/_datadir.pyi",
+        "path_type": "hardlink",
+        "sha256": "a6a4059093fc86a9f2fc281b6da0fb1380dc25a2d7dc3176a89c14db08f01a90",
+        "sha256_in_prefix": "a6a4059093fc86a9f2fc281b6da0fb1380dc25a2d7dc3176a89c14db08f01a90",
+        "size_in_bytes": 328
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/_datadir.pyx",
+        "path_type": "hardlink",
+        "sha256": "3212be8ea06f8131d9184fc9077783b8577a00bf215f7856ecb8b7b8b46017de",
+        "sha256_in_prefix": "3212be8ea06f8131d9184fc9077783b8577a00bf215f7856ecb8b7b8b46017de",
+        "size_in_bytes": 6628
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/_geod.c",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "D:\\\\bld\\\\pyproj_1702028201447\\\\_h_env",
+        "sha256": "8c99cd00b3875dcd781267ee029b20a367b60152a63e43129292052ebb38f389",
+        "sha256_in_prefix": "f872196f4569815df35a244f6bff02ef302e4c01934a2a2069c2fb77dee408b2",
+        "size_in_bytes": 736800
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/_geod.cp312-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "520f088a78f08f6619e8f93e9d4c1d20a3ddfa90a9e981bbc0ca1d284b571c1b",
+        "sha256_in_prefix": "520f088a78f08f6619e8f93e9d4c1d20a3ddfa90a9e981bbc0ca1d284b571c1b",
+        "size_in_bytes": 108544
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/_geod.pxd",
+        "path_type": "hardlink",
+        "sha256": "8a6baecea88c97226f5c8af80c2795f1f0fca37f75ef20d48addf4dd66dd2639",
+        "sha256_in_prefix": "8a6baecea88c97226f5c8af80c2795f1f0fca37f75ef20d48addf4dd66dd2639",
+        "size_in_bytes": 1767
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/_geod.pyi",
+        "path_type": "hardlink",
+        "sha256": "5c00b9879952de2cb6317a0df1c0e59767a372723a24c0686cef6f680a6094b2",
+        "sha256_in_prefix": "5c00b9879952de2cb6317a0df1c0e59767a372723a24c0686cef6f680a6094b2",
+        "size_in_bytes": 2075
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/_geod.pyx",
+        "path_type": "hardlink",
+        "sha256": "816fdb7041d6175e50cd943d52c778ae48bb09a18ff7980daa741aa19518de80",
+        "sha256_in_prefix": "816fdb7041d6175e50cd943d52c778ae48bb09a18ff7980daa741aa19518de80",
+        "size_in_bytes": 20902
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/_network.c",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "D:\\\\bld\\\\pyproj_1702028201447\\\\_h_env",
+        "sha256": "03bced78e958872741929b05f5334f55e328b487e570688a1b8e979c52dda1d5",
+        "sha256_in_prefix": "81a579f0d894d8db0b8c75bb0f5ca406cbba571bb69a68eb9f5aaabd8cd0730b",
+        "size_in_bytes": 335578
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/_network.cp312-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "f084a6a8e0917c3f4875336e17006bf7971bb6e18f74c369416ea514858579bd",
+        "sha256_in_prefix": "f084a6a8e0917c3f4875336e17006bf7971bb6e18f74c369416ea514858579bd",
+        "size_in_bytes": 42496
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/_network.pyi",
+        "path_type": "hardlink",
+        "sha256": "e376f71c764a049418fd0f5c45cd7a9702c877bb9bf811759c8b8731859a3d2a",
+        "sha256_in_prefix": "e376f71c764a049418fd0f5c45cd7a9702c877bb9bf811759c8b8731859a3d2a",
+        "size_in_bytes": 193
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/_network.pyx",
+        "path_type": "hardlink",
+        "sha256": "df92411b6c5cccdd7846d15e226bc3e103a2d80e7b8d3bab8d878aef750a20f0",
+        "sha256_in_prefix": "df92411b6c5cccdd7846d15e226bc3e103a2d80e7b8d3bab8d878aef750a20f0",
+        "size_in_bytes": 1726
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/_show_versions.py",
+        "path_type": "hardlink",
+        "sha256": "5de646c57593dcf7528a6168b5e8e1f7d167c2dff9db74f4ca535ca90d79707e",
+        "sha256_in_prefix": "5de646c57593dcf7528a6168b5e8e1f7d167c2dff9db74f4ca535ca90d79707e",
+        "size_in_bytes": 2955
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/_sync.c",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "D:\\\\bld\\\\pyproj_1702028201447\\\\_h_env",
+        "sha256": "c38cd69b53ed0682dea820f2e8dd2144895fdd6932fb94d78b83f48908035a1b",
+        "sha256_in_prefix": "cf50235db07a8e810c751a753855156b8f28c2e52df5a88aeb261bb1228aef7e",
+        "size_in_bytes": 225685
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/_sync.cp312-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "b4626928e7cdfe6884075169a60983816a7f5233882058e040e2dbdcdf896f42",
+        "sha256_in_prefix": "b4626928e7cdfe6884075169a60983816a7f5233882058e040e2dbdcdf896f42",
+        "size_in_bytes": 31232
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/_sync.pyi",
+        "path_type": "hardlink",
+        "sha256": "8eb6f502464b1abb001067af7ad91b105c1df92f65b5f07419aba5da14f6f180",
+        "sha256_in_prefix": "8eb6f502464b1abb001067af7ad91b105c1df92f65b5f07419aba5da14f6f180",
+        "size_in_bytes": 36
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/_sync.pyx",
+        "path_type": "hardlink",
+        "sha256": "c0f53dafc430182b2e4361d5fc157113f63a2d2f85bc56e1439504b6f2a307bf",
+        "sha256_in_prefix": "c0f53dafc430182b2e4361d5fc157113f63a2d2f85bc56e1439504b6f2a307bf",
+        "size_in_bytes": 275
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/_transformer.c",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "D:\\\\bld\\\\pyproj_1702028201447\\\\_h_env",
+        "sha256": "72beea4b5491b0a8f7e0d27fa5249253b82f0577b24df0ddfab6a54be318a222",
+        "sha256_in_prefix": "556a09a9d8a2c12ccf1554fef19a691c6b2226cade9379e8030038c75ef05581",
+        "size_in_bytes": 1146517
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/_transformer.cp312-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "fffa4e030fe732661440dfce442608b9c32e8dc9533de5f9016944e88e33358f",
+        "sha256_in_prefix": "fffa4e030fe732661440dfce442608b9c32e8dc9533de5f9016944e88e33358f",
+        "size_in_bytes": 166912
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/_transformer.pxd",
+        "path_type": "hardlink",
+        "sha256": "f1896fe93b3710f5a9c9b20f9a479c54cce92f9a19f79e90ae64b1eb832cd07d",
+        "sha256_in_prefix": "f1896fe93b3710f5a9c9b20f9a479c54cce92f9a19f79e90ae64b1eb832cd07d",
+        "size_in_bytes": 609
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/_transformer.pyi",
+        "path_type": "hardlink",
+        "sha256": "aab2c0efcb301cf032dd9d52d371b2ef8fd94d6c55776e0f7029b483f9c41d1f",
+        "sha256_in_prefix": "aab2c0efcb301cf032dd9d52d371b2ef8fd94d6c55776e0f7029b483f9c41d1f",
+        "size_in_bytes": 3802
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/_transformer.pyx",
+        "path_type": "hardlink",
+        "sha256": "15bef90ba8ec7f45cefc243415521a70fd78d6fc513a914423cb5610a1a0ea17",
+        "sha256_in_prefix": "15bef90ba8ec7f45cefc243415521a70fd78d6fc513a914423cb5610a1a0ea17",
+        "size_in_bytes": 39998
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/aoi.py",
+        "path_type": "hardlink",
+        "sha256": "375bbc2a73aa89c108575edca63beb1e49f2a93d239b212a520af186e3a2a34e",
+        "sha256_in_prefix": "375bbc2a73aa89c108575edca63beb1e49f2a93d239b212a520af186e3a2a34e",
+        "size_in_bytes": 3440
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/base.pxi",
+        "path_type": "hardlink",
+        "sha256": "afe66f624daaa2916cdd4879f342655b5964c378a1f4b10060ef26579455268c",
+        "sha256_in_prefix": "afe66f624daaa2916cdd4879f342655b5964c378a1f4b10060ef26579455268c",
+        "size_in_bytes": 1005
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/crs/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "df38a544851130ad39cd0ae8b823beeb23931ee45c4f83289772cd47cd9079a3",
+        "sha256_in_prefix": "df38a544851130ad39cd0ae8b823beeb23931ee45c4f83289772cd47cd9079a3",
+        "size_in_bytes": 665
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/crs/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "7111ba22160b3519bd9dcfba7b41d2941af7d09a38c20aa8e4231d580a87d28a",
+        "sha256_in_prefix": "7111ba22160b3519bd9dcfba7b41d2941af7d09a38c20aa8e4231d580a87d28a",
+        "size_in_bytes": 795
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/crs/__pycache__/_cf1x8.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "e5017097697006ef26fb58e3ee86f86d94146be273c5e7d8ff159f24491f1921",
+        "sha256_in_prefix": "e5017097697006ef26fb58e3ee86f86d94146be273c5e7d8ff159f24491f1921",
+        "size_in_bytes": 22307
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/crs/__pycache__/coordinate_operation.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "48b3cda7d40fcc250753064fa0153d5f37e6711e288ebb452c0d3f2fd8de26d9",
+        "sha256_in_prefix": "48b3cda7d40fcc250753064fa0153d5f37e6711e288ebb452c0d3f2fd8de26d9",
+        "size_in_bytes": 37881
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/crs/__pycache__/coordinate_system.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "f8bef8f694794132fbc293b8ce5bc057e3c0ee075b8de39cff6dd962de3cf790",
+        "sha256_in_prefix": "f8bef8f694794132fbc293b8ce5bc057e3c0ee075b8de39cff6dd962de3cf790",
+        "size_in_bytes": 7176
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/crs/__pycache__/crs.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "3905efe44ba960b639ebeb170df6282747b0ccc1366c406b4ed26d3f45d143a9",
+        "sha256_in_prefix": "3905efe44ba960b639ebeb170df6282747b0ccc1366c406b4ed26d3f45d143a9",
+        "size_in_bytes": 71896
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/crs/__pycache__/datum.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "d169a7e927de44b77d28b9208ca96452e419d527f1b11d70ed0c7e9b9f3f3538",
+        "sha256_in_prefix": "d169a7e927de44b77d28b9208ca96452e419d527f1b11d70ed0c7e9b9f3f3538",
+        "size_in_bytes": 4179
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/crs/__pycache__/enums.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "53ad13f43edc1c41bef70539a029b28f29a825802aef46f8fbeae4124fcbf61b",
+        "sha256_in_prefix": "53ad13f43edc1c41bef70539a029b28f29a825802aef46f8fbeae4124fcbf61b",
+        "size_in_bytes": 4281
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/crs/_cf1x8.py",
+        "path_type": "hardlink",
+        "sha256": "0fdc01c9ec56df1d6093f82738e5c099da22e22ac08cc6a482ac02eba4cabe23",
+        "sha256_in_prefix": "0fdc01c9ec56df1d6093f82738e5c099da22e22ac08cc6a482ac02eba4cabe23",
+        "size_in_bytes": 27038
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/crs/coordinate_operation.py",
+        "path_type": "hardlink",
+        "sha256": "d63422a8608d944d30a190e338809daa718a81a6a13b15ceaf030a8b504cf112",
+        "sha256_in_prefix": "d63422a8608d944d30a190e338809daa718a81a6a13b15ceaf030a8b504cf112",
+        "size_in_bytes": 57878
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/crs/coordinate_system.py",
+        "path_type": "hardlink",
+        "sha256": "aecc5c3f1efbd42cf902b80efc2ca52f12f2adb238da880b6c63722ba74bf19b",
+        "sha256_in_prefix": "aecc5c3f1efbd42cf902b80efc2ca52f12f2adb238da880b6c63722ba74bf19b",
+        "size_in_bytes": 10092
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/crs/crs.py",
+        "path_type": "hardlink",
+        "sha256": "4ff7af6f2b7652c3c4f8ee9cc31d2332aa490316c21ff1381212c359d3925aff",
+        "sha256_in_prefix": "4ff7af6f2b7652c3c4f8ee9cc31d2332aa490316c21ff1381212c359d3925aff",
+        "size_in_bytes": 64099
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/crs/datum.py",
+        "path_type": "hardlink",
+        "sha256": "c56d52e459742626f5d2231ea849d7d977837a8512f4a14955f24b5757cc912d",
+        "sha256_in_prefix": "c56d52e459742626f5d2231ea849d7d977837a8512f4a14955f24b5757cc912d",
+        "size_in_bytes": 3716
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/crs/enums.py",
+        "path_type": "hardlink",
+        "sha256": "a518d8dd8442ea4e2a24053af1d9429446eaa4dd6ab8b071a4b54db4e0dfdd9d",
+        "sha256_in_prefix": "a518d8dd8442ea4e2a24053af1d9429446eaa4dd6ab8b071a4b54db4e0dfdd9d",
+        "size_in_bytes": 3674
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/database.c",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "D:\\\\bld\\\\pyproj_1702028201447\\\\_h_env",
+        "sha256": "4f43866476d3c6094d1f6f451e4b4fc2d1d1e2bf7ea72316dcb62e05ffb802e6",
+        "sha256_in_prefix": "b01b8d8d843c5fa87aa4c31011c62a057df778a67889f816f1b36ef7a499217d",
+        "size_in_bytes": 601308
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/database.cp312-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "6d6e9891d60893ce2ed73b29dde9d0626fb6edd96f096f0a11ad38e07e533bd3",
+        "sha256_in_prefix": "6d6e9891d60893ce2ed73b29dde9d0626fb6edd96f096f0a11ad38e07e533bd3",
+        "size_in_bytes": 94208
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/database.pyi",
+        "path_type": "hardlink",
+        "sha256": "f938a13574f12dd4ac9a5ff59e712bb43494ea23a3cf14d0bc82455f60ae6afd",
+        "sha256_in_prefix": "f938a13574f12dd4ac9a5ff59e712bb43494ea23a3cf14d0bc82455f60ae6afd",
+        "size_in_bytes": 1284
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/database.pyx",
+        "path_type": "hardlink",
+        "sha256": "1b96c77c19f54144be3d879a9ddaf3657e3ea7a7f3033c1862c49c902b13b602",
+        "sha256_in_prefix": "1b96c77c19f54144be3d879a9ddaf3657e3ea7a7f3033c1862c49c902b13b602",
+        "size_in_bytes": 14931
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/datadir.py",
+        "path_type": "hardlink",
+        "sha256": "975442e2e0bd7c484826eee217b86040b86de4ea872a10c8c2a85ba3c958c821",
+        "sha256_in_prefix": "975442e2e0bd7c484826eee217b86040b86de4ea872a10c8c2a85ba3c958c821",
+        "size_in_bytes": 3876
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/enums.py",
+        "path_type": "hardlink",
+        "sha256": "f9f7d9ecd056aaba1ec1669153e2b71cbee1fceb4ae0a161aeddbceb5401a5f8",
+        "sha256_in_prefix": "f9f7d9ecd056aaba1ec1669153e2b71cbee1fceb4ae0a161aeddbceb5401a5f8",
+        "size_in_bytes": 4091
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "20b07ce77c669cbe61ff7f4e48d1eb949d5b21ba2d84af0271fe3485effe9faf",
+        "sha256_in_prefix": "20b07ce77c669cbe61ff7f4e48d1eb949d5b21ba2d84af0271fe3485effe9faf",
+        "size_in_bytes": 693
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/geod.py",
+        "path_type": "hardlink",
+        "sha256": "24e4e1067a72f3b239afa0b6e40f892907627d203d3462123f67ee6c580ecc1c",
+        "sha256_in_prefix": "24e4e1067a72f3b239afa0b6e40f892907627d203d3462123f67ee6c580ecc1c",
+        "size_in_bytes": 44076
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/list.c",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "D:\\\\bld\\\\pyproj_1702028201447\\\\_h_env",
+        "sha256": "b03c15019bf883dbfc5e90d62d93bd612fe37de8cea418b967cc8603ae8dcd1e",
+        "sha256_in_prefix": "07cd6f57732583a087b232194fc1c824604c8a52aa6b2be88d0c345626cc34a3",
+        "size_in_bytes": 285762
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/list.cp312-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "4baa8742cd13a10034e5c1d444cd6a7b94fbce924a73f1235d6972bd5faea104",
+        "sha256_in_prefix": "4baa8742cd13a10034e5c1d444cd6a7b94fbce924a73f1235d6972bd5faea104",
+        "size_in_bytes": 43520
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/list.pyi",
+        "path_type": "hardlink",
+        "sha256": "5562aa06200a46525e3ad7a95bf73e2d228f5200911051a0074b12f2e5f508ec",
+        "sha256_in_prefix": "5562aa06200a46525e3ad7a95bf73e2d228f5200911051a0074b12f2e5f508ec",
+        "size_in_bytes": 162
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/list.pyx",
+        "path_type": "hardlink",
+        "sha256": "02795722c1730d5c867475274498ed3732fbd5a2960a7d3bda3c1dc3f9350b0e",
+        "sha256_in_prefix": "02795722c1730d5c867475274498ed3732fbd5a2960a7d3bda3c1dc3f9350b0e",
+        "size_in_bytes": 1479
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/network.py",
+        "path_type": "hardlink",
+        "sha256": "4c4089a79c10366d48fe4fc53cae80b6d2e986c6e2378582ea4c3ab80bb008f1",
+        "sha256_in_prefix": "4c4089a79c10366d48fe4fc53cae80b6d2e986c6e2378582ea4c3ab80bb008f1",
+        "size_in_bytes": 1915
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/proj.pxi",
+        "path_type": "hardlink",
+        "sha256": "eac5d9a79cd8fc59f9a72ed664ad6668508e239cc5fdbc9d7297d46fa6918934",
+        "sha256_in_prefix": "eac5d9a79cd8fc59f9a72ed664ad6668508e239cc5fdbc9d7297d46fa6918934",
+        "size_in_bytes": 21319
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/proj.py",
+        "path_type": "hardlink",
+        "sha256": "c5fd4f1bd837f3df8aeb85713214645f0d68b170e8516c04735d6e5a90b90290",
+        "sha256_in_prefix": "c5fd4f1bd837f3df8aeb85713214645f0d68b170e8516c04735d6e5a90b90290",
+        "size_in_bytes": 11254
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/sync.py",
+        "path_type": "hardlink",
+        "sha256": "d02898074b07c979a4a62fa8e1d27852bf2cf2005c8f1692e69aa20c0c145ed9",
+        "sha256_in_prefix": "d02898074b07c979a4a62fa8e1d27852bf2cf2005c8f1692e69aa20c0c145ed9",
+        "size_in_bytes": 8682
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/transformer.py",
+        "path_type": "hardlink",
+        "sha256": "f5f8a43cb7030e5d0462121a54414be74504586dbb1d32d4c37857f1de9dabda",
+        "sha256_in_prefix": "f5f8a43cb7030e5d0462121a54414be74504586dbb1d32d4c37857f1de9dabda",
+        "size_in_bytes": 44983
+      },
+      {
+        "_path": "Lib/site-packages/pyproj/utils.py",
+        "path_type": "hardlink",
+        "sha256": "117582b5410d0fc76cd442f614f0f9a905fda0324e1f1c78f267dc6f843c1e99",
+        "sha256_in_prefix": "117582b5410d0fc76cd442f614f0f9a905fda0324e1f1c78f267dc6f843c1e99",
+        "size_in_bytes": 4473
+      },
+      {
+        "_path": "Scripts/pyproj-script.py",
+        "path_type": "hardlink",
+        "sha256": "511b98b14b61b42afdf09530e95f1cd924d88d27011659ba6c5944b4cba33aa2",
+        "sha256_in_prefix": "511b98b14b61b42afdf09530e95f1cd924d88d27011659ba6c5944b4cba33aa2",
+        "size_in_bytes": 209
+      },
+      {
+        "_path": "Scripts/pyproj.exe",
+        "path_type": "hardlink",
+        "sha256": "5ea569f2b5bc9c273351641a1a3c52821ce2a9370bc8202f0247c793ebd8a618",
+        "sha256_in_prefix": "5ea569f2b5bc9c273351641a1a3c52821ce2a9370bc8202f0247c793ebd8a618",
+        "size_in_bytes": 41984
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "5613805eed4a13a2d3c47c500bfedfd55a923bede9b5f558ca12ddbfbe62b7f6",
+  "size": 723069,
+  "subdir": "win-64",
+  "timestamp": 1702028616000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/pyproj-3.6.1-py312hc725b1e_5.conda",
+  "version": "3.6.1"
+}

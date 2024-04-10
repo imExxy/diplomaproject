@@ -1,0 +1,14 @@
+prefix=D:/xxx/Documents/geeproject/condaenv/Library
+exec_prefix=D:/xxx/Documents/geeproject/condaenv/Library
+libdir=D:/xxx/Documents/geeproject/condaenv/Library/lib
+sharedlibdir=D:/xxx/Documents/geeproject/condaenv/Library/lib
+includedir=D:/xxx/Documents/geeproject/condaenv/Library/include/minizip
+
+Name: minizip
+Description: Zip manipulation library
+Version: 4.0.4
+
+Requires.private: zlib
+Libs: -L${libdir} -L${sharedlibdir} -lminizip
+Libs.private: -lbzip2 -llzma -lzstd
+Cflags: -I${includedir}

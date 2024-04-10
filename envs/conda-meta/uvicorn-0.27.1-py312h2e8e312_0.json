@@ -1,0 +1,751 @@
+{
+  "build": "py312h2e8e312_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "python_abi 3.12.* *_cp312",
+    "python >=3.12,<3.13.0a0",
+    "click >=7.0",
+    "h11 >=0.8"
+  ],
+  "extracted_package_dir": "D:\\xxx\\anaconda3\\pkgs\\uvicorn-0.27.1-py312h2e8e312_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/uvicorn-0.27.1.dist-info/INSTALLER",
+    "Lib/site-packages/uvicorn-0.27.1.dist-info/METADATA",
+    "Lib/site-packages/uvicorn-0.27.1.dist-info/RECORD",
+    "Lib/site-packages/uvicorn-0.27.1.dist-info/REQUESTED",
+    "Lib/site-packages/uvicorn-0.27.1.dist-info/WHEEL",
+    "Lib/site-packages/uvicorn-0.27.1.dist-info/direct_url.json",
+    "Lib/site-packages/uvicorn-0.27.1.dist-info/entry_points.txt",
+    "Lib/site-packages/uvicorn-0.27.1.dist-info/licenses/LICENSE.md",
+    "Lib/site-packages/uvicorn/__init__.py",
+    "Lib/site-packages/uvicorn/__main__.py",
+    "Lib/site-packages/uvicorn/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/uvicorn/__pycache__/__main__.cpython-312.pyc",
+    "Lib/site-packages/uvicorn/__pycache__/_subprocess.cpython-312.pyc",
+    "Lib/site-packages/uvicorn/__pycache__/_types.cpython-312.pyc",
+    "Lib/site-packages/uvicorn/__pycache__/config.cpython-312.pyc",
+    "Lib/site-packages/uvicorn/__pycache__/importer.cpython-312.pyc",
+    "Lib/site-packages/uvicorn/__pycache__/logging.cpython-312.pyc",
+    "Lib/site-packages/uvicorn/__pycache__/main.cpython-312.pyc",
+    "Lib/site-packages/uvicorn/__pycache__/server.cpython-312.pyc",
+    "Lib/site-packages/uvicorn/__pycache__/workers.cpython-312.pyc",
+    "Lib/site-packages/uvicorn/_subprocess.py",
+    "Lib/site-packages/uvicorn/_types.py",
+    "Lib/site-packages/uvicorn/config.py",
+    "Lib/site-packages/uvicorn/importer.py",
+    "Lib/site-packages/uvicorn/lifespan/__init__.py",
+    "Lib/site-packages/uvicorn/lifespan/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/uvicorn/lifespan/__pycache__/off.cpython-312.pyc",
+    "Lib/site-packages/uvicorn/lifespan/__pycache__/on.cpython-312.pyc",
+    "Lib/site-packages/uvicorn/lifespan/off.py",
+    "Lib/site-packages/uvicorn/lifespan/on.py",
+    "Lib/site-packages/uvicorn/logging.py",
+    "Lib/site-packages/uvicorn/loops/__init__.py",
+    "Lib/site-packages/uvicorn/loops/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/uvicorn/loops/__pycache__/asyncio.cpython-312.pyc",
+    "Lib/site-packages/uvicorn/loops/__pycache__/auto.cpython-312.pyc",
+    "Lib/site-packages/uvicorn/loops/__pycache__/uvloop.cpython-312.pyc",
+    "Lib/site-packages/uvicorn/loops/asyncio.py",
+    "Lib/site-packages/uvicorn/loops/auto.py",
+    "Lib/site-packages/uvicorn/loops/uvloop.py",
+    "Lib/site-packages/uvicorn/main.py",
+    "Lib/site-packages/uvicorn/middleware/__init__.py",
+    "Lib/site-packages/uvicorn/middleware/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/uvicorn/middleware/__pycache__/asgi2.cpython-312.pyc",
+    "Lib/site-packages/uvicorn/middleware/__pycache__/message_logger.cpython-312.pyc",
+    "Lib/site-packages/uvicorn/middleware/__pycache__/proxy_headers.cpython-312.pyc",
+    "Lib/site-packages/uvicorn/middleware/__pycache__/wsgi.cpython-312.pyc",
+    "Lib/site-packages/uvicorn/middleware/asgi2.py",
+    "Lib/site-packages/uvicorn/middleware/message_logger.py",
+    "Lib/site-packages/uvicorn/middleware/proxy_headers.py",
+    "Lib/site-packages/uvicorn/middleware/wsgi.py",
+    "Lib/site-packages/uvicorn/protocols/__init__.py",
+    "Lib/site-packages/uvicorn/protocols/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/uvicorn/protocols/__pycache__/utils.cpython-312.pyc",
+    "Lib/site-packages/uvicorn/protocols/http/__init__.py",
+    "Lib/site-packages/uvicorn/protocols/http/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/uvicorn/protocols/http/__pycache__/auto.cpython-312.pyc",
+    "Lib/site-packages/uvicorn/protocols/http/__pycache__/flow_control.cpython-312.pyc",
+    "Lib/site-packages/uvicorn/protocols/http/__pycache__/h11_impl.cpython-312.pyc",
+    "Lib/site-packages/uvicorn/protocols/http/__pycache__/httptools_impl.cpython-312.pyc",
+    "Lib/site-packages/uvicorn/protocols/http/auto.py",
+    "Lib/site-packages/uvicorn/protocols/http/flow_control.py",
+    "Lib/site-packages/uvicorn/protocols/http/h11_impl.py",
+    "Lib/site-packages/uvicorn/protocols/http/httptools_impl.py",
+    "Lib/site-packages/uvicorn/protocols/utils.py",
+    "Lib/site-packages/uvicorn/protocols/websockets/__init__.py",
+    "Lib/site-packages/uvicorn/protocols/websockets/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/uvicorn/protocols/websockets/__pycache__/auto.cpython-312.pyc",
+    "Lib/site-packages/uvicorn/protocols/websockets/__pycache__/websockets_impl.cpython-312.pyc",
+    "Lib/site-packages/uvicorn/protocols/websockets/__pycache__/wsproto_impl.cpython-312.pyc",
+    "Lib/site-packages/uvicorn/protocols/websockets/auto.py",
+    "Lib/site-packages/uvicorn/protocols/websockets/websockets_impl.py",
+    "Lib/site-packages/uvicorn/protocols/websockets/wsproto_impl.py",
+    "Lib/site-packages/uvicorn/py.typed",
+    "Lib/site-packages/uvicorn/server.py",
+    "Lib/site-packages/uvicorn/supervisors/__init__.py",
+    "Lib/site-packages/uvicorn/supervisors/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/uvicorn/supervisors/__pycache__/basereload.cpython-312.pyc",
+    "Lib/site-packages/uvicorn/supervisors/__pycache__/multiprocess.cpython-312.pyc",
+    "Lib/site-packages/uvicorn/supervisors/__pycache__/statreload.cpython-312.pyc",
+    "Lib/site-packages/uvicorn/supervisors/__pycache__/watchfilesreload.cpython-312.pyc",
+    "Lib/site-packages/uvicorn/supervisors/__pycache__/watchgodreload.cpython-312.pyc",
+    "Lib/site-packages/uvicorn/supervisors/basereload.py",
+    "Lib/site-packages/uvicorn/supervisors/multiprocess.py",
+    "Lib/site-packages/uvicorn/supervisors/statreload.py",
+    "Lib/site-packages/uvicorn/supervisors/watchfilesreload.py",
+    "Lib/site-packages/uvicorn/supervisors/watchgodreload.py",
+    "Lib/site-packages/uvicorn/workers.py",
+    "Scripts/uvicorn-script.py",
+    "Scripts/uvicorn.exe",
+    ".nonadmin"
+  ],
+  "fn": "uvicorn-0.27.1-py312h2e8e312_0.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "D:\\xxx\\anaconda3\\pkgs\\uvicorn-0.27.1-py312h2e8e312_0",
+    "type": 1
+  },
+  "md5": "0ca59f513254cbcf94c9de046f38edeb",
+  "name": "uvicorn",
+  "package_tarball_full_path": "D:\\xxx\\anaconda3\\pkgs\\uvicorn-0.27.1-py312h2e8e312_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/uvicorn-0.27.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn-0.27.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "5cf9c1498c23a0754c0091c414e1084a842cb8799f830110696a4539d7331468",
+        "sha256_in_prefix": "5cf9c1498c23a0754c0091c414e1084a842cb8799f830110696a4539d7331468",
+        "size_in_bytes": 6330
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn-0.27.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "55d0650f4ef572979201c794445314494f44bd6101a48b5997c3609d9ad11665",
+        "sha256_in_prefix": "55d0650f4ef572979201c794445314494f44bd6101a48b5997c3609d9ad11665",
+        "size_in_bytes": 6426
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn-0.27.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn-0.27.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "4c93e729db6b4ae7bbc59fc0546929f585dcbc3ae86ec8c176cd5dbb7371e9d7",
+        "sha256_in_prefix": "4c93e729db6b4ae7bbc59fc0546929f585dcbc3ae86ec8c176cd5dbb7371e9d7",
+        "size_in_bytes": 87
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn-0.27.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "36a28ac496eee50bd1e088adc62bb3b547942fe53be75872f19084b976bb4414",
+        "sha256_in_prefix": "36a28ac496eee50bd1e088adc62bb3b547942fe53be75872f19084b976bb4414",
+        "size_in_bytes": 74
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn-0.27.1.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "156d70fa191cf50830686a28bccbe6d1963bdf0fcd7327167460147c3b0d1b1c",
+        "sha256_in_prefix": "156d70fa191cf50830686a28bccbe6d1963bdf0fcd7327167460147c3b0d1b1c",
+        "size_in_bytes": 46
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn-0.27.1.dist-info/licenses/LICENSE.md",
+        "path_type": "hardlink",
+        "sha256": "efe1acf3e62fb99c288b0ec73e5a773b7268ef4320fe757ea994214e4b63c371",
+        "sha256_in_prefix": "efe1acf3e62fb99c288b0ec73e5a773b7268ef4320fe757ea994214e4b63c371",
+        "size_in_bytes": 1526
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c9414dc8e51145df2087bfb96c050082f6151e5bc6a2c4f30fb42d3bb7c95ee9",
+        "sha256_in_prefix": "c9414dc8e51145df2087bfb96c050082f6151e5bc6a2c4f30fb42d3bb7c95ee9",
+        "size_in_bytes": 147
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "0d08b3cba9ca3f4cb084fa6708782644360831f72a64a544ccd2164198eab554",
+        "sha256_in_prefix": "0d08b3cba9ca3f4cb084fa6708782644360831f72a64a544ccd2164198eab554",
+        "size_in_bytes": 62
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "c4cdac8c8fc5964c9a01125eebbb57a2e506901c39f3eb3eff4fefe75d3f1f80",
+        "sha256_in_prefix": "c4cdac8c8fc5964c9a01125eebbb57a2e506901c39f3eb3eff4fefe75d3f1f80",
+        "size_in_bytes": 332
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn/__pycache__/__main__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "94bfff7d440ce3fb327d65428b35fc6cd12a685a1d71e451dbf8640d2c57bf08",
+        "sha256_in_prefix": "94bfff7d440ce3fb327d65428b35fc6cd12a685a1d71e451dbf8640d2c57bf08",
+        "size_in_bytes": 252
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn/__pycache__/_subprocess.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "719ac4e494b5bd55a065e45c5eb749f76eadc8d099b3ed015491203c17f667e7",
+        "sha256_in_prefix": "719ac4e494b5bd55a065e45c5eb749f76eadc8d099b3ed015491203c17f667e7",
+        "size_in_bytes": 2783
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn/__pycache__/_types.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "8e4391c48849eab9bc6c86dffd9c5a01874c8c22778f9c846b5618ed501512f8",
+        "sha256_in_prefix": "8e4391c48849eab9bc6c86dffd9c5a01874c8c22778f9c846b5618ed501512f8",
+        "size_in_bytes": 11413
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn/__pycache__/config.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "4be5bc29f529263e552ef87fefcd0cca2a610841808df815abef97dcf3de2090",
+        "sha256_in_prefix": "4be5bc29f529263e552ef87fefcd0cca2a610841808df815abef97dcf3de2090",
+        "size_in_bytes": 24592
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn/__pycache__/importer.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "5ee5bca8d2fd0c387dec1061a0e38451fd4b10a91974b127dcc93d5fdaff7908",
+        "sha256_in_prefix": "5ee5bca8d2fd0c387dec1061a0e38451fd4b10a91974b127dcc93d5fdaff7908",
+        "size_in_bytes": 1736
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn/__pycache__/logging.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "8e50a34ca3b5b8bcbb4387ddca84c9e1fd2eb1c74d2f1d69ecdc9c8488776682",
+        "sha256_in_prefix": "8e50a34ca3b5b8bcbb4387ddca84c9e1fd2eb1c74d2f1d69ecdc9c8488776682",
+        "size_in_bytes": 7746
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn/__pycache__/main.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "9888a4cbfb801a6556a24acfc714b78f97045ef7fe0f0e408352d540d3978e2d",
+        "sha256_in_prefix": "9888a4cbfb801a6556a24acfc714b78f97045ef7fe0f0e408352d540d3978e2d",
+        "size_in_bytes": 19262
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn/__pycache__/server.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "e7dbd6e55334942ca5f03aadde11916e8ec2b50b6e5cc7d31e5b0c8bc79f784e",
+        "sha256_in_prefix": "e7dbd6e55334942ca5f03aadde11916e8ec2b50b6e5cc7d31e5b0c8bc79f784e",
+        "size_in_bytes": 15608
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn/__pycache__/workers.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "43ac84210226dc6600511c6a104d4ef187a9bb724222ab6f4ecb4be84feefa7f",
+        "sha256_in_prefix": "43ac84210226dc6600511c6a104d4ef187a9bb724222ab6f4ecb4be84feefa7f",
+        "size_in_bytes": 6437
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn/_subprocess.py",
+        "path_type": "hardlink",
+        "sha256": "a8b9389eb866395e9782c172c4b4ac634204d5f87bebe5a60affe11725e9558c",
+        "sha256_in_prefix": "a8b9389eb866395e9782c172c4b4ac634204d5f87bebe5a60affe11725e9558c",
+        "size_in_bytes": 2430
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn/_types.py",
+        "path_type": "hardlink",
+        "sha256": "97ef15d2ed329add5b4373f50bf6221317982de1605178b407b249ccf71b2ea8",
+        "sha256_in_prefix": "97ef15d2ed329add5b4373f50bf6221317982de1605178b407b249ccf71b2ea8",
+        "size_in_bytes": 7965
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn/config.py",
+        "path_type": "hardlink",
+        "sha256": "cc33d10aed0e13a99b7e055a2bb6720dbe50ff78943e4dd9af87af3bfa9c4f71",
+        "sha256_in_prefix": "cc33d10aed0e13a99b7e055a2bb6720dbe50ff78943e4dd9af87af3bfa9c4f71",
+        "size_in_bytes": 21150
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn/importer.py",
+        "path_type": "hardlink",
+        "sha256": "ad48c1707df108122fb8413b06eab8b96c630331cf8c47cfd5d1124320263e95",
+        "sha256_in_prefix": "ad48c1707df108122fb8413b06eab8b96c630331cf8c47cfd5d1124320263e95",
+        "size_in_bytes": 1174
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn/lifespan/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn/lifespan/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "81ea0d438ee45066e5ddbbba2374fd4f167bc3369300f0fe81a94ef7239b535b",
+        "sha256_in_prefix": "81ea0d438ee45066e5ddbbba2374fd4f167bc3369300f0fe81a94ef7239b535b",
+        "size_in_bytes": 143
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn/lifespan/__pycache__/off.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "23253d6c3cdb3bdea82469b5956021052c2a1370edbbb974d375d69b793fd278",
+        "sha256_in_prefix": "23253d6c3cdb3bdea82469b5956021052c2a1370edbbb974d375d69b793fd278",
+        "size_in_bytes": 910
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn/lifespan/__pycache__/on.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "07324765cf92235941ee3c079b110cf175658519db5b486d2749c0359ba55f43",
+        "sha256_in_prefix": "07324765cf92235941ee3c079b110cf175658519db5b486d2749c0359ba55f43",
+        "size_in_bytes": 7855
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn/lifespan/off.py",
+        "path_type": "hardlink",
+        "sha256": "bf35c16d2930fc3996ef2f4a81b6bb7d159d24505e24fb67cd39f152e240f273",
+        "sha256_in_prefix": "bf35c16d2930fc3996ef2f4a81b6bb7d159d24505e24fb67cd39f152e240f273",
+        "size_in_bytes": 302
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn/lifespan/on.py",
+        "path_type": "hardlink",
+        "sha256": "5f3067c008c91693bb19103eb11da01a79eb0870501fd9e20385fe77c108972a",
+        "sha256_in_prefix": "5f3067c008c91693bb19103eb11da01a79eb0870501fd9e20385fe77c108972a",
+        "size_in_bytes": 5182
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn/logging.py",
+        "path_type": "hardlink",
+        "sha256": "8a67d4cbc2d42126bfc675632a68f639412cdeaafd1652d1fe8e16e949236b4d",
+        "sha256_in_prefix": "8a67d4cbc2d42126bfc675632a68f639412cdeaafd1652d1fe8e16e949236b4d",
+        "size_in_bytes": 4272
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn/loops/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn/loops/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "57f5f6cc4acfee239cb63633cebf249dc41441fcd6f4e11ed06520d3c966119b",
+        "sha256_in_prefix": "57f5f6cc4acfee239cb63633cebf249dc41441fcd6f4e11ed06520d3c966119b",
+        "size_in_bytes": 140
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn/loops/__pycache__/asyncio.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "13ae212a41c90f59fce31c49b463b54d705bbda53ede1e68c865a9428fc16b71",
+        "sha256_in_prefix": "13ae212a41c90f59fce31c49b463b54d705bbda53ede1e68c865a9428fc16b71",
+        "size_in_bytes": 703
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn/loops/__pycache__/auto.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "ebeca3c1bd5ef0f3a9ab63d9da7143776bdbc9d3e68d1a8d17bbce4034fa8103",
+        "sha256_in_prefix": "ebeca3c1bd5ef0f3a9ab63d9da7143776bdbc9d3e68d1a8d17bbce4034fa8103",
+        "size_in_bytes": 607
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn/loops/__pycache__/uvloop.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "dde712a6ae67e23e5b5424c3023edbcf67c71552f4f8d01ef42d0cbea6f08dad",
+        "sha256_in_prefix": "dde712a6ae67e23e5b5424c3023edbcf67c71552f4f8d01ef42d0cbea6f08dad",
+        "size_in_bytes": 493
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn/loops/asyncio.py",
+        "path_type": "hardlink",
+        "sha256": "55ca2b9d9289a15f3205880b38ddc677c60aa54c652e56ab771cbf2c9abf3e11",
+        "sha256_in_prefix": "55ca2b9d9289a15f3205880b38ddc677c60aa54c652e56ab771cbf2c9abf3e11",
+        "size_in_bytes": 276
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn/loops/auto.py",
+        "path_type": "hardlink",
+        "sha256": "05656ad7c71ef52a054e8df3e73356d88536f39d2edad46b73a5b22bb89db1d2",
+        "sha256_in_prefix": "05656ad7c71ef52a054e8df3e73356d88536f39d2edad46b73a5b22bb89db1d2",
+        "size_in_bytes": 400
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn/loops/uvloop.py",
+        "path_type": "hardlink",
+        "sha256": "2b84326d8571b4af42d9e9838433d40a40574785cc4f939fbfd04f14fa17d289",
+        "sha256_in_prefix": "2b84326d8571b4af42d9e9838433d40a40574785cc4f939fbfd04f14fa17d289",
+        "size_in_bytes": 148
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn/main.py",
+        "path_type": "hardlink",
+        "sha256": "eb2e63091a0fd95e1bee358d1300a1131a7c6d6334fef44e93fbbee999ecebc6",
+        "sha256_in_prefix": "eb2e63091a0fd95e1bee358d1300a1131a7c6d6334fef44e93fbbee999ecebc6",
+        "size_in_bytes": 16547
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn/middleware/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn/middleware/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "4c389b4b0707ee902d0aad35d679060901cacd2ff78061df8ee48f2095beb3d5",
+        "sha256_in_prefix": "4c389b4b0707ee902d0aad35d679060901cacd2ff78061df8ee48f2095beb3d5",
+        "size_in_bytes": 145
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn/middleware/__pycache__/asgi2.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "ab07ad6c3c9eb82adf8fa803eb6f80ddf3866d44ca581032ffb1375f5334a8c5",
+        "sha256_in_prefix": "ab07ad6c3c9eb82adf8fa803eb6f80ddf3866d44ca581032ffb1375f5334a8c5",
+        "size_in_bytes": 1005
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn/middleware/__pycache__/message_logger.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "d0fe1395f03247d71e437077908c26f3ae776babf022919a4b3a09d01dd424b0",
+        "sha256_in_prefix": "d0fe1395f03247d71e437077908c26f3ae776babf022919a4b3a09d01dd424b0",
+        "size_in_bytes": 4351
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn/middleware/__pycache__/proxy_headers.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "35d39112e3d90894f9ed94902a7a01ba4959629f0752c7893a86c197b4025a00",
+        "sha256_in_prefix": "35d39112e3d90894f9ed94902a7a01ba4959629f0752c7893a86c197b4025a00",
+        "size_in_bytes": 3651
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn/middleware/__pycache__/wsgi.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "9fed277c602219b419565043b2793374821f4ec20f2404a18c94789a4c219ad0",
+        "sha256_in_prefix": "9fed277c602219b419565043b2793374821f4ec20f2404a18c94789a4c219ad0",
+        "size_in_bytes": 10074
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn/middleware/asgi2.py",
+        "path_type": "hardlink",
+        "sha256": "539ce0ff5c2a40cb8f1965acfae26a9548aa8439a5bae55fde161edc9f5d0bf9",
+        "sha256_in_prefix": "539ce0ff5c2a40cb8f1965acfae26a9548aa8439a5bae55fde161edc9f5d0bf9",
+        "size_in_bytes": 408
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn/middleware/message_logger.py",
+        "path_type": "hardlink",
+        "sha256": "2071195129c535a305505770b593b702e1404e761c4a8afe815b4e8db0b3b7c3",
+        "sha256_in_prefix": "2071195129c535a305505770b593b702e1404e761c4a8afe815b4e8db0b3b7c3",
+        "size_in_bytes": 2859
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn/middleware/proxy_headers.py",
+        "path_type": "hardlink",
+        "sha256": "8586400174a4e7f88ca21b4ccdd3bd950e2454166753de7416e2e78ef20165f7",
+        "sha256_in_prefix": "8586400174a4e7f88ca21b4ccdd3bd950e2454166753de7416e2e78ef20165f7",
+        "size_in_bytes": 3261
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn/middleware/wsgi.py",
+        "path_type": "hardlink",
+        "sha256": "5997dc3cb15185ab1cdd2ea718bd9d49bec8abf4c79eb27505dbb1ef3cdd8c8f",
+        "sha256_in_prefix": "5997dc3cb15185ab1cdd2ea718bd9d49bec8abf4c79eb27505dbb1ef3cdd8c8f",
+        "size_in_bytes": 7218
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn/protocols/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn/protocols/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "a3e1c3bc74f95253b64e49303daed4a9624cef8559f566d690b18be9ec56d4e2",
+        "sha256_in_prefix": "a3e1c3bc74f95253b64e49303daed4a9624cef8559f566d690b18be9ec56d4e2",
+        "size_in_bytes": 144
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn/protocols/__pycache__/utils.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "0b7b6b504247b989df0e46a262324180d6f8d7602bbb43a194680bcece831402",
+        "sha256_in_prefix": "0b7b6b504247b989df0e46a262324180d6f8d7602bbb43a194680bcece831402",
+        "size_in_bytes": 2923
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn/protocols/http/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn/protocols/http/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "fe0c7b904d6f458f723a4d0fb2e913bccc01db12529ecb9c5f0c7e5f98c793a9",
+        "sha256_in_prefix": "fe0c7b904d6f458f723a4d0fb2e913bccc01db12529ecb9c5f0c7e5f98c793a9",
+        "size_in_bytes": 149
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn/protocols/http/__pycache__/auto.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "b592108570e5b426f4a3433fdf42d43ef4fdbea9acb32d3b2a9aaf9686312e7a",
+        "sha256_in_prefix": "b592108570e5b426f4a3433fdf42d43ef4fdbea9acb32d3b2a9aaf9686312e7a",
+        "size_in_bytes": 560
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn/protocols/http/__pycache__/flow_control.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "9b7b3c2f1ea3b2e06ec220c2aa2f37af80d6d92c6bbbcae0079b9c75555034f7",
+        "sha256_in_prefix": "9b7b3c2f1ea3b2e06ec220c2aa2f37af80d6d92c6bbbcae0079b9c75555034f7",
+        "size_in_bytes": 3101
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn/protocols/http/__pycache__/h11_impl.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "6216aaeabc783a9320e829e7eca3ac9b2c33c94be53d96d7ee89a61de222c003",
+        "sha256_in_prefix": "6216aaeabc783a9320e829e7eca3ac9b2c33c94be53d96d7ee89a61de222c003",
+        "size_in_bytes": 26548
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn/protocols/http/__pycache__/httptools_impl.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "58473b423f3337e5ff626b186809575830a4accae1ac3daa7bb4da1a22623837",
+        "sha256_in_prefix": "58473b423f3337e5ff626b186809575830a4accae1ac3daa7bb4da1a22623837",
+        "size_in_bytes": 28891
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn/protocols/http/auto.py",
+        "path_type": "hardlink",
+        "sha256": "61f5c6cb359369a136a7f8e44cf5ab2425ecc446909c2dcd2b4f86ed68269e5b",
+        "sha256_in_prefix": "61f5c6cb359369a136a7f8e44cf5ab2425ecc446909c2dcd2b4f86ed68269e5b",
+        "size_in_bytes": 403
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn/protocols/http/flow_control.py",
+        "path_type": "hardlink",
+        "sha256": "e0446f50a05af0e72c9b0fa4a519959306c49e6bb13e62a7384f8d5789a41363",
+        "sha256_in_prefix": "e0446f50a05af0e72c9b0fa4a519959306c49e6bb13e62a7384f8d5789a41363",
+        "size_in_bytes": 1777
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn/protocols/http/h11_impl.py",
+        "path_type": "hardlink",
+        "sha256": "fa1dc1d4fb674f9828ffb7c860c6b9249ec55014bae9dc16e452f87230eb12da",
+        "sha256_in_prefix": "fa1dc1d4fb674f9828ffb7c860c6b9249ec55014bae9dc16e452f87230eb12da",
+        "size_in_bytes": 20468
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn/protocols/http/httptools_impl.py",
+        "path_type": "hardlink",
+        "sha256": "b4e3850b6249e9d32b05975597c5bb9e8716ceaa0ae51ab3979c159009e5f7e0",
+        "sha256_in_prefix": "b4e3850b6249e9d32b05975597c5bb9e8716ceaa0ae51ab3979c159009e5f7e0",
+        "size_in_bytes": 21759
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn/protocols/utils.py",
+        "path_type": "hardlink",
+        "sha256": "fcb05406e4a2c3d1deb0a8a53f5befd3e72e411c590a69bbc079935149e9e9ef",
+        "sha256_in_prefix": "fcb05406e4a2c3d1deb0a8a53f5befd3e72e411c590a69bbc079935149e9e9ef",
+        "size_in_bytes": 1875
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn/protocols/websockets/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn/protocols/websockets/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "5d8b2f226a21d1603ac8c50e42573d520564ea2d69733ce0cff827362e661ad2",
+        "sha256_in_prefix": "5d8b2f226a21d1603ac8c50e42573d520564ea2d69733ce0cff827362e661ad2",
+        "size_in_bytes": 155
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn/protocols/websockets/__pycache__/auto.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "3ef446ff65db0d074bcf4658d959e398bd2fffeea374d5d8a1d7e3b99dcd1b04",
+        "sha256_in_prefix": "3ef446ff65db0d074bcf4658d959e398bd2fffeea374d5d8a1d7e3b99dcd1b04",
+        "size_in_bytes": 789
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn/protocols/websockets/__pycache__/websockets_impl.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "5923263cd4c1ab7a8144c728ed3570b4a2bc345ac6c7867653d44e2258cbbe45",
+        "sha256_in_prefix": "5923263cd4c1ab7a8144c728ed3570b4a2bc345ac6c7867653d44e2258cbbe45",
+        "size_in_bytes": 20362
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn/protocols/websockets/__pycache__/wsproto_impl.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "4a69b9fdf7df4cdb86c9336bcfeb495e291c9db8b1999e4dfe70664d8a8df803",
+        "sha256_in_prefix": "4a69b9fdf7df4cdb86c9336bcfeb495e291c9db8b1999e4dfe70664d8a8df803",
+        "size_in_bytes": 20979
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn/protocols/websockets/auto.py",
+        "path_type": "hardlink",
+        "sha256": "1fb8ab3de18dd8c747136f6174f2b071af584c0ec768eb96748c6f46e3a046d3",
+        "sha256_in_prefix": "1fb8ab3de18dd8c747136f6174f2b071af584c0ec768eb96748c6f46e3a046d3",
+        "size_in_bytes": 548
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn/protocols/websockets/websockets_impl.py",
+        "path_type": "hardlink",
+        "sha256": "91696a1119a2a7ae125b43904d03406f525f23dab85b0b6517fc26775cf2e1b1",
+        "sha256_in_prefix": "91696a1119a2a7ae125b43904d03406f525f23dab85b0b6517fc26775cf2e1b1",
+        "size_in_bytes": 15630
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn/protocols/websockets/wsproto_impl.py",
+        "path_type": "hardlink",
+        "sha256": "72f3d776f7b894a1684a46ee945cc06921bc6ed6053b2908c0d36a61e70784d9",
+        "sha256_in_prefix": "72f3d776f7b894a1684a46ee945cc06921bc6ed6053b2908c0d36a61e70784d9",
+        "size_in_bytes": 15521
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn/py.typed",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn/server.py",
+        "path_type": "hardlink",
+        "sha256": "66efa19fcf906cd08e19fdb1c5fa59ebe3afc7712f6b9f859febb6b2b9aad1e8",
+        "sha256_in_prefix": "66efa19fcf906cd08e19fdb1c5fa59ebe3afc7712f6b9f859febb6b2b9aad1e8",
+        "size_in_bytes": 12247
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn/supervisors/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "6121f49f6062ab23799b741a4ff400912d03905136c571e92837383916e1f36a",
+        "sha256_in_prefix": "6121f49f6062ab23799b741a4ff400912d03905136c571e92837383916e1f36a",
+        "size_in_bytes": 670
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn/supervisors/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "f60f9f9371cf1df154d9f0e01725a0172d148fcea727d684d45d35830584753b",
+        "sha256_in_prefix": "f60f9f9371cf1df154d9f0e01725a0172d148fcea727d684d45d35830584753b",
+        "size_in_bytes": 837
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn/supervisors/__pycache__/basereload.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "392ed49473695ea672534ff9ed51765d22e54a1d3d1a644c68da2bf071785635",
+        "sha256_in_prefix": "392ed49473695ea672534ff9ed51765d22e54a1d3d1a644c68da2bf071785635",
+        "size_in_bytes": 6797
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn/supervisors/__pycache__/multiprocess.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "ea6f02ef84344374987c3a686e470a60ce6532c3703de9a4538cccd396b68701",
+        "sha256_in_prefix": "ea6f02ef84344374987c3a686e470a60ce6532c3703de9a4538cccd396b68701",
+        "size_in_bytes": 4017
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn/supervisors/__pycache__/statreload.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "31afed6d92be5c2b3c2d0cd4a856617cfa1f156ff2cdaa5eda0d3abfa2e3608b",
+        "sha256_in_prefix": "31afed6d92be5c2b3c2d0cd4a856617cfa1f156ff2cdaa5eda0d3abfa2e3608b",
+        "size_in_bytes": 2780
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn/supervisors/__pycache__/watchfilesreload.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "215e7ec0560d90164fcca37cde20587c6b3083f0d9ccd8cda06a066d10d54ed1",
+        "sha256_in_prefix": "215e7ec0560d90164fcca37cde20587c6b3083f0d9ccd8cda06a066d10d54ed1",
+        "size_in_bytes": 4502
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn/supervisors/__pycache__/watchgodreload.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "0c75c8d8c2cb00a96f137e5cf9b3771ec52f01f461077a597751303cd43f689f",
+        "sha256_in_prefix": "0c75c8d8c2cb00a96f137e5cf9b3771ec52f01f461077a597751303cd43f689f",
+        "size_in_bytes": 7722
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn/supervisors/basereload.py",
+        "path_type": "hardlink",
+        "sha256": "8805ef77fbaa92ee69cbd07bb8157eaf3a9604900a57aa38fe0c869ecf710b62",
+        "sha256_in_prefix": "8805ef77fbaa92ee69cbd07bb8157eaf3a9604900a57aa38fe0c869ecf710b62",
+        "size_in_bytes": 3924
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn/supervisors/multiprocess.py",
+        "path_type": "hardlink",
+        "sha256": "100177d662e49859be5c7a7527061983d8216828e45a4803fd56e7ff531f7f1d",
+        "sha256_in_prefix": "100177d662e49859be5c7a7527061983d8216828e45a4803fd56e7ff531f7f1d",
+        "size_in_bytes": 2246
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn/supervisors/statreload.py",
+        "path_type": "hardlink",
+        "sha256": "5e67d8af5882f17a0c52bc718d09eba901a6052845d0bd50e27f8e3f11953a1f",
+        "sha256_in_prefix": "5e67d8af5882f17a0c52bc718d09eba901a6052845d0bd50e27f8e3f11953a1f",
+        "size_in_bytes": 1588
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn/supervisors/watchfilesreload.py",
+        "path_type": "hardlink",
+        "sha256": "13ada621afb0fd2c6db838fd297e21f338ae7d132c614e0f91d08ed1ab0adb34",
+        "sha256_in_prefix": "13ada621afb0fd2c6db838fd297e21f338ae7d132c614e0f91d08ed1ab0adb34",
+        "size_in_bytes": 3027
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn/supervisors/watchgodreload.py",
+        "path_type": "hardlink",
+        "sha256": "e604b0a95f1ba3182b184d63eae166d6eb49685ec2b8ed00c3943efa62272206",
+        "sha256_in_prefix": "e604b0a95f1ba3182b184d63eae166d6eb49685ec2b8ed00c3943efa62272206",
+        "size_in_bytes": 5638
+      },
+      {
+        "_path": "Lib/site-packages/uvicorn/workers.py",
+        "path_type": "hardlink",
+        "sha256": "5ca0f1b19e2aac273769db5687ac2d977a90944c563d2d0418eb1d04ebe6d718",
+        "sha256_in_prefix": "5ca0f1b19e2aac273769db5687ac2d977a90944c563d2d0418eb1d04ebe6d718",
+        "size_in_bytes": 3675
+      },
+      {
+        "_path": "Scripts/uvicorn-script.py",
+        "path_type": "hardlink",
+        "sha256": "74c20c94b9319b98b29f28e6537f5effeb8afccf0120229f6479f156802648df",
+        "sha256_in_prefix": "74c20c94b9319b98b29f28e6537f5effeb8afccf0120229f6479f156802648df",
+        "size_in_bytes": 206
+      },
+      {
+        "_path": "Scripts/uvicorn.exe",
+        "path_type": "hardlink",
+        "sha256": "5ea569f2b5bc9c273351641a1a3c52821ce2a9370bc8202f0247c793ebd8a618",
+        "sha256_in_prefix": "5ea569f2b5bc9c273351641a1a3c52821ce2a9370bc8202f0247c793ebd8a618",
+        "size_in_bytes": 41984
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "9ef339c3de0a5dc7e4cd4b543f7f41f488c805610c32a4f81eba3066c02d153b",
+  "size": 144172,
+  "subdir": "win-64",
+  "timestamp": 1707598140000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/uvicorn-0.27.1-py312h2e8e312_0.conda",
+  "version": "0.27.1"
+}

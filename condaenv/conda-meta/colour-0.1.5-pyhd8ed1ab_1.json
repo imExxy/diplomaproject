@@ -1,0 +1,115 @@
+{
+  "build": "pyhd8ed1ab_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.7"
+  ],
+  "extracted_package_dir": "D:\\xxx\\anaconda3\\pkgs\\colour-0.1.5-pyhd8ed1ab_1",
+  "features": "",
+  "files": [
+    "Lib/site-packages/colour-0.1.5.dist-info/INSTALLER",
+    "Lib/site-packages/colour-0.1.5.dist-info/LICENSE",
+    "Lib/site-packages/colour-0.1.5.dist-info/METADATA",
+    "Lib/site-packages/colour-0.1.5.dist-info/RECORD",
+    "Lib/site-packages/colour-0.1.5.dist-info/REQUESTED",
+    "Lib/site-packages/colour-0.1.5.dist-info/WHEEL",
+    "Lib/site-packages/colour-0.1.5.dist-info/direct_url.json",
+    "Lib/site-packages/colour-0.1.5.dist-info/top_level.txt",
+    "Lib/site-packages/colour.py",
+    ".nonadmin",
+    "Lib/site-packages/__pycache__/colour.cpython-312.pyc"
+  ],
+  "fn": "colour-0.1.5-pyhd8ed1ab_1.conda",
+  "license": "BSD-2-Clause",
+  "link": {
+    "source": "D:\\xxx\\anaconda3\\pkgs\\colour-0.1.5-pyhd8ed1ab_1",
+    "type": 1
+  },
+  "md5": "de5ef3b303f625ac94939665ab85e996",
+  "name": "colour",
+  "noarch": "python",
+  "package_tarball_full_path": "D:\\xxx\\anaconda3\\pkgs\\colour-0.1.5-pyhd8ed1ab_1.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/colour-0.1.5.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/colour-0.1.5.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "8f086a32477bf9d3fba7754ca6d33a0a92e5b31d0365f984760dc68a074e4278",
+        "sha256_in_prefix": "8f086a32477bf9d3fba7754ca6d33a0a92e5b31d0365f984760dc68a074e4278",
+        "size_in_bytes": 1304
+      },
+      {
+        "_path": "site-packages/colour-0.1.5.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "21e1185ff75cc82a03f8d3c33be565d3685c22403d04d7f11c4ac67f250ba780",
+        "sha256_in_prefix": "21e1185ff75cc82a03f8d3c33be565d3685c22403d04d7f11c4ac67f250ba780",
+        "size_in_bytes": 18276
+      },
+      {
+        "_path": "site-packages/colour-0.1.5.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "95d62a96c3c28808b13d624fb552e298fc7b701534da704fcfa130b46553129e",
+        "sha256_in_prefix": "95d62a96c3c28808b13d624fb552e298fc7b701534da704fcfa130b46553129e",
+        "size_in_bytes": 762
+      },
+      {
+        "_path": "site-packages/colour-0.1.5.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/colour-0.1.5.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "3f64fee9ea6fb57436701384fd4d4ae3f9e8aa5245377b63d7976332012ee0d3",
+        "sha256_in_prefix": "3f64fee9ea6fb57436701384fd4d4ae3f9e8aa5245377b63d7976332012ee0d3",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "site-packages/colour-0.1.5.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "15a63aede9d66cb53069baa5dffe580b8d13e03a9a092d6023abce809088d282",
+        "sha256_in_prefix": "15a63aede9d66cb53069baa5dffe580b8d13e03a9a092d6023abce809088d282",
+        "size_in_bytes": 102
+      },
+      {
+        "_path": "site-packages/colour-0.1.5.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "5ca0be49118964c5b8a735f19753562e5658cd1173ec9b9688e2529107eb58e1",
+        "sha256_in_prefix": "5ca0be49118964c5b8a735f19753562e5658cd1173ec9b9688e2529107eb58e1",
+        "size_in_bytes": 7
+      },
+      {
+        "_path": "site-packages/colour.py",
+        "path_type": "hardlink",
+        "sha256": "18d84b55adbd817dac213e21efd05b9f21097990daeee491b78f42cf5cc92ff5",
+        "sha256_in_prefix": "18d84b55adbd817dac213e21efd05b9f21097990daeee491b78f42cf5cc92ff5",
+        "size_in_bytes": 28693
+      },
+      {
+        "_path": "Lib/site-packages/__pycache__/colour.cpython-312.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "43fbcfc672a0b4947edfa94e60718211167297b64c699f3e7767e2c8814e8697",
+  "size": 21760,
+  "subdir": "noarch",
+  "timestamp": 1700634807000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/colour-0.1.5-pyhd8ed1ab_1.conda",
+  "version": "0.1.5"
+}

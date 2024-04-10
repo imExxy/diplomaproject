@@ -1,0 +1,10 @@
+prefix=D:/xxx/Documents/psud/envs/Library
+exec_prefix=D:/xxx/Documents/psud/envs/Library
+libdir=D:/xxx/Documents/psud/envs/Library/lib
+includedir=D:/xxx/Documents/psud/envs/Library/include
+
+Name: libturbojpeg
+Description: A SIMD-accelerated JPEG codec that provides the TurboJPEG API
+Version: 3.0.0
+Libs: -L${libdir} -lturbojpeg
+Cflags: -I${includedir}

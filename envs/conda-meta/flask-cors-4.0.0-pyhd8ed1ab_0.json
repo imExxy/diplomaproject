@@ -1,0 +1,169 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "six",
+    "python >=3.6",
+    "flask >=0.9"
+  ],
+  "extracted_package_dir": "D:\\xxx\\anaconda3\\pkgs\\flask-cors-4.0.0-pyhd8ed1ab_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/Flask_Cors-4.0.0.dist-info/INSTALLER",
+    "Lib/site-packages/Flask_Cors-4.0.0.dist-info/LICENSE",
+    "Lib/site-packages/Flask_Cors-4.0.0.dist-info/METADATA",
+    "Lib/site-packages/Flask_Cors-4.0.0.dist-info/RECORD",
+    "Lib/site-packages/Flask_Cors-4.0.0.dist-info/REQUESTED",
+    "Lib/site-packages/Flask_Cors-4.0.0.dist-info/WHEEL",
+    "Lib/site-packages/Flask_Cors-4.0.0.dist-info/direct_url.json",
+    "Lib/site-packages/Flask_Cors-4.0.0.dist-info/top_level.txt",
+    "Lib/site-packages/flask_cors/__init__.py",
+    "Lib/site-packages/flask_cors/core.py",
+    "Lib/site-packages/flask_cors/decorator.py",
+    "Lib/site-packages/flask_cors/extension.py",
+    "Lib/site-packages/flask_cors/version.py",
+    ".nonadmin",
+    "Lib/site-packages/flask_cors/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/flask_cors/__pycache__/core.cpython-312.pyc",
+    "Lib/site-packages/flask_cors/__pycache__/decorator.cpython-312.pyc",
+    "Lib/site-packages/flask_cors/__pycache__/extension.cpython-312.pyc",
+    "Lib/site-packages/flask_cors/__pycache__/version.cpython-312.pyc"
+  ],
+  "fn": "flask-cors-4.0.0-pyhd8ed1ab_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "D:\\xxx\\anaconda3\\pkgs\\flask-cors-4.0.0-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "3dc2a99c1c76e3f4307ebaebfda0af4a",
+  "name": "flask-cors",
+  "noarch": "python",
+  "package_tarball_full_path": "D:\\xxx\\anaconda3\\pkgs\\flask-cors-4.0.0-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/Flask_Cors-4.0.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/Flask_Cors-4.0.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "6e1a1bdc54834c1e0740cbce5d5f6f2cae1c846fd2a7f482b11649594fafbd5d",
+        "sha256_in_prefix": "6e1a1bdc54834c1e0740cbce5d5f6f2cae1c846fd2a7f482b11649594fafbd5d",
+        "size_in_bytes": 1069
+      },
+      {
+        "_path": "site-packages/Flask_Cors-4.0.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "8a27a7daf2ece8422a71e26068d109e853e29f07e3cc5592365ed73a4bb2735d",
+        "sha256_in_prefix": "8a27a7daf2ece8422a71e26068d109e853e29f07e3cc5592365ed73a4bb2735d",
+        "size_in_bytes": 5419
+      },
+      {
+        "_path": "site-packages/Flask_Cors-4.0.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "ca24ebe27eb77882178d4d64e97cd86b31642f86fa54881418e72d46d84da0e9",
+        "sha256_in_prefix": "ca24ebe27eb77882178d4d64e97cd86b31642f86fa54881418e72d46d84da0e9",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "site-packages/Flask_Cors-4.0.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/Flask_Cors-4.0.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "6bece9151209cceab941fba10736e1880d5e1d3ccd0899fc39d46f85d357d119",
+        "sha256_in_prefix": "6bece9151209cceab941fba10736e1880d5e1d3ccd0899fc39d46f85d357d119",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "site-packages/Flask_Cors-4.0.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "11d854f086a4332bbd2edffa3828cc45258cf54c4b83dd5a9a095f679b16d61d",
+        "sha256_in_prefix": "11d854f086a4332bbd2edffa3828cc45258cf54c4b83dd5a9a095f679b16d61d",
+        "size_in_bytes": 106
+      },
+      {
+        "_path": "site-packages/Flask_Cors-4.0.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "696c9eff440d64fa7f42d3c5e1996e2c7aa7c952d3f423c9b1f886870aa45aea",
+        "sha256_in_prefix": "696c9eff440d64fa7f42d3c5e1996e2c7aa7c952d3f423c9b1f886870aa45aea",
+        "size_in_bytes": 11
+      },
+      {
+        "_path": "site-packages/flask_cors/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c190c2bcf4c7b29036835555ecac8a37b47eb827419e2ad396c0b380f0dc42d2",
+        "sha256_in_prefix": "c190c2bcf4c7b29036835555ecac8a37b47eb827419e2ad396c0b380f0dc42d2",
+        "size_in_bytes": 792
+      },
+      {
+        "_path": "site-packages/flask_cors/core.py",
+        "path_type": "hardlink",
+        "sha256": "7b5bbfa3948e712fe03161a3710ae4ca4f75b8f2029f367701766fcb98d0fc51",
+        "sha256_in_prefix": "7b5bbfa3948e712fe03161a3710ae4ca4f75b8f2029f367701766fcb98d0fc51",
+        "size_in_bytes": 14063
+      },
+      {
+        "_path": "site-packages/flask_cors/decorator.py",
+        "path_type": "hardlink",
+        "sha256": "05e26cc97d7062154a58dd3814085beb3f18a9f7e246bef02aac331cf6a9e1bc",
+        "sha256_in_prefix": "05e26cc97d7062154a58dd3814085beb3f18a9f7e246bef02aac331cf6a9e1bc",
+        "size_in_bytes": 5009
+      },
+      {
+        "_path": "site-packages/flask_cors/extension.py",
+        "path_type": "hardlink",
+        "sha256": "9cfe19abf061803556c0f74897f7febae70dc43dfca57528f9d90bfafa17739f",
+        "sha256_in_prefix": "9cfe19abf061803556c0f74897f7febae70dc43dfca57528f9d90bfafa17739f",
+        "size_in_bytes": 7832
+      },
+      {
+        "_path": "site-packages/flask_cors/version.py",
+        "path_type": "hardlink",
+        "sha256": "eb5ac98df4e19db45d125a523f6b66df584f9859c7266730a0f86da80d018bf4",
+        "sha256_in_prefix": "eb5ac98df4e19db45d125a523f6b66df584f9859c7266730a0f86da80d018bf4",
+        "size_in_bytes": 22
+      },
+      {
+        "_path": "Lib/site-packages/flask_cors/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flask_cors/__pycache__/core.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flask_cors/__pycache__/decorator.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flask_cors/__pycache__/extension.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flask_cors/__pycache__/version.cpython-312.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "bc23c15ab33e10f931b03e4f2812d30491c27e09ea6e6441c67ee2ed523ee06b",
+  "size": 17899,
+  "subdir": "noarch",
+  "timestamp": 1687783565000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/flask-cors-4.0.0-pyhd8ed1ab_0.conda",
+  "version": "4.0.0"
+}

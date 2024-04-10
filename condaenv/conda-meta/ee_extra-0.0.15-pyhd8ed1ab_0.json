@@ -1,0 +1,650 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "earthengine-api",
+    "python >=3.6"
+  ],
+  "extracted_package_dir": "D:\\xxx\\anaconda3\\pkgs\\ee_extra-0.0.15-pyhd8ed1ab_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/ee_extra-0.0.15.dist-info/INSTALLER",
+    "Lib/site-packages/ee_extra-0.0.15.dist-info/LICENSE",
+    "Lib/site-packages/ee_extra-0.0.15.dist-info/METADATA",
+    "Lib/site-packages/ee_extra-0.0.15.dist-info/RECORD",
+    "Lib/site-packages/ee_extra-0.0.15.dist-info/REQUESTED",
+    "Lib/site-packages/ee_extra-0.0.15.dist-info/WHEEL",
+    "Lib/site-packages/ee_extra-0.0.15.dist-info/direct_url.json",
+    "Lib/site-packages/ee_extra-0.0.15.dist-info/top_level.txt",
+    "Lib/site-packages/ee_extra/Algorithms/__init__.py",
+    "Lib/site-packages/ee_extra/Algorithms/core.py",
+    "Lib/site-packages/ee_extra/Algorithms/panSharpening.py",
+    "Lib/site-packages/ee_extra/Algorithms/river.py",
+    "Lib/site-packages/ee_extra/Apps/__init__.py",
+    "Lib/site-packages/ee_extra/Apps/core.py",
+    "Lib/site-packages/ee_extra/Apps/utils.py",
+    "Lib/site-packages/ee_extra/Image/__init__.py",
+    "Lib/site-packages/ee_extra/Image/basic.py",
+    "Lib/site-packages/ee_extra/ImageCollection/__init__.py",
+    "Lib/site-packages/ee_extra/ImageCollection/core.py",
+    "Lib/site-packages/ee_extra/JavaScript/__init__.py",
+    "Lib/site-packages/ee_extra/JavaScript/install.py",
+    "Lib/site-packages/ee_extra/JavaScript/main.py",
+    "Lib/site-packages/ee_extra/JavaScript/merge.py",
+    "Lib/site-packages/ee_extra/JavaScript/translate_functions.py",
+    "Lib/site-packages/ee_extra/JavaScript/translate_general.py",
+    "Lib/site-packages/ee_extra/JavaScript/translate_jsm_extra.py",
+    "Lib/site-packages/ee_extra/JavaScript/translate_jsm_main.py",
+    "Lib/site-packages/ee_extra/JavaScript/translate_jsm_wrappers.py",
+    "Lib/site-packages/ee_extra/JavaScript/translate_loops.py",
+    "Lib/site-packages/ee_extra/JavaScript/translate_main.py",
+    "Lib/site-packages/ee_extra/JavaScript/translate_specialfunctions.py",
+    "Lib/site-packages/ee_extra/JavaScript/translate_utils.py",
+    "Lib/site-packages/ee_extra/JavaScript/utils.py",
+    "Lib/site-packages/ee_extra/QA/__init__.py",
+    "Lib/site-packages/ee_extra/QA/clouds.py",
+    "Lib/site-packages/ee_extra/QA/metrics.py",
+    "Lib/site-packages/ee_extra/QA/pipelines.py",
+    "Lib/site-packages/ee_extra/STAC/__init__.py",
+    "Lib/site-packages/ee_extra/STAC/core.py",
+    "Lib/site-packages/ee_extra/STAC/utils.py",
+    "Lib/site-packages/ee_extra/Spectral/__init__.py",
+    "Lib/site-packages/ee_extra/Spectral/core.py",
+    "Lib/site-packages/ee_extra/Spectral/utils.py",
+    "Lib/site-packages/ee_extra/TimeSeries/__init__.py",
+    "Lib/site-packages/ee_extra/TimeSeries/core.py",
+    "Lib/site-packages/ee_extra/__init__.py",
+    "Lib/site-packages/ee_extra/data/ee-appshot.json",
+    "Lib/site-packages/ee_extra/data/ee-catalog-ids.json",
+    "Lib/site-packages/ee_extra/data/ee-catalog-offset.json",
+    "Lib/site-packages/ee_extra/data/ee-catalog-scale.json",
+    "Lib/site-packages/ee_extra/data/spectral-indices-dict.json",
+    "Lib/site-packages/ee_extra/utils.py",
+    ".nonadmin",
+    "Lib/site-packages/ee_extra/Algorithms/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/ee_extra/Algorithms/__pycache__/core.cpython-312.pyc",
+    "Lib/site-packages/ee_extra/Algorithms/__pycache__/panSharpening.cpython-312.pyc",
+    "Lib/site-packages/ee_extra/Algorithms/__pycache__/river.cpython-312.pyc",
+    "Lib/site-packages/ee_extra/Apps/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/ee_extra/Apps/__pycache__/core.cpython-312.pyc",
+    "Lib/site-packages/ee_extra/Apps/__pycache__/utils.cpython-312.pyc",
+    "Lib/site-packages/ee_extra/Image/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/ee_extra/Image/__pycache__/basic.cpython-312.pyc",
+    "Lib/site-packages/ee_extra/ImageCollection/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/ee_extra/ImageCollection/__pycache__/core.cpython-312.pyc",
+    "Lib/site-packages/ee_extra/JavaScript/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/ee_extra/JavaScript/__pycache__/install.cpython-312.pyc",
+    "Lib/site-packages/ee_extra/JavaScript/__pycache__/main.cpython-312.pyc",
+    "Lib/site-packages/ee_extra/JavaScript/__pycache__/merge.cpython-312.pyc",
+    "Lib/site-packages/ee_extra/JavaScript/__pycache__/translate_functions.cpython-312.pyc",
+    "Lib/site-packages/ee_extra/JavaScript/__pycache__/translate_general.cpython-312.pyc",
+    "Lib/site-packages/ee_extra/JavaScript/__pycache__/translate_jsm_extra.cpython-312.pyc",
+    "Lib/site-packages/ee_extra/JavaScript/__pycache__/translate_jsm_main.cpython-312.pyc",
+    "Lib/site-packages/ee_extra/JavaScript/__pycache__/translate_jsm_wrappers.cpython-312.pyc",
+    "Lib/site-packages/ee_extra/JavaScript/__pycache__/translate_loops.cpython-312.pyc",
+    "Lib/site-packages/ee_extra/JavaScript/__pycache__/translate_main.cpython-312.pyc",
+    "Lib/site-packages/ee_extra/JavaScript/__pycache__/translate_specialfunctions.cpython-312.pyc",
+    "Lib/site-packages/ee_extra/JavaScript/__pycache__/translate_utils.cpython-312.pyc",
+    "Lib/site-packages/ee_extra/JavaScript/__pycache__/utils.cpython-312.pyc",
+    "Lib/site-packages/ee_extra/QA/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/ee_extra/QA/__pycache__/clouds.cpython-312.pyc",
+    "Lib/site-packages/ee_extra/QA/__pycache__/metrics.cpython-312.pyc",
+    "Lib/site-packages/ee_extra/QA/__pycache__/pipelines.cpython-312.pyc",
+    "Lib/site-packages/ee_extra/STAC/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/ee_extra/STAC/__pycache__/core.cpython-312.pyc",
+    "Lib/site-packages/ee_extra/STAC/__pycache__/utils.cpython-312.pyc",
+    "Lib/site-packages/ee_extra/Spectral/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/ee_extra/Spectral/__pycache__/core.cpython-312.pyc",
+    "Lib/site-packages/ee_extra/Spectral/__pycache__/utils.cpython-312.pyc",
+    "Lib/site-packages/ee_extra/TimeSeries/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/ee_extra/TimeSeries/__pycache__/core.cpython-312.pyc",
+    "Lib/site-packages/ee_extra/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/ee_extra/__pycache__/utils.cpython-312.pyc"
+  ],
+  "fn": "ee_extra-0.0.15-pyhd8ed1ab_0.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "D:\\xxx\\anaconda3\\pkgs\\ee_extra-0.0.15-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "79aabb8c948276f55e2ba4ed8d1fd9cf",
+  "name": "ee_extra",
+  "noarch": "python",
+  "package_tarball_full_path": "D:\\xxx\\anaconda3\\pkgs\\ee_extra-0.0.15-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/ee_extra-0.0.15.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/ee_extra-0.0.15.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "0791fff56b3779685039e536cf230d861634f729759fd72509a7cdf69acd8fad",
+        "sha256_in_prefix": "0791fff56b3779685039e536cf230d861634f729759fd72509a7cdf69acd8fad",
+        "size_in_bytes": 10455
+      },
+      {
+        "_path": "site-packages/ee_extra-0.0.15.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "6111714ae886e4fad4887653fe5bb51ce66f7d0a78e9c0df880681921300739a",
+        "sha256_in_prefix": "6111714ae886e4fad4887653fe5bb51ce66f7d0a78e9c0df880681921300739a",
+        "size_in_bytes": 10873
+      },
+      {
+        "_path": "site-packages/ee_extra-0.0.15.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "b4eebd0fd9721c73b23d5266e8ece85c7e5b35b21486cd0caecb306204112463",
+        "sha256_in_prefix": "b4eebd0fd9721c73b23d5266e8ece85c7e5b35b21486cd0caecb306204112463",
+        "size_in_bytes": 6839
+      },
+      {
+        "_path": "site-packages/ee_extra-0.0.15.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/ee_extra-0.0.15.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "db07a93359e4e034b8785a58ad6d534ea3dca0635f1e184efe2e66e1c3a299ba",
+        "sha256_in_prefix": "db07a93359e4e034b8785a58ad6d534ea3dca0635f1e184efe2e66e1c3a299ba",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/ee_extra-0.0.15.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "36e77e3ebe75fd8dc821cdca82a04d7c6642e13ae37e751715b5a3f1d638d4f8",
+        "sha256_in_prefix": "36e77e3ebe75fd8dc821cdca82a04d7c6642e13ae37e751715b5a3f1d638d4f8",
+        "size_in_bytes": 104
+      },
+      {
+        "_path": "site-packages/ee_extra-0.0.15.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "6a9e3b81a3ed5a4ba7b27aac2af9786a82f6297f561ef66c7d30f83733346080",
+        "sha256_in_prefix": "6a9e3b81a3ed5a4ba7b27aac2af9786a82f6297f561ef66c7d30f83733346080",
+        "size_in_bytes": 9
+      },
+      {
+        "_path": "site-packages/ee_extra/Algorithms/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/ee_extra/Algorithms/core.py",
+        "path_type": "hardlink",
+        "sha256": "c31e9ad30415d8ab3ddbe10a5e3d88c08d609816df05be28b25196bb6bfce121",
+        "sha256_in_prefix": "c31e9ad30415d8ab3ddbe10a5e3d88c08d609816df05be28b25196bb6bfce121",
+        "size_in_bytes": 1799
+      },
+      {
+        "_path": "site-packages/ee_extra/Algorithms/panSharpening.py",
+        "path_type": "hardlink",
+        "sha256": "ba4e05bdf5a60106003b01c455d2fc027df6c902fafb421eb3d9e424053248a3",
+        "sha256_in_prefix": "ba4e05bdf5a60106003b01c455d2fc027df6c902fafb421eb3d9e424053248a3",
+        "size_in_bytes": 13048
+      },
+      {
+        "_path": "site-packages/ee_extra/Algorithms/river.py",
+        "path_type": "hardlink",
+        "sha256": "2a74dd97084d6116a0dce220e12b9755501b87c14bcce6b521c7c67cd7126219",
+        "sha256_in_prefix": "2a74dd97084d6116a0dce220e12b9755501b87c14bcce6b521c7c67cd7126219",
+        "size_in_bytes": 32567
+      },
+      {
+        "_path": "site-packages/ee_extra/Apps/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/ee_extra/Apps/core.py",
+        "path_type": "hardlink",
+        "sha256": "27f509aa92b35e22bcd57cedfc6c834ab807708ef8fc77d5c50de218f1a57cfa",
+        "sha256_in_prefix": "27f509aa92b35e22bcd57cedfc6c834ab807708ef8fc77d5c50de218f1a57cfa",
+        "size_in_bytes": 732
+      },
+      {
+        "_path": "site-packages/ee_extra/Apps/utils.py",
+        "path_type": "hardlink",
+        "sha256": "44e66e68f9da713d4b52ddc4be509f583824a869ce2511129b462509237e9bd3",
+        "sha256_in_prefix": "44e66e68f9da713d4b52ddc4be509f583824a869ce2511129b462509237e9bd3",
+        "size_in_bytes": 748
+      },
+      {
+        "_path": "site-packages/ee_extra/Image/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/ee_extra/Image/basic.py",
+        "path_type": "hardlink",
+        "sha256": "213976d368599552aeb6fdd398a82d5a4432d9ad14205cb136b162c3579e3d18",
+        "sha256_in_prefix": "213976d368599552aeb6fdd398a82d5a4432d9ad14205cb136b162c3579e3d18",
+        "size_in_bytes": 3653
+      },
+      {
+        "_path": "site-packages/ee_extra/ImageCollection/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/ee_extra/ImageCollection/core.py",
+        "path_type": "hardlink",
+        "sha256": "55544eb9f5c670bdb782d33f02b00a737a0ef4919f20f027699d330e740e7335",
+        "sha256_in_prefix": "55544eb9f5c670bdb782d33f02b00a737a0ef4919f20f027699d330e740e7335",
+        "size_in_bytes": 2529
+      },
+      {
+        "_path": "site-packages/ee_extra/JavaScript/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/ee_extra/JavaScript/install.py",
+        "path_type": "hardlink",
+        "sha256": "6ac31d3d44af8605f3c0d80fd345396f4589b4eb786d9ffd23374a4d17eb3cdc",
+        "sha256_in_prefix": "6ac31d3d44af8605f3c0d80fd345396f4589b4eb786d9ffd23374a4d17eb3cdc",
+        "size_in_bytes": 6286
+      },
+      {
+        "_path": "site-packages/ee_extra/JavaScript/main.py",
+        "path_type": "hardlink",
+        "sha256": "d1ae54b5a6246db0bc9a87d0acfc78a8785807c7f5dd39f2cb409e3a794c7015",
+        "sha256_in_prefix": "d1ae54b5a6246db0bc9a87d0acfc78a8785807c7f5dd39f2cb409e3a794c7015",
+        "size_in_bytes": 1433
+      },
+      {
+        "_path": "site-packages/ee_extra/JavaScript/merge.py",
+        "path_type": "hardlink",
+        "sha256": "414c2c941deac648b3eae36c1b592cc60a329df4982e0125dd9aeab44e4d4303",
+        "sha256_in_prefix": "414c2c941deac648b3eae36c1b592cc60a329df4982e0125dd9aeab44e4d4303",
+        "size_in_bytes": 3741
+      },
+      {
+        "_path": "site-packages/ee_extra/JavaScript/translate_functions.py",
+        "path_type": "hardlink",
+        "sha256": "75449bd0c6c2eac8b42b9b34e8c68471797d12a5fe1041b85127a68e6946ea8a",
+        "sha256_in_prefix": "75449bd0c6c2eac8b42b9b34e8c68471797d12a5fe1041b85127a68e6946ea8a",
+        "size_in_bytes": 21221
+      },
+      {
+        "_path": "site-packages/ee_extra/JavaScript/translate_general.py",
+        "path_type": "hardlink",
+        "sha256": "cfc2f98d66cd415a11cd0593738bd79f7a6c864dc8f7c1a7528e053fd1785256",
+        "sha256_in_prefix": "cfc2f98d66cd415a11cd0593738bd79f7a6c864dc8f7c1a7528e053fd1785256",
+        "size_in_bytes": 5507
+      },
+      {
+        "_path": "site-packages/ee_extra/JavaScript/translate_jsm_extra.py",
+        "path_type": "hardlink",
+        "sha256": "51787a861dca739293d8dd8323a796291cecfce35365a8f2f6f36c4be502f961",
+        "sha256_in_prefix": "51787a861dca739293d8dd8323a796291cecfce35365a8f2f6f36c4be502f961",
+        "size_in_bytes": 14260
+      },
+      {
+        "_path": "site-packages/ee_extra/JavaScript/translate_jsm_main.py",
+        "path_type": "hardlink",
+        "sha256": "e5d07a086d0ca8318d98d66632226b32ea997c6f72b05f3a1439d508b76808d3",
+        "sha256_in_prefix": "e5d07a086d0ca8318d98d66632226b32ea997c6f72b05f3a1439d508b76808d3",
+        "size_in_bytes": 8881
+      },
+      {
+        "_path": "site-packages/ee_extra/JavaScript/translate_jsm_wrappers.py",
+        "path_type": "hardlink",
+        "sha256": "a8553aadef703389b08d90310081ba8ac2c686f77228f3b49853eab725f1fdf2",
+        "sha256_in_prefix": "a8553aadef703389b08d90310081ba8ac2c686f77228f3b49853eab725f1fdf2",
+        "size_in_bytes": 38344
+      },
+      {
+        "_path": "site-packages/ee_extra/JavaScript/translate_loops.py",
+        "path_type": "hardlink",
+        "sha256": "5e727ba14bcdbe4becfbe951212dd5c08aa89a49a4209674574b865095458e15",
+        "sha256_in_prefix": "5e727ba14bcdbe4becfbe951212dd5c08aa89a49a4209674574b865095458e15",
+        "size_in_bytes": 14153
+      },
+      {
+        "_path": "site-packages/ee_extra/JavaScript/translate_main.py",
+        "path_type": "hardlink",
+        "sha256": "9cdcef2ef0800ca29de468f19b91ff214ae9d02cb315cce92c98f46065133232",
+        "sha256_in_prefix": "9cdcef2ef0800ca29de468f19b91ff214ae9d02cb315cce92c98f46065133232",
+        "size_in_bytes": 26441
+      },
+      {
+        "_path": "site-packages/ee_extra/JavaScript/translate_specialfunctions.py",
+        "path_type": "hardlink",
+        "sha256": "de2f0de72dc8ebdc7185fb131dd980b3e7c9e3fdca7242b8466b3dfc4739a8ef",
+        "sha256_in_prefix": "de2f0de72dc8ebdc7185fb131dd980b3e7c9e3fdca7242b8466b3dfc4739a8ef",
+        "size_in_bytes": 6153
+      },
+      {
+        "_path": "site-packages/ee_extra/JavaScript/translate_utils.py",
+        "path_type": "hardlink",
+        "sha256": "8b9eac5f24d843f1e4dcc1f8b0958107cde89bfd0a3fa1812292fafa7caeeac2",
+        "sha256_in_prefix": "8b9eac5f24d843f1e4dcc1f8b0958107cde89bfd0a3fa1812292fafa7caeeac2",
+        "size_in_bytes": 5355
+      },
+      {
+        "_path": "site-packages/ee_extra/JavaScript/utils.py",
+        "path_type": "hardlink",
+        "sha256": "1c4b400151bd3e92299e98917dbf151375fa22f2cbe87897f39b85f7625afaf2",
+        "sha256_in_prefix": "1c4b400151bd3e92299e98917dbf151375fa22f2cbe87897f39b85f7625afaf2",
+        "size_in_bytes": 770
+      },
+      {
+        "_path": "site-packages/ee_extra/QA/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/ee_extra/QA/clouds.py",
+        "path_type": "hardlink",
+        "sha256": "73b0d87de774b6c3e242a8a023fe8c6939acb90300f925ca732f6244b1bc5dac",
+        "sha256_in_prefix": "73b0d87de774b6c3e242a8a023fe8c6939acb90300f925ca732f6244b1bc5dac",
+        "size_in_bytes": 13593
+      },
+      {
+        "_path": "site-packages/ee_extra/QA/metrics.py",
+        "path_type": "hardlink",
+        "sha256": "18af836b52b68116591d49437d8bcbaf50dc6323f97ab0176722fe7c66667d37",
+        "sha256_in_prefix": "18af836b52b68116591d49437d8bcbaf50dc6323f97ab0176722fe7c66667d37",
+        "size_in_bytes": 20632
+      },
+      {
+        "_path": "site-packages/ee_extra/QA/pipelines.py",
+        "path_type": "hardlink",
+        "sha256": "90ac7acefe3c3b136d38d1c680efbea94451dd8610abdbde757f6625d0a083bc",
+        "sha256_in_prefix": "90ac7acefe3c3b136d38d1c680efbea94451dd8610abdbde757f6625d0a083bc",
+        "size_in_bytes": 1024
+      },
+      {
+        "_path": "site-packages/ee_extra/STAC/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/ee_extra/STAC/core.py",
+        "path_type": "hardlink",
+        "sha256": "335bae12c61f6f395edb862b866b18fced09b4c6b239250f673e4d1decd4a52e",
+        "sha256_in_prefix": "335bae12c61f6f395edb862b866b18fced09b4c6b239250f673e4d1decd4a52e",
+        "size_in_bytes": 5861
+      },
+      {
+        "_path": "site-packages/ee_extra/STAC/utils.py",
+        "path_type": "hardlink",
+        "sha256": "588d8f6ff3841c289ff640570fd0ff27352de97f8ad95949238458d268fc6849",
+        "sha256_in_prefix": "588d8f6ff3841c289ff640570fd0ff27352de97f8ad95949238458d268fc6849",
+        "size_in_bytes": 1358
+      },
+      {
+        "_path": "site-packages/ee_extra/Spectral/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/ee_extra/Spectral/core.py",
+        "path_type": "hardlink",
+        "sha256": "2da9ce411643003e487bebf8d46504e320f43e7d0c20b9d8a6be894a8dd4a56b",
+        "sha256_in_prefix": "2da9ce411643003e487bebf8d46504e320f43e7d0c20b9d8a6be894a8dd4a56b",
+        "size_in_bytes": 14189
+      },
+      {
+        "_path": "site-packages/ee_extra/Spectral/utils.py",
+        "path_type": "hardlink",
+        "sha256": "60e2b8edbe859b14c2676070761494b2fab1d499fc10ed9b428fee038d0211bc",
+        "sha256_in_prefix": "60e2b8edbe859b14c2676070761494b2fab1d499fc10ed9b428fee038d0211bc",
+        "size_in_bytes": 21631
+      },
+      {
+        "_path": "site-packages/ee_extra/TimeSeries/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/ee_extra/TimeSeries/core.py",
+        "path_type": "hardlink",
+        "sha256": "e35ac2313fcbd26bedfc2a52fb55182713325742a04059549bfe02e80164a091",
+        "sha256_in_prefix": "e35ac2313fcbd26bedfc2a52fb55182713325742a04059549bfe02e80164a091",
+        "size_in_bytes": 10001
+      },
+      {
+        "_path": "site-packages/ee_extra/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d92aabbfae899d6cb5047b6a953b5688320e1cd2eb4ae2fa4d737bc6ec9a7ea0",
+        "sha256_in_prefix": "d92aabbfae899d6cb5047b6a953b5688320e1cd2eb4ae2fa4d737bc6ec9a7ea0",
+        "size_in_bytes": 722
+      },
+      {
+        "_path": "site-packages/ee_extra/data/ee-appshot.json",
+        "path_type": "hardlink",
+        "sha256": "94d3300aecda105c8bb5ebbf6b366985fed32f9c0bae723c61190c9f613a35ec",
+        "sha256_in_prefix": "94d3300aecda105c8bb5ebbf6b366985fed32f9c0bae723c61190c9f613a35ec",
+        "size_in_bytes": 362168
+      },
+      {
+        "_path": "site-packages/ee_extra/data/ee-catalog-ids.json",
+        "path_type": "hardlink",
+        "sha256": "f54f04d7e61e29a90a6c8e588788ffebc12c3a0d9131854be4d4189c02ad4910",
+        "sha256_in_prefix": "f54f04d7e61e29a90a6c8e588788ffebc12c3a0d9131854be4d4189c02ad4910",
+        "size_in_bytes": 384111
+      },
+      {
+        "_path": "site-packages/ee_extra/data/ee-catalog-offset.json",
+        "path_type": "hardlink",
+        "sha256": "c8a3ea00cd85a740e0cf48422817673eddac57d0d808d7234bedba368ea30dd6",
+        "sha256_in_prefix": "c8a3ea00cd85a740e0cf48422817673eddac57d0d808d7234bedba368ea30dd6",
+        "size_in_bytes": 237639
+      },
+      {
+        "_path": "site-packages/ee_extra/data/ee-catalog-scale.json",
+        "path_type": "hardlink",
+        "sha256": "0eb1a1918d0006743e6f08045be8a2e18a8c8ad8961c6bc622ddd50869023467",
+        "sha256_in_prefix": "0eb1a1918d0006743e6f08045be8a2e18a8c8ad8961c6bc622ddd50869023467",
+        "size_in_bytes": 241310
+      },
+      {
+        "_path": "site-packages/ee_extra/data/spectral-indices-dict.json",
+        "path_type": "hardlink",
+        "sha256": "d25f82b9597f30824bf802d783912f907d4888a3857df649ff25f03fb934b776",
+        "sha256_in_prefix": "d25f82b9597f30824bf802d783912f907d4888a3857df649ff25f03fb934b776",
+        "size_in_bytes": 154128
+      },
+      {
+        "_path": "site-packages/ee_extra/utils.py",
+        "path_type": "hardlink",
+        "sha256": "b9c8b75cf4d52172ae6d66ff18a31a0673a659a3102efa00b451d1134ff16f21",
+        "sha256_in_prefix": "b9c8b75cf4d52172ae6d66ff18a31a0673a659a3102efa00b451d1134ff16f21",
+        "size_in_bytes": 2218
+      },
+      {
+        "_path": "Lib/site-packages/ee_extra/Algorithms/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ee_extra/Algorithms/__pycache__/core.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ee_extra/Algorithms/__pycache__/panSharpening.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ee_extra/Algorithms/__pycache__/river.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ee_extra/Apps/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ee_extra/Apps/__pycache__/core.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ee_extra/Apps/__pycache__/utils.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ee_extra/Image/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ee_extra/Image/__pycache__/basic.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ee_extra/ImageCollection/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ee_extra/ImageCollection/__pycache__/core.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ee_extra/JavaScript/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ee_extra/JavaScript/__pycache__/install.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ee_extra/JavaScript/__pycache__/main.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ee_extra/JavaScript/__pycache__/merge.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ee_extra/JavaScript/__pycache__/translate_functions.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ee_extra/JavaScript/__pycache__/translate_general.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ee_extra/JavaScript/__pycache__/translate_jsm_extra.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ee_extra/JavaScript/__pycache__/translate_jsm_main.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ee_extra/JavaScript/__pycache__/translate_jsm_wrappers.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ee_extra/JavaScript/__pycache__/translate_loops.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ee_extra/JavaScript/__pycache__/translate_main.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ee_extra/JavaScript/__pycache__/translate_specialfunctions.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ee_extra/JavaScript/__pycache__/translate_utils.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ee_extra/JavaScript/__pycache__/utils.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ee_extra/QA/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ee_extra/QA/__pycache__/clouds.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ee_extra/QA/__pycache__/metrics.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ee_extra/QA/__pycache__/pipelines.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ee_extra/STAC/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ee_extra/STAC/__pycache__/core.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ee_extra/STAC/__pycache__/utils.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ee_extra/Spectral/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ee_extra/Spectral/__pycache__/core.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ee_extra/Spectral/__pycache__/utils.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ee_extra/TimeSeries/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ee_extra/TimeSeries/__pycache__/core.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ee_extra/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ee_extra/__pycache__/utils.cpython-312.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "08ebdc695430f4e0c068d0c999779f5b609b5c94c17ff361d5cb97fd58c60dfe",
+  "size": 187006,
+  "subdir": "noarch",
+  "timestamp": 1674469320000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/ee_extra-0.0.15-pyhd8ed1ab_0.conda",
+  "version": "0.0.15"
+}

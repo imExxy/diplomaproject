@@ -1,0 +1,12 @@
+prefix=D:/xxx/Documents/psud/envs/Library
+exec_prefix=D:/xxx/Documents/psud/envs/Library
+libdir=D:/xxx/Documents/psud/envs/Library/lib
+includedir=D:/xxx/Documents/psud/envs/Library/include
+
+Name: Protocol Buffers
+Description: Google's Data Interchange Format
+Version: 25.2.0
+Requires: abseil_dll utf8_range
+Libs: -L${libdir} -lprotobuf 
+Cflags: -I${includedir} -DPROTOBUF_USE_DLLS
+Conflicts: protobuf-lite

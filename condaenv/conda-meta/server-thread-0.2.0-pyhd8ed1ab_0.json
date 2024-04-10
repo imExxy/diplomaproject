@@ -1,0 +1,236 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "setuptools",
+    "werkzeug",
+    "uvicorn",
+    "scooby",
+    "python >=3.7"
+  ],
+  "extracted_package_dir": "D:\\xxx\\anaconda3\\pkgs\\server-thread-0.2.0-pyhd8ed1ab_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/server_thread-0.2.0.dist-info/INSTALLER",
+    "Lib/site-packages/server_thread-0.2.0.dist-info/LICENSE",
+    "Lib/site-packages/server_thread-0.2.0.dist-info/METADATA",
+    "Lib/site-packages/server_thread-0.2.0.dist-info/RECORD",
+    "Lib/site-packages/server_thread-0.2.0.dist-info/REQUESTED",
+    "Lib/site-packages/server_thread-0.2.0.dist-info/WHEEL",
+    "Lib/site-packages/server_thread-0.2.0.dist-info/direct_url.json",
+    "Lib/site-packages/server_thread-0.2.0.dist-info/top_level.txt",
+    "Lib/site-packages/server_thread/__init__.py",
+    "Lib/site-packages/server_thread/_version.py",
+    "Lib/site-packages/server_thread/report.py",
+    "Lib/site-packages/server_thread/server.py",
+    "Lib/site-packages/tests/__init__.py",
+    "Lib/site-packages/tests/conftest.py",
+    "Lib/site-packages/tests/test_client.py",
+    "Lib/site-packages/tests/test_manager.py",
+    "Lib/site-packages/tests/test_report.py",
+    "Lib/site-packages/tests/test_server.py",
+    ".nonadmin",
+    "Lib/site-packages/server_thread/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/server_thread/__pycache__/_version.cpython-312.pyc",
+    "Lib/site-packages/server_thread/__pycache__/report.cpython-312.pyc",
+    "Lib/site-packages/server_thread/__pycache__/server.cpython-312.pyc",
+    "Lib/site-packages/tests/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/tests/__pycache__/conftest.cpython-312.pyc",
+    "Lib/site-packages/tests/__pycache__/test_client.cpython-312.pyc",
+    "Lib/site-packages/tests/__pycache__/test_manager.cpython-312.pyc",
+    "Lib/site-packages/tests/__pycache__/test_report.cpython-312.pyc",
+    "Lib/site-packages/tests/__pycache__/test_server.cpython-312.pyc"
+  ],
+  "fn": "server-thread-0.2.0-pyhd8ed1ab_0.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "D:\\xxx\\anaconda3\\pkgs\\server-thread-0.2.0-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "f4c2b3bac135d8c640efdce2708569de",
+  "name": "server-thread",
+  "noarch": "python",
+  "package_tarball_full_path": "D:\\xxx\\anaconda3\\pkgs\\server-thread-0.2.0-pyhd8ed1ab_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/server_thread-0.2.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/server_thread-0.2.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "170b27fcc79c6d0a64633a786f827129f5b0e8385ee7194b4092809cfd6a1ebd",
+        "sha256_in_prefix": "170b27fcc79c6d0a64633a786f827129f5b0e8385ee7194b4092809cfd6a1ebd",
+        "size_in_bytes": 1075
+      },
+      {
+        "_path": "site-packages/server_thread-0.2.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "1afe5066d5b3f6fa7aef2b41568f014a7a7321101578e3aef2b77d90b1180163",
+        "sha256_in_prefix": "1afe5066d5b3f6fa7aef2b41568f014a7a7321101578e3aef2b77d90b1180163",
+        "size_in_bytes": 3834
+      },
+      {
+        "_path": "site-packages/server_thread-0.2.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "9bd0059a6797f764bf2ff982152bdd1fa7ec17f531f1f3b071955feff4a2073c",
+        "sha256_in_prefix": "9bd0059a6797f764bf2ff982152bdd1fa7ec17f531f1f3b071955feff4a2073c",
+        "size_in_bytes": 1993
+      },
+      {
+        "_path": "site-packages/server_thread-0.2.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/server_thread-0.2.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0",
+        "sha256_in_prefix": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/server_thread-0.2.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "903322f7e547197136618169c049b21a0a27ccc7b0c94ac1d752de1630b066a7",
+        "sha256_in_prefix": "903322f7e547197136618169c049b21a0a27ccc7b0c94ac1d752de1630b066a7",
+        "size_in_bytes": 109
+      },
+      {
+        "_path": "site-packages/server_thread-0.2.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "d1c53d7218e508dc10e4c5211910a94f5e1f60703303f3ce0fc2d88802ad8df6",
+        "sha256_in_prefix": "d1c53d7218e508dc10e4c5211910a94f5e1f60703303f3ce0fc2d88802ad8df6",
+        "size_in_bytes": 20
+      },
+      {
+        "_path": "site-packages/server_thread/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "96b04063a88b976d04d06f33bebf095e41d639ce79560d77ba0276d11daa6c2d",
+        "sha256_in_prefix": "96b04063a88b976d04d06f33bebf095e41d639ce79560d77ba0276d11daa6c2d",
+        "size_in_bytes": 201
+      },
+      {
+        "_path": "site-packages/server_thread/_version.py",
+        "path_type": "hardlink",
+        "sha256": "942fa69f138b1e446e59db53ae5f061fc7f5e73a676d6d37812cb8cd6a0ae316",
+        "sha256_in_prefix": "942fa69f138b1e446e59db53ae5f061fc7f5e73a676d6d37812cb8cd6a0ae316",
+        "size_in_bytes": 234
+      },
+      {
+        "_path": "site-packages/server_thread/report.py",
+        "path_type": "hardlink",
+        "sha256": "00cd4e5c82c6e42ebe4d268063b2d48e1e3ff2041271220f7314a47f2377c2db",
+        "sha256_in_prefix": "00cd4e5c82c6e42ebe4d268063b2d48e1e3ff2041271220f7314a47f2377c2db",
+        "size_in_bytes": 619
+      },
+      {
+        "_path": "site-packages/server_thread/server.py",
+        "path_type": "hardlink",
+        "sha256": "1e8614904b55c4263ae7e44103fcf5019255f9fb934654005984b53c7fb4de83",
+        "sha256_in_prefix": "1e8614904b55c4263ae7e44103fcf5019255f9fb934654005984b53c7fb4de83",
+        "size_in_bytes": 6562
+      },
+      {
+        "_path": "site-packages/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/tests/conftest.py",
+        "path_type": "hardlink",
+        "sha256": "dc736a52d4eb820a36deaebc6112d5aff834e815fd3e8fe98807c892da2c3632",
+        "sha256_in_prefix": "dc736a52d4eb820a36deaebc6112d5aff834e815fd3e8fe98807c892da2c3632",
+        "size_in_bytes": 358
+      },
+      {
+        "_path": "site-packages/tests/test_client.py",
+        "path_type": "hardlink",
+        "sha256": "34acafe9c3165ec1125d7c202eddc964e5812587dd16204057bc19bea7d42623",
+        "sha256_in_prefix": "34acafe9c3165ec1125d7c202eddc964e5812587dd16204057bc19bea7d42623",
+        "size_in_bytes": 1134
+      },
+      {
+        "_path": "site-packages/tests/test_manager.py",
+        "path_type": "hardlink",
+        "sha256": "96a6a88fbb1d9b1503511f7a6a5c7e03693e100b794de501584197b4120ccaa5",
+        "sha256_in_prefix": "96a6a88fbb1d9b1503511f7a6a5c7e03693e100b794de501584197b4120ccaa5",
+        "size_in_bytes": 967
+      },
+      {
+        "_path": "site-packages/tests/test_report.py",
+        "path_type": "hardlink",
+        "sha256": "96e35523cceeb38c0b9e1d7b0d27696afda454033d6d97596c42266ae0554c18",
+        "sha256_in_prefix": "96e35523cceeb38c0b9e1d7b0d27696afda454033d6d97596c42266ae0554c18",
+        "size_in_bytes": 74
+      },
+      {
+        "_path": "site-packages/tests/test_server.py",
+        "path_type": "hardlink",
+        "sha256": "e9d8b6b14adcb5bed853f9061c3e726bffd81746cdc0a44a89e3903a1838a1ba",
+        "sha256_in_prefix": "e9d8b6b14adcb5bed853f9061c3e726bffd81746cdc0a44a89e3903a1838a1ba",
+        "size_in_bytes": 1472
+      },
+      {
+        "_path": "Lib/site-packages/server_thread/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/server_thread/__pycache__/_version.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/server_thread/__pycache__/report.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/server_thread/__pycache__/server.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tests/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tests/__pycache__/conftest.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tests/__pycache__/test_client.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tests/__pycache__/test_manager.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tests/__pycache__/test_report.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tests/__pycache__/test_server.cpython-312.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "d93e68ae934f8a0b757f3a066ecb6158d977c5ded67084cb234d5b438ef8970e",
+  "size": 11649,
+  "subdir": "noarch",
+  "timestamp": 1659016604000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/server-thread-0.2.0-pyhd8ed1ab_0.tar.bz2",
+  "version": "0.2.0"
+}

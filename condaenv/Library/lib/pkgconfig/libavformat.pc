@@ -1,0 +1,14 @@
+prefix=D:/xxx/Documents/geeproject/condaenv/Library
+exec_prefix=${prefix}
+libdir=D:/xxx/Documents/geeproject/condaenv/Library/lib
+includedir=D:/xxx/Documents/geeproject/condaenv/Library/include
+
+Name: libavformat
+Description: FFmpeg container format library
+Version: 60.16.100
+Requires: 
+Requires.private: libavcodec >= 60.31.102, libswresample >= 4.12.100, libavutil >= 58.29.100
+Conflicts:
+Libs: -L${libdir}  -lavformat 
+Libs.private: -LD:/xxx/Documents/geeproject/condaenv/Library/lib xml2.lib iconv.lib zlib.lib bz2.lib -LD:/xxx/Documents/geeproject/condaenv/Library/lib zlib.lib secur32.lib ws2_32.lib
+Cflags: -I${includedir}

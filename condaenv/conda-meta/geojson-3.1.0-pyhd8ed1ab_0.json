@@ -1,0 +1,232 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.7"
+  ],
+  "extracted_package_dir": "D:\\xxx\\anaconda3\\pkgs\\geojson-3.1.0-pyhd8ed1ab_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/geojson-3.1.0.dist-info/INSTALLER",
+    "Lib/site-packages/geojson-3.1.0.dist-info/LICENSE.rst",
+    "Lib/site-packages/geojson-3.1.0.dist-info/METADATA",
+    "Lib/site-packages/geojson-3.1.0.dist-info/RECORD",
+    "Lib/site-packages/geojson-3.1.0.dist-info/REQUESTED",
+    "Lib/site-packages/geojson-3.1.0.dist-info/WHEEL",
+    "Lib/site-packages/geojson-3.1.0.dist-info/direct_url.json",
+    "Lib/site-packages/geojson-3.1.0.dist-info/top_level.txt",
+    "Lib/site-packages/geojson/__init__.py",
+    "Lib/site-packages/geojson/_version.py",
+    "Lib/site-packages/geojson/base.py",
+    "Lib/site-packages/geojson/codec.py",
+    "Lib/site-packages/geojson/examples.py",
+    "Lib/site-packages/geojson/factory.py",
+    "Lib/site-packages/geojson/feature.py",
+    "Lib/site-packages/geojson/geometry.py",
+    "Lib/site-packages/geojson/mapping.py",
+    "Lib/site-packages/geojson/utils.py",
+    ".nonadmin",
+    "Lib/site-packages/geojson/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/geojson/__pycache__/_version.cpython-312.pyc",
+    "Lib/site-packages/geojson/__pycache__/base.cpython-312.pyc",
+    "Lib/site-packages/geojson/__pycache__/codec.cpython-312.pyc",
+    "Lib/site-packages/geojson/__pycache__/examples.cpython-312.pyc",
+    "Lib/site-packages/geojson/__pycache__/factory.cpython-312.pyc",
+    "Lib/site-packages/geojson/__pycache__/feature.cpython-312.pyc",
+    "Lib/site-packages/geojson/__pycache__/geometry.cpython-312.pyc",
+    "Lib/site-packages/geojson/__pycache__/mapping.cpython-312.pyc",
+    "Lib/site-packages/geojson/__pycache__/utils.cpython-312.pyc"
+  ],
+  "fn": "geojson-3.1.0-pyhd8ed1ab_0.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "D:\\xxx\\anaconda3\\pkgs\\geojson-3.1.0-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "d2297358b98129ef335c65dfdb67c311",
+  "name": "geojson",
+  "noarch": "python",
+  "package_tarball_full_path": "D:\\xxx\\anaconda3\\pkgs\\geojson-3.1.0-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/geojson-3.1.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/geojson-3.1.0.dist-info/LICENSE.rst",
+        "path_type": "hardlink",
+        "sha256": "fa9dcb6f9f2dc1331ee4f5d552a7d8b2e11dfb41318432452d17f296e3efc0a7",
+        "sha256_in_prefix": "fa9dcb6f9f2dc1331ee4f5d552a7d8b2e11dfb41318432452d17f296e3efc0a7",
+        "size_in_bytes": 1479
+      },
+      {
+        "_path": "site-packages/geojson-3.1.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "cb0159c10f7b70e1f6643bafd50acae2f7590651709c8d1832983c2eb8f93c2c",
+        "sha256_in_prefix": "cb0159c10f7b70e1f6643bafd50acae2f7590651709c8d1832983c2eb8f93c2c",
+        "size_in_bytes": 16478
+      },
+      {
+        "_path": "site-packages/geojson-3.1.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "b44279e2f71e9b65db892c03b8d51e27a83c8ee3128a9dba923197844876ee87",
+        "sha256_in_prefix": "b44279e2f71e9b65db892c03b8d51e27a83c8ee3128a9dba923197844876ee87",
+        "size_in_bytes": 1886
+      },
+      {
+        "_path": "site-packages/geojson-3.1.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/geojson-3.1.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "5e8f7ed4fbe4ba29abc9dba360902317ba4292b8ae5c1a543c48e66b59d9c89d",
+        "sha256_in_prefix": "5e8f7ed4fbe4ba29abc9dba360902317ba4292b8ae5c1a543c48e66b59d9c89d",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/geojson-3.1.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "aaa5f060bff8a9635e248e25560bbda6f320e2463cb1e039142eeac2e2b4dff9",
+        "sha256_in_prefix": "aaa5f060bff8a9635e248e25560bbda6f320e2463cb1e039142eeac2e2b4dff9",
+        "size_in_bytes": 103
+      },
+      {
+        "_path": "site-packages/geojson-3.1.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "64b750c1adafaec2f9f034418c4e2e25fee519dc6dce5a521660ca60cad4140e",
+        "sha256_in_prefix": "64b750c1adafaec2f9f034418c4e2e25fee519dc6dce5a521660ca60cad4140e",
+        "size_in_bytes": 8
+      },
+      {
+        "_path": "site-packages/geojson/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c6f4fe719292705b783d44e87d30f3e82f21e71ba06155476e0a91dfd7588e31",
+        "sha256_in_prefix": "c6f4fe719292705b783d44e87d30f3e82f21e71ba06155476e0a91dfd7588e31",
+        "size_in_bytes": 767
+      },
+      {
+        "_path": "site-packages/geojson/_version.py",
+        "path_type": "hardlink",
+        "sha256": "c24b92e276c5f7966b28ca0f40d9b105b0472c6df3384cd37e37b9c208e517b2",
+        "sha256_in_prefix": "c24b92e276c5f7966b28ca0f40d9b105b0472c6df3384cd37e37b9c208e517b2",
+        "size_in_bytes": 81
+      },
+      {
+        "_path": "site-packages/geojson/base.py",
+        "path_type": "hardlink",
+        "sha256": "7d7ca7ab94089dc44fe49eeb387393f6766eb86a46a11f073892ea8e91026aed",
+        "sha256_in_prefix": "7d7ca7ab94089dc44fe49eeb387393f6766eb86a46a11f073892ea8e91026aed",
+        "size_in_bytes": 4505
+      },
+      {
+        "_path": "site-packages/geojson/codec.py",
+        "path_type": "hardlink",
+        "sha256": "e1c91108afd4199e8bd373db9b7dfcc6fec949a30805e2bffc3f723016068282",
+        "sha256_in_prefix": "e1c91108afd4199e8bd373db9b7dfcc6fec949a30805e2bffc3f723016068282",
+        "size_in_bytes": 1657
+      },
+      {
+        "_path": "site-packages/geojson/examples.py",
+        "path_type": "hardlink",
+        "sha256": "4e5a21eb407a586eef404b155d7fc748dd391d43c2d30d95bb116539556beae2",
+        "sha256_in_prefix": "4e5a21eb407a586eef404b155d7fc748dd391d43c2d30d95bb116539556beae2",
+        "size_in_bytes": 2059
+      },
+      {
+        "_path": "site-packages/geojson/factory.py",
+        "path_type": "hardlink",
+        "sha256": "99153b9c6bffd7db98e5f215633f6a2c12b73aa4ffc54ff3e6b429999c3bcf75",
+        "sha256_in_prefix": "99153b9c6bffd7db98e5f215633f6a2c12b73aa4ffc54ff3e6b429999c3bcf75",
+        "size_in_bytes": 461
+      },
+      {
+        "_path": "site-packages/geojson/feature.py",
+        "path_type": "hardlink",
+        "sha256": "c6395620ea9d9a6e0ac11ba5e2f3d4d5b6ab4cc646371990850f38301c60d635",
+        "sha256_in_prefix": "c6395620ea9d9a6e0ac11ba5e2f3d4d5b6ab4cc646371990850f38301c60d635",
+        "size_in_bytes": 1749
+      },
+      {
+        "_path": "site-packages/geojson/geometry.py",
+        "path_type": "hardlink",
+        "sha256": "abb824359a2f653f2d480b9fd875e1ad993cb902392ff35b64938b4b4d6b9fb5",
+        "sha256_in_prefix": "abb824359a2f653f2d480b9fd875e1ad993cb902392ff35b64938b4b4d6b9fb5",
+        "size_in_bytes": 4355
+      },
+      {
+        "_path": "site-packages/geojson/mapping.py",
+        "path_type": "hardlink",
+        "sha256": "47c8bb9ffa5188b05be126c8696f0d085aa3668ab05e6e13616a27db9a57216b",
+        "sha256_in_prefix": "47c8bb9ffa5188b05be126c8696f0d085aa3668ab05e6e13616a27db9a57216b",
+        "size_in_bytes": 740
+      },
+      {
+        "_path": "site-packages/geojson/utils.py",
+        "path_type": "hardlink",
+        "sha256": "b122a312b5282b6369f1e48d244760eeeb9c88b8709aa93d2588abb8c7c9b3e6",
+        "sha256_in_prefix": "b122a312b5282b6369f1e48d244760eeeb9c88b8709aa93d2588abb8c7c9b3e6",
+        "size_in_bytes": 7476
+      },
+      {
+        "_path": "Lib/site-packages/geojson/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/geojson/__pycache__/_version.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/geojson/__pycache__/base.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/geojson/__pycache__/codec.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/geojson/__pycache__/examples.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/geojson/__pycache__/factory.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/geojson/__pycache__/feature.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/geojson/__pycache__/geometry.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/geojson/__pycache__/mapping.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/geojson/__pycache__/utils.cpython-312.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "35dc57108acd1cb5e355d49b5ef2149508f6836445935548c3015eaa131fb16d",
+  "size": 18973,
+  "subdir": "noarch",
+  "timestamp": 1699269646000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/geojson-3.1.0-pyhd8ed1ab_0.conda",
+  "version": "3.1.0"
+}

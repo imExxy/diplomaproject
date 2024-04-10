@@ -1,0 +1,12 @@
+prefix=D:/xxx/Documents/geeproject/condaenv/Library
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: harfbuzz-cairo
+Description: HarfBuzz cairo support
+Version: 8.3.0
+Requires: harfbuzz =  8.3.0
+Requires.private: freetype2, glib-2.0, graphite2, cairo
+Libs: -L${libdir} -lharfbuzz-cairo
+Libs.private: -L${libdir} -lharfbuzz -lusp10 -lgdi32 -lrpcrt4
+Cflags: -I${includedir}/harfbuzz

@@ -1,0 +1,653 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "requests",
+    "click",
+    "werkzeug",
+    "scooby",
+    "rio-cogeo",
+    "flask-cors",
+    "flask-caching",
+    "rio-tiler",
+    "server-thread",
+    "python >=3.7",
+    "flask-restx >=0.5.0",
+    "flask >=2.0.0,<3"
+  ],
+  "extracted_package_dir": "D:\\xxx\\anaconda3\\pkgs\\localtileserver-0.10.1-pyhd8ed1ab_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/localtileserver-0.10.1.dist-info/INSTALLER",
+    "Lib/site-packages/localtileserver-0.10.1.dist-info/LICENSE",
+    "Lib/site-packages/localtileserver-0.10.1.dist-info/METADATA",
+    "Lib/site-packages/localtileserver-0.10.1.dist-info/RECORD",
+    "Lib/site-packages/localtileserver-0.10.1.dist-info/REQUESTED",
+    "Lib/site-packages/localtileserver-0.10.1.dist-info/WHEEL",
+    "Lib/site-packages/localtileserver-0.10.1.dist-info/direct_url.json",
+    "Lib/site-packages/localtileserver-0.10.1.dist-info/entry_points.txt",
+    "Lib/site-packages/localtileserver-0.10.1.dist-info/top_level.txt",
+    "Lib/site-packages/localtileserver/__init__.py",
+    "Lib/site-packages/localtileserver/__main__.py",
+    "Lib/site-packages/localtileserver/_version.py",
+    "Lib/site-packages/localtileserver/client.py",
+    "Lib/site-packages/localtileserver/configure.py",
+    "Lib/site-packages/localtileserver/examples.py",
+    "Lib/site-packages/localtileserver/helpers.py",
+    "Lib/site-packages/localtileserver/manager.py",
+    "Lib/site-packages/localtileserver/report.py",
+    "Lib/site-packages/localtileserver/tiler/__init__.py",
+    "Lib/site-packages/localtileserver/tiler/data/.gitignore",
+    "Lib/site-packages/localtileserver/tiler/data/__init__.py",
+    "Lib/site-packages/localtileserver/tiler/data/aws_elevation_tiles_prod.xml",
+    "Lib/site-packages/localtileserver/tiler/data/bahamas_rgb.tif",
+    "Lib/site-packages/localtileserver/tiler/data/co_elevation_roi.tif",
+    "Lib/site-packages/localtileserver/tiler/data/frmt_wms_arcgis_mapserver_tms.xml",
+    "Lib/site-packages/localtileserver/tiler/data/frmt_wms_bluemarble_s3_tms.xml",
+    "Lib/site-packages/localtileserver/tiler/data/frmt_wms_virtualearth.xml",
+    "Lib/site-packages/localtileserver/tiler/data/landsat.tif",
+    "Lib/site-packages/localtileserver/tiler/data/landsat7.tif",
+    "Lib/site-packages/localtileserver/tiler/data/presidio.wkb",
+    "Lib/site-packages/localtileserver/tiler/handler.py",
+    "Lib/site-packages/localtileserver/tiler/palettes.py",
+    "Lib/site-packages/localtileserver/tiler/utilities.py",
+    "Lib/site-packages/localtileserver/utilities.py",
+    "Lib/site-packages/localtileserver/validate.py",
+    "Lib/site-packages/localtileserver/web/__init__.py",
+    "Lib/site-packages/localtileserver/web/application.py",
+    "Lib/site-packages/localtileserver/web/blueprint.py",
+    "Lib/site-packages/localtileserver/web/rest.py",
+    "Lib/site-packages/localtileserver/web/sentry.py",
+    "Lib/site-packages/localtileserver/web/static/js/cesium.js",
+    "Lib/site-packages/localtileserver/web/static/styles/cesium.css",
+    "Lib/site-packages/localtileserver/web/static/styles/snackbar.css",
+    "Lib/site-packages/localtileserver/web/static/styles/style.css",
+    "Lib/site-packages/localtileserver/web/templates/tileserver/404file.html",
+    "Lib/site-packages/localtileserver/web/templates/tileserver/_include/cesium.html",
+    "Lib/site-packages/localtileserver/web/templates/tileserver/_include/examples.html",
+    "Lib/site-packages/localtileserver/web/templates/tileserver/_include/palettes.html",
+    "Lib/site-packages/localtileserver/web/templates/tileserver/base.html",
+    "Lib/site-packages/localtileserver/web/templates/tileserver/baseTileViewer.html",
+    "Lib/site-packages/localtileserver/web/templates/tileserver/cesiumSplitViewer.html",
+    "Lib/site-packages/localtileserver/web/templates/tileserver/cesiumViewer.html",
+    "Lib/site-packages/localtileserver/web/templates/tileserver/splitForm.html",
+    "Lib/site-packages/localtileserver/web/urls.py",
+    "Lib/site-packages/localtileserver/web/utils.py",
+    "Lib/site-packages/localtileserver/web/views.py",
+    "Lib/site-packages/localtileserver/web/wsgi.py",
+    "Lib/site-packages/localtileserver/widgets.py",
+    ".nonadmin",
+    "Lib/site-packages/localtileserver/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/localtileserver/__pycache__/__main__.cpython-312.pyc",
+    "Lib/site-packages/localtileserver/__pycache__/_version.cpython-312.pyc",
+    "Lib/site-packages/localtileserver/__pycache__/client.cpython-312.pyc",
+    "Lib/site-packages/localtileserver/__pycache__/configure.cpython-312.pyc",
+    "Lib/site-packages/localtileserver/__pycache__/examples.cpython-312.pyc",
+    "Lib/site-packages/localtileserver/__pycache__/helpers.cpython-312.pyc",
+    "Lib/site-packages/localtileserver/__pycache__/manager.cpython-312.pyc",
+    "Lib/site-packages/localtileserver/__pycache__/report.cpython-312.pyc",
+    "Lib/site-packages/localtileserver/tiler/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/localtileserver/tiler/data/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/localtileserver/tiler/__pycache__/handler.cpython-312.pyc",
+    "Lib/site-packages/localtileserver/tiler/__pycache__/palettes.cpython-312.pyc",
+    "Lib/site-packages/localtileserver/tiler/__pycache__/utilities.cpython-312.pyc",
+    "Lib/site-packages/localtileserver/__pycache__/utilities.cpython-312.pyc",
+    "Lib/site-packages/localtileserver/__pycache__/validate.cpython-312.pyc",
+    "Lib/site-packages/localtileserver/web/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/localtileserver/web/__pycache__/application.cpython-312.pyc",
+    "Lib/site-packages/localtileserver/web/__pycache__/blueprint.cpython-312.pyc",
+    "Lib/site-packages/localtileserver/web/__pycache__/rest.cpython-312.pyc",
+    "Lib/site-packages/localtileserver/web/__pycache__/sentry.cpython-312.pyc",
+    "Lib/site-packages/localtileserver/web/__pycache__/urls.cpython-312.pyc",
+    "Lib/site-packages/localtileserver/web/__pycache__/utils.cpython-312.pyc",
+    "Lib/site-packages/localtileserver/web/__pycache__/views.cpython-312.pyc",
+    "Lib/site-packages/localtileserver/web/__pycache__/wsgi.cpython-312.pyc",
+    "Lib/site-packages/localtileserver/__pycache__/widgets.cpython-312.pyc",
+    "Scripts/localtileserver-script.py",
+    "Scripts/localtileserver.exe"
+  ],
+  "fn": "localtileserver-0.10.1-pyhd8ed1ab_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "D:\\xxx\\anaconda3\\pkgs\\localtileserver-0.10.1-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "4a71eabe785159f183df909108e80e4e",
+  "name": "localtileserver",
+  "noarch": "python",
+  "package_tarball_full_path": "D:\\xxx\\anaconda3\\pkgs\\localtileserver-0.10.1-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/localtileserver-0.10.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/localtileserver-0.10.1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "0019e318019b793190d7bf617f42a0a2e190ace805abebad85a823862cb8dae3",
+        "sha256_in_prefix": "0019e318019b793190d7bf617f42a0a2e190ace805abebad85a823862cb8dae3",
+        "size_in_bytes": 1075
+      },
+      {
+        "_path": "site-packages/localtileserver-0.10.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "a7dcad5bea39d25f6caa24e50cb5ee2cf228568228ac0c6854ab75cbfb7d5980",
+        "sha256_in_prefix": "a7dcad5bea39d25f6caa24e50cb5ee2cf228568228ac0c6854ab75cbfb7d5980",
+        "size_in_bytes": 5220
+      },
+      {
+        "_path": "site-packages/localtileserver-0.10.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "6fd2f2c94af0c3ee869a9a63531ce95f5807a7bcfb0d49345d916b2993c051d2",
+        "sha256_in_prefix": "6fd2f2c94af0c3ee869a9a63531ce95f5807a7bcfb0d49345d916b2993c051d2",
+        "size_in_bytes": 7179
+      },
+      {
+        "_path": "site-packages/localtileserver-0.10.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/localtileserver-0.10.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "a2241587fe4f9d033413780f762cf4f5608d9b08870cc6867abfde96a0777283",
+        "sha256_in_prefix": "a2241587fe4f9d033413780f762cf4f5608d9b08870cc6867abfde96a0777283",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/localtileserver-0.10.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "86afb596feeadcba0bc69910dba2fb0a2d9a9ef3349ebfd6cf3a0ba82c51df72",
+        "sha256_in_prefix": "86afb596feeadcba0bc69910dba2fb0a2d9a9ef3349ebfd6cf3a0ba82c51df72",
+        "size_in_bytes": 111
+      },
+      {
+        "_path": "site-packages/localtileserver-0.10.1.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "4c35d2fb91d5e4755c5d579b9b881013ef02ef925d1889961df74a98c16cb2dd",
+        "sha256_in_prefix": "4c35d2fb91d5e4755c5d579b9b881013ef02ef925d1889961df74a98c16cb2dd",
+        "size_in_bytes": 69
+      },
+      {
+        "_path": "site-packages/localtileserver-0.10.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "4352de6d05c565c77b7c57374bba99630f0ff7b3612409c7e51b107d57a7b322",
+        "sha256_in_prefix": "4352de6d05c565c77b7c57374bba99630f0ff7b3612409c7e51b107d57a7b322",
+        "size_in_bytes": 16
+      },
+      {
+        "_path": "site-packages/localtileserver/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "979ec988aabc9a6b685e010941de3aeb20ff7f81d29577dd5a2a03c8d86f5e54",
+        "sha256_in_prefix": "979ec988aabc9a6b685e010941de3aeb20ff7f81d29577dd5a2a03c8d86f5e54",
+        "size_in_bytes": 530
+      },
+      {
+        "_path": "site-packages/localtileserver/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "d43ac1f199cf46b5bc88f87937630e3096919ce087307ba8d759fd713796aee2",
+        "sha256_in_prefix": "d43ac1f199cf46b5bc88f87937630e3096919ce087307ba8d759fd713796aee2",
+        "size_in_bytes": 167
+      },
+      {
+        "_path": "site-packages/localtileserver/_version.py",
+        "path_type": "hardlink",
+        "sha256": "652833f8c9d09ba30314ca9ee9ec4e2e94237740f5ba64f1202ffa4183956d9f",
+        "sha256_in_prefix": "652833f8c9d09ba30314ca9ee9ec4e2e94237740f5ba64f1202ffa4183956d9f",
+        "size_in_bytes": 236
+      },
+      {
+        "_path": "site-packages/localtileserver/client.py",
+        "path_type": "hardlink",
+        "sha256": "b1f1829dc63dcd1f8000acedc8ac2295c71a56a4b98d04f5c5cf8ee758c32ab1",
+        "sha256_in_prefix": "b1f1829dc63dcd1f8000acedc8ac2295c71a56a4b98d04f5c5cf8ee758c32ab1",
+        "size_in_bytes": 18396
+      },
+      {
+        "_path": "site-packages/localtileserver/configure.py",
+        "path_type": "hardlink",
+        "sha256": "8dc4aa4c7b4535d5b41b0658fd60098c572a745b1ce55e23bf62533481020c6f",
+        "sha256_in_prefix": "8dc4aa4c7b4535d5b41b0658fd60098c572a745b1ce55e23bf62533481020c6f",
+        "size_in_bytes": 766
+      },
+      {
+        "_path": "site-packages/localtileserver/examples.py",
+        "path_type": "hardlink",
+        "sha256": "83027f0c57c4b50c4070f0926651134b21b0eb6532480fdfb635e1f94673b772",
+        "sha256_in_prefix": "83027f0c57c4b50c4070f0926651134b21b0eb6532480fdfb635e1f94673b772",
+        "size_in_bytes": 2570
+      },
+      {
+        "_path": "site-packages/localtileserver/helpers.py",
+        "path_type": "hardlink",
+        "sha256": "ba277905fdb04dab816a13901180318e53964f04b0032a0cdeaf07b00be9abc5",
+        "sha256_in_prefix": "ba277905fdb04dab816a13901180318e53964f04b0032a0cdeaf07b00be9abc5",
+        "size_in_bytes": 6977
+      },
+      {
+        "_path": "site-packages/localtileserver/manager.py",
+        "path_type": "hardlink",
+        "sha256": "ae2f38fca16fb0ddc7a1ea770d66665cd26db048a69fe06f0ca42c7f88894e37",
+        "sha256_in_prefix": "ae2f38fca16fb0ddc7a1ea770d66665cd26db048a69fe06f0ca42c7f88894e37",
+        "size_in_bytes": 424
+      },
+      {
+        "_path": "site-packages/localtileserver/report.py",
+        "path_type": "hardlink",
+        "sha256": "e1c6e41c36412d00b11cd9ca1492911b75131b8cb47804baf269b64513ecbc76",
+        "sha256_in_prefix": "e1c6e41c36412d00b11cd9ca1492911b75131b8cb47804baf269b64513ecbc76",
+        "size_in_bytes": 1275
+      },
+      {
+        "_path": "site-packages/localtileserver/tiler/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "a1d1348d16cec8623b051f9bee9c81a06b684896c36739a1c5a724133294f454",
+        "sha256_in_prefix": "a1d1348d16cec8623b051f9bee9c81a06b684896c36739a1c5a724133294f454",
+        "size_in_bytes": 605
+      },
+      {
+        "_path": "site-packages/localtileserver/tiler/data/.gitignore",
+        "path_type": "hardlink",
+        "sha256": "5d63875b4829519ee39deb1f8cd694a014c84537585342f39cdb8e0b50391e1d",
+        "sha256_in_prefix": "5d63875b4829519ee39deb1f8cd694a014c84537585342f39cdb8e0b50391e1d",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "site-packages/localtileserver/tiler/data/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d323f2f056096b0a45fd872ce2de06d842c16ea2721a78b8e43823ae5123383d",
+        "sha256_in_prefix": "d323f2f056096b0a45fd872ce2de06d842c16ea2721a78b8e43823ae5123383d",
+        "size_in_bytes": 1412
+      },
+      {
+        "_path": "site-packages/localtileserver/tiler/data/aws_elevation_tiles_prod.xml",
+        "path_type": "hardlink",
+        "sha256": "27dddafbb4eecda997fecb10bd7222478e69f94ce258719ecb515b0761182f80",
+        "sha256_in_prefix": "27dddafbb4eecda997fecb10bd7222478e69f94ce258719ecb515b0761182f80",
+        "size_in_bytes": 695
+      },
+      {
+        "_path": "site-packages/localtileserver/tiler/data/bahamas_rgb.tif",
+        "path_type": "hardlink",
+        "sha256": "0191f0546a235c0798839c6ebd5bd0458fc3a4ed1f8bfde0aae7d7df4011cc09",
+        "sha256_in_prefix": "0191f0546a235c0798839c6ebd5bd0458fc3a4ed1f8bfde0aae7d7df4011cc09",
+        "size_in_bytes": 1034349
+      },
+      {
+        "_path": "site-packages/localtileserver/tiler/data/co_elevation_roi.tif",
+        "path_type": "hardlink",
+        "sha256": "351697f701ff7bb62c294bbf1240d2236116c51405df12f1d1814aab96a06404",
+        "sha256_in_prefix": "351697f701ff7bb62c294bbf1240d2236116c51405df12f1d1814aab96a06404",
+        "size_in_bytes": 3444299
+      },
+      {
+        "_path": "site-packages/localtileserver/tiler/data/frmt_wms_arcgis_mapserver_tms.xml",
+        "path_type": "hardlink",
+        "sha256": "0975d52249605ed1ab5b2bc46fb321574527e1f330613955ef4493ac10b465c9",
+        "sha256_in_prefix": "0975d52249605ed1ab5b2bc46fb321574527e1f330613955ef4493ac10b465c9",
+        "size_in_bytes": 743
+      },
+      {
+        "_path": "site-packages/localtileserver/tiler/data/frmt_wms_bluemarble_s3_tms.xml",
+        "path_type": "hardlink",
+        "sha256": "bb33271ae17ff535cc5a5fccc861121660bc15f486498c866eb7dab6bc1745fa",
+        "sha256_in_prefix": "bb33271ae17ff535cc5a5fccc861121660bc15f486498c866eb7dab6bc1745fa",
+        "size_in_bytes": 617
+      },
+      {
+        "_path": "site-packages/localtileserver/tiler/data/frmt_wms_virtualearth.xml",
+        "path_type": "hardlink",
+        "sha256": "a9b6dbad096d7f8ee7048c5024166e7bd47aafdff0f3ed861b4bd06f4ca6f2a9",
+        "sha256_in_prefix": "a9b6dbad096d7f8ee7048c5024166e7bd47aafdff0f3ed861b4bd06f4ca6f2a9",
+        "size_in_bytes": 222
+      },
+      {
+        "_path": "site-packages/localtileserver/tiler/data/landsat.tif",
+        "path_type": "hardlink",
+        "sha256": "a975165abd0f643e7865b2ba9f19d02eb8eb57a274cdcd4bdacca30107c81b66",
+        "sha256_in_prefix": "a975165abd0f643e7865b2ba9f19d02eb8eb57a274cdcd4bdacca30107c81b66",
+        "size_in_bytes": 7859202
+      },
+      {
+        "_path": "site-packages/localtileserver/tiler/data/landsat7.tif",
+        "path_type": "hardlink",
+        "sha256": "73b5fc45f60c2ee7d4054b9b5d371857b976570bc968f1747911a4f829599469",
+        "sha256_in_prefix": "73b5fc45f60c2ee7d4054b9b5d371857b976570bc968f1747911a4f829599469",
+        "size_in_bytes": 4872764
+      },
+      {
+        "_path": "site-packages/localtileserver/tiler/data/presidio.wkb",
+        "path_type": "hardlink",
+        "sha256": "33910cbebb2a812a9a812408a5b30854c2885e1468f2346f5187bdf0a6b750a5",
+        "sha256_in_prefix": "33910cbebb2a812a9a812408a5b30854c2885e1468f2346f5187bdf0a6b750a5",
+        "size_in_bytes": 17286
+      },
+      {
+        "_path": "site-packages/localtileserver/tiler/handler.py",
+        "path_type": "hardlink",
+        "sha256": "a3ed1eb7c58a8f1f3919cd46788145fd853202c7f15f5d80a1439ff564d131fb",
+        "sha256_in_prefix": "a3ed1eb7c58a8f1f3919cd46788145fd853202c7f15f5d80a1439ff564d131fb",
+        "size_in_bytes": 8192
+      },
+      {
+        "_path": "site-packages/localtileserver/tiler/palettes.py",
+        "path_type": "hardlink",
+        "sha256": "5afd1601975161501c7c8ee6bbfb5118247599b30a073e6e74ade40e326ffda8",
+        "sha256_in_prefix": "5afd1601975161501c7c8ee6bbfb5118247599b30a073e6e74ade40e326ffda8",
+        "size_in_bytes": 1028
+      },
+      {
+        "_path": "site-packages/localtileserver/tiler/utilities.py",
+        "path_type": "hardlink",
+        "sha256": "67d648b0e6844858ffbff4e2873ae2a99707ecb549877eb77eae2eae673b27c3",
+        "sha256_in_prefix": "67d648b0e6844858ffbff4e2873ae2a99707ecb549877eb77eae2eae673b27c3",
+        "size_in_bytes": 3475
+      },
+      {
+        "_path": "site-packages/localtileserver/utilities.py",
+        "path_type": "hardlink",
+        "sha256": "1c44bf914b8de2a9f15ebbbc4822497cfac1bd5cadfaf1025504dc88f263b63d",
+        "sha256_in_prefix": "1c44bf914b8de2a9f15ebbbc4822497cfac1bd5cadfaf1025504dc88f263b63d",
+        "size_in_bytes": 858
+      },
+      {
+        "_path": "site-packages/localtileserver/validate.py",
+        "path_type": "hardlink",
+        "sha256": "45813d73aa2dd2500e574434d703712d51ba2bab0ec1d15acfe1c14c5a1abb8d",
+        "sha256_in_prefix": "45813d73aa2dd2500e574434d703712d51ba2bab0ec1d15acfe1c14c5a1abb8d",
+        "size_in_bytes": 573
+      },
+      {
+        "_path": "site-packages/localtileserver/web/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "f01a31dcc871e4ceda455d3658962608814a57129669c5d8f09692aebddc15cb",
+        "sha256_in_prefix": "f01a31dcc871e4ceda455d3658962608814a57129669c5d8f09692aebddc15cb",
+        "size_in_bytes": 195
+      },
+      {
+        "_path": "site-packages/localtileserver/web/application.py",
+        "path_type": "hardlink",
+        "sha256": "c74dc0350eb49672ffad35767004b90ca1f8f03d7159ecda9040f790c5776945",
+        "sha256_in_prefix": "c74dc0350eb49672ffad35767004b90ca1f8f03d7159ecda9040f790c5776945",
+        "size_in_bytes": 2582
+      },
+      {
+        "_path": "site-packages/localtileserver/web/blueprint.py",
+        "path_type": "hardlink",
+        "sha256": "a16eab7cbe86f429b5881332eaa0fafacf213d1a9357d5b154cd2b4fee74c233",
+        "sha256_in_prefix": "a16eab7cbe86f429b5881332eaa0fafacf213d1a9357d5b154cd2b4fee74c233",
+        "size_in_bytes": 763
+      },
+      {
+        "_path": "site-packages/localtileserver/web/rest.py",
+        "path_type": "hardlink",
+        "sha256": "f37ede12aef4cdb241b8382b4cb34d461388d6a92554f652b3177303f4a4a71f",
+        "sha256_in_prefix": "f37ede12aef4cdb241b8382b4cb34d461388d6a92554f652b3177303f4a4a71f",
+        "size_in_bytes": 5558
+      },
+      {
+        "_path": "site-packages/localtileserver/web/sentry.py",
+        "path_type": "hardlink",
+        "sha256": "edef1e51d25a1f8104ac6bf04d2326bec1684a8c1d19dc0461e7e4f4a917e3b9",
+        "sha256_in_prefix": "edef1e51d25a1f8104ac6bf04d2326bec1684a8c1d19dc0461e7e4f4a917e3b9",
+        "size_in_bytes": 554
+      },
+      {
+        "_path": "site-packages/localtileserver/web/static/js/cesium.js",
+        "path_type": "hardlink",
+        "sha256": "edcbb687ea1a3b5396ad9afc83cca84afe12278be7c20ea9452d7d6ffce028a7",
+        "sha256_in_prefix": "edcbb687ea1a3b5396ad9afc83cca84afe12278be7c20ea9452d7d6ffce028a7",
+        "size_in_bytes": 5685
+      },
+      {
+        "_path": "site-packages/localtileserver/web/static/styles/cesium.css",
+        "path_type": "hardlink",
+        "sha256": "4bb7acac2fd7eb43857c35999ba03e21a71389e85f25cec755dd0f8bdbeaab6f",
+        "sha256_in_prefix": "4bb7acac2fd7eb43857c35999ba03e21a71389e85f25cec755dd0f8bdbeaab6f",
+        "size_in_bytes": 377
+      },
+      {
+        "_path": "site-packages/localtileserver/web/static/styles/snackbar.css",
+        "path_type": "hardlink",
+        "sha256": "898a0af3acfadc2cd64ebac5b2c84d3dbdcc23e7738be98fe112efbbcbdcfe6a",
+        "sha256_in_prefix": "898a0af3acfadc2cd64ebac5b2c84d3dbdcc23e7738be98fe112efbbcbdcfe6a",
+        "size_in_bytes": 1574
+      },
+      {
+        "_path": "site-packages/localtileserver/web/static/styles/style.css",
+        "path_type": "hardlink",
+        "sha256": "ff11b7e65930a9ac2ae239ff970d3e00c1a919330decac9fbd1c0b884196169b",
+        "sha256_in_prefix": "ff11b7e65930a9ac2ae239ff970d3e00c1a919330decac9fbd1c0b884196169b",
+        "size_in_bytes": 1269
+      },
+      {
+        "_path": "site-packages/localtileserver/web/templates/tileserver/404file.html",
+        "path_type": "hardlink",
+        "sha256": "4411f100936733750bd408458388dbd026cd7623971cb740194a0fe417f4e4c4",
+        "sha256_in_prefix": "4411f100936733750bd408458388dbd026cd7623971cb740194a0fe417f4e4c4",
+        "size_in_bytes": 352
+      },
+      {
+        "_path": "site-packages/localtileserver/web/templates/tileserver/_include/cesium.html",
+        "path_type": "hardlink",
+        "sha256": "511bff7d522609c9a09fa8082f36530f45911f670f9711eec23c74c24830aad1",
+        "sha256_in_prefix": "511bff7d522609c9a09fa8082f36530f45911f670f9711eec23c74c24830aad1",
+        "size_in_bytes": 902
+      },
+      {
+        "_path": "site-packages/localtileserver/web/templates/tileserver/_include/examples.html",
+        "path_type": "hardlink",
+        "sha256": "84d890bb5964a2f04630590facd6b66be8f9981ef45916fa43c2a9f0942448b5",
+        "sha256_in_prefix": "84d890bb5964a2f04630590facd6b66be8f9981ef45916fa43c2a9f0942448b5",
+        "size_in_bytes": 914
+      },
+      {
+        "_path": "site-packages/localtileserver/web/templates/tileserver/_include/palettes.html",
+        "path_type": "hardlink",
+        "sha256": "fe001c0a680cc65b36baba765d2b23995007738649efb61ce0730c2d39a6b59a",
+        "sha256_in_prefix": "fe001c0a680cc65b36baba765d2b23995007738649efb61ce0730c2d39a6b59a",
+        "size_in_bytes": 3910
+      },
+      {
+        "_path": "site-packages/localtileserver/web/templates/tileserver/base.html",
+        "path_type": "hardlink",
+        "sha256": "ad08037eb89be38dec722b625bc3b087f60556e596a7d84f42c57d176b84687a",
+        "sha256_in_prefix": "ad08037eb89be38dec722b625bc3b087f60556e596a7d84f42c57d176b84687a",
+        "size_in_bytes": 6354
+      },
+      {
+        "_path": "site-packages/localtileserver/web/templates/tileserver/baseTileViewer.html",
+        "path_type": "hardlink",
+        "sha256": "c46d6e7e8fd6b891cbc725b8d4a2b68ac3de96d29420816e02d5aa3eef81d55e",
+        "sha256_in_prefix": "c46d6e7e8fd6b891cbc725b8d4a2b68ac3de96d29420816e02d5aa3eef81d55e",
+        "size_in_bytes": 1556
+      },
+      {
+        "_path": "site-packages/localtileserver/web/templates/tileserver/cesiumSplitViewer.html",
+        "path_type": "hardlink",
+        "sha256": "58f4d2efcdd420cc57ae8f4ddcd611e31c640d9a2f232845cb14c26fe15bac2c",
+        "sha256_in_prefix": "58f4d2efcdd420cc57ae8f4ddcd611e31c640d9a2f232845cb14c26fe15bac2c",
+        "size_in_bytes": 3909
+      },
+      {
+        "_path": "site-packages/localtileserver/web/templates/tileserver/cesiumViewer.html",
+        "path_type": "hardlink",
+        "sha256": "9244ad3e1288093bc0ce74c866a8278500a7480a02a05322135e7425887ee056",
+        "sha256_in_prefix": "9244ad3e1288093bc0ce74c866a8278500a7480a02a05322135e7425887ee056",
+        "size_in_bytes": 1424
+      },
+      {
+        "_path": "site-packages/localtileserver/web/templates/tileserver/splitForm.html",
+        "path_type": "hardlink",
+        "sha256": "b39efdc4337a0fde7e634b3d5e2301194dbafc3697f4aea5248c244bca94dbec",
+        "sha256_in_prefix": "b39efdc4337a0fde7e634b3d5e2301194dbafc3697f4aea5248c244bca94dbec",
+        "size_in_bytes": 375
+      },
+      {
+        "_path": "site-packages/localtileserver/web/urls.py",
+        "path_type": "hardlink",
+        "sha256": "9a71d572a5c673f9667df2b05a1f900b4fe0b413b7b0f847b92b2b33aaa1b747",
+        "sha256_in_prefix": "9a71d572a5c673f9667df2b05a1f900b4fe0b413b7b0f847b92b2b33aaa1b747",
+        "size_in_bytes": 972
+      },
+      {
+        "_path": "site-packages/localtileserver/web/utils.py",
+        "path_type": "hardlink",
+        "sha256": "9a7cee21539ec5e90be3ceec2838dfe1252ded77e373c6b029b25218f7f9d7df",
+        "sha256_in_prefix": "9a7cee21539ec5e90be3ceec2838dfe1252ded77e373c6b029b25218f7f9d7df",
+        "size_in_bytes": 1303
+      },
+      {
+        "_path": "site-packages/localtileserver/web/views.py",
+        "path_type": "hardlink",
+        "sha256": "75ffd50ced63f8c6d86addcb9840930eee84df57bc77e483fa48674866dbf72a",
+        "sha256_in_prefix": "75ffd50ced63f8c6d86addcb9840930eee84df57bc77e483fa48674866dbf72a",
+        "size_in_bytes": 3210
+      },
+      {
+        "_path": "site-packages/localtileserver/web/wsgi.py",
+        "path_type": "hardlink",
+        "sha256": "eb3b164ae63892a2bc631021adec78795183f8b9af1843d12614a27f80bfdc23",
+        "sha256_in_prefix": "eb3b164ae63892a2bc631021adec78795183f8b9af1843d12614a27f80bfdc23",
+        "size_in_bytes": 243
+      },
+      {
+        "_path": "site-packages/localtileserver/widgets.py",
+        "path_type": "hardlink",
+        "sha256": "3e8adcc948c3fd0209bed91440c7c0afaab17f8a38fc5c757f2e040a83b59868",
+        "sha256_in_prefix": "3e8adcc948c3fd0209bed91440c7c0afaab17f8a38fc5c757f2e040a83b59868",
+        "size_in_bytes": 7704
+      },
+      {
+        "_path": "Lib/site-packages/localtileserver/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/localtileserver/__pycache__/__main__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/localtileserver/__pycache__/_version.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/localtileserver/__pycache__/client.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/localtileserver/__pycache__/configure.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/localtileserver/__pycache__/examples.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/localtileserver/__pycache__/helpers.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/localtileserver/__pycache__/manager.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/localtileserver/__pycache__/report.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/localtileserver/tiler/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/localtileserver/tiler/data/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/localtileserver/tiler/__pycache__/handler.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/localtileserver/tiler/__pycache__/palettes.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/localtileserver/tiler/__pycache__/utilities.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/localtileserver/__pycache__/utilities.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/localtileserver/__pycache__/validate.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/localtileserver/web/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/localtileserver/web/__pycache__/application.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/localtileserver/web/__pycache__/blueprint.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/localtileserver/web/__pycache__/rest.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/localtileserver/web/__pycache__/sentry.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/localtileserver/web/__pycache__/urls.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/localtileserver/web/__pycache__/utils.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/localtileserver/web/__pycache__/views.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/localtileserver/web/__pycache__/wsgi.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/localtileserver/__pycache__/widgets.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Scripts/localtileserver-script.py",
+        "path_type": "windows_python_entry_point_script"
+      },
+      {
+        "_path": "Scripts/localtileserver.exe",
+        "path_type": "windows_python_entry_point_exe"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "localtileserver",
+  "sha256": "5474c0290089afa60fc7d4230df9062019738deed95c3df70e679b92617b2340",
+  "size": 17084074,
+  "subdir": "noarch",
+  "timestamp": 1707628026000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/localtileserver-0.10.1-pyhd8ed1ab_0.conda",
+  "version": "0.10.1"
+}

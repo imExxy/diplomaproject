@@ -1,0 +1,262 @@
+{
+  "build": "h5bed578_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "vc >=14.2,<15",
+    "ucrt >=10.0.20348.0",
+    "vc14_runtime >=14.29.30139",
+    "libzlib >=1.2.13,<1.3.0a0",
+    "bzip2 >=1.0.8,<2.0a0",
+    "zstd >=1.5.5,<1.6.0a0",
+    "xz >=5.2.6,<6.0a0"
+  ],
+  "extracted_package_dir": "D:\\xxx\\anaconda3\\pkgs\\minizip-4.0.4-h5bed578_0",
+  "features": "",
+  "files": [
+    "Library/bin/libminizip.dll",
+    "Library/include/minizip/ioapi.h",
+    "Library/include/minizip/mz.h",
+    "Library/include/minizip/mz_compat.h",
+    "Library/include/minizip/mz_crypt.h",
+    "Library/include/minizip/mz_os.h",
+    "Library/include/minizip/mz_strm.h",
+    "Library/include/minizip/mz_strm_buf.h",
+    "Library/include/minizip/mz_strm_bzip.h",
+    "Library/include/minizip/mz_strm_lzma.h",
+    "Library/include/minizip/mz_strm_mem.h",
+    "Library/include/minizip/mz_strm_os.h",
+    "Library/include/minizip/mz_strm_pkcrypt.h",
+    "Library/include/minizip/mz_strm_split.h",
+    "Library/include/minizip/mz_strm_wzaes.h",
+    "Library/include/minizip/mz_strm_zlib.h",
+    "Library/include/minizip/mz_strm_zstd.h",
+    "Library/include/minizip/mz_zip.h",
+    "Library/include/minizip/mz_zip_rw.h",
+    "Library/include/minizip/unzip.h",
+    "Library/include/minizip/zip.h",
+    "Library/lib/cmake/minizip/minizip-config-version.cmake",
+    "Library/lib/cmake/minizip/minizip-config.cmake",
+    "Library/lib/cmake/minizip/minizip-release.cmake",
+    "Library/lib/cmake/minizip/minizip.cmake",
+    "Library/lib/libminizip.lib",
+    "Library/lib/pkgconfig/minizip.pc",
+    ".nonadmin"
+  ],
+  "fn": "minizip-4.0.4-h5bed578_0.conda",
+  "license": "Zlib",
+  "link": {
+    "source": "D:\\xxx\\anaconda3\\pkgs\\minizip-4.0.4-h5bed578_0",
+    "type": 1
+  },
+  "md5": "26363ae28ac1928dcf846b4d68d5f29f",
+  "name": "minizip",
+  "package_tarball_full_path": "D:\\xxx\\anaconda3\\pkgs\\minizip-4.0.4-h5bed578_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/bin/libminizip.dll",
+        "path_type": "hardlink",
+        "sha256": "aed6efdd248159b8ae2f54d8f4d6a8c127767212f0eacb587f7277a04b97ec98",
+        "sha256_in_prefix": "aed6efdd248159b8ae2f54d8f4d6a8c127767212f0eacb587f7277a04b97ec98",
+        "size_in_bytes": 119296
+      },
+      {
+        "_path": "Library/include/minizip/ioapi.h",
+        "path_type": "hardlink",
+        "sha256": "674fe9c7e628298771698363e07d792298083839e638e850cf628db3304f8d72",
+        "sha256_in_prefix": "674fe9c7e628298771698363e07d792298083839e638e850cf628db3304f8d72",
+        "size_in_bytes": 316
+      },
+      {
+        "_path": "Library/include/minizip/mz.h",
+        "path_type": "hardlink",
+        "sha256": "a9caaec46103f5f1e4f6ab946c71c8f7bae5997172c055c973360a85a734b601",
+        "sha256_in_prefix": "a9caaec46103f5f1e4f6ab946c71c8f7bae5997172c055c973360a85a734b601",
+        "size_in_bytes": 7871
+      },
+      {
+        "_path": "Library/include/minizip/mz_compat.h",
+        "path_type": "hardlink",
+        "sha256": "5b92b66f28c548ec3842a55ea159558b220e58072a36605645103b34d17f2099",
+        "sha256_in_prefix": "5b92b66f28c548ec3842a55ea159558b220e58072a36605645103b34d17f2099",
+        "size_in_bytes": 19073
+      },
+      {
+        "_path": "Library/include/minizip/mz_crypt.h",
+        "path_type": "hardlink",
+        "sha256": "5fa4710bc70ec5deccd1b114b665793346ce3617578e72f369e841282c3ac19a",
+        "sha256_in_prefix": "5fa4710bc70ec5deccd1b114b665793346ce3617578e72f369e841282c3ac19a",
+        "size_in_bytes": 2772
+      },
+      {
+        "_path": "Library/include/minizip/mz_os.h",
+        "path_type": "hardlink",
+        "sha256": "f993ae44dccc7f6d9e90939fa3191988c3ac118c3514783d76212c3be4f87b80",
+        "sha256_in_prefix": "f993ae44dccc7f6d9e90939fa3191988c3ac118c3514783d76212c3be4f87b80",
+        "size_in_bytes": 5550
+      },
+      {
+        "_path": "Library/include/minizip/mz_strm.h",
+        "path_type": "hardlink",
+        "sha256": "2cfcc0b2cdd228f5878fc043cd30fbc9098eef0d71d2eb32ce7473c19babe62b",
+        "sha256_in_prefix": "2cfcc0b2cdd228f5878fc043cd30fbc9098eef0d71d2eb32ce7473c19babe62b",
+        "size_in_bytes": 5907
+      },
+      {
+        "_path": "Library/include/minizip/mz_strm_buf.h",
+        "path_type": "hardlink",
+        "sha256": "afd0ce590d1f2534d3382f20519ff8df6172913a37ce05929c5318fa063a1809",
+        "sha256_in_prefix": "afd0ce590d1f2534d3382f20519ff8df6172913a37ce05929c5318fa063a1809",
+        "size_in_bytes": 1309
+      },
+      {
+        "_path": "Library/include/minizip/mz_strm_bzip.h",
+        "path_type": "hardlink",
+        "sha256": "6b0858a20a4666819eaeae850c910908c2ef21b342bde27a7e21c920b7e2b304",
+        "sha256_in_prefix": "6b0858a20a4666819eaeae850c910908c2ef21b342bde27a7e21c920b7e2b304",
+        "size_in_bytes": 1415
+      },
+      {
+        "_path": "Library/include/minizip/mz_strm_lzma.h",
+        "path_type": "hardlink",
+        "sha256": "e47ee0ad3f49fa0a55da1ea5c2a65af359ff28c4c9b05b08ba79b5050ba48af8",
+        "sha256_in_prefix": "e47ee0ad3f49fa0a55da1ea5c2a65af359ff28c4c9b05b08ba79b5050ba48af8",
+        "size_in_bytes": 1374
+      },
+      {
+        "_path": "Library/include/minizip/mz_strm_mem.h",
+        "path_type": "hardlink",
+        "sha256": "652a4d955cf42ad933e3f8bb3f9b6e9608e21310b6801e3a76cfdde9faa02c82",
+        "sha256_in_prefix": "652a4d955cf42ad933e3f8bb3f9b6e9608e21310b6801e3a76cfdde9faa02c82",
+        "size_in_bytes": 1702
+      },
+      {
+        "_path": "Library/include/minizip/mz_strm_os.h",
+        "path_type": "hardlink",
+        "sha256": "c9ae9d4110100ea12c83d20532bb00a82252f71b0242e5f62c114b19c8819d10",
+        "sha256_in_prefix": "c9ae9d4110100ea12c83d20532bb00a82252f71b0242e5f62c114b19c8819d10",
+        "size_in_bytes": 1173
+      },
+      {
+        "_path": "Library/include/minizip/mz_strm_pkcrypt.h",
+        "path_type": "hardlink",
+        "sha256": "057faf040d966664c0cf883714ea5925b783dfb91e58013f9738f769581055fc",
+        "sha256_in_prefix": "057faf040d966664c0cf883714ea5925b783dfb91e58013f9738f769581055fc",
+        "size_in_bytes": 1678
+      },
+      {
+        "_path": "Library/include/minizip/mz_strm_split.h",
+        "path_type": "hardlink",
+        "sha256": "bd879c35a00559baf2bb87e748738a78b71548cd25251f3fb698546cfdf1fe9c",
+        "sha256_in_prefix": "bd879c35a00559baf2bb87e748738a78b71548cd25251f3fb698546cfdf1fe9c",
+        "size_in_bytes": 1381
+      },
+      {
+        "_path": "Library/include/minizip/mz_strm_wzaes.h",
+        "path_type": "hardlink",
+        "sha256": "e8ae1d3b79a7d4ed3fef1f003a2d5a7d5aef69ac2a8aa86760239688cb7405c3",
+        "sha256_in_prefix": "e8ae1d3b79a7d4ed3fef1f003a2d5a7d5aef69ac2a8aa86760239688cb7405c3",
+        "size_in_bytes": 1546
+      },
+      {
+        "_path": "Library/include/minizip/mz_strm_zlib.h",
+        "path_type": "hardlink",
+        "sha256": "732d12ad068cb70c954542d194b7728507a04305de40486ec475f24f1cc727dc",
+        "sha256_in_prefix": "732d12ad068cb70c954542d194b7728507a04305de40486ec475f24f1cc727dc",
+        "size_in_bytes": 1374
+      },
+      {
+        "_path": "Library/include/minizip/mz_strm_zstd.h",
+        "path_type": "hardlink",
+        "sha256": "a3eebcef788409057ae781e51b231516863de01dbb47322b4addd2dcd90d2e79",
+        "sha256_in_prefix": "a3eebcef788409057ae781e51b231516863de01dbb47322b4addd2dcd90d2e79",
+        "size_in_bytes": 1410
+      },
+      {
+        "_path": "Library/include/minizip/mz_zip.h",
+        "path_type": "hardlink",
+        "sha256": "cae83ddc7bc538d0719422a85106511e9cc6c026e311af2c8a94f9abecc44fef",
+        "sha256_in_prefix": "cae83ddc7bc538d0719422a85106511e9cc6c026e311af2c8a94f9abecc44fef",
+        "size_in_bytes": 10967
+      },
+      {
+        "_path": "Library/include/minizip/mz_zip_rw.h",
+        "path_type": "hardlink",
+        "sha256": "1bda5a6f139ad811cdd987563b87abf7b1f64cff736c1b79ae89bc1e5ea741be",
+        "sha256_in_prefix": "1bda5a6f139ad811cdd987563b87abf7b1f64cff736c1b79ae89bc1e5ea741be",
+        "size_in_bytes": 11493
+      },
+      {
+        "_path": "Library/include/minizip/unzip.h",
+        "path_type": "hardlink",
+        "sha256": "5effcfd6a0fb82c8d5657776ab49f1b10c637cf2b75845e6d10cf785881f4818",
+        "sha256_in_prefix": "5effcfd6a0fb82c8d5657776ab49f1b10c637cf2b75845e6d10cf785881f4818",
+        "size_in_bytes": 316
+      },
+      {
+        "_path": "Library/include/minizip/zip.h",
+        "path_type": "hardlink",
+        "sha256": "ebaa0bd71307efcafb2c737c2002633dcaa7b08280fc7a95aae30e9862503991",
+        "sha256_in_prefix": "ebaa0bd71307efcafb2c737c2002633dcaa7b08280fc7a95aae30e9862503991",
+        "size_in_bytes": 310
+      },
+      {
+        "_path": "Library/lib/cmake/minizip/minizip-config-version.cmake",
+        "path_type": "hardlink",
+        "sha256": "9b9d25f6d00012e3376cc656920ecdbd54dd520f4ec149b36bda6ae5ed60b757",
+        "sha256_in_prefix": "9b9d25f6d00012e3376cc656920ecdbd54dd520f4ec149b36bda6ae5ed60b757",
+        "size_in_bytes": 2827
+      },
+      {
+        "_path": "Library/lib/cmake/minizip/minizip-config.cmake",
+        "path_type": "hardlink",
+        "sha256": "1e6f02ca7ed693dd15d70aff7f1206db364f3b0245fb1040548d06a4f8bd00ff",
+        "sha256_in_prefix": "1e6f02ca7ed693dd15d70aff7f1206db364f3b0245fb1040548d06a4f8bd00ff",
+        "size_in_bytes": 1125
+      },
+      {
+        "_path": "Library/lib/cmake/minizip/minizip-release.cmake",
+        "path_type": "hardlink",
+        "sha256": "0e0696274fc3ac4e2312a8459a040932b1aba4e2671d481385866b17a8a3bddb",
+        "sha256_in_prefix": "0e0696274fc3ac4e2312a8459a040932b1aba4e2671d481385866b17a8a3bddb",
+        "size_in_bytes": 932
+      },
+      {
+        "_path": "Library/lib/cmake/minizip/minizip.cmake",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "D:/bld/minizip_1703874670487/_h_env",
+        "sha256": "da3ee08887757e6e8061b43d0e10b4b2be93edf164a0ceaaae0a37a8b6e91bfd",
+        "sha256_in_prefix": "922326ef2cd14e67a66d25c12d62bdb88f802f78ea41ca73d7847705eae3b19a",
+        "size_in_bytes": 4502
+      },
+      {
+        "_path": "Library/lib/libminizip.lib",
+        "path_type": "hardlink",
+        "sha256": "d7fd91e20baa76f0194e3bc5b355c2c54568ac4eac9c412acbf9cc5c5e288cab",
+        "sha256_in_prefix": "d7fd91e20baa76f0194e3bc5b355c2c54568ac4eac9c412acbf9cc5c5e288cab",
+        "size_in_bytes": 106994
+      },
+      {
+        "_path": "Library/lib/pkgconfig/minizip.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "D:/bld/minizip_1703874670487/_h_env",
+        "sha256": "b55be665a95e2ba2707afb78829adb66083264c51a4274328f4b705eb0f38d2a",
+        "sha256_in_prefix": "cc1acae103d883a7ff00eeddda68e686207dd709d9910300b232d64ddd61a325",
+        "size_in_bytes": 506
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "d9073fe4159263314b25f436b99ee0ebedad12fbf518937761089a5ff17259f5",
+  "size": 85593,
+  "subdir": "win-64",
+  "timestamp": 1703875236000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/minizip-4.0.4-h5bed578_0.conda",
+  "version": "4.0.4"
+}

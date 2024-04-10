@@ -1,0 +1,13 @@
+prefix=D:/xxx/Documents/psud/envs/Library
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libarchive
+Description: library that can create and read several streaming archive formats
+Version: 3.7.2
+Cflags: -I${includedir}
+Cflags.private: -DLIBARCHIVE_STATIC
+Libs: -L${libdir} -larchive
+Libs.private:  -lz -lbzip2 -llzma -llz4 -lzstd -loptimized -lcrypto -ldebug -lcrypto64MDd -liconv -lcharset -lxml2 -lssl -lssl64MDd
+Requires.private: 

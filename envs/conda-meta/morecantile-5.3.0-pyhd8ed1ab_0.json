@@ -1,0 +1,340 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "attrs",
+    "python >=3.8",
+    "rasterio >=1.2.1",
+    "pyproj >=3.1,<4.dev0",
+    "pydantic >=2.0,<3.dev0"
+  ],
+  "extracted_package_dir": "D:\\xxx\\anaconda3\\pkgs\\morecantile-5.3.0-pyhd8ed1ab_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/morecantile-5.3.0.dist-info/INSTALLER",
+    "Lib/site-packages/morecantile-5.3.0.dist-info/LICENSE",
+    "Lib/site-packages/morecantile-5.3.0.dist-info/METADATA",
+    "Lib/site-packages/morecantile-5.3.0.dist-info/RECORD",
+    "Lib/site-packages/morecantile-5.3.0.dist-info/REQUESTED",
+    "Lib/site-packages/morecantile-5.3.0.dist-info/WHEEL",
+    "Lib/site-packages/morecantile-5.3.0.dist-info/direct_url.json",
+    "Lib/site-packages/morecantile-5.3.0.dist-info/entry_points.txt",
+    "Lib/site-packages/morecantile/__init__.py",
+    "Lib/site-packages/morecantile/commons.py",
+    "Lib/site-packages/morecantile/data/CDB1GlobalGrid.json",
+    "Lib/site-packages/morecantile/data/CanadianNAD83_LCC.json",
+    "Lib/site-packages/morecantile/data/EuropeanETRS89_LAEAQuad.json",
+    "Lib/site-packages/morecantile/data/GNOSISGlobalGrid.json",
+    "Lib/site-packages/morecantile/data/LINZAntarticaMapTilegrid.json",
+    "Lib/site-packages/morecantile/data/NZTM2000Quad.json",
+    "Lib/site-packages/morecantile/data/README.md",
+    "Lib/site-packages/morecantile/data/UPSAntarcticWGS84Quad.json",
+    "Lib/site-packages/morecantile/data/UPSArcticWGS84Quad.json",
+    "Lib/site-packages/morecantile/data/UTM31WGS84Quad.json",
+    "Lib/site-packages/morecantile/data/WGS1984Quad.json",
+    "Lib/site-packages/morecantile/data/WebMercatorQuad.json",
+    "Lib/site-packages/morecantile/data/WorldCRS84Quad.json",
+    "Lib/site-packages/morecantile/data/WorldMercatorWGS84Quad.json",
+    "Lib/site-packages/morecantile/defaults.py",
+    "Lib/site-packages/morecantile/errors.py",
+    "Lib/site-packages/morecantile/models.py",
+    "Lib/site-packages/morecantile/py.typed",
+    "Lib/site-packages/morecantile/scripts/__init__.py",
+    "Lib/site-packages/morecantile/scripts/cli.py",
+    "Lib/site-packages/morecantile/utils.py",
+    ".nonadmin",
+    "Lib/site-packages/morecantile/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/morecantile/__pycache__/commons.cpython-312.pyc",
+    "Lib/site-packages/morecantile/__pycache__/defaults.cpython-312.pyc",
+    "Lib/site-packages/morecantile/__pycache__/errors.cpython-312.pyc",
+    "Lib/site-packages/morecantile/__pycache__/models.cpython-312.pyc",
+    "Lib/site-packages/morecantile/scripts/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/morecantile/scripts/__pycache__/cli.cpython-312.pyc",
+    "Lib/site-packages/morecantile/__pycache__/utils.cpython-312.pyc",
+    "Scripts/morecantile-script.py",
+    "Scripts/morecantile.exe"
+  ],
+  "fn": "morecantile-5.3.0-pyhd8ed1ab_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "D:\\xxx\\anaconda3\\pkgs\\morecantile-5.3.0-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "b2ef9881dd9d6bf6afdd1f852eb000d2",
+  "name": "morecantile",
+  "noarch": "python",
+  "package_tarball_full_path": "D:\\xxx\\anaconda3\\pkgs\\morecantile-5.3.0-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/morecantile-5.3.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/morecantile-5.3.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "d7c231148b5aeeb17f45c5522202d451dfda9727d0f5b1a864a426e6f39aac65",
+        "sha256_in_prefix": "d7c231148b5aeeb17f45c5522202d451dfda9727d0f5b1a864a426e6f39aac65",
+        "size_in_bytes": 1073
+      },
+      {
+        "_path": "site-packages/morecantile-5.3.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "25fe708bf801f2ae5a15715a49c785610678eae1449fdb491416c2052e946621",
+        "sha256_in_prefix": "25fe708bf801f2ae5a15715a49c785610678eae1449fdb491416c2052e946621",
+        "size_in_bytes": 6890
+      },
+      {
+        "_path": "site-packages/morecantile-5.3.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "c5450c42606eaa631ab6de5e696d53b5a4ef4335318956a6f8a48f19142f7bba",
+        "sha256_in_prefix": "c5450c42606eaa631ab6de5e696d53b5a4ef4335318956a6f8a48f19142f7bba",
+        "size_in_bytes": 3268
+      },
+      {
+        "_path": "site-packages/morecantile-5.3.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/morecantile-5.3.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "1196c6921ec87b83e865f450f08d19b8ff5592537f4ef719e83484e546abe33e",
+        "sha256_in_prefix": "1196c6921ec87b83e865f450f08d19b8ff5592537f4ef719e83484e546abe33e",
+        "size_in_bytes": 81
+      },
+      {
+        "_path": "site-packages/morecantile-5.3.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "b6f2cb8df2e16f3d53232e0651ca312726ff27e78bb52f52d9c94dbbd0d925f5",
+        "sha256_in_prefix": "b6f2cb8df2e16f3d53232e0651ca312726ff27e78bb52f52d9c94dbbd0d925f5",
+        "size_in_bytes": 107
+      },
+      {
+        "_path": "site-packages/morecantile-5.3.0.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "91ea17b988275fe99dac65b05c81ea1244998d02bf8809ad99daed677b024f6e",
+        "sha256_in_prefix": "91ea17b988275fe99dac65b05c81ea1244998d02bf8809ad99daed677b024f6e",
+        "size_in_bytes": 59
+      },
+      {
+        "_path": "site-packages/morecantile/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "5ca664b7466d6731a1fb96d6ca9caf50336c7ac5ca58652cf9acd14409f535f1",
+        "sha256_in_prefix": "5ca664b7466d6731a1fb96d6ca9caf50336c7ac5ca58652cf9acd14409f535f1",
+        "size_in_bytes": 436
+      },
+      {
+        "_path": "site-packages/morecantile/commons.py",
+        "path_type": "hardlink",
+        "sha256": "9ce8f97f92b911b0d9882d104cad9fd78329933e98219c8269a508d12f5a588c",
+        "sha256_in_prefix": "9ce8f97f92b911b0d9882d104cad9fd78329933e98219c8269a508d12f5a588c",
+        "size_in_bytes": 1015
+      },
+      {
+        "_path": "site-packages/morecantile/data/CDB1GlobalGrid.json",
+        "path_type": "hardlink",
+        "sha256": "543736ba4016b5341e09d386f1832ab063be0fb792cd208dd5311a067daa2d92",
+        "sha256_in_prefix": "543736ba4016b5341e09d386f1832ab063be0fb792cd208dd5311a067daa2d92",
+        "size_in_bytes": 36115
+      },
+      {
+        "_path": "site-packages/morecantile/data/CanadianNAD83_LCC.json",
+        "path_type": "hardlink",
+        "sha256": "46e47dcf9323c4acd4e0a13e0aeb6bce3a56073f5cf975f290a031703f37bde5",
+        "sha256_in_prefix": "46e47dcf9323c4acd4e0a13e0aeb6bce3a56073f5cf975f290a031703f37bde5",
+        "size_in_bytes": 7267
+      },
+      {
+        "_path": "site-packages/morecantile/data/EuropeanETRS89_LAEAQuad.json",
+        "path_type": "hardlink",
+        "sha256": "a51d90ede0252d11bbe1245dcd88578f5f5b7f9a81bc7ac4ea4cc9e5cbe4a354",
+        "sha256_in_prefix": "a51d90ede0252d11bbe1245dcd88578f5f5b7f9a81bc7ac4ea4cc9e5cbe4a354",
+        "size_in_bytes": 4679
+      },
+      {
+        "_path": "site-packages/morecantile/data/GNOSISGlobalGrid.json",
+        "path_type": "hardlink",
+        "sha256": "c45ae7793e66c0fde02640de093932b925e78b0f407dda1ad4fa9d6ea99545a0",
+        "sha256_in_prefix": "c45ae7793e66c0fde02640de093932b925e78b0f407dda1ad4fa9d6ea99545a0",
+        "size_in_bytes": 74685
+      },
+      {
+        "_path": "site-packages/morecantile/data/LINZAntarticaMapTilegrid.json",
+        "path_type": "hardlink",
+        "sha256": "74f7f1420a5094201a69e7267a6b3d95378590f2db83488116a87922d2fe7294",
+        "sha256_in_prefix": "74f7f1420a5094201a69e7267a6b3d95378590f2db83488116a87922d2fe7294",
+        "size_in_bytes": 5176
+      },
+      {
+        "_path": "site-packages/morecantile/data/NZTM2000Quad.json",
+        "path_type": "hardlink",
+        "sha256": "3c06ce418cf8f9359db92a8f542a5b12e685c0d06e54b0db79f555c45379df59",
+        "sha256_in_prefix": "3c06ce418cf8f9359db92a8f542a5b12e685c0d06e54b0db79f555c45379df59",
+        "size_in_bytes": 8457
+      },
+      {
+        "_path": "site-packages/morecantile/data/README.md",
+        "path_type": "hardlink",
+        "sha256": "6f48a9117276e2047fed4980759b91c5bfd48ef431bb3aab2503983040fe254a",
+        "sha256_in_prefix": "6f48a9117276e2047fed4980759b91c5bfd48ef431bb3aab2503983040fe254a",
+        "size_in_bytes": 257
+      },
+      {
+        "_path": "site-packages/morecantile/data/UPSAntarcticWGS84Quad.json",
+        "path_type": "hardlink",
+        "sha256": "9a6be6fc734a1e9665a103e2379dcbb089bc231f6a64857d092c6791345afbe6",
+        "sha256_in_prefix": "9a6be6fc734a1e9665a103e2379dcbb089bc231f6a64857d092c6791345afbe6",
+        "size_in_bytes": 7374
+      },
+      {
+        "_path": "site-packages/morecantile/data/UPSArcticWGS84Quad.json",
+        "path_type": "hardlink",
+        "sha256": "06ea5bc94b65d6064eada879c275547ce6b570a57fe914a18c6c79439e917812",
+        "sha256_in_prefix": "06ea5bc94b65d6064eada879c275547ce6b570a57fe914a18c6c79439e917812",
+        "size_in_bytes": 7365
+      },
+      {
+        "_path": "site-packages/morecantile/data/UTM31WGS84Quad.json",
+        "path_type": "hardlink",
+        "sha256": "f9c0eb309f8b14416e83ba552fce4f2827734c859f889c1ebeffd0139f35d41b",
+        "sha256_in_prefix": "f9c0eb309f8b14416e83ba552fce4f2827734c859f889c1ebeffd0139f35d41b",
+        "size_in_bytes": 7367
+      },
+      {
+        "_path": "site-packages/morecantile/data/WGS1984Quad.json",
+        "path_type": "hardlink",
+        "sha256": "eea9e4b8c04f02375a846444b5aebfb9270d903a0aee951ba650377eba109ebb",
+        "sha256_in_prefix": "eea9e4b8c04f02375a846444b5aebfb9270d903a0aee951ba650377eba109ebb",
+        "size_in_bytes": 6930
+      },
+      {
+        "_path": "site-packages/morecantile/data/WebMercatorQuad.json",
+        "path_type": "hardlink",
+        "sha256": "90468f100699ac3f2f419a363af710952d50ee5ab7ba6b3eb8f26ce3a68f71e6",
+        "sha256_in_prefix": "90468f100699ac3f2f419a363af710952d50ee5ab7ba6b3eb8f26ce3a68f71e6",
+        "size_in_bytes": 7844
+      },
+      {
+        "_path": "site-packages/morecantile/data/WorldCRS84Quad.json",
+        "path_type": "hardlink",
+        "sha256": "97459fd9f698c334703b4986f9379ad55c9da62ed5d4e7a5e4bf65d8d5c7a209",
+        "sha256_in_prefix": "97459fd9f698c334703b4986f9379ad55c9da62ed5d4e7a5e4bf65d8d5c7a209",
+        "size_in_bytes": 7072
+      },
+      {
+        "_path": "site-packages/morecantile/data/WorldMercatorWGS84Quad.json",
+        "path_type": "hardlink",
+        "sha256": "25aaa8052bb9a952662fe27ba12554d5eb4fd8e3d6c7f69569373af1d197d047",
+        "sha256_in_prefix": "25aaa8052bb9a952662fe27ba12554d5eb4fd8e3d6c7f69569373af1d197d047",
+        "size_in_bytes": 7001
+      },
+      {
+        "_path": "site-packages/morecantile/defaults.py",
+        "path_type": "hardlink",
+        "sha256": "f65bc7999f5633f279b8d092f55584cbc3b9ff1d9d0364a9be4e07e5a1efe944",
+        "sha256_in_prefix": "f65bc7999f5633f279b8d092f55584cbc3b9ff1d9d0364a9be4e07e5a1efe944",
+        "size_in_bytes": 1804
+      },
+      {
+        "_path": "site-packages/morecantile/errors.py",
+        "path_type": "hardlink",
+        "sha256": "ae1b5da4d8257c4cf99c2f08f8124a52bfe090ec003f0562d6f84b149d92b58c",
+        "sha256_in_prefix": "ae1b5da4d8257c4cf99c2f08f8124a52bfe090ec003f0562d6f84b149d92b58c",
+        "size_in_bytes": 907
+      },
+      {
+        "_path": "site-packages/morecantile/models.py",
+        "path_type": "hardlink",
+        "sha256": "b3b1b87c134edf2668c1944e07cc70cb7b4621e3736e1535209907be418841e9",
+        "sha256_in_prefix": "b3b1b87c134edf2668c1944e07cc70cb7b4621e3736e1535209907be418841e9",
+        "size_in_bytes": 51368
+      },
+      {
+        "_path": "site-packages/morecantile/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/morecantile/scripts/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "f8226771f8160e7499f1abbe489b605fe38580275d95fefffff77dd6a41ca903",
+        "sha256_in_prefix": "f8226771f8160e7499f1abbe489b605fe38580275d95fefffff77dd6a41ca903",
+        "size_in_bytes": 23
+      },
+      {
+        "_path": "site-packages/morecantile/scripts/cli.py",
+        "path_type": "hardlink",
+        "sha256": "cd2135e6e76dd8c6fc211f57074d609bc93f2fae4e378fd6024a5c26641ace52",
+        "sha256_in_prefix": "cd2135e6e76dd8c6fc211f57074d609bc93f2fae4e378fd6024a5c26641ace52",
+        "size_in_bytes": 16859
+      },
+      {
+        "_path": "site-packages/morecantile/utils.py",
+        "path_type": "hardlink",
+        "sha256": "277ee2c4aabf9490b6ddba894807f4d667d2f991078b3beddaea95138edd3d11",
+        "sha256_in_prefix": "277ee2c4aabf9490b6ddba894807f4d667d2f991078b3beddaea95138edd3d11",
+        "size_in_bytes": 3364
+      },
+      {
+        "_path": "Lib/site-packages/morecantile/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/morecantile/__pycache__/commons.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/morecantile/__pycache__/defaults.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/morecantile/__pycache__/errors.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/morecantile/__pycache__/models.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/morecantile/scripts/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/morecantile/scripts/__pycache__/cli.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/morecantile/__pycache__/utils.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Scripts/morecantile-script.py",
+        "path_type": "windows_python_entry_point_script"
+      },
+      {
+        "_path": "Scripts/morecantile.exe",
+        "path_type": "windows_python_entry_point_exe"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "c79eb1f1919652de84372eed67ea2305853e090841473d03684c0209dc4367c7",
+  "size": 43946,
+  "subdir": "noarch",
+  "timestamp": 1707500518000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/morecantile-5.3.0-pyhd8ed1ab_0.conda",
+  "version": "5.3.0"
+}

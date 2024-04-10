@@ -1,0 +1,11 @@
+prefix=D:/xxx/Documents/psud/envs/Library
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: harfbuzz-icu
+Description: HarfBuzz text shaping library ICU integration
+Version: 8.3.0
+Requires: harfbuzz =  8.3.0
+Requires.private: icu-uc
+Libs: -L${libdir} -lharfbuzz-icu
+Cflags: -I${includedir}/harfbuzz

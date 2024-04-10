@@ -1,0 +1,177 @@
+{
+  "build": "py312ha90f08f_4",
+  "build_number": 4,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "vc >=14.2,<15",
+    "ucrt >=10.0.20348.0",
+    "vc14_runtime >=14.29.30139",
+    "python_abi 3.12.* *_cp312",
+    "numpy >=1.26.0,<2.0a0",
+    "python >=3.12.0rc3,<3.13.0a0"
+  ],
+  "extracted_package_dir": "D:\\xxx\\anaconda3\\pkgs\\color-operations-0.1.1-py312ha90f08f_4",
+  "features": "",
+  "files": [
+    "Lib/site-packages/color_operations-0.1.1.dist-info/INSTALLER",
+    "Lib/site-packages/color_operations-0.1.1.dist-info/LICENSE",
+    "Lib/site-packages/color_operations-0.1.1.dist-info/METADATA",
+    "Lib/site-packages/color_operations-0.1.1.dist-info/RECORD",
+    "Lib/site-packages/color_operations-0.1.1.dist-info/REQUESTED",
+    "Lib/site-packages/color_operations-0.1.1.dist-info/WHEEL",
+    "Lib/site-packages/color_operations-0.1.1.dist-info/direct_url.json",
+    "Lib/site-packages/color_operations-0.1.1.dist-info/top_level.txt",
+    "Lib/site-packages/color_operations/__init__.py",
+    "Lib/site-packages/color_operations/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/color_operations/__pycache__/operations.cpython-312.pyc",
+    "Lib/site-packages/color_operations/__pycache__/utils.cpython-312.pyc",
+    "Lib/site-packages/color_operations/colorspace.c",
+    "Lib/site-packages/color_operations/colorspace.cp312-win_amd64.pyd",
+    "Lib/site-packages/color_operations/colorspace.pyx",
+    "Lib/site-packages/color_operations/operations.py",
+    "Lib/site-packages/color_operations/utils.py",
+    ".nonadmin"
+  ],
+  "fn": "color-operations-0.1.1-py312ha90f08f_4.conda",
+  "license": "MIT",
+  "link": {
+    "source": "D:\\xxx\\anaconda3\\pkgs\\color-operations-0.1.1-py312ha90f08f_4",
+    "type": 1
+  },
+  "md5": "9426d580cd3de86753360d18e832e068",
+  "name": "color-operations",
+  "package_tarball_full_path": "D:\\xxx\\anaconda3\\pkgs\\color-operations-0.1.1-py312ha90f08f_4.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/color_operations-0.1.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "Lib/site-packages/color_operations-0.1.1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "99beec36c6be9048b6311d7cc4bdeb1ac9795f1b1bcfb2b8d38650c561360316",
+        "sha256_in_prefix": "99beec36c6be9048b6311d7cc4bdeb1ac9795f1b1bcfb2b8d38650c561360316",
+        "size_in_bytes": 2203
+      },
+      {
+        "_path": "Lib/site-packages/color_operations-0.1.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "62be3ec523d24ec79013b9d1cbf865fad895e9dc4bf366d832cee850f432a4e2",
+        "sha256_in_prefix": "62be3ec523d24ec79013b9d1cbf865fad895e9dc4bf366d832cee850f432a4e2",
+        "size_in_bytes": 5775
+      },
+      {
+        "_path": "Lib/site-packages/color_operations-0.1.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "715665c89bc0eb7ed8e8d22638317a02adda81c471cf2acc89b70b0051508642",
+        "sha256_in_prefix": "715665c89bc0eb7ed8e8d22638317a02adda81c471cf2acc89b70b0051508642",
+        "size_in_bytes": 1446
+      },
+      {
+        "_path": "Lib/site-packages/color_operations-0.1.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/color_operations-0.1.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "683ae059f11de4073b589cc7b2bf74adc306887e0c1db017a025a9c8fe421017",
+        "sha256_in_prefix": "683ae059f11de4073b589cc7b2bf74adc306887e0c1db017a025a9c8fe421017",
+        "size_in_bytes": 102
+      },
+      {
+        "_path": "Lib/site-packages/color_operations-0.1.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "0bcd1b3402fff870af868bdc2da357560a7c3e00c5789eb599e825b920dd94a8",
+        "sha256_in_prefix": "0bcd1b3402fff870af868bdc2da357560a7c3e00c5789eb599e825b920dd94a8",
+        "size_in_bytes": 77
+      },
+      {
+        "_path": "Lib/site-packages/color_operations-0.1.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "6d17d540a5f94a8040269941218636113cb0f24defbc71ac2ee76fd41aee097b",
+        "sha256_in_prefix": "6d17d540a5f94a8040269941218636113cb0f24defbc71ac2ee76fd41aee097b",
+        "size_in_bytes": 17
+      },
+      {
+        "_path": "Lib/site-packages/color_operations/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "89ade720933ae74aa57ef3107788850b642ec4e5a0d446f168c47a3b91bdc0f3",
+        "sha256_in_prefix": "89ade720933ae74aa57ef3107788850b642ec4e5a0d446f168c47a3b91bdc0f3",
+        "size_in_bytes": 333
+      },
+      {
+        "_path": "Lib/site-packages/color_operations/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "f818bafc58339f8a234c94ce9e8b5adc10b788491b83986ef3bf42c1678e3202",
+        "sha256_in_prefix": "f818bafc58339f8a234c94ce9e8b5adc10b788491b83986ef3bf42c1678e3202",
+        "size_in_bytes": 473
+      },
+      {
+        "_path": "Lib/site-packages/color_operations/__pycache__/operations.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "15ecc8f22c03fb87d60b8e2e35e775fb844b968e050a6f228fcc543d86304db7",
+        "sha256_in_prefix": "15ecc8f22c03fb87d60b8e2e35e775fb844b968e050a6f228fcc543d86304db7",
+        "size_in_bytes": 9949
+      },
+      {
+        "_path": "Lib/site-packages/color_operations/__pycache__/utils.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "887b16285789f950afc0c4d1194f95696ef33e932e6e96eb29bee0488d84a291",
+        "sha256_in_prefix": "887b16285789f950afc0c4d1194f95696ef33e932e6e96eb29bee0488d84a291",
+        "size_in_bytes": 3816
+      },
+      {
+        "_path": "Lib/site-packages/color_operations/colorspace.c",
+        "path_type": "hardlink",
+        "sha256": "ad3067029bf13c019e87e59a8e8bd9f8ab58c246b85b735a785834c105094388",
+        "sha256_in_prefix": "ad3067029bf13c019e87e59a8e8bd9f8ab58c246b85b735a785834c105094388",
+        "size_in_bytes": 544523
+      },
+      {
+        "_path": "Lib/site-packages/color_operations/colorspace.cp312-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "652ff4b7b988b71314ea88dee6de76770c5380cc918a0a358622dd6344e002f8",
+        "sha256_in_prefix": "652ff4b7b988b71314ea88dee6de76770c5380cc918a0a358622dd6344e002f8",
+        "size_in_bytes": 76800
+      },
+      {
+        "_path": "Lib/site-packages/color_operations/colorspace.pyx",
+        "path_type": "hardlink",
+        "sha256": "46017a86ec4152f050b14ed803c76bf435a61767725dce1ea5ef6798e2bd96a6",
+        "sha256_in_prefix": "46017a86ec4152f050b14ed803c76bf435a61767725dce1ea5ef6798e2bd96a6",
+        "size_in_bytes": 12149
+      },
+      {
+        "_path": "Lib/site-packages/color_operations/operations.py",
+        "path_type": "hardlink",
+        "sha256": "65054c50f509b5462b1eaa9ef488f112537e222d4fa4ecdeae0652ce2da2f2f0",
+        "sha256_in_prefix": "65054c50f509b5462b1eaa9ef488f112537e222d4fa4ecdeae0652ce2da2f2f0",
+        "size_in_bytes": 9729
+      },
+      {
+        "_path": "Lib/site-packages/color_operations/utils.py",
+        "path_type": "hardlink",
+        "sha256": "f409d575abd5c2abb749799dc2446ac0af711e96ef0719a7e3b22e3bf0a4fe80",
+        "sha256_in_prefix": "f409d575abd5c2abb749799dc2446ac0af711e96ef0719a7e3b22e3bf0a4fe80",
+        "size_in_bytes": 3468
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "e17faba68a30e101b1ddf10c17e63900c1e1ec17985cd5e4a7d1745ca89b9274",
+  "size": 118827,
+  "subdir": "win-64",
+  "timestamp": 1695653060000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/color-operations-0.1.1-py312ha90f08f_4.conda",
+  "version": "0.1.1"
+}

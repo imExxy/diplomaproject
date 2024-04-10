@@ -1,0 +1,17 @@
+CONFIG_VERSION=3.8.1
+CONFIG_INST_PREFIX=D:/xxx/Documents/psud/envs/Library
+CONFIG_INST_LIBS=-LIBPATH:D:/xxx/Documents/psud/envs/Library/lib gdal
+CONFIG_INST_CFLAGS=-ID:/xxx/Documents/psud/envs/Library/include
+CONFIG_INST_DATA=D:/xxx/Documents/psud/envs/Library/share/gdal
+prefix=${CONFIG_INST_PREFIX}
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${exec_prefix}/include
+datadir=${CONFIG_INST_DATA}
+
+Name: libgdal
+Description: Geospatial Data Abstraction Library
+Version: ${CONFIG_VERSION}
+Libs: ${CONFIG_INST_LIBS}
+Libs.private: D:/xxx/Documents/psud/envs/Library/lib/archive.lib D:/xxx/Documents/psud/envs/Library/lib/iconv.lib D:/xxx/Documents/psud/envs/Library/lib/charset.lib D:/xxx/Documents/psud/envs/Library/lib/libssl.lib D:/xxx/Documents/psud/envs/Library/lib/libcrypto.lib crypt32 D:/xxx/Documents/psud/envs/Library/lib/liblzma.lib D:/xxx/Documents/psud/envs/Library/lib/deflate.lib D:/xxx/Documents/psud/envs/Library/lib/liblz4.lib wbemuuid D:/xxx/Documents/psud/envs/Library/lib/geotiff_i.lib D:/xxx/Documents/psud/envs/Library/lib/tiff.lib ws2_32 D:/xxx/Documents/psud/envs/Library/lib/Lerc.lib D:/xxx/Documents/psud/envs/Library/lib/aec.lib D:/xxx/Documents/psud/envs/Library/lib/jpeg.lib D:/xxx/Documents/psud/envs/Library/lib/poppler.lib D:/xxx/Documents/psud/envs/Library/lib/libpng.lib D:/xxx/Documents/psud/envs/Library/lib/netcdf.lib D:/xxx/Documents/psud/envs/Library/lib/hdf5_hl.lib D:/xxx/Documents/psud/envs/Library/lib/zip.lib D:/xxx/Documents/psud/envs/Library/lib/zstd.lib D:/xxx/Documents/psud/envs/Library/lib/bzip2.lib D:/xxx/Documents/psud/envs/Library/lib/blosc.lib D:/xxx/Documents/psud/envs/Library/lib/cfitsio.lib D:/xxx/Documents/psud/envs/Library/lib/libwebp.lib D:/xxx/Documents/psud/envs/Library/lib/hdf.lib D:/xxx/Documents/psud/envs/Library/lib/mfhdf.lib D:/xxx/Documents/psud/envs/Library/lib/xdr.lib D:/xxx/Documents/psud/envs/Library/lib/szip.lib D:/xxx/Documents/psud/envs/Library/lib/libkea.lib D:/xxx/Documents/psud/envs/Library/lib/hdf5_cpp.lib D:/xxx/Documents/psud/envs/Library/lib/hdf5.lib D:/xxx/Documents/psud/envs/Library/lib/openjp2.lib D:/xxx/Documents/psud/envs/Library/lib/tiledb.lib D:/xxx/Documents/psud/envs/Library/lib/kmlbase.lib D:/xxx/Documents/psud/envs/Library/lib/kmldom.lib D:/xxx/Documents/psud/envs/Library/lib/kmlengine.lib D:/xxx/Documents/psud/envs/Library/lib/minizip.lib D:/xxx/Documents/psud/envs/Library/lib/uriparser.lib D:/xxx/Documents/psud/envs/Library/lib/z.lib D:/xxx/Documents/psud/envs/Library/lib/pcre2-8.lib D:/xxx/Documents/psud/envs/Library/lib/spatialite_i.lib D:/xxx/Documents/psud/envs/Library/lib/sqlite3.lib D:/xxx/Documents/psud/envs/Library/lib/xerces-c_3.lib D:/xxx/Documents/psud/envs/Library/lib/libpq.lib "C:/Program Files (x86)/Windows Kits/10/Lib/10.0.22621.0/um/x64/odbccp32.lib" "C:/Program Files (x86)/Windows Kits/10/Lib/10.0.22621.0/um/x64/WS2_32.Lib" legacy_stdio_definitions.lib odbccp32.lib D:/xxx/Documents/psud/envs/Library/lib/freexl_i.lib D:/xxx/Documents/psud/envs/Library/lib/libexpat.lib D:/xxx/Documents/psud/envs/Library/lib/xml2.lib D:/xxx/Documents/psud/envs/Library/lib/geos_c.lib D:/xxx/Documents/psud/envs/Library/lib/libcurl.lib psapi D:/xxx/Documents/psud/envs/Library/lib/proj.lib
+Cflags: ${CONFIG_INST_CFLAGS}

@@ -1,0 +1,11 @@
+prefix=D:/xxx/Documents/psud/envs/Library 
+exec_prefix=D:/xxx/Documents/psud/envs/Library 
+libdir=D:/xxx/Documents/psud/envs/Library/lib 
+includedir=D:/xxx/Documents/psud/envs/Library/include 
+modules=0 
+Name: libXML 
+Version: 2.12.5 
+Description: libXML library version2. 
+Requires: 
+Libs: -LD:/xxx/Documents/psud/envs/Library/lib -lxml2 -liconv -lz 
+Cflags: -ID:/xxx/Documents/psud/envs/Library/include/libxml2 -ID:/xxx/Documents/psud/envs/Library/include 

@@ -1,0 +1,202 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "earthengine-api",
+    "python >=3.7"
+  ],
+  "extracted_package_dir": "D:\\xxx\\anaconda3\\pkgs\\eerepr-0.0.4-pyhd8ed1ab_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/eerepr-0.0.4.dist-info/INSTALLER",
+    "Lib/site-packages/eerepr-0.0.4.dist-info/METADATA",
+    "Lib/site-packages/eerepr-0.0.4.dist-info/RECORD",
+    "Lib/site-packages/eerepr-0.0.4.dist-info/REQUESTED",
+    "Lib/site-packages/eerepr-0.0.4.dist-info/WHEEL",
+    "Lib/site-packages/eerepr-0.0.4.dist-info/direct_url.json",
+    "Lib/site-packages/eerepr-0.0.4.dist-info/licenses/LICENSE",
+    "Lib/site-packages/eerepr/__init__.py",
+    "Lib/site-packages/eerepr/config.py",
+    "Lib/site-packages/eerepr/html.py",
+    "Lib/site-packages/eerepr/repr.py",
+    "Lib/site-packages/eerepr/static/__init__.py",
+    "Lib/site-packages/eerepr/static/css/__init__.py",
+    "Lib/site-packages/eerepr/static/css/style.css",
+    "Lib/site-packages/eerepr/static/js/__init__.py",
+    "Lib/site-packages/eerepr/static/js/script.js",
+    ".nonadmin",
+    "Lib/site-packages/eerepr/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/eerepr/__pycache__/config.cpython-312.pyc",
+    "Lib/site-packages/eerepr/__pycache__/html.cpython-312.pyc",
+    "Lib/site-packages/eerepr/__pycache__/repr.cpython-312.pyc",
+    "Lib/site-packages/eerepr/static/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/eerepr/static/css/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/eerepr/static/js/__pycache__/__init__.cpython-312.pyc"
+  ],
+  "fn": "eerepr-0.0.4-pyhd8ed1ab_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "D:\\xxx\\anaconda3\\pkgs\\eerepr-0.0.4-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "79fa01f350230710f970400598b905b7",
+  "name": "eerepr",
+  "noarch": "python",
+  "package_tarball_full_path": "D:\\xxx\\anaconda3\\pkgs\\eerepr-0.0.4-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/eerepr-0.0.4.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/eerepr-0.0.4.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "5359366c71607219b0baf23ea4ac39300b838b87c0d3b343be2f5d77936acb83",
+        "sha256_in_prefix": "5359366c71607219b0baf23ea4ac39300b838b87c0d3b343be2f5d77936acb83",
+        "size_in_bytes": 3972
+      },
+      {
+        "_path": "site-packages/eerepr-0.0.4.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "f3136f9ef5e8cdc24beb0fdac03a24dd5bac8f88a28c9802da9d817d8a119dd6",
+        "sha256_in_prefix": "f3136f9ef5e8cdc24beb0fdac03a24dd5bac8f88a28c9802da9d817d8a119dd6",
+        "size_in_bytes": 1626
+      },
+      {
+        "_path": "site-packages/eerepr-0.0.4.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/eerepr-0.0.4.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "35a2e68071d6fdff634efbffc1187dbdc2bb73b10af68e5fc2c21730ece81a03",
+        "sha256_in_prefix": "35a2e68071d6fdff634efbffc1187dbdc2bb73b10af68e5fc2c21730ece81a03",
+        "size_in_bytes": 87
+      },
+      {
+        "_path": "site-packages/eerepr-0.0.4.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "6b34b65b191023d60995d5683b73aad574a0571352ee489ea7380ab0453062be",
+        "sha256_in_prefix": "6b34b65b191023d60995d5683b73aad574a0571352ee489ea7380ab0453062be",
+        "size_in_bytes": 102
+      },
+      {
+        "_path": "site-packages/eerepr-0.0.4.dist-info/licenses/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "8b7c685b32d8a8e43a0131fe9fabcd2379166c9e3a2faf6363be4fd4e6c3d761",
+        "sha256_in_prefix": "8b7c685b32d8a8e43a0131fe9fabcd2379166c9e3a2faf6363be4fd4e6c3d761",
+        "size_in_bytes": 1069
+      },
+      {
+        "_path": "site-packages/eerepr/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "32545a09317816b8bfaa6c87623b35a86a5c0f101865d1319e2a494811cc7e0a",
+        "sha256_in_prefix": "32545a09317816b8bfaa6c87623b35a86a5c0f101865d1319e2a494811cc7e0a",
+        "size_in_bytes": 205
+      },
+      {
+        "_path": "site-packages/eerepr/config.py",
+        "path_type": "hardlink",
+        "sha256": "c6c8a16d9f9f4a19981e0d66b90e80f9b554f375dbc9f41b42dd1625e1b3a42e",
+        "sha256_in_prefix": "c6c8a16d9f9f4a19981e0d66b90e80f9b554f375dbc9f41b42dd1625e1b3a42e",
+        "size_in_bytes": 313
+      },
+      {
+        "_path": "site-packages/eerepr/html.py",
+        "path_type": "hardlink",
+        "sha256": "bf07d7346c7a89155964628a513287711aabfa3ac0a1428a473e02282f7f52b7",
+        "sha256_in_prefix": "bf07d7346c7a89155964628a513287711aabfa3ac0a1428a473e02282f7f52b7",
+        "size_in_bytes": 7976
+      },
+      {
+        "_path": "site-packages/eerepr/repr.py",
+        "path_type": "hardlink",
+        "sha256": "8f719e8e6fa6160551172b7ebd9a603b8107ab188c402eb1a9eb2b8e32ebd3e9",
+        "sha256_in_prefix": "8f719e8e6fa6160551172b7ebd9a603b8107ab188c402eb1a9eb2b8e32ebd3e9",
+        "size_in_bytes": 3706
+      },
+      {
+        "_path": "site-packages/eerepr/static/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/eerepr/static/css/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/eerepr/static/css/style.css",
+        "path_type": "hardlink",
+        "sha256": "18f8b3d832471b5fff50de096f3946c3a1b8cf3604a8a72e13712c6efe2d907d",
+        "sha256_in_prefix": "18f8b3d832471b5fff50de096f3946c3a1b8cf3604a8a72e13712c6efe2d907d",
+        "size_in_bytes": 1798
+      },
+      {
+        "_path": "site-packages/eerepr/static/js/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/eerepr/static/js/script.js",
+        "path_type": "hardlink",
+        "sha256": "7510276e6d4760dd4fb6e15b34425366f06546b6db2c84dfdaec03f984054132",
+        "sha256_in_prefix": "7510276e6d4760dd4fb6e15b34425366f06546b6db2c84dfdaec03f984054132",
+        "size_in_bytes": 240
+      },
+      {
+        "_path": "Lib/site-packages/eerepr/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/eerepr/__pycache__/config.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/eerepr/__pycache__/html.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/eerepr/__pycache__/repr.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/eerepr/static/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/eerepr/static/css/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/eerepr/static/js/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "345e974c8f261180e28655fefca6d9e86c3b0e8674108cd22b1a542ed83b87ec",
+  "size": 13451,
+  "subdir": "noarch",
+  "timestamp": 1669883764000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/eerepr-0.0.4-pyhd8ed1ab_0.conda",
+  "version": "0.0.4"
+}

@@ -1,0 +1,1 @@
+D:\xxx\Documents\psud\envs\python.exe: Error while finding module specification for 'anaconda_anon_usage.install' (ModuleNotFoundError: No module named 'anaconda_anon_usage')

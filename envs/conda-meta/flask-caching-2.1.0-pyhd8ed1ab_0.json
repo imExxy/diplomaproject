@@ -1,0 +1,296 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "flask",
+    "werkzeug",
+    "markupsafe",
+    "python >=3.7",
+    "cachelib >=0.9.0,<0.10"
+  ],
+  "extracted_package_dir": "D:\\xxx\\anaconda3\\pkgs\\flask-caching-2.1.0-pyhd8ed1ab_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/Flask_Caching-2.1.0.dist-info/INSTALLER",
+    "Lib/site-packages/Flask_Caching-2.1.0.dist-info/LICENSE",
+    "Lib/site-packages/Flask_Caching-2.1.0.dist-info/METADATA",
+    "Lib/site-packages/Flask_Caching-2.1.0.dist-info/RECORD",
+    "Lib/site-packages/Flask_Caching-2.1.0.dist-info/REQUESTED",
+    "Lib/site-packages/Flask_Caching-2.1.0.dist-info/WHEEL",
+    "Lib/site-packages/Flask_Caching-2.1.0.dist-info/direct_url.json",
+    "Lib/site-packages/Flask_Caching-2.1.0.dist-info/top_level.txt",
+    "Lib/site-packages/flask_caching/__init__.py",
+    "Lib/site-packages/flask_caching/backends/__init__.py",
+    "Lib/site-packages/flask_caching/backends/base.py",
+    "Lib/site-packages/flask_caching/backends/filesystemcache.py",
+    "Lib/site-packages/flask_caching/backends/memcache.py",
+    "Lib/site-packages/flask_caching/backends/nullcache.py",
+    "Lib/site-packages/flask_caching/backends/rediscache.py",
+    "Lib/site-packages/flask_caching/backends/simplecache.py",
+    "Lib/site-packages/flask_caching/backends/uwsgicache.py",
+    "Lib/site-packages/flask_caching/contrib/__init__.py",
+    "Lib/site-packages/flask_caching/contrib/googlecloudstoragecache.py",
+    "Lib/site-packages/flask_caching/contrib/uwsgicache.py",
+    "Lib/site-packages/flask_caching/jinja2ext.py",
+    "Lib/site-packages/flask_caching/py.typed",
+    "Lib/site-packages/flask_caching/utils.py",
+    ".nonadmin",
+    "Lib/site-packages/flask_caching/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/flask_caching/backends/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/flask_caching/backends/__pycache__/base.cpython-312.pyc",
+    "Lib/site-packages/flask_caching/backends/__pycache__/filesystemcache.cpython-312.pyc",
+    "Lib/site-packages/flask_caching/backends/__pycache__/memcache.cpython-312.pyc",
+    "Lib/site-packages/flask_caching/backends/__pycache__/nullcache.cpython-312.pyc",
+    "Lib/site-packages/flask_caching/backends/__pycache__/rediscache.cpython-312.pyc",
+    "Lib/site-packages/flask_caching/backends/__pycache__/simplecache.cpython-312.pyc",
+    "Lib/site-packages/flask_caching/backends/__pycache__/uwsgicache.cpython-312.pyc",
+    "Lib/site-packages/flask_caching/contrib/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/flask_caching/contrib/__pycache__/googlecloudstoragecache.cpython-312.pyc",
+    "Lib/site-packages/flask_caching/contrib/__pycache__/uwsgicache.cpython-312.pyc",
+    "Lib/site-packages/flask_caching/__pycache__/jinja2ext.cpython-312.pyc",
+    "Lib/site-packages/flask_caching/__pycache__/utils.cpython-312.pyc"
+  ],
+  "fn": "flask-caching-2.1.0-pyhd8ed1ab_0.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "D:\\xxx\\anaconda3\\pkgs\\flask-caching-2.1.0-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "a424fb80266fc3935d945114f5f3d65b",
+  "name": "flask-caching",
+  "noarch": "python",
+  "package_tarball_full_path": "D:\\xxx\\anaconda3\\pkgs\\flask-caching-2.1.0-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/Flask_Caching-2.1.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/Flask_Caching-2.1.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "1f3c445faa26eb32d90291228510e2d8594bd1fe15463f5d70c87d44f38872fd",
+        "sha256_in_prefix": "1f3c445faa26eb32d90291228510e2d8594bd1fe15463f5d70c87d44f38872fd",
+        "size_in_bytes": 3119
+      },
+      {
+        "_path": "site-packages/Flask_Caching-2.1.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "75b0b0cba236de086b6273a5314607cbc2bae9a27b3255168172efaaa6353f30",
+        "sha256_in_prefix": "75b0b0cba236de086b6273a5314607cbc2bae9a27b3255168172efaaa6353f30",
+        "size_in_bytes": 2208
+      },
+      {
+        "_path": "site-packages/Flask_Caching-2.1.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "2df477ee57162f70185221b5e0a814aab824c885f32d5c3c54df5964e30448c8",
+        "sha256_in_prefix": "2df477ee57162f70185221b5e0a814aab824c885f32d5c3c54df5964e30448c8",
+        "size_in_bytes": 2946
+      },
+      {
+        "_path": "site-packages/Flask_Caching-2.1.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/Flask_Caching-2.1.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "c903798389a0e00c9b4639208bef72cb889010589b1909a5cfbf0f8a4e4eafe0",
+        "sha256_in_prefix": "c903798389a0e00c9b4639208bef72cb889010589b1909a5cfbf0f8a4e4eafe0",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/Flask_Caching-2.1.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "446e34aab9c1fc9b69c33879619df61ce299a55fdc64edbc88bf3bac9402440d",
+        "sha256_in_prefix": "446e34aab9c1fc9b69c33879619df61ce299a55fdc64edbc88bf3bac9402440d",
+        "size_in_bytes": 109
+      },
+      {
+        "_path": "site-packages/Flask_Caching-2.1.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "9fd1adb1d90b181bc3c4de7b96f227e191a79d09f7ae4655c2eb383260700382",
+        "sha256_in_prefix": "9fd1adb1d90b181bc3c4de7b96f227e191a79d09f7ae4655c2eb383260700382",
+        "size_in_bytes": 14
+      },
+      {
+        "_path": "site-packages/flask_caching/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "8de5ea0d26fca91915f80f75245324c9cead32deec8eafcafbd36c5ab52456c1",
+        "sha256_in_prefix": "8de5ea0d26fca91915f80f75245324c9cead32deec8eafcafbd36c5ab52456c1",
+        "size_in_bytes": 41004
+      },
+      {
+        "_path": "site-packages/flask_caching/backends/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "aca3adb06817f2d7e76e560e435fae7ef1398b6a2eaf4747dabdbcf3ed1c3742",
+        "sha256_in_prefix": "aca3adb06817f2d7e76e560e435fae7ef1398b6a2eaf4747dabdbcf3ed1c3742",
+        "size_in_bytes": 2214
+      },
+      {
+        "_path": "site-packages/flask_caching/backends/base.py",
+        "path_type": "hardlink",
+        "sha256": "5d01317a792b600ed1a1a457d6e7e5eaaed853b1524cd26790be79f3f078a1be",
+        "sha256_in_prefix": "5d01317a792b600ed1a1a457d6e7e5eaaed853b1524cd26790be79f3f078a1be",
+        "size_in_bytes": 1500
+      },
+      {
+        "_path": "site-packages/flask_caching/backends/filesystemcache.py",
+        "path_type": "hardlink",
+        "sha256": "2a5d617fe99e725405da14bdec9f8132acef2463984482b9f095dbba9e38a524",
+        "sha256_in_prefix": "2a5d617fe99e725405da14bdec9f8132acef2463984482b9f095dbba9e38a524",
+        "size_in_bytes": 2680
+      },
+      {
+        "_path": "site-packages/flask_caching/backends/memcache.py",
+        "path_type": "hardlink",
+        "sha256": "1b88b92eb4998a58cbb4b3c54695d1118dfc52bdb9850c2289300127138e305a",
+        "sha256_in_prefix": "1b88b92eb4998a58cbb4b3c54695d1118dfc52bdb9850c2289300127138e305a",
+        "size_in_bytes": 7634
+      },
+      {
+        "_path": "site-packages/flask_caching/backends/nullcache.py",
+        "path_type": "hardlink",
+        "sha256": "95548c130438a949a7d48384a4c0343b418febfbecdda08ffae01d3beffe9cc8",
+        "sha256_in_prefix": "95548c130438a949a7d48384a4c0343b418febfbecdda08ffae01d3beffe9cc8",
+        "size_in_bytes": 625
+      },
+      {
+        "_path": "site-packages/flask_caching/backends/rediscache.py",
+        "path_type": "hardlink",
+        "sha256": "ebae3aa9a2975577fa3aa3e741c519ddc299b872f10076806430887221d62018",
+        "sha256_in_prefix": "ebae3aa9a2975577fa3aa3e741c519ddc299b872f10076806430887221d62018",
+        "size_in_bytes": 9485
+      },
+      {
+        "_path": "site-packages/flask_caching/backends/simplecache.py",
+        "path_type": "hardlink",
+        "sha256": "e5245a0500967cef080c71c5739fde099a2404086c0d4f2499467bb656db974c",
+        "sha256_in_prefix": "e5245a0500967cef080c71c5739fde099a2404086c0d4f2499467bb656db974c",
+        "size_in_bytes": 2065
+      },
+      {
+        "_path": "site-packages/flask_caching/backends/uwsgicache.py",
+        "path_type": "hardlink",
+        "sha256": "f045462cbc4145b151c4e5099fd27fece99647766551d4496580f6b192d286a2",
+        "sha256_in_prefix": "f045462cbc4145b151c4e5099fd27fece99647766551d4496580f6b192d286a2",
+        "size_in_bytes": 429
+      },
+      {
+        "_path": "site-packages/flask_caching/contrib/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/flask_caching/contrib/googlecloudstoragecache.py",
+        "path_type": "hardlink",
+        "sha256": "7c28011d0dea95df6f6126cbdce04dfb81ce9ed9028b56f2ca1f1f3e2a3821c3",
+        "sha256_in_prefix": "7c28011d0dea95df6f6126cbdce04dfb81ce9ed9028b56f2ca1f1f3e2a3821c3",
+        "size_in_bytes": 7527
+      },
+      {
+        "_path": "site-packages/flask_caching/contrib/uwsgicache.py",
+        "path_type": "hardlink",
+        "sha256": "4bf4f10eefa52a4df74e14aba9db7f1757dac8f64e209880ac0c0d70ba2e439f",
+        "sha256_in_prefix": "4bf4f10eefa52a4df74e14aba9db7f1757dac8f64e209880ac0c0d70ba2e439f",
+        "size_in_bytes": 2295
+      },
+      {
+        "_path": "site-packages/flask_caching/jinja2ext.py",
+        "path_type": "hardlink",
+        "sha256": "3f61dcea0ff8fac359b9e76045200ea57c83d46fc9440941a35492083245b9dc",
+        "sha256_in_prefix": "3f61dcea0ff8fac359b9e76045200ea57c83d46fc9440941a35492083245b9dc",
+        "size_in_bytes": 2919
+      },
+      {
+        "_path": "site-packages/flask_caching/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/flask_caching/utils.py",
+        "path_type": "hardlink",
+        "sha256": "0834e04f3343484c7278ab777d97719bed3573c0399c928bf399ee9f38e43f49",
+        "sha256_in_prefix": "0834e04f3343484c7278ab777d97719bed3573c0399c928bf399ee9f38e43f49",
+        "size_in_bytes": 3238
+      },
+      {
+        "_path": "Lib/site-packages/flask_caching/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flask_caching/backends/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flask_caching/backends/__pycache__/base.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flask_caching/backends/__pycache__/filesystemcache.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flask_caching/backends/__pycache__/memcache.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flask_caching/backends/__pycache__/nullcache.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flask_caching/backends/__pycache__/rediscache.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flask_caching/backends/__pycache__/simplecache.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flask_caching/backends/__pycache__/uwsgicache.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flask_caching/contrib/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flask_caching/contrib/__pycache__/googlecloudstoragecache.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flask_caching/contrib/__pycache__/uwsgicache.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flask_caching/__pycache__/jinja2ext.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flask_caching/__pycache__/utils.cpython-312.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "b18e520f93f750069d2184d32156e573599a1f9891fe2c76d764e1fe70c45cb6",
+  "size": 28340,
+  "subdir": "noarch",
+  "timestamp": 1696798454000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/flask-caching-2.1.0-pyhd8ed1ab_0.conda",
+  "version": "2.1.0"
+}

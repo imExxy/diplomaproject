@@ -1,0 +1,11 @@
+prefix=D:/xxx/Documents/geeproject/condaenv/Library
+exec_prefix=${prefix}
+libdir=D:/xxx/Documents/geeproject/condaenv/Library/lib
+includedir=D:/xxx/Documents/geeproject/condaenv/Library/include
+
+Name: abseil_dll
+Description: Abseil DLL library
+URL: https://abseil.io/
+Version: 20240116
+Libs: -L${libdir} -labseil_dll 
+Cflags: -I${includedir}

@@ -1,0 +1,2109 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "numpy",
+    "attrs",
+    "cachetools",
+    "httpx",
+    "affine",
+    "numexpr",
+    "color-operations",
+    "python >=3.8",
+    "rasterio >=1.3.0",
+    "pystac >=0.5.4",
+    "morecantile >=5.0,<6.0",
+    "pydantic ~=2.0",
+    "importlib-resources >=1.1.0"
+  ],
+  "extracted_package_dir": "D:\\xxx\\anaconda3\\pkgs\\rio-tiler-6.4.1-pyhd8ed1ab_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/rio_tiler-6.4.1.dist-info/INSTALLER",
+    "Lib/site-packages/rio_tiler-6.4.1.dist-info/METADATA",
+    "Lib/site-packages/rio_tiler-6.4.1.dist-info/RECORD",
+    "Lib/site-packages/rio_tiler-6.4.1.dist-info/REQUESTED",
+    "Lib/site-packages/rio_tiler-6.4.1.dist-info/WHEEL",
+    "Lib/site-packages/rio_tiler-6.4.1.dist-info/direct_url.json",
+    "Lib/site-packages/rio_tiler-6.4.1.dist-info/licenses/AUTHORS.txt",
+    "Lib/site-packages/rio_tiler-6.4.1.dist-info/licenses/LICENSE",
+    "Lib/site-packages/rio_tiler/__init__.py",
+    "Lib/site-packages/rio_tiler/cmap_data/__init__.py",
+    "Lib/site-packages/rio_tiler/cmap_data/accent.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/accent_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/afmhot.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/afmhot_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/algae.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/algae_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/amp.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/amp_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/autumn.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/autumn_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/balance.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/balance_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/binary.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/binary_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/blues.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/blues_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/bone.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/bone_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/brbg.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/brbg_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/brg.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/brg_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/bugn.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/bugn_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/bupu.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/bupu_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/bwr.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/bwr_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/cfastie.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/cividis.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/cividis_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/cmrmap.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/cmrmap_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/cool.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/cool_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/coolwarm.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/coolwarm_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/copper.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/copper_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/cubehelix.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/cubehelix_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/curl.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/curl_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/dark2.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/dark2_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/deep.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/deep_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/delta.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/delta_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/dense.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/dense_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/diff.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/diff_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/flag.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/flag_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/gist_earth.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/gist_earth_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/gist_gray.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/gist_gray_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/gist_heat.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/gist_heat_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/gist_ncar.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/gist_ncar_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/gist_rainbow.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/gist_rainbow_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/gist_stern.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/gist_stern_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/gist_yarg.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/gist_yarg_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/gnbu.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/gnbu_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/gnuplot.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/gnuplot2.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/gnuplot2_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/gnuplot_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/gray.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/gray_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/greens.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/greens_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/greys.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/greys_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/haline.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/haline_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/hot.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/hot_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/hsv.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/hsv_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/ice.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/ice_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/inferno.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/inferno_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/jet.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/jet_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/magma.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/magma_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/matter.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/matter_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/nipy_spectral.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/nipy_spectral_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/ocean.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/ocean_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/oranges.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/oranges_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/orrd.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/orrd_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/oxy.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/oxy_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/paired.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/paired_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/pastel1.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/pastel1_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/pastel2.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/pastel2_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/phase.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/phase_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/pink.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/pink_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/piyg.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/piyg_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/plasma.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/plasma_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/prgn.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/prgn_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/prism.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/prism_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/pubu.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/pubu_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/pubugn.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/pubugn_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/puor.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/puor_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/purd.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/purd_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/purples.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/purples_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/rain.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/rain_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/rainbow.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/rainbow_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/rdbu.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/rdbu_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/rdgy.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/rdgy_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/rdpu.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/rdpu_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/rdylbu.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/rdylbu_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/rdylgn.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/rdylgn_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/reds.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/reds_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/rplumbo.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/schwarzwald.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/seismic.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/seismic_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/set1.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/set1_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/set2.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/set2_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/set3.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/set3_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/solar.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/solar_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/spectral.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/spectral_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/speed.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/speed_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/spring.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/spring_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/summer.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/summer_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/tab10.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/tab10_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/tab20.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/tab20_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/tab20b.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/tab20b_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/tab20c.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/tab20c_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/tarn.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/tarn_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/tempo.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/tempo_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/terrain.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/terrain_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/thermal.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/thermal_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/topo.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/topo_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/turbid.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/turbid_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/turbo.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/turbo_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/twilight.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/twilight_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/twilight_shifted.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/twilight_shifted_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/viridis.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/viridis_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/winter.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/winter_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/wistia.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/wistia_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/ylgn.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/ylgn_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/ylgnbu.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/ylgnbu_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/ylorbr.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/ylorbr_r.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/ylorrd.npy",
+    "Lib/site-packages/rio_tiler/cmap_data/ylorrd_r.npy",
+    "Lib/site-packages/rio_tiler/colormap.py",
+    "Lib/site-packages/rio_tiler/constants.py",
+    "Lib/site-packages/rio_tiler/errors.py",
+    "Lib/site-packages/rio_tiler/expression.py",
+    "Lib/site-packages/rio_tiler/io/__init__.py",
+    "Lib/site-packages/rio_tiler/io/base.py",
+    "Lib/site-packages/rio_tiler/io/rasterio.py",
+    "Lib/site-packages/rio_tiler/io/stac.py",
+    "Lib/site-packages/rio_tiler/io/xarray.py",
+    "Lib/site-packages/rio_tiler/logger.py",
+    "Lib/site-packages/rio_tiler/models.py",
+    "Lib/site-packages/rio_tiler/mosaic/__init__.py",
+    "Lib/site-packages/rio_tiler/mosaic/methods/__init__.py",
+    "Lib/site-packages/rio_tiler/mosaic/methods/base.py",
+    "Lib/site-packages/rio_tiler/mosaic/methods/defaults.py",
+    "Lib/site-packages/rio_tiler/mosaic/reader.py",
+    "Lib/site-packages/rio_tiler/profiles.py",
+    "Lib/site-packages/rio_tiler/py.typed",
+    "Lib/site-packages/rio_tiler/reader.py",
+    "Lib/site-packages/rio_tiler/tasks.py",
+    "Lib/site-packages/rio_tiler/types.py",
+    "Lib/site-packages/rio_tiler/utils.py",
+    ".nonadmin",
+    "Lib/site-packages/rio_tiler/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/rio_tiler/cmap_data/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/rio_tiler/__pycache__/colormap.cpython-312.pyc",
+    "Lib/site-packages/rio_tiler/__pycache__/constants.cpython-312.pyc",
+    "Lib/site-packages/rio_tiler/__pycache__/errors.cpython-312.pyc",
+    "Lib/site-packages/rio_tiler/__pycache__/expression.cpython-312.pyc",
+    "Lib/site-packages/rio_tiler/io/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/rio_tiler/io/__pycache__/base.cpython-312.pyc",
+    "Lib/site-packages/rio_tiler/io/__pycache__/rasterio.cpython-312.pyc",
+    "Lib/site-packages/rio_tiler/io/__pycache__/stac.cpython-312.pyc",
+    "Lib/site-packages/rio_tiler/io/__pycache__/xarray.cpython-312.pyc",
+    "Lib/site-packages/rio_tiler/__pycache__/logger.cpython-312.pyc",
+    "Lib/site-packages/rio_tiler/__pycache__/models.cpython-312.pyc",
+    "Lib/site-packages/rio_tiler/mosaic/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/rio_tiler/mosaic/methods/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/rio_tiler/mosaic/methods/__pycache__/base.cpython-312.pyc",
+    "Lib/site-packages/rio_tiler/mosaic/methods/__pycache__/defaults.cpython-312.pyc",
+    "Lib/site-packages/rio_tiler/mosaic/__pycache__/reader.cpython-312.pyc",
+    "Lib/site-packages/rio_tiler/__pycache__/profiles.cpython-312.pyc",
+    "Lib/site-packages/rio_tiler/__pycache__/reader.cpython-312.pyc",
+    "Lib/site-packages/rio_tiler/__pycache__/tasks.cpython-312.pyc",
+    "Lib/site-packages/rio_tiler/__pycache__/types.cpython-312.pyc",
+    "Lib/site-packages/rio_tiler/__pycache__/utils.cpython-312.pyc"
+  ],
+  "fn": "rio-tiler-6.4.1-pyhd8ed1ab_0.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "D:\\xxx\\anaconda3\\pkgs\\rio-tiler-6.4.1-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "9abc299859ce440c1fd90f1adf76f748",
+  "name": "rio-tiler",
+  "noarch": "python",
+  "package_tarball_full_path": "D:\\xxx\\anaconda3\\pkgs\\rio-tiler-6.4.1-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/rio_tiler-6.4.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/rio_tiler-6.4.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "b1817a19add584074833cf976c918ff7ce9a5649da260808449e6c6238512165",
+        "sha256_in_prefix": "b1817a19add584074833cf976c918ff7ce9a5649da260808449e6c6238512165",
+        "size_in_bytes": 11869
+      },
+      {
+        "_path": "site-packages/rio_tiler-6.4.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "d15f3e30da3212bad1d492443e4e72466298f95435826b006e3b827987f999b0",
+        "sha256_in_prefix": "d15f3e30da3212bad1d492443e4e72466298f95435826b006e3b827987f999b0",
+        "size_in_bytes": 22566
+      },
+      {
+        "_path": "site-packages/rio_tiler-6.4.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/rio_tiler-6.4.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "4c93e729db6b4ae7bbc59fc0546929f585dcbc3ae86ec8c176cd5dbb7371e9d7",
+        "sha256_in_prefix": "4c93e729db6b4ae7bbc59fc0546929f585dcbc3ae86ec8c176cd5dbb7371e9d7",
+        "size_in_bytes": 87
+      },
+      {
+        "_path": "site-packages/rio_tiler-6.4.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "fc0f7642e45d4997a0476d9e400992f4954fbb57520a10b79bb4e01a8ad970d6",
+        "sha256_in_prefix": "fc0f7642e45d4997a0476d9e400992f4954fbb57520a10b79bb4e01a8ad970d6",
+        "size_in_bytes": 105
+      },
+      {
+        "_path": "site-packages/rio_tiler-6.4.1.dist-info/licenses/AUTHORS.txt",
+        "path_type": "hardlink",
+        "sha256": "14255de138e0fbcb3297466e802ba7a57111f17dbe5e89d6d997e59724e746f1",
+        "sha256_in_prefix": "14255de138e0fbcb3297466e802ba7a57111f17dbe5e89d6d997e59724e746f1",
+        "size_in_bytes": 158
+      },
+      {
+        "_path": "site-packages/rio_tiler-6.4.1.dist-info/licenses/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "beaf13b782a86104fd271023438c973269a1158453b01460ace8fe6a8f9b0b9a",
+        "sha256_in_prefix": "beaf13b782a86104fd271023438c973269a1158453b01460ace8fe6a8f9b0b9a",
+        "size_in_bytes": 1517
+      },
+      {
+        "_path": "site-packages/rio_tiler/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "1dac7022acb71cfdccb947927f48eae3f4239b08504d79a08d02f1c5df555d51",
+        "sha256_in_prefix": "1dac7022acb71cfdccb947927f48eae3f4239b08504d79a08d02f1c5df555d51",
+        "size_in_bytes": 192
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "f05b5599fa538d796f87143941eb0dd140b59bf07732e1772db19b84c0b9470e",
+        "sha256_in_prefix": "f05b5599fa538d796f87143941eb0dd140b59bf07732e1772db19b84c0b9470e",
+        "size_in_bytes": 1039
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/accent.npy",
+        "path_type": "hardlink",
+        "sha256": "41d7b595d3a85e085ee0bd39bf541b56f9cc03595dc0d8ca58f7f9c4205b988e",
+        "sha256_in_prefix": "41d7b595d3a85e085ee0bd39bf541b56f9cc03595dc0d8ca58f7f9c4205b988e",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/accent_r.npy",
+        "path_type": "hardlink",
+        "sha256": "6daf865923123d101c9bd086ce55c978d1b80016c11c3095eb4da101657689d7",
+        "sha256_in_prefix": "6daf865923123d101c9bd086ce55c978d1b80016c11c3095eb4da101657689d7",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/afmhot.npy",
+        "path_type": "hardlink",
+        "sha256": "42c07fb12e6a0781cc63bda3d706a87b0665f9d5413ef0e496108820bceb45ab",
+        "sha256_in_prefix": "42c07fb12e6a0781cc63bda3d706a87b0665f9d5413ef0e496108820bceb45ab",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/afmhot_r.npy",
+        "path_type": "hardlink",
+        "sha256": "6f1f9d71d499c0a4f4bcc833aa569ddb988734f1f20e499ba1229864fdf8338c",
+        "sha256_in_prefix": "6f1f9d71d499c0a4f4bcc833aa569ddb988734f1f20e499ba1229864fdf8338c",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/algae.npy",
+        "path_type": "hardlink",
+        "sha256": "2469753a934c2dd0e8f605e8f74c7f521c2359fa94deefc850b28e2ed6671d4a",
+        "sha256_in_prefix": "2469753a934c2dd0e8f605e8f74c7f521c2359fa94deefc850b28e2ed6671d4a",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/algae_r.npy",
+        "path_type": "hardlink",
+        "sha256": "ad898cf1a9fd736a1d82280b9d20d668c15c5b7623f83b404755fbf975cab54e",
+        "sha256_in_prefix": "ad898cf1a9fd736a1d82280b9d20d668c15c5b7623f83b404755fbf975cab54e",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/amp.npy",
+        "path_type": "hardlink",
+        "sha256": "085381c8ec16c30fa5e5fb8a3fd1d7472e64390874eec3a7905ab2cb131d2c17",
+        "sha256_in_prefix": "085381c8ec16c30fa5e5fb8a3fd1d7472e64390874eec3a7905ab2cb131d2c17",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/amp_r.npy",
+        "path_type": "hardlink",
+        "sha256": "2ecf72a568b081294f37d5befc415f7014b1096dba61c1c69fa114f5249aab0b",
+        "sha256_in_prefix": "2ecf72a568b081294f37d5befc415f7014b1096dba61c1c69fa114f5249aab0b",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/autumn.npy",
+        "path_type": "hardlink",
+        "sha256": "250a178bec71e21ea557eb39c163f37f07202dfd2977f50a62abe93b7b0a49ce",
+        "sha256_in_prefix": "250a178bec71e21ea557eb39c163f37f07202dfd2977f50a62abe93b7b0a49ce",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/autumn_r.npy",
+        "path_type": "hardlink",
+        "sha256": "66a29d9f85e02573d52fcfaae75087dabd9c6eb534f010470d2633c021ee39d9",
+        "sha256_in_prefix": "66a29d9f85e02573d52fcfaae75087dabd9c6eb534f010470d2633c021ee39d9",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/balance.npy",
+        "path_type": "hardlink",
+        "sha256": "24d0d215a9c45e0950659b64e9701156168d5e66bd704bdd358666c3f2c97589",
+        "sha256_in_prefix": "24d0d215a9c45e0950659b64e9701156168d5e66bd704bdd358666c3f2c97589",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/balance_r.npy",
+        "path_type": "hardlink",
+        "sha256": "b4efbf79452b5145b5db4043726f472f751ace484ce0582a817a9be394779f12",
+        "sha256_in_prefix": "b4efbf79452b5145b5db4043726f472f751ace484ce0582a817a9be394779f12",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/binary.npy",
+        "path_type": "hardlink",
+        "sha256": "fdd37a29c85c06a3833c14abf4030c52f23fadc0e3c75683175541dc6f8733f3",
+        "sha256_in_prefix": "fdd37a29c85c06a3833c14abf4030c52f23fadc0e3c75683175541dc6f8733f3",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/binary_r.npy",
+        "path_type": "hardlink",
+        "sha256": "e1743255b1313c9df778aa5fd6426e1956a9781362a70379f7c55adfe479f35b",
+        "sha256_in_prefix": "e1743255b1313c9df778aa5fd6426e1956a9781362a70379f7c55adfe479f35b",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/blues.npy",
+        "path_type": "hardlink",
+        "sha256": "66c1c4a3dfdb7fc6bf4b541e13ffffe5ea8fbddf29f66987c9c4054cbcaf908e",
+        "sha256_in_prefix": "66c1c4a3dfdb7fc6bf4b541e13ffffe5ea8fbddf29f66987c9c4054cbcaf908e",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/blues_r.npy",
+        "path_type": "hardlink",
+        "sha256": "2a60196b30842e631dadf69cbb01a05025bec6e68bcab214713c4b6f33a07b57",
+        "sha256_in_prefix": "2a60196b30842e631dadf69cbb01a05025bec6e68bcab214713c4b6f33a07b57",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/bone.npy",
+        "path_type": "hardlink",
+        "sha256": "29ad42ccfca89acfa2f23f095e4c863c3f9006a47b8ecbf378f23b8e28158695",
+        "sha256_in_prefix": "29ad42ccfca89acfa2f23f095e4c863c3f9006a47b8ecbf378f23b8e28158695",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/bone_r.npy",
+        "path_type": "hardlink",
+        "sha256": "7d3d8daccfc51739db2c6bb51a8bbde8dc8708195037291ecac52d4f36914ca3",
+        "sha256_in_prefix": "7d3d8daccfc51739db2c6bb51a8bbde8dc8708195037291ecac52d4f36914ca3",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/brbg.npy",
+        "path_type": "hardlink",
+        "sha256": "d65d359806ce9aab80e4d4cb88e61fa0f82a211f251f3cb64a1ad07d1dccb284",
+        "sha256_in_prefix": "d65d359806ce9aab80e4d4cb88e61fa0f82a211f251f3cb64a1ad07d1dccb284",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/brbg_r.npy",
+        "path_type": "hardlink",
+        "sha256": "c0137d6582a407ac41bb59b6f8ea157d3686db8428e7a719e05da8039a847f1a",
+        "sha256_in_prefix": "c0137d6582a407ac41bb59b6f8ea157d3686db8428e7a719e05da8039a847f1a",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/brg.npy",
+        "path_type": "hardlink",
+        "sha256": "8222959e4e82b1866e4b7cfadc4b1287f87542871833f87fd2800f82a47baa77",
+        "sha256_in_prefix": "8222959e4e82b1866e4b7cfadc4b1287f87542871833f87fd2800f82a47baa77",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/brg_r.npy",
+        "path_type": "hardlink",
+        "sha256": "d1d6304d4624679e2720978329ae1aa609820cd516044698d39773e5b73210f7",
+        "sha256_in_prefix": "d1d6304d4624679e2720978329ae1aa609820cd516044698d39773e5b73210f7",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/bugn.npy",
+        "path_type": "hardlink",
+        "sha256": "9757d7ea3df6069c6043440f35c4e069afeca50b2254dd960ac71704ac9df212",
+        "sha256_in_prefix": "9757d7ea3df6069c6043440f35c4e069afeca50b2254dd960ac71704ac9df212",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/bugn_r.npy",
+        "path_type": "hardlink",
+        "sha256": "556b33625c5ee8aabe3f26d39f1af6841783bdaf12a956edd9615c49c04dcfa3",
+        "sha256_in_prefix": "556b33625c5ee8aabe3f26d39f1af6841783bdaf12a956edd9615c49c04dcfa3",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/bupu.npy",
+        "path_type": "hardlink",
+        "sha256": "aee99b9d760b858ca2d7063bd8699d27d21dfab444a95993c5cae26a1b83d98f",
+        "sha256_in_prefix": "aee99b9d760b858ca2d7063bd8699d27d21dfab444a95993c5cae26a1b83d98f",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/bupu_r.npy",
+        "path_type": "hardlink",
+        "sha256": "aa34bde717e21b31ba9c5c61c695723c723faa11e95e8e5561846a3b608a02ca",
+        "sha256_in_prefix": "aa34bde717e21b31ba9c5c61c695723c723faa11e95e8e5561846a3b608a02ca",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/bwr.npy",
+        "path_type": "hardlink",
+        "sha256": "add70e00051ec07ec44fe636c4171ee6f646ed9173049245ada3b1f0e0b8530e",
+        "sha256_in_prefix": "add70e00051ec07ec44fe636c4171ee6f646ed9173049245ada3b1f0e0b8530e",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/bwr_r.npy",
+        "path_type": "hardlink",
+        "sha256": "dabd127957471873da783e74dd4d64328dee1f6e7bc8e9c9e087c5a4c9671149",
+        "sha256_in_prefix": "dabd127957471873da783e74dd4d64328dee1f6e7bc8e9c9e087c5a4c9671149",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/cfastie.npy",
+        "path_type": "hardlink",
+        "sha256": "e64047872cef419603bcf91fbc5824742b0e26d6a99f348a8c95bcd1f929708f",
+        "sha256_in_prefix": "e64047872cef419603bcf91fbc5824742b0e26d6a99f348a8c95bcd1f929708f",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/cividis.npy",
+        "path_type": "hardlink",
+        "sha256": "0a5ce11d8e5fc19fee4c95a76f460007341150b6f10eca797238ad7f80cb84c4",
+        "sha256_in_prefix": "0a5ce11d8e5fc19fee4c95a76f460007341150b6f10eca797238ad7f80cb84c4",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/cividis_r.npy",
+        "path_type": "hardlink",
+        "sha256": "bc36c5dec56dabe0c8a74d221d81e6f1768bc539405ed4e9aa3fbbe7f4d93ec3",
+        "sha256_in_prefix": "bc36c5dec56dabe0c8a74d221d81e6f1768bc539405ed4e9aa3fbbe7f4d93ec3",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/cmrmap.npy",
+        "path_type": "hardlink",
+        "sha256": "ea0654049c2554f3fa702d5d08402c2a6ab8670a215a759d03e29215676a9e29",
+        "sha256_in_prefix": "ea0654049c2554f3fa702d5d08402c2a6ab8670a215a759d03e29215676a9e29",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/cmrmap_r.npy",
+        "path_type": "hardlink",
+        "sha256": "2782c84129deafc7035880942139f4bd7ce69f91247159f9fc8497052c200708",
+        "sha256_in_prefix": "2782c84129deafc7035880942139f4bd7ce69f91247159f9fc8497052c200708",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/cool.npy",
+        "path_type": "hardlink",
+        "sha256": "cbf631a326c6cb112bad9c24a43d96d10256c5c33945dfffadb819d0328b96ad",
+        "sha256_in_prefix": "cbf631a326c6cb112bad9c24a43d96d10256c5c33945dfffadb819d0328b96ad",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/cool_r.npy",
+        "path_type": "hardlink",
+        "sha256": "317fcd9d90a36ecc69ee05265ed51df4a2280e34ad873f9e9dac093f26b1ab87",
+        "sha256_in_prefix": "317fcd9d90a36ecc69ee05265ed51df4a2280e34ad873f9e9dac093f26b1ab87",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/coolwarm.npy",
+        "path_type": "hardlink",
+        "sha256": "551be1399c79aca8980e6c44bca8254cdb2e90efa5e9b80f79aafbc87eb5f40f",
+        "sha256_in_prefix": "551be1399c79aca8980e6c44bca8254cdb2e90efa5e9b80f79aafbc87eb5f40f",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/coolwarm_r.npy",
+        "path_type": "hardlink",
+        "sha256": "d5d490b3bfac01f4c5aa5e6d017b5f108e90ccf34d07e8d6509f9b5a10099e43",
+        "sha256_in_prefix": "d5d490b3bfac01f4c5aa5e6d017b5f108e90ccf34d07e8d6509f9b5a10099e43",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/copper.npy",
+        "path_type": "hardlink",
+        "sha256": "718c1db4c3b73028941366161100e036df1457a74f962ea3c40eea8d36420c68",
+        "sha256_in_prefix": "718c1db4c3b73028941366161100e036df1457a74f962ea3c40eea8d36420c68",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/copper_r.npy",
+        "path_type": "hardlink",
+        "sha256": "d09b348f3dab398c9d592e0072fa9c97dec296a65621f23c8b402ab3b1784b5d",
+        "sha256_in_prefix": "d09b348f3dab398c9d592e0072fa9c97dec296a65621f23c8b402ab3b1784b5d",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/cubehelix.npy",
+        "path_type": "hardlink",
+        "sha256": "b06930f091fd9532af4dd1a0cb6873ccfed059d35f65154cc0e36491a9f6ba31",
+        "sha256_in_prefix": "b06930f091fd9532af4dd1a0cb6873ccfed059d35f65154cc0e36491a9f6ba31",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/cubehelix_r.npy",
+        "path_type": "hardlink",
+        "sha256": "4311ade523e1995cfe2acb8f1dc000af0800cdb9c3d9903d41eff93c3e07fc9e",
+        "sha256_in_prefix": "4311ade523e1995cfe2acb8f1dc000af0800cdb9c3d9903d41eff93c3e07fc9e",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/curl.npy",
+        "path_type": "hardlink",
+        "sha256": "c461810bac2642c23a5fd263a782dd281e5042141c2da6ab5a474320e80be1ff",
+        "sha256_in_prefix": "c461810bac2642c23a5fd263a782dd281e5042141c2da6ab5a474320e80be1ff",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/curl_r.npy",
+        "path_type": "hardlink",
+        "sha256": "7caff9a9338402743d060dfddb9baed0e0d41b8a1c84b2fe6a8b98e5d14d025f",
+        "sha256_in_prefix": "7caff9a9338402743d060dfddb9baed0e0d41b8a1c84b2fe6a8b98e5d14d025f",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/dark2.npy",
+        "path_type": "hardlink",
+        "sha256": "c9216d2bf2622c2ddc4e99382ae8a823560983d480f8a9911b8900919f85410e",
+        "sha256_in_prefix": "c9216d2bf2622c2ddc4e99382ae8a823560983d480f8a9911b8900919f85410e",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/dark2_r.npy",
+        "path_type": "hardlink",
+        "sha256": "9f1698723b062fa2b9003f5fa1df17f4de7aff7ef982387d4bd563f94b5a3dcc",
+        "sha256_in_prefix": "9f1698723b062fa2b9003f5fa1df17f4de7aff7ef982387d4bd563f94b5a3dcc",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/deep.npy",
+        "path_type": "hardlink",
+        "sha256": "89a188b2ccaf61f3eb05a533f26bfdfd7712b01923c92e4c8e64b2b5a2d76333",
+        "sha256_in_prefix": "89a188b2ccaf61f3eb05a533f26bfdfd7712b01923c92e4c8e64b2b5a2d76333",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/deep_r.npy",
+        "path_type": "hardlink",
+        "sha256": "326b6e8be07b1e682dfe2e1c19e3c08a965fd4614ae0893f5e0e6a720a7a33bb",
+        "sha256_in_prefix": "326b6e8be07b1e682dfe2e1c19e3c08a965fd4614ae0893f5e0e6a720a7a33bb",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/delta.npy",
+        "path_type": "hardlink",
+        "sha256": "f0a8b88b522911fb5a8d8bce63b98702b0dd07783dbdb01a578b3e9bfe56faa1",
+        "sha256_in_prefix": "f0a8b88b522911fb5a8d8bce63b98702b0dd07783dbdb01a578b3e9bfe56faa1",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/delta_r.npy",
+        "path_type": "hardlink",
+        "sha256": "0b73c35722ddbe419afad64744a3e2fd6a277899a4400105525a1452f0981b0b",
+        "sha256_in_prefix": "0b73c35722ddbe419afad64744a3e2fd6a277899a4400105525a1452f0981b0b",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/dense.npy",
+        "path_type": "hardlink",
+        "sha256": "fea9e009c80eabec4049158b4d80fbdd9941adbab5a727d760eab57dbd5b8a05",
+        "sha256_in_prefix": "fea9e009c80eabec4049158b4d80fbdd9941adbab5a727d760eab57dbd5b8a05",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/dense_r.npy",
+        "path_type": "hardlink",
+        "sha256": "b51d9d299cbd6b38c2bba2dca61bcb83ae7786f06f0d3c643f8d45c59561e461",
+        "sha256_in_prefix": "b51d9d299cbd6b38c2bba2dca61bcb83ae7786f06f0d3c643f8d45c59561e461",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/diff.npy",
+        "path_type": "hardlink",
+        "sha256": "fd4d65d4a74ef8793daf5a9870cb906204bcf5b76dc5154891351fcec90e6583",
+        "sha256_in_prefix": "fd4d65d4a74ef8793daf5a9870cb906204bcf5b76dc5154891351fcec90e6583",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/diff_r.npy",
+        "path_type": "hardlink",
+        "sha256": "bf5516c5de841765533401ef3331ec2befc617eaef52879a3a5fb2974b92ab2e",
+        "sha256_in_prefix": "bf5516c5de841765533401ef3331ec2befc617eaef52879a3a5fb2974b92ab2e",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/flag.npy",
+        "path_type": "hardlink",
+        "sha256": "52c7219f1ae262561df552d44fbd9020615d448c0150eec0d1f64454aabcc017",
+        "sha256_in_prefix": "52c7219f1ae262561df552d44fbd9020615d448c0150eec0d1f64454aabcc017",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/flag_r.npy",
+        "path_type": "hardlink",
+        "sha256": "f0cf36fb912d251c4c100cc4f31e67cbcaba7ce793802eb0a7ca37ec82e3f9c0",
+        "sha256_in_prefix": "f0cf36fb912d251c4c100cc4f31e67cbcaba7ce793802eb0a7ca37ec82e3f9c0",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/gist_earth.npy",
+        "path_type": "hardlink",
+        "sha256": "20e042260b962d46e14f7aad7fc37b3c86e2650ade0007a0eae481e9879d2a22",
+        "sha256_in_prefix": "20e042260b962d46e14f7aad7fc37b3c86e2650ade0007a0eae481e9879d2a22",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/gist_earth_r.npy",
+        "path_type": "hardlink",
+        "sha256": "3fb0990682f20cb8bc2b740c9672444ba970ff53fb3d0e5c3d688077af93511f",
+        "sha256_in_prefix": "3fb0990682f20cb8bc2b740c9672444ba970ff53fb3d0e5c3d688077af93511f",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/gist_gray.npy",
+        "path_type": "hardlink",
+        "sha256": "e1743255b1313c9df778aa5fd6426e1956a9781362a70379f7c55adfe479f35b",
+        "sha256_in_prefix": "e1743255b1313c9df778aa5fd6426e1956a9781362a70379f7c55adfe479f35b",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/gist_gray_r.npy",
+        "path_type": "hardlink",
+        "sha256": "fdd37a29c85c06a3833c14abf4030c52f23fadc0e3c75683175541dc6f8733f3",
+        "sha256_in_prefix": "fdd37a29c85c06a3833c14abf4030c52f23fadc0e3c75683175541dc6f8733f3",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/gist_heat.npy",
+        "path_type": "hardlink",
+        "sha256": "07f6b89048ffcadd6a53480741682aba757126ca15fbf52c864365a5c8b575c0",
+        "sha256_in_prefix": "07f6b89048ffcadd6a53480741682aba757126ca15fbf52c864365a5c8b575c0",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/gist_heat_r.npy",
+        "path_type": "hardlink",
+        "sha256": "1e3159d3115470b135162a3c0e9b4056a9002b81f853ce8ae5169386d23387f5",
+        "sha256_in_prefix": "1e3159d3115470b135162a3c0e9b4056a9002b81f853ce8ae5169386d23387f5",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/gist_ncar.npy",
+        "path_type": "hardlink",
+        "sha256": "1abafa9b9805d4ee2f0978755eec2f4a6ad4eb8040c5abf0f6166eff4c67637d",
+        "sha256_in_prefix": "1abafa9b9805d4ee2f0978755eec2f4a6ad4eb8040c5abf0f6166eff4c67637d",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/gist_ncar_r.npy",
+        "path_type": "hardlink",
+        "sha256": "e20fef2799fe8d3a711385206dbe70c1588a8f1de4c8e58128dc3aeabf9fb58c",
+        "sha256_in_prefix": "e20fef2799fe8d3a711385206dbe70c1588a8f1de4c8e58128dc3aeabf9fb58c",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/gist_rainbow.npy",
+        "path_type": "hardlink",
+        "sha256": "caf853a7eb4a9f1335cb6c74f6017db760878d33df24181b1f18cff4d0ec3355",
+        "sha256_in_prefix": "caf853a7eb4a9f1335cb6c74f6017db760878d33df24181b1f18cff4d0ec3355",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/gist_rainbow_r.npy",
+        "path_type": "hardlink",
+        "sha256": "2a27bc4f4ad4d0489f4dc3055ba7923d95a45c21c82c5413390c150faf352ca7",
+        "sha256_in_prefix": "2a27bc4f4ad4d0489f4dc3055ba7923d95a45c21c82c5413390c150faf352ca7",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/gist_stern.npy",
+        "path_type": "hardlink",
+        "sha256": "9b317d17e3cfe52448440e77a3949c42a29f9f8decb6d1507fbb16d000ce8109",
+        "sha256_in_prefix": "9b317d17e3cfe52448440e77a3949c42a29f9f8decb6d1507fbb16d000ce8109",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/gist_stern_r.npy",
+        "path_type": "hardlink",
+        "sha256": "222f5cb0519efe854725fe2725425ff3853d5b4181034666b52e160b97bad6e7",
+        "sha256_in_prefix": "222f5cb0519efe854725fe2725425ff3853d5b4181034666b52e160b97bad6e7",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/gist_yarg.npy",
+        "path_type": "hardlink",
+        "sha256": "fdd37a29c85c06a3833c14abf4030c52f23fadc0e3c75683175541dc6f8733f3",
+        "sha256_in_prefix": "fdd37a29c85c06a3833c14abf4030c52f23fadc0e3c75683175541dc6f8733f3",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/gist_yarg_r.npy",
+        "path_type": "hardlink",
+        "sha256": "20a1928d045566122b3deb6cefc206b1be0091d3b930638798ca1f3b68deb220",
+        "sha256_in_prefix": "20a1928d045566122b3deb6cefc206b1be0091d3b930638798ca1f3b68deb220",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/gnbu.npy",
+        "path_type": "hardlink",
+        "sha256": "51f65b8056238c228b148250bd2df5048613690d9af79ed988dab3dfb30625ac",
+        "sha256_in_prefix": "51f65b8056238c228b148250bd2df5048613690d9af79ed988dab3dfb30625ac",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/gnbu_r.npy",
+        "path_type": "hardlink",
+        "sha256": "04790c1436f4a5ecd45d0cb1085be48140fdc30399b9ae88b6324e85ebcec138",
+        "sha256_in_prefix": "04790c1436f4a5ecd45d0cb1085be48140fdc30399b9ae88b6324e85ebcec138",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/gnuplot.npy",
+        "path_type": "hardlink",
+        "sha256": "a47ccf08efc6fddf21e73ec379cca84c0d421e8b3783ba54d05bd9c3774db60e",
+        "sha256_in_prefix": "a47ccf08efc6fddf21e73ec379cca84c0d421e8b3783ba54d05bd9c3774db60e",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/gnuplot2.npy",
+        "path_type": "hardlink",
+        "sha256": "894cbdc1e4e5c9ecc869c1b985e291a5c0111c137da9172d18aedfff213e28ca",
+        "sha256_in_prefix": "894cbdc1e4e5c9ecc869c1b985e291a5c0111c137da9172d18aedfff213e28ca",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/gnuplot2_r.npy",
+        "path_type": "hardlink",
+        "sha256": "f61ed278d854bcff87ebc8da88169eb0432340253f304bc254bc1eb03c44d84d",
+        "sha256_in_prefix": "f61ed278d854bcff87ebc8da88169eb0432340253f304bc254bc1eb03c44d84d",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/gnuplot_r.npy",
+        "path_type": "hardlink",
+        "sha256": "63368f44e97b2692f04f2782bd63cb3d1faf29dc80a7e55cb29438560023d9f2",
+        "sha256_in_prefix": "63368f44e97b2692f04f2782bd63cb3d1faf29dc80a7e55cb29438560023d9f2",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/gray.npy",
+        "path_type": "hardlink",
+        "sha256": "e1743255b1313c9df778aa5fd6426e1956a9781362a70379f7c55adfe479f35b",
+        "sha256_in_prefix": "e1743255b1313c9df778aa5fd6426e1956a9781362a70379f7c55adfe479f35b",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/gray_r.npy",
+        "path_type": "hardlink",
+        "sha256": "fdd37a29c85c06a3833c14abf4030c52f23fadc0e3c75683175541dc6f8733f3",
+        "sha256_in_prefix": "fdd37a29c85c06a3833c14abf4030c52f23fadc0e3c75683175541dc6f8733f3",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/greens.npy",
+        "path_type": "hardlink",
+        "sha256": "e557995b7ea77a5e4ba7df19b339bec050cb7f15560395a56daeedaf770f8e07",
+        "sha256_in_prefix": "e557995b7ea77a5e4ba7df19b339bec050cb7f15560395a56daeedaf770f8e07",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/greens_r.npy",
+        "path_type": "hardlink",
+        "sha256": "629359f50050f7af8a8a87e1f31f2ac587eddb9b52b11590f2094c16e9d8af23",
+        "sha256_in_prefix": "629359f50050f7af8a8a87e1f31f2ac587eddb9b52b11590f2094c16e9d8af23",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/greys.npy",
+        "path_type": "hardlink",
+        "sha256": "f0f3d09e37613c192cc4af02fa0a6335bf9bfbc27cd7e0a805d7a2f1ae5525ea",
+        "sha256_in_prefix": "f0f3d09e37613c192cc4af02fa0a6335bf9bfbc27cd7e0a805d7a2f1ae5525ea",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/greys_r.npy",
+        "path_type": "hardlink",
+        "sha256": "43bddc94021d250e2257c890e9aaf1f449f5684f0e58930795e612491b94789b",
+        "sha256_in_prefix": "43bddc94021d250e2257c890e9aaf1f449f5684f0e58930795e612491b94789b",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/haline.npy",
+        "path_type": "hardlink",
+        "sha256": "b6bdb9f2f3f1e78adc33d71a9a604a808f351000a2bef700ff59572e99b9dac5",
+        "sha256_in_prefix": "b6bdb9f2f3f1e78adc33d71a9a604a808f351000a2bef700ff59572e99b9dac5",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/haline_r.npy",
+        "path_type": "hardlink",
+        "sha256": "cb06ce2653a5244a9fae51968ba87b2886b0ae71a88cd17f61645c3e58ab50d1",
+        "sha256_in_prefix": "cb06ce2653a5244a9fae51968ba87b2886b0ae71a88cd17f61645c3e58ab50d1",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/hot.npy",
+        "path_type": "hardlink",
+        "sha256": "cb34f246c384194357dfe886018d32e33db58bed8907dc3de7f659091149d09a",
+        "sha256_in_prefix": "cb34f246c384194357dfe886018d32e33db58bed8907dc3de7f659091149d09a",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/hot_r.npy",
+        "path_type": "hardlink",
+        "sha256": "9946d59b6af26f0ed5778d0fcc5a5fbc9fb685d0372ab1c868eec84374e8171e",
+        "sha256_in_prefix": "9946d59b6af26f0ed5778d0fcc5a5fbc9fb685d0372ab1c868eec84374e8171e",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/hsv.npy",
+        "path_type": "hardlink",
+        "sha256": "1046f780b2d032403d461675cdf028e3bbfa687f365510dd26b84538e565a513",
+        "sha256_in_prefix": "1046f780b2d032403d461675cdf028e3bbfa687f365510dd26b84538e565a513",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/hsv_r.npy",
+        "path_type": "hardlink",
+        "sha256": "7806e3dd5fc488bd0cb8bd40b2dee9bc4d560a2e98ed7e0a1bef027892ab1b6e",
+        "sha256_in_prefix": "7806e3dd5fc488bd0cb8bd40b2dee9bc4d560a2e98ed7e0a1bef027892ab1b6e",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/ice.npy",
+        "path_type": "hardlink",
+        "sha256": "832bd07c6f5c078b5172b6a4de02a589f6b9e0ef5f13f265a6830cd509bf0043",
+        "sha256_in_prefix": "832bd07c6f5c078b5172b6a4de02a589f6b9e0ef5f13f265a6830cd509bf0043",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/ice_r.npy",
+        "path_type": "hardlink",
+        "sha256": "4d04b049c951a675fa09ec23611e6d1d251b4afb9034d353c20a063b4b21ed0c",
+        "sha256_in_prefix": "4d04b049c951a675fa09ec23611e6d1d251b4afb9034d353c20a063b4b21ed0c",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/inferno.npy",
+        "path_type": "hardlink",
+        "sha256": "921315e4893406f31a9359c4abcece47d3b6bd745b0c544f7a1ca0298bf569e4",
+        "sha256_in_prefix": "921315e4893406f31a9359c4abcece47d3b6bd745b0c544f7a1ca0298bf569e4",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/inferno_r.npy",
+        "path_type": "hardlink",
+        "sha256": "e32a72e80f23897983d81cf12af1c2c4de464b94554b95f7c20141d826faef96",
+        "sha256_in_prefix": "e32a72e80f23897983d81cf12af1c2c4de464b94554b95f7c20141d826faef96",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/jet.npy",
+        "path_type": "hardlink",
+        "sha256": "4789c49eb70a6ab6612deaa5f261756f5bd778c9fa894967199028530853b0e9",
+        "sha256_in_prefix": "4789c49eb70a6ab6612deaa5f261756f5bd778c9fa894967199028530853b0e9",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/jet_r.npy",
+        "path_type": "hardlink",
+        "sha256": "89189b3812b4b0ba0150428348fd4f94dc28cdd3148532f861d7bde40e2693ea",
+        "sha256_in_prefix": "89189b3812b4b0ba0150428348fd4f94dc28cdd3148532f861d7bde40e2693ea",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/magma.npy",
+        "path_type": "hardlink",
+        "sha256": "7ed3d50104286a6b4463150ce50731638d56a4ed51689063733e7080b1ad75a0",
+        "sha256_in_prefix": "7ed3d50104286a6b4463150ce50731638d56a4ed51689063733e7080b1ad75a0",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/magma_r.npy",
+        "path_type": "hardlink",
+        "sha256": "ce81c89b51e4ad1ffe966e6471a5b4290192f737acd92b913ddca9aedc8c9f36",
+        "sha256_in_prefix": "ce81c89b51e4ad1ffe966e6471a5b4290192f737acd92b913ddca9aedc8c9f36",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/matter.npy",
+        "path_type": "hardlink",
+        "sha256": "63ed901bb230d51c3940fd3481c0acc8dfd8ad7a3aa7401411a4dbc516d59b0f",
+        "sha256_in_prefix": "63ed901bb230d51c3940fd3481c0acc8dfd8ad7a3aa7401411a4dbc516d59b0f",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/matter_r.npy",
+        "path_type": "hardlink",
+        "sha256": "10ff984275cf4b76ce53c8af2a171751f7b97ac1d4309067151e9514a462145d",
+        "sha256_in_prefix": "10ff984275cf4b76ce53c8af2a171751f7b97ac1d4309067151e9514a462145d",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/nipy_spectral.npy",
+        "path_type": "hardlink",
+        "sha256": "90752a14712986d1ab2502cd653f8832ff3f7def1cc6fd1a138215c343e30a80",
+        "sha256_in_prefix": "90752a14712986d1ab2502cd653f8832ff3f7def1cc6fd1a138215c343e30a80",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/nipy_spectral_r.npy",
+        "path_type": "hardlink",
+        "sha256": "ca72b21e8254d88f6d6c87428369b9f777405b0d6c0ff359c03dc901321d5bc8",
+        "sha256_in_prefix": "ca72b21e8254d88f6d6c87428369b9f777405b0d6c0ff359c03dc901321d5bc8",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/ocean.npy",
+        "path_type": "hardlink",
+        "sha256": "2236d919cbf9bbb2520471877c397090b99ceb05fa3573b284605507f322f30a",
+        "sha256_in_prefix": "2236d919cbf9bbb2520471877c397090b99ceb05fa3573b284605507f322f30a",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/ocean_r.npy",
+        "path_type": "hardlink",
+        "sha256": "f6cae7f8b39cd1cd33dc37ddf105c1fb7c94378baafeecc828173ee339e98e67",
+        "sha256_in_prefix": "f6cae7f8b39cd1cd33dc37ddf105c1fb7c94378baafeecc828173ee339e98e67",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/oranges.npy",
+        "path_type": "hardlink",
+        "sha256": "9a9025316123d7f8da8b10d9fc3d422fbffd0e5e87ff8fc409227d1a6f927206",
+        "sha256_in_prefix": "9a9025316123d7f8da8b10d9fc3d422fbffd0e5e87ff8fc409227d1a6f927206",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/oranges_r.npy",
+        "path_type": "hardlink",
+        "sha256": "67483390bcdd45b283e8c7f3ed4eb34ea0517732a747f61981433e25d29e1327",
+        "sha256_in_prefix": "67483390bcdd45b283e8c7f3ed4eb34ea0517732a747f61981433e25d29e1327",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/orrd.npy",
+        "path_type": "hardlink",
+        "sha256": "4033b3c68cc0dcf3c6dbf6291d72416ff06c3cbab97a7186f9f058b7526465ff",
+        "sha256_in_prefix": "4033b3c68cc0dcf3c6dbf6291d72416ff06c3cbab97a7186f9f058b7526465ff",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/orrd_r.npy",
+        "path_type": "hardlink",
+        "sha256": "4f8144c0b764f7827a48840b56caef7f6c54755b89b6c88bacd5fb91f11d33e9",
+        "sha256_in_prefix": "4f8144c0b764f7827a48840b56caef7f6c54755b89b6c88bacd5fb91f11d33e9",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/oxy.npy",
+        "path_type": "hardlink",
+        "sha256": "731a108c30bf04d285b9612679b2f21ea58c9d1e9bc282758a0601f052566e04",
+        "sha256_in_prefix": "731a108c30bf04d285b9612679b2f21ea58c9d1e9bc282758a0601f052566e04",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/oxy_r.npy",
+        "path_type": "hardlink",
+        "sha256": "7dadb0b34c86f01818384d6912d566d19398a3a47320f7cfe15935a78ae71bd9",
+        "sha256_in_prefix": "7dadb0b34c86f01818384d6912d566d19398a3a47320f7cfe15935a78ae71bd9",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/paired.npy",
+        "path_type": "hardlink",
+        "sha256": "e42f250ad8d2a962e0e0dd283679c5ac7917363e2dbf1156b59a46e2d082d21f",
+        "sha256_in_prefix": "e42f250ad8d2a962e0e0dd283679c5ac7917363e2dbf1156b59a46e2d082d21f",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/paired_r.npy",
+        "path_type": "hardlink",
+        "sha256": "6925abca186b5449fd55b866fb8a09b39e492dd77426f06579ab022bc731fa6f",
+        "sha256_in_prefix": "6925abca186b5449fd55b866fb8a09b39e492dd77426f06579ab022bc731fa6f",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/pastel1.npy",
+        "path_type": "hardlink",
+        "sha256": "1ed5c596f7bdd3632b7b669ddc3e7b5c9d96a7762c784b6f03174ac8fe83b3ca",
+        "sha256_in_prefix": "1ed5c596f7bdd3632b7b669ddc3e7b5c9d96a7762c784b6f03174ac8fe83b3ca",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/pastel1_r.npy",
+        "path_type": "hardlink",
+        "sha256": "978220758ed3032d453a31f9ed3a8fee74733a4663b9fc325dc5bddc89d84f17",
+        "sha256_in_prefix": "978220758ed3032d453a31f9ed3a8fee74733a4663b9fc325dc5bddc89d84f17",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/pastel2.npy",
+        "path_type": "hardlink",
+        "sha256": "afc3942d6191dcc0c0ea80732a0625759474ee61f2326566b760d470deeb5722",
+        "sha256_in_prefix": "afc3942d6191dcc0c0ea80732a0625759474ee61f2326566b760d470deeb5722",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/pastel2_r.npy",
+        "path_type": "hardlink",
+        "sha256": "cf5d32006298f23f8966611f71987ed400f362b44af813e24c3f241dcdd19433",
+        "sha256_in_prefix": "cf5d32006298f23f8966611f71987ed400f362b44af813e24c3f241dcdd19433",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/phase.npy",
+        "path_type": "hardlink",
+        "sha256": "926f2b926b02a16ef8f5098ae6f91168d5475bff2c172321edf0f751ffdd6f6e",
+        "sha256_in_prefix": "926f2b926b02a16ef8f5098ae6f91168d5475bff2c172321edf0f751ffdd6f6e",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/phase_r.npy",
+        "path_type": "hardlink",
+        "sha256": "e19ab2d89c3280c726e79671e52688fe77ad12bd60c904be678367ff64fe7e07",
+        "sha256_in_prefix": "e19ab2d89c3280c726e79671e52688fe77ad12bd60c904be678367ff64fe7e07",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/pink.npy",
+        "path_type": "hardlink",
+        "sha256": "da39a7a3da8acdf67c6d18ab44537eaa53367a122e28bbb86d5d721e2bfaaba7",
+        "sha256_in_prefix": "da39a7a3da8acdf67c6d18ab44537eaa53367a122e28bbb86d5d721e2bfaaba7",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/pink_r.npy",
+        "path_type": "hardlink",
+        "sha256": "22acb246e0e79a8e04bc706b01280ae42bd29606efbd12fa0fa10c3ce9e393c6",
+        "sha256_in_prefix": "22acb246e0e79a8e04bc706b01280ae42bd29606efbd12fa0fa10c3ce9e393c6",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/piyg.npy",
+        "path_type": "hardlink",
+        "sha256": "b13aaf79a39a4a6c44aad79e9fff4ba1dd85c5396d67b7f15f49c6a6195129a4",
+        "sha256_in_prefix": "b13aaf79a39a4a6c44aad79e9fff4ba1dd85c5396d67b7f15f49c6a6195129a4",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/piyg_r.npy",
+        "path_type": "hardlink",
+        "sha256": "0c674b3b24179fa29a609e27f0eda816579ca6078a975d789a41d1b70bf70f2f",
+        "sha256_in_prefix": "0c674b3b24179fa29a609e27f0eda816579ca6078a975d789a41d1b70bf70f2f",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/plasma.npy",
+        "path_type": "hardlink",
+        "sha256": "d2c4ce28e7e3073c577ffa33f964c565953b07658e81068b8d6d1aa1cec3ab38",
+        "sha256_in_prefix": "d2c4ce28e7e3073c577ffa33f964c565953b07658e81068b8d6d1aa1cec3ab38",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/plasma_r.npy",
+        "path_type": "hardlink",
+        "sha256": "ee3755252da8789a0429ddbabc262c9e0bfc58ab51cff089bb6a8ee28161d146",
+        "sha256_in_prefix": "ee3755252da8789a0429ddbabc262c9e0bfc58ab51cff089bb6a8ee28161d146",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/prgn.npy",
+        "path_type": "hardlink",
+        "sha256": "6b8408715a13d7b87675f9250529718eff07ce026f0a90697d36647a5ede9125",
+        "sha256_in_prefix": "6b8408715a13d7b87675f9250529718eff07ce026f0a90697d36647a5ede9125",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/prgn_r.npy",
+        "path_type": "hardlink",
+        "sha256": "1fce547fbf8879752f31e1ba07637427917b2d79b5525dff487f49f56f564c26",
+        "sha256_in_prefix": "1fce547fbf8879752f31e1ba07637427917b2d79b5525dff487f49f56f564c26",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/prism.npy",
+        "path_type": "hardlink",
+        "sha256": "b4b51193733e0c5333e12d37714ff5e374513405ba8fecf120b24459d5d199ce",
+        "sha256_in_prefix": "b4b51193733e0c5333e12d37714ff5e374513405ba8fecf120b24459d5d199ce",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/prism_r.npy",
+        "path_type": "hardlink",
+        "sha256": "49d23ad006bd0090b1ea6c6f73f7b98c32867c83b21fb7cea401fe2513a73c56",
+        "sha256_in_prefix": "49d23ad006bd0090b1ea6c6f73f7b98c32867c83b21fb7cea401fe2513a73c56",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/pubu.npy",
+        "path_type": "hardlink",
+        "sha256": "283426a9c5f08c89e088091b0063c9023affd236fa841c485efce99d7813a1d9",
+        "sha256_in_prefix": "283426a9c5f08c89e088091b0063c9023affd236fa841c485efce99d7813a1d9",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/pubu_r.npy",
+        "path_type": "hardlink",
+        "sha256": "fe60786530cdd1827e4c0c53902b17a843e3b15f4cf605eefabb19fdc3d1fc7e",
+        "sha256_in_prefix": "fe60786530cdd1827e4c0c53902b17a843e3b15f4cf605eefabb19fdc3d1fc7e",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/pubugn.npy",
+        "path_type": "hardlink",
+        "sha256": "74e34876d2a596f6990eb338e0040c111f629411f7a2ccfd8870384072c064d7",
+        "sha256_in_prefix": "74e34876d2a596f6990eb338e0040c111f629411f7a2ccfd8870384072c064d7",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/pubugn_r.npy",
+        "path_type": "hardlink",
+        "sha256": "edf0c9c8c85822bd1c87ae2de234f2ab61dbfd491c3de5cb75dbfe1fa30299da",
+        "sha256_in_prefix": "edf0c9c8c85822bd1c87ae2de234f2ab61dbfd491c3de5cb75dbfe1fa30299da",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/puor.npy",
+        "path_type": "hardlink",
+        "sha256": "64a1e3f363b5fa521161fba835970f51efb5389d2c6405cf40e55e9a954a67f4",
+        "sha256_in_prefix": "64a1e3f363b5fa521161fba835970f51efb5389d2c6405cf40e55e9a954a67f4",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/puor_r.npy",
+        "path_type": "hardlink",
+        "sha256": "0ce2e96b166bc874e37b0f9b44cb9ab95da7ddbdb52549915dd4348ba2f2c21c",
+        "sha256_in_prefix": "0ce2e96b166bc874e37b0f9b44cb9ab95da7ddbdb52549915dd4348ba2f2c21c",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/purd.npy",
+        "path_type": "hardlink",
+        "sha256": "863007ae30f388132460e318ce7851232743b5c648831aadfb12ae269f76a740",
+        "sha256_in_prefix": "863007ae30f388132460e318ce7851232743b5c648831aadfb12ae269f76a740",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/purd_r.npy",
+        "path_type": "hardlink",
+        "sha256": "38c4abacb0aef5c8ddefb8917ec618bdfdad41b029ab82bde583044ef1650093",
+        "sha256_in_prefix": "38c4abacb0aef5c8ddefb8917ec618bdfdad41b029ab82bde583044ef1650093",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/purples.npy",
+        "path_type": "hardlink",
+        "sha256": "b899ce3e339a30253e21be42f12c2623cc6e3e95cd35a1a85192c046a0399f13",
+        "sha256_in_prefix": "b899ce3e339a30253e21be42f12c2623cc6e3e95cd35a1a85192c046a0399f13",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/purples_r.npy",
+        "path_type": "hardlink",
+        "sha256": "452fb4070b915ddb9998171f8c747654bfb3a9589c1a59e5b8f2ec76951331f0",
+        "sha256_in_prefix": "452fb4070b915ddb9998171f8c747654bfb3a9589c1a59e5b8f2ec76951331f0",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/rain.npy",
+        "path_type": "hardlink",
+        "sha256": "1cf34fe34cc52f3afc4d6442ca83f8a50a10d1eb5dca778db2d961d0b4d07d05",
+        "sha256_in_prefix": "1cf34fe34cc52f3afc4d6442ca83f8a50a10d1eb5dca778db2d961d0b4d07d05",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/rain_r.npy",
+        "path_type": "hardlink",
+        "sha256": "37710175c28544ed5a07ca55e1c3e40a2c64a20cda3621a1cf92eac33e02f602",
+        "sha256_in_prefix": "37710175c28544ed5a07ca55e1c3e40a2c64a20cda3621a1cf92eac33e02f602",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/rainbow.npy",
+        "path_type": "hardlink",
+        "sha256": "b91fc8b82a223a1872ed417a49457b2690bac0278618b0ab376f0a37fbc23635",
+        "sha256_in_prefix": "b91fc8b82a223a1872ed417a49457b2690bac0278618b0ab376f0a37fbc23635",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/rainbow_r.npy",
+        "path_type": "hardlink",
+        "sha256": "359ee0777284ef4a75cffc4a72d5c0e4bf622eeb18b215ddf5c079d483e5e759",
+        "sha256_in_prefix": "359ee0777284ef4a75cffc4a72d5c0e4bf622eeb18b215ddf5c079d483e5e759",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/rdbu.npy",
+        "path_type": "hardlink",
+        "sha256": "f4bf4ae46ee4d8f99fc123a4811e49677b64d039aca2e15059ba2e1c295ad1bc",
+        "sha256_in_prefix": "f4bf4ae46ee4d8f99fc123a4811e49677b64d039aca2e15059ba2e1c295ad1bc",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/rdbu_r.npy",
+        "path_type": "hardlink",
+        "sha256": "af570adf425d6dd2f259e18ebbdd83fb7015495f83d0e0fdc19ab35d73d9f2b6",
+        "sha256_in_prefix": "af570adf425d6dd2f259e18ebbdd83fb7015495f83d0e0fdc19ab35d73d9f2b6",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/rdgy.npy",
+        "path_type": "hardlink",
+        "sha256": "b6caab4dce39ab7ae55328adc0fc4cb1fe4644c4e62d44501eb817e905a32122",
+        "sha256_in_prefix": "b6caab4dce39ab7ae55328adc0fc4cb1fe4644c4e62d44501eb817e905a32122",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/rdgy_r.npy",
+        "path_type": "hardlink",
+        "sha256": "7a120353fc7af3d4f6058e98fb46f8bf9f5304f1253d2a0dc759473183f71ca3",
+        "sha256_in_prefix": "7a120353fc7af3d4f6058e98fb46f8bf9f5304f1253d2a0dc759473183f71ca3",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/rdpu.npy",
+        "path_type": "hardlink",
+        "sha256": "4e099f5592b0ebded9d136a9929a0ff25126157b07b3833064c5c9649018d054",
+        "sha256_in_prefix": "4e099f5592b0ebded9d136a9929a0ff25126157b07b3833064c5c9649018d054",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/rdpu_r.npy",
+        "path_type": "hardlink",
+        "sha256": "5cca4a135904d4afa4583b8c985f22d6fef86f208f6dd3e61a67e9e5d6d98107",
+        "sha256_in_prefix": "5cca4a135904d4afa4583b8c985f22d6fef86f208f6dd3e61a67e9e5d6d98107",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/rdylbu.npy",
+        "path_type": "hardlink",
+        "sha256": "d417a9b34a4815ca212bcab6e155cdd066eedd7cb85f80e7bd2c54f323390734",
+        "sha256_in_prefix": "d417a9b34a4815ca212bcab6e155cdd066eedd7cb85f80e7bd2c54f323390734",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/rdylbu_r.npy",
+        "path_type": "hardlink",
+        "sha256": "9ff4f997695a90aab34a8093a11a7aa3e0b3df5edbca4587b15f2855fc55808d",
+        "sha256_in_prefix": "9ff4f997695a90aab34a8093a11a7aa3e0b3df5edbca4587b15f2855fc55808d",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/rdylgn.npy",
+        "path_type": "hardlink",
+        "sha256": "708b197e24d30e9649360a8a2dd1a9cdff79690c27df8ff546bd1dcf2484ecd8",
+        "sha256_in_prefix": "708b197e24d30e9649360a8a2dd1a9cdff79690c27df8ff546bd1dcf2484ecd8",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/rdylgn_r.npy",
+        "path_type": "hardlink",
+        "sha256": "f6b2747fe13236a4c7fa778288558cbdd0c12be4f235ea943ec2f9b8ed0dd877",
+        "sha256_in_prefix": "f6b2747fe13236a4c7fa778288558cbdd0c12be4f235ea943ec2f9b8ed0dd877",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/reds.npy",
+        "path_type": "hardlink",
+        "sha256": "e20bfc5d978f1066d520a1a991a019dd47c79a370f08f08beacccb2b35c3d2d5",
+        "sha256_in_prefix": "e20bfc5d978f1066d520a1a991a019dd47c79a370f08f08beacccb2b35c3d2d5",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/reds_r.npy",
+        "path_type": "hardlink",
+        "sha256": "5cf5049c2372a4919bc6c5bacc95f79010e0d38bb3cef8dee33a68948b1f2f11",
+        "sha256_in_prefix": "5cf5049c2372a4919bc6c5bacc95f79010e0d38bb3cef8dee33a68948b1f2f11",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/rplumbo.npy",
+        "path_type": "hardlink",
+        "sha256": "055b27b65cd658dd11e8856a1120c1c3b94a084d3e629a1e2ef38913728e8a5c",
+        "sha256_in_prefix": "055b27b65cd658dd11e8856a1120c1c3b94a084d3e629a1e2ef38913728e8a5c",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/schwarzwald.npy",
+        "path_type": "hardlink",
+        "sha256": "3080c313665d21f7355e574bf0aa9b4e277152f4495ef62782aac4270eaabd6e",
+        "sha256_in_prefix": "3080c313665d21f7355e574bf0aa9b4e277152f4495ef62782aac4270eaabd6e",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/seismic.npy",
+        "path_type": "hardlink",
+        "sha256": "b2e62056e5575d8666da329f338bf6a0b872297adb2ffe7fdd12e35abcbc1ff5",
+        "sha256_in_prefix": "b2e62056e5575d8666da329f338bf6a0b872297adb2ffe7fdd12e35abcbc1ff5",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/seismic_r.npy",
+        "path_type": "hardlink",
+        "sha256": "34a64bdf61f0a3247cf5e13b89145af5f5dae9cb4daa1d58a0763dd84ab25d2c",
+        "sha256_in_prefix": "34a64bdf61f0a3247cf5e13b89145af5f5dae9cb4daa1d58a0763dd84ab25d2c",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/set1.npy",
+        "path_type": "hardlink",
+        "sha256": "b94cfb9a855cf9f59d353447c09806645fbb05a0c62e7786a3614bf17480d179",
+        "sha256_in_prefix": "b94cfb9a855cf9f59d353447c09806645fbb05a0c62e7786a3614bf17480d179",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/set1_r.npy",
+        "path_type": "hardlink",
+        "sha256": "a8542fc3bba4c44f27e4a5d9c8aa6df1129f4284b6ce33efd0843e2d6d7fbca0",
+        "sha256_in_prefix": "a8542fc3bba4c44f27e4a5d9c8aa6df1129f4284b6ce33efd0843e2d6d7fbca0",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/set2.npy",
+        "path_type": "hardlink",
+        "sha256": "009a66dcdd7dbe71be3e6cee18713be7d7122b4e8173ac42fe33f50cead4d5d3",
+        "sha256_in_prefix": "009a66dcdd7dbe71be3e6cee18713be7d7122b4e8173ac42fe33f50cead4d5d3",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/set2_r.npy",
+        "path_type": "hardlink",
+        "sha256": "8bea5979fa720415078200afa45fa35cb55abfbc9312fa6c0e7623f7116f6c40",
+        "sha256_in_prefix": "8bea5979fa720415078200afa45fa35cb55abfbc9312fa6c0e7623f7116f6c40",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/set3.npy",
+        "path_type": "hardlink",
+        "sha256": "7bfa76ea8e611309cf905186f1a4377f03c005233dc46dd75207bb9390dc62d7",
+        "sha256_in_prefix": "7bfa76ea8e611309cf905186f1a4377f03c005233dc46dd75207bb9390dc62d7",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/set3_r.npy",
+        "path_type": "hardlink",
+        "sha256": "67bf1e73053905361f1eaa80fc6fa3e2e11cc9dae84b5ef18a5eb75f058394fe",
+        "sha256_in_prefix": "67bf1e73053905361f1eaa80fc6fa3e2e11cc9dae84b5ef18a5eb75f058394fe",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/solar.npy",
+        "path_type": "hardlink",
+        "sha256": "38ed4debe41ce789a9be9955da0b54622d92d797100642078ba3950779a9cce4",
+        "sha256_in_prefix": "38ed4debe41ce789a9be9955da0b54622d92d797100642078ba3950779a9cce4",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/solar_r.npy",
+        "path_type": "hardlink",
+        "sha256": "5860052f1a1d804937e5f5d69c2944cc0db97db44d0cc89737f5e0323025d59e",
+        "sha256_in_prefix": "5860052f1a1d804937e5f5d69c2944cc0db97db44d0cc89737f5e0323025d59e",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/spectral.npy",
+        "path_type": "hardlink",
+        "sha256": "4f3865a1e37b66a7ac22d088f26ff30b38a789966925082b5b01eb5f8855de86",
+        "sha256_in_prefix": "4f3865a1e37b66a7ac22d088f26ff30b38a789966925082b5b01eb5f8855de86",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/spectral_r.npy",
+        "path_type": "hardlink",
+        "sha256": "07452bc2c2ad6ddf9b7c07ec5523b3701a8294f4d10c085178fac77c92b09ed9",
+        "sha256_in_prefix": "07452bc2c2ad6ddf9b7c07ec5523b3701a8294f4d10c085178fac77c92b09ed9",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/speed.npy",
+        "path_type": "hardlink",
+        "sha256": "6f7246ba1076a82a79a4f087778388176f88b4d2d080ced9402a2969860df697",
+        "sha256_in_prefix": "6f7246ba1076a82a79a4f087778388176f88b4d2d080ced9402a2969860df697",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/speed_r.npy",
+        "path_type": "hardlink",
+        "sha256": "20cb58f607d2333e57a4f4f312be45d1e878a394fe5264f1fb8676c32a4213b3",
+        "sha256_in_prefix": "20cb58f607d2333e57a4f4f312be45d1e878a394fe5264f1fb8676c32a4213b3",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/spring.npy",
+        "path_type": "hardlink",
+        "sha256": "b8399e89e6f8a06687815af6b0d6fc378d30b3574c6d2470fbad8a3440cc7f30",
+        "sha256_in_prefix": "b8399e89e6f8a06687815af6b0d6fc378d30b3574c6d2470fbad8a3440cc7f30",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/spring_r.npy",
+        "path_type": "hardlink",
+        "sha256": "af21b7f1919cb87ecafc107b892a75310ae9b30517d32d1abc41a43fb74ed9af",
+        "sha256_in_prefix": "af21b7f1919cb87ecafc107b892a75310ae9b30517d32d1abc41a43fb74ed9af",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/summer.npy",
+        "path_type": "hardlink",
+        "sha256": "26edf6d299d97a6e5ab457af3e4f673feb8129784ddce1607c6f26defa685fdd",
+        "sha256_in_prefix": "26edf6d299d97a6e5ab457af3e4f673feb8129784ddce1607c6f26defa685fdd",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/summer_r.npy",
+        "path_type": "hardlink",
+        "sha256": "af3e247f35bf7a9ba95ca4c57a65ef039c820917fd1dc67d812c5f079ba5a60e",
+        "sha256_in_prefix": "af3e247f35bf7a9ba95ca4c57a65ef039c820917fd1dc67d812c5f079ba5a60e",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/tab10.npy",
+        "path_type": "hardlink",
+        "sha256": "fe44f04381a5bf2f44576e66597ec0a7134991a95dc4e536334ddf6cca79ae58",
+        "sha256_in_prefix": "fe44f04381a5bf2f44576e66597ec0a7134991a95dc4e536334ddf6cca79ae58",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/tab10_r.npy",
+        "path_type": "hardlink",
+        "sha256": "47a6aaaa3d5ddd981ba54751746998d6ec73f59e1983131059e61e8f83d33b68",
+        "sha256_in_prefix": "47a6aaaa3d5ddd981ba54751746998d6ec73f59e1983131059e61e8f83d33b68",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/tab20.npy",
+        "path_type": "hardlink",
+        "sha256": "a495706239fb7042da2a55adc3ceee7903858bee7744c3d19363e286cadd6c34",
+        "sha256_in_prefix": "a495706239fb7042da2a55adc3ceee7903858bee7744c3d19363e286cadd6c34",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/tab20_r.npy",
+        "path_type": "hardlink",
+        "sha256": "f7d97b93c804b7f9bc740a92af72338013b6124d1438e39d931a9c35b2f06761",
+        "sha256_in_prefix": "f7d97b93c804b7f9bc740a92af72338013b6124d1438e39d931a9c35b2f06761",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/tab20b.npy",
+        "path_type": "hardlink",
+        "sha256": "95aa3e149b92bd1ee042beef08be3742361693a1ab92da5e42a6a2e3265243c3",
+        "sha256_in_prefix": "95aa3e149b92bd1ee042beef08be3742361693a1ab92da5e42a6a2e3265243c3",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/tab20b_r.npy",
+        "path_type": "hardlink",
+        "sha256": "34d081972fc21a9dcdd8ebb665560ee84ea0d0746ec12ab09f5a478064bacf21",
+        "sha256_in_prefix": "34d081972fc21a9dcdd8ebb665560ee84ea0d0746ec12ab09f5a478064bacf21",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/tab20c.npy",
+        "path_type": "hardlink",
+        "sha256": "7a46141f393a15039d3e6248162ec59b71de08e98c1d618c03ebb240413e2810",
+        "sha256_in_prefix": "7a46141f393a15039d3e6248162ec59b71de08e98c1d618c03ebb240413e2810",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/tab20c_r.npy",
+        "path_type": "hardlink",
+        "sha256": "63794e405f3765bc9540580abfeebeea681762f97ba04c49424197ed10a7b849",
+        "sha256_in_prefix": "63794e405f3765bc9540580abfeebeea681762f97ba04c49424197ed10a7b849",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/tarn.npy",
+        "path_type": "hardlink",
+        "sha256": "0773fd707401b613222b2563b7fe9407c42c10f0052cdfa944503abfeb6ab3b5",
+        "sha256_in_prefix": "0773fd707401b613222b2563b7fe9407c42c10f0052cdfa944503abfeb6ab3b5",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/tarn_r.npy",
+        "path_type": "hardlink",
+        "sha256": "9ada64021369341b5a72c33e143fb64caa746034881d453fd7a965f150fbb393",
+        "sha256_in_prefix": "9ada64021369341b5a72c33e143fb64caa746034881d453fd7a965f150fbb393",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/tempo.npy",
+        "path_type": "hardlink",
+        "sha256": "6b333b10ed9d03b5a839cb5923952c157fc38cd29084a9b99db21aad491b6770",
+        "sha256_in_prefix": "6b333b10ed9d03b5a839cb5923952c157fc38cd29084a9b99db21aad491b6770",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/tempo_r.npy",
+        "path_type": "hardlink",
+        "sha256": "93893dd0f6b1f722f0c957239690067faddad79240a495351f31b6381541ee8e",
+        "sha256_in_prefix": "93893dd0f6b1f722f0c957239690067faddad79240a495351f31b6381541ee8e",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/terrain.npy",
+        "path_type": "hardlink",
+        "sha256": "58ac4844d2b54bbde8a0a07334f4a27878f9f9e5bfe6f75a6c8f637351ec86ef",
+        "sha256_in_prefix": "58ac4844d2b54bbde8a0a07334f4a27878f9f9e5bfe6f75a6c8f637351ec86ef",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/terrain_r.npy",
+        "path_type": "hardlink",
+        "sha256": "237ee528638d4852def5a918b16a6b1ae648b84977156a2d8692215b779f8f37",
+        "sha256_in_prefix": "237ee528638d4852def5a918b16a6b1ae648b84977156a2d8692215b779f8f37",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/thermal.npy",
+        "path_type": "hardlink",
+        "sha256": "934660d1c4bd722347e07a5aa3fcebc235d46c9125798caa0507e5063a2778e7",
+        "sha256_in_prefix": "934660d1c4bd722347e07a5aa3fcebc235d46c9125798caa0507e5063a2778e7",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/thermal_r.npy",
+        "path_type": "hardlink",
+        "sha256": "6ca3d5cd1ebcd7cd62636b88671a46898fe59d62b6556192ad156ebcb85bceaa",
+        "sha256_in_prefix": "6ca3d5cd1ebcd7cd62636b88671a46898fe59d62b6556192ad156ebcb85bceaa",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/topo.npy",
+        "path_type": "hardlink",
+        "sha256": "c703a8eb6010e84bb5f88d990c536abb68b959fbcbeb0a8310378f3d6ba357c3",
+        "sha256_in_prefix": "c703a8eb6010e84bb5f88d990c536abb68b959fbcbeb0a8310378f3d6ba357c3",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/topo_r.npy",
+        "path_type": "hardlink",
+        "sha256": "0f6418178767785bf09e434cdaf70cc0be00c687be46d14a856fa7d707380cd6",
+        "sha256_in_prefix": "0f6418178767785bf09e434cdaf70cc0be00c687be46d14a856fa7d707380cd6",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/turbid.npy",
+        "path_type": "hardlink",
+        "sha256": "627573b8cf0a748374c20092ab4c6903e96a7a6a5e249335abb72abdda6f76c8",
+        "sha256_in_prefix": "627573b8cf0a748374c20092ab4c6903e96a7a6a5e249335abb72abdda6f76c8",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/turbid_r.npy",
+        "path_type": "hardlink",
+        "sha256": "78b2c1883fdda0653805f83cd51a6476104122a11e6841d9aac86856089dff28",
+        "sha256_in_prefix": "78b2c1883fdda0653805f83cd51a6476104122a11e6841d9aac86856089dff28",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/turbo.npy",
+        "path_type": "hardlink",
+        "sha256": "e3d6cbd1600fde0b39670ee4dcba6b5925de5732e047323e550233b55df1df2d",
+        "sha256_in_prefix": "e3d6cbd1600fde0b39670ee4dcba6b5925de5732e047323e550233b55df1df2d",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/turbo_r.npy",
+        "path_type": "hardlink",
+        "sha256": "c8093daab229bb3b3d4f1dc39a82ab05b94c57ece1e87060949b6c2bfac74344",
+        "sha256_in_prefix": "c8093daab229bb3b3d4f1dc39a82ab05b94c57ece1e87060949b6c2bfac74344",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/twilight.npy",
+        "path_type": "hardlink",
+        "sha256": "1cbda45111683f20b1ce7f7a20815c782e16fe5e9e2f8700910ef8caf0d2ef57",
+        "sha256_in_prefix": "1cbda45111683f20b1ce7f7a20815c782e16fe5e9e2f8700910ef8caf0d2ef57",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/twilight_r.npy",
+        "path_type": "hardlink",
+        "sha256": "103c4099271fd593f3838349887691400fb0fa63a020134c2606ff330f71e40d",
+        "sha256_in_prefix": "103c4099271fd593f3838349887691400fb0fa63a020134c2606ff330f71e40d",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/twilight_shifted.npy",
+        "path_type": "hardlink",
+        "sha256": "ebde5384f8e379d45ad3a0fcc6986de20fffe8bbd53cb60aae8362482e23758d",
+        "sha256_in_prefix": "ebde5384f8e379d45ad3a0fcc6986de20fffe8bbd53cb60aae8362482e23758d",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/twilight_shifted_r.npy",
+        "path_type": "hardlink",
+        "sha256": "d1507ed9519c1a66da238623e738858ce52bbd87eb408be9df5eeb0cc39886cb",
+        "sha256_in_prefix": "d1507ed9519c1a66da238623e738858ce52bbd87eb408be9df5eeb0cc39886cb",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/viridis.npy",
+        "path_type": "hardlink",
+        "sha256": "c25d8f27a730e88201d22869cdb59538f59e0fc696879bb7ce426fcfa73f7cd5",
+        "sha256_in_prefix": "c25d8f27a730e88201d22869cdb59538f59e0fc696879bb7ce426fcfa73f7cd5",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/viridis_r.npy",
+        "path_type": "hardlink",
+        "sha256": "1552afc5593a91a2b9c411a8d97603219b3366914e06c3c88bec8f24c40dca0b",
+        "sha256_in_prefix": "1552afc5593a91a2b9c411a8d97603219b3366914e06c3c88bec8f24c40dca0b",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/winter.npy",
+        "path_type": "hardlink",
+        "sha256": "f32913da74797a27387f6b4b2523e06f8a6d351e8ceef628b28c93bda88c5667",
+        "sha256_in_prefix": "f32913da74797a27387f6b4b2523e06f8a6d351e8ceef628b28c93bda88c5667",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/winter_r.npy",
+        "path_type": "hardlink",
+        "sha256": "124ecd332a2e9e4abeaf4fd30be3352f70037dbda33117ac801042af853c135c",
+        "sha256_in_prefix": "124ecd332a2e9e4abeaf4fd30be3352f70037dbda33117ac801042af853c135c",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/wistia.npy",
+        "path_type": "hardlink",
+        "sha256": "ac48e359d61ca863f94e7f27506d2d06ab89c5ca4b7956da5bb0d1870c9284b2",
+        "sha256_in_prefix": "ac48e359d61ca863f94e7f27506d2d06ab89c5ca4b7956da5bb0d1870c9284b2",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/wistia_r.npy",
+        "path_type": "hardlink",
+        "sha256": "bc9cbc1a858e6c9e16b17dcc34dcf0404ac6f119fab6698be63e890ab49b5e0c",
+        "sha256_in_prefix": "bc9cbc1a858e6c9e16b17dcc34dcf0404ac6f119fab6698be63e890ab49b5e0c",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/ylgn.npy",
+        "path_type": "hardlink",
+        "sha256": "3f969e8869f2ed9f25fab4c92e2f28c83ce61d07bea0e0f9cff32b4ae8149a39",
+        "sha256_in_prefix": "3f969e8869f2ed9f25fab4c92e2f28c83ce61d07bea0e0f9cff32b4ae8149a39",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/ylgn_r.npy",
+        "path_type": "hardlink",
+        "sha256": "c7a1f21172ee25bb77157ee6c6d8c3fef16e9fcab3d503879210f82defb4b16d",
+        "sha256_in_prefix": "c7a1f21172ee25bb77157ee6c6d8c3fef16e9fcab3d503879210f82defb4b16d",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/ylgnbu.npy",
+        "path_type": "hardlink",
+        "sha256": "843c3d4bc793cab8e3453c9cb5f30b1be8f33e906a5a9636ffe857a95e32091a",
+        "sha256_in_prefix": "843c3d4bc793cab8e3453c9cb5f30b1be8f33e906a5a9636ffe857a95e32091a",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/ylgnbu_r.npy",
+        "path_type": "hardlink",
+        "sha256": "02f41ab389d15c8d0a5dfe7efc72b729553a2f7ba51f83d54cd48f239e13abfa",
+        "sha256_in_prefix": "02f41ab389d15c8d0a5dfe7efc72b729553a2f7ba51f83d54cd48f239e13abfa",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/ylorbr.npy",
+        "path_type": "hardlink",
+        "sha256": "3ebd790892d1e3e5357161b81db685a395b3487f661d337331961c90a3a0ce8b",
+        "sha256_in_prefix": "3ebd790892d1e3e5357161b81db685a395b3487f661d337331961c90a3a0ce8b",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/ylorbr_r.npy",
+        "path_type": "hardlink",
+        "sha256": "2e3468ba55fceae8eeef0a0223f9b8cf398024c0e983e932ee9e1ff6f524b637",
+        "sha256_in_prefix": "2e3468ba55fceae8eeef0a0223f9b8cf398024c0e983e932ee9e1ff6f524b637",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/ylorrd.npy",
+        "path_type": "hardlink",
+        "sha256": "f48997963c38d287bad30f2e57810c0cf6386851559066f20818ba4a54d7f37c",
+        "sha256_in_prefix": "f48997963c38d287bad30f2e57810c0cf6386851559066f20818ba4a54d7f37c",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/cmap_data/ylorrd_r.npy",
+        "path_type": "hardlink",
+        "sha256": "2b9ba21cd1db2f15794a2cf24f4f5c49503195d13e056e46a4e5f1529ed4b131",
+        "sha256_in_prefix": "2b9ba21cd1db2f15794a2cf24f4f5c49503195d13e056e46a4e5f1529ed4b131",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rio_tiler/colormap.py",
+        "path_type": "hardlink",
+        "sha256": "86ca5511b9ef6d13c63c4ca45b157f3e8a90a65b5b7d247bfe0df99b377577ab",
+        "sha256_in_prefix": "86ca5511b9ef6d13c63c4ca45b157f3e8a90a65b5b7d247bfe0df99b377577ab",
+        "size_in_bytes": 9755
+      },
+      {
+        "_path": "site-packages/rio_tiler/constants.py",
+        "path_type": "hardlink",
+        "sha256": "e798beec9643ba94d765d2e0c4bd372ac80ce25033b86b8854fd7364a92dce9d",
+        "sha256_in_prefix": "e798beec9643ba94d765d2e0c4bd372ac80ce25033b86b8854fd7364a92dce9d",
+        "size_in_bytes": 426
+      },
+      {
+        "_path": "site-packages/rio_tiler/errors.py",
+        "path_type": "hardlink",
+        "sha256": "6a0fb036bd7725a43861c4335963c5ce37a078677324830caceadb6f7728438d",
+        "sha256_in_prefix": "6a0fb036bd7725a43861c4335963c5ce37a078677324830caceadb6f7728438d",
+        "size_in_bytes": 1733
+      },
+      {
+        "_path": "site-packages/rio_tiler/expression.py",
+        "path_type": "hardlink",
+        "sha256": "1151d682332a227e134cf7ea4ff1d5d51582425c6a3a3dceb44af58940e21471",
+        "sha256_in_prefix": "1151d682332a227e134cf7ea4ff1d5d51582425c6a3a3dceb44af58940e21471",
+        "size_in_bytes": 2282
+      },
+      {
+        "_path": "site-packages/rio_tiler/io/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "fcbe2220b9babd2889d781840c33af92e50746d6d60bda2ac7a06ef0fc4786f0",
+        "sha256_in_prefix": "fcbe2220b9babd2889d781840c33af92e50746d6d60bda2ac7a06ef0fc4786f0",
+        "size_in_bytes": 270
+      },
+      {
+        "_path": "site-packages/rio_tiler/io/base.py",
+        "path_type": "hardlink",
+        "sha256": "af5a7dc849d0737748f44cbeb20f2ad237c3e0ad65d13ef490a55651c7a8186e",
+        "sha256_in_prefix": "af5a7dc849d0737748f44cbeb20f2ad237c3e0ad65d13ef490a55651c7a8186e",
+        "size_in_bytes": 45260
+      },
+      {
+        "_path": "site-packages/rio_tiler/io/rasterio.py",
+        "path_type": "hardlink",
+        "sha256": "17300c90fdb150d3af1df01c98ec2295416bea3ddaa34f25d579bb669297de49",
+        "sha256_in_prefix": "17300c90fdb150d3af1df01c98ec2295416bea3ddaa34f25d579bb669297de49",
+        "size_in_bytes": 32171
+      },
+      {
+        "_path": "site-packages/rio_tiler/io/stac.py",
+        "path_type": "hardlink",
+        "sha256": "b281c3ad604aa7b6e07a9c157b674306054fa7788401b4ecc7b0411e1b4b0e21",
+        "sha256_in_prefix": "b281c3ad604aa7b6e07a9c157b674306054fa7788401b4ecc7b0411e1b4b0e21",
+        "size_in_bytes": 10182
+      },
+      {
+        "_path": "site-packages/rio_tiler/io/xarray.py",
+        "path_type": "hardlink",
+        "sha256": "77c24ee395afdc9be4d1a49b51251b7ce114cd34de7dd37c264ad4983c19168f",
+        "sha256_in_prefix": "77c24ee395afdc9be4d1a49b51251b7ce114cd34de7dd37c264ad4983c19168f",
+        "size_in_bytes": 17785
+      },
+      {
+        "_path": "site-packages/rio_tiler/logger.py",
+        "path_type": "hardlink",
+        "sha256": "451f259d6dee55790590f6b79cd252fed4e776676234d0d55e9083183c467f40",
+        "sha256_in_prefix": "451f259d6dee55790590f6b79cd252fed4e776676234d0d55e9083183c467f40",
+        "size_in_bytes": 81
+      },
+      {
+        "_path": "site-packages/rio_tiler/models.py",
+        "path_type": "hardlink",
+        "sha256": "d2fefd9e7ebd007d77a0b9d5b3ad2ac99dab7f5ed5c560658ba5acd9f83c48bf",
+        "sha256_in_prefix": "d2fefd9e7ebd007d77a0b9d5b3ad2ac99dab7f5ed5c560658ba5acd9f83c48bf",
+        "size_in_bytes": 28243
+      },
+      {
+        "_path": "site-packages/rio_tiler/mosaic/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "623e822a99c597c3c984b4a9f9ae79c28df784a67cfba38e049b560351d9572f",
+        "sha256_in_prefix": "623e822a99c597c3c984b4a9f9ae79c28df784a67cfba38e049b560351d9572f",
+        "size_in_bytes": 118
+      },
+      {
+        "_path": "site-packages/rio_tiler/mosaic/methods/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b6091733db246932d7226e5016885e384ce741733deca19f95c0161df92bb758",
+        "sha256_in_prefix": "b6091733db246932d7226e5016885e384ce741733deca19f95c0161df92bb758",
+        "size_in_bytes": 612
+      },
+      {
+        "_path": "site-packages/rio_tiler/mosaic/methods/base.py",
+        "path_type": "hardlink",
+        "sha256": "f586495954701f9164f4a3bdab9096e7643c31feb4b40276d683388b11035c1a",
+        "sha256_in_prefix": "f586495954701f9164f4a3bdab9096e7643c31feb4b40276d683388b11035c1a",
+        "size_in_bytes": 1424
+      },
+      {
+        "_path": "site-packages/rio_tiler/mosaic/methods/defaults.py",
+        "path_type": "hardlink",
+        "sha256": "cf7e259dadb01979c03f072e96393fea10eb968a92f30cdeafaf05168228ee98",
+        "sha256_in_prefix": "cf7e259dadb01979c03f072e96393fea10eb968a92f30cdeafaf05168228ee98",
+        "size_in_bytes": 6744
+      },
+      {
+        "_path": "site-packages/rio_tiler/mosaic/reader.py",
+        "path_type": "hardlink",
+        "sha256": "fd80704c9c07bd73b32b0a4da4e9a6874178ca2732c605a8f6f1f2a1fdf0fc3a",
+        "sha256_in_prefix": "fd80704c9c07bd73b32b0a4da4e9a6874178ca2732c605a8f6f1f2a1fdf0fc3a",
+        "size_in_bytes": 9686
+      },
+      {
+        "_path": "site-packages/rio_tiler/profiles.py",
+        "path_type": "hardlink",
+        "sha256": "100c7625d71a39c330e4f663c5b0aa4015d758c69cf668eda47a1514f2440cd4",
+        "sha256_in_prefix": "100c7625d71a39c330e4f663c5b0aa4015d758c69cf668eda47a1514f2440cd4",
+        "size_in_bytes": 1562
+      },
+      {
+        "_path": "site-packages/rio_tiler/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/rio_tiler/reader.py",
+        "path_type": "hardlink",
+        "sha256": "5b4f073ce7c4e3c06b6ec0d98072813e126bad9b0e2f3fabd30abdaf6ed59c0b",
+        "sha256_in_prefix": "5b4f073ce7c4e3c06b6ec0d98072813e126bad9b0e2f3fabd30abdaf6ed59c0b",
+        "size_in_bytes": 21681
+      },
+      {
+        "_path": "site-packages/rio_tiler/tasks.py",
+        "path_type": "hardlink",
+        "sha256": "3b895a4c2afae971c9fb84445a0dd201a035a6b7b438c1b436495b299da0f457",
+        "sha256_in_prefix": "3b895a4c2afae971c9fb84445a0dd201a035a6b7b438c1b436495b299da0f457",
+        "size_in_bytes": 3181
+      },
+      {
+        "_path": "site-packages/rio_tiler/types.py",
+        "path_type": "hardlink",
+        "sha256": "e74f3f13947e9caac0a3c4d607eea1ee917a498c0d33c9093e21e3430fa4fad0",
+        "sha256_in_prefix": "e74f3f13947e9caac0a3c4d607eea1ee917a498c0d33c9093e21e3430fa4fad0",
+        "size_in_bytes": 1443
+      },
+      {
+        "_path": "site-packages/rio_tiler/utils.py",
+        "path_type": "hardlink",
+        "sha256": "ce17eb86301d69ad9e258550c23ceecbaf26e948f46c861268e5562be75ce1e9",
+        "sha256_in_prefix": "ce17eb86301d69ad9e258550c23ceecbaf26e948f46c861268e5562be75ce1e9",
+        "size_in_bytes": 24426
+      },
+      {
+        "_path": "Lib/site-packages/rio_tiler/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/rio_tiler/cmap_data/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/rio_tiler/__pycache__/colormap.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/rio_tiler/__pycache__/constants.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/rio_tiler/__pycache__/errors.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/rio_tiler/__pycache__/expression.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/rio_tiler/io/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/rio_tiler/io/__pycache__/base.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/rio_tiler/io/__pycache__/rasterio.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/rio_tiler/io/__pycache__/stac.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/rio_tiler/io/__pycache__/xarray.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/rio_tiler/__pycache__/logger.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/rio_tiler/__pycache__/models.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/rio_tiler/mosaic/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/rio_tiler/mosaic/methods/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/rio_tiler/mosaic/methods/__pycache__/base.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/rio_tiler/mosaic/methods/__pycache__/defaults.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/rio_tiler/mosaic/__pycache__/reader.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/rio_tiler/__pycache__/profiles.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/rio_tiler/__pycache__/reader.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/rio_tiler/__pycache__/tasks.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/rio_tiler/__pycache__/types.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/rio_tiler/__pycache__/utils.cpython-312.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "901cf8b91d980a8ccfc5d5390e2ac8aa301e9e55414766583a36308af8a2530a",
+  "size": 194875,
+  "subdir": "noarch",
+  "timestamp": 1708450925000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/rio-tiler-6.4.1-pyhd8ed1ab_0.conda",
+  "version": "6.4.1"
+}

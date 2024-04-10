@@ -1,0 +1,567 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "pytz",
+    "jsonschema",
+    "python >=3.7",
+    "aniso8601 >=0.82",
+    "flask >=0.8,!=2.0.0,<3",
+    "werkzeug !=2.0.0"
+  ],
+  "extracted_package_dir": "D:\\xxx\\anaconda3\\pkgs\\flask-restx-1.1.0-pyhd8ed1ab_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/flask_restx-1.1.0.dist-info/INSTALLER",
+    "Lib/site-packages/flask_restx-1.1.0.dist-info/LICENSE",
+    "Lib/site-packages/flask_restx-1.1.0.dist-info/METADATA",
+    "Lib/site-packages/flask_restx-1.1.0.dist-info/RECORD",
+    "Lib/site-packages/flask_restx-1.1.0.dist-info/REQUESTED",
+    "Lib/site-packages/flask_restx-1.1.0.dist-info/WHEEL",
+    "Lib/site-packages/flask_restx-1.1.0.dist-info/direct_url.json",
+    "Lib/site-packages/flask_restx-1.1.0.dist-info/top_level.txt",
+    "Lib/site-packages/flask_restx/__about__.py",
+    "Lib/site-packages/flask_restx/__init__.py",
+    "Lib/site-packages/flask_restx/_http.py",
+    "Lib/site-packages/flask_restx/api.py",
+    "Lib/site-packages/flask_restx/apidoc.py",
+    "Lib/site-packages/flask_restx/cors.py",
+    "Lib/site-packages/flask_restx/errors.py",
+    "Lib/site-packages/flask_restx/fields.py",
+    "Lib/site-packages/flask_restx/inputs.py",
+    "Lib/site-packages/flask_restx/marshalling.py",
+    "Lib/site-packages/flask_restx/mask.py",
+    "Lib/site-packages/flask_restx/model.py",
+    "Lib/site-packages/flask_restx/namespace.py",
+    "Lib/site-packages/flask_restx/postman.py",
+    "Lib/site-packages/flask_restx/representations.py",
+    "Lib/site-packages/flask_restx/reqparse.py",
+    "Lib/site-packages/flask_restx/resource.py",
+    "Lib/site-packages/flask_restx/schemas/__init__.py",
+    "Lib/site-packages/flask_restx/schemas/oas-2.0.json",
+    "Lib/site-packages/flask_restx/static/droid-sans.css",
+    "Lib/site-packages/flask_restx/static/favicon-16x16.png",
+    "Lib/site-packages/flask_restx/static/favicon-32x32.png",
+    "Lib/site-packages/flask_restx/static/files/.npmignore",
+    "Lib/site-packages/flask_restx/static/files/droid-sans-latin-400.woff",
+    "Lib/site-packages/flask_restx/static/files/droid-sans-latin-400.woff2",
+    "Lib/site-packages/flask_restx/static/files/droid-sans-latin-700.woff",
+    "Lib/site-packages/flask_restx/static/files/droid-sans-latin-700.woff2",
+    "Lib/site-packages/flask_restx/static/oauth2-redirect.html",
+    "Lib/site-packages/flask_restx/static/swagger-ui-bundle.js",
+    "Lib/site-packages/flask_restx/static/swagger-ui-bundle.js.map",
+    "Lib/site-packages/flask_restx/static/swagger-ui-es-bundle-core.js",
+    "Lib/site-packages/flask_restx/static/swagger-ui-es-bundle-core.js.map",
+    "Lib/site-packages/flask_restx/static/swagger-ui-es-bundle.js",
+    "Lib/site-packages/flask_restx/static/swagger-ui-es-bundle.js.map",
+    "Lib/site-packages/flask_restx/static/swagger-ui-standalone-preset.js",
+    "Lib/site-packages/flask_restx/static/swagger-ui-standalone-preset.js.map",
+    "Lib/site-packages/flask_restx/static/swagger-ui.css",
+    "Lib/site-packages/flask_restx/static/swagger-ui.css.map",
+    "Lib/site-packages/flask_restx/static/swagger-ui.js",
+    "Lib/site-packages/flask_restx/static/swagger-ui.js.map",
+    "Lib/site-packages/flask_restx/swagger.py",
+    "Lib/site-packages/flask_restx/templates/swagger-ui-css.html",
+    "Lib/site-packages/flask_restx/templates/swagger-ui-libs.html",
+    "Lib/site-packages/flask_restx/templates/swagger-ui.html",
+    "Lib/site-packages/flask_restx/utils.py",
+    ".nonadmin",
+    "Lib/site-packages/flask_restx/__pycache__/__about__.cpython-312.pyc",
+    "Lib/site-packages/flask_restx/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/flask_restx/__pycache__/_http.cpython-312.pyc",
+    "Lib/site-packages/flask_restx/__pycache__/api.cpython-312.pyc",
+    "Lib/site-packages/flask_restx/__pycache__/apidoc.cpython-312.pyc",
+    "Lib/site-packages/flask_restx/__pycache__/cors.cpython-312.pyc",
+    "Lib/site-packages/flask_restx/__pycache__/errors.cpython-312.pyc",
+    "Lib/site-packages/flask_restx/__pycache__/fields.cpython-312.pyc",
+    "Lib/site-packages/flask_restx/__pycache__/inputs.cpython-312.pyc",
+    "Lib/site-packages/flask_restx/__pycache__/marshalling.cpython-312.pyc",
+    "Lib/site-packages/flask_restx/__pycache__/mask.cpython-312.pyc",
+    "Lib/site-packages/flask_restx/__pycache__/model.cpython-312.pyc",
+    "Lib/site-packages/flask_restx/__pycache__/namespace.cpython-312.pyc",
+    "Lib/site-packages/flask_restx/__pycache__/postman.cpython-312.pyc",
+    "Lib/site-packages/flask_restx/__pycache__/representations.cpython-312.pyc",
+    "Lib/site-packages/flask_restx/__pycache__/reqparse.cpython-312.pyc",
+    "Lib/site-packages/flask_restx/__pycache__/resource.cpython-312.pyc",
+    "Lib/site-packages/flask_restx/schemas/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/flask_restx/__pycache__/swagger.cpython-312.pyc",
+    "Lib/site-packages/flask_restx/__pycache__/utils.cpython-312.pyc"
+  ],
+  "fn": "flask-restx-1.1.0-pyhd8ed1ab_0.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "D:\\xxx\\anaconda3\\pkgs\\flask-restx-1.1.0-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "ef9d8d356c960c53d8f06ff2fff34969",
+  "name": "flask-restx",
+  "noarch": "python",
+  "package_tarball_full_path": "D:\\xxx\\anaconda3\\pkgs\\flask-restx-1.1.0-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/flask_restx-1.1.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/flask_restx-1.1.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "d736fc20d979831ab5c380973d01542de97857d975b60a4cf03efbd9e4e38997",
+        "sha256_in_prefix": "d736fc20d979831ab5c380973d01542de97857d975b60a4cf03efbd9e4e38997",
+        "size_in_bytes": 1626
+      },
+      {
+        "_path": "site-packages/flask_restx-1.1.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "461792aeea7acd9acc8e4ba4e1e0c0fd8f409bc9d42d1739dbcf7e2df3c2e027",
+        "sha256_in_prefix": "461792aeea7acd9acc8e4ba4e1e0c0fd8f409bc9d42d1739dbcf7e2df3c2e027",
+        "size_in_bytes": 8984
+      },
+      {
+        "_path": "site-packages/flask_restx-1.1.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "7a6f91322a7c4b2b6989815dbd13adf31b9ca3d5e36e167cee458098c04532c8",
+        "sha256_in_prefix": "7a6f91322a7c4b2b6989815dbd13adf31b9ca3d5e36e167cee458098c04532c8",
+        "size_in_bytes": 5853
+      },
+      {
+        "_path": "site-packages/flask_restx-1.1.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/flask_restx-1.1.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "89896fe5f5f7e7b3d0c914f6a3ab70d5b37e61c2851472aa07f2f01cee703fe8",
+        "sha256_in_prefix": "89896fe5f5f7e7b3d0c914f6a3ab70d5b37e61c2851472aa07f2f01cee703fe8",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "site-packages/flask_restx-1.1.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "210c43da5a511eeb63b7bcd8db3a94b9d2bfb2956ef84e269d2a38bcb49b9ce9",
+        "sha256_in_prefix": "210c43da5a511eeb63b7bcd8db3a94b9d2bfb2956ef84e269d2a38bcb49b9ce9",
+        "size_in_bytes": 107
+      },
+      {
+        "_path": "site-packages/flask_restx-1.1.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "5459fa8911d53c9ba9f7ee926f8fa3023c4dfad118e8e06e3f83c98f5d282a3c",
+        "sha256_in_prefix": "5459fa8911d53c9ba9f7ee926f8fa3023c4dfad118e8e06e3f83c98f5d282a3c",
+        "size_in_bytes": 12
+      },
+      {
+        "_path": "site-packages/flask_restx/__about__.py",
+        "path_type": "hardlink",
+        "sha256": "13b438ecf502f223904981d52e386ad4b185fb2318a5c919c71ea74dd1e6ba0c",
+        "sha256_in_prefix": "13b438ecf502f223904981d52e386ad4b185fb2318a5c919c71ea74dd1e6ba0c",
+        "size_in_bytes": 156
+      },
+      {
+        "_path": "site-packages/flask_restx/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b83f94162fed9cec96942e65e865cfd0ae9abfbd632cee16661f98c278bc5121",
+        "sha256_in_prefix": "b83f94162fed9cec96942e65e865cfd0ae9abfbd632cee16661f98c278bc5121",
+        "size_in_bytes": 849
+      },
+      {
+        "_path": "site-packages/flask_restx/_http.py",
+        "path_type": "hardlink",
+        "sha256": "2de6b14fd241de378545ec95df246be6d054272b551f7ad7d66cfbfec9124d1a",
+        "sha256_in_prefix": "2de6b14fd241de378545ec95df246be6d054272b551f7ad7d66cfbfec9124d1a",
+        "size_in_bytes": 6400
+      },
+      {
+        "_path": "site-packages/flask_restx/api.py",
+        "path_type": "hardlink",
+        "sha256": "45b1b15794cfc4866d063cc1e5abd0a0dc510124b36a6a21a4a3dc0efc6db861",
+        "sha256_in_prefix": "45b1b15794cfc4866d063cc1e5abd0a0dc510124b36a6a21a4a3dc0efc6db861",
+        "size_in_bytes": 37234
+      },
+      {
+        "_path": "site-packages/flask_restx/apidoc.py",
+        "path_type": "hardlink",
+        "sha256": "9a7ca7c56e97aa8b676f3b7d939b491cb00d212a4ccf1fb658d97be55bfa1323",
+        "sha256_in_prefix": "9a7ca7c56e97aa8b676f3b7d939b491cb00d212a4ccf1fb658d97be55bfa1323",
+        "size_in_bytes": 901
+      },
+      {
+        "_path": "site-packages/flask_restx/cors.py",
+        "path_type": "hardlink",
+        "sha256": "a09f58c432bb24075cc69610e22fc085104e369eebca60ca83510bd266ade9c6",
+        "sha256_in_prefix": "a09f58c432bb24075cc69610e22fc085104e369eebca60ca83510bd266ade9c6",
+        "size_in_bytes": 2131
+      },
+      {
+        "_path": "site-packages/flask_restx/errors.py",
+        "path_type": "hardlink",
+        "sha256": "6ace2bd137fa8a61c984103dc79a83d8fe2d734b261df26fc15303ab106a823c",
+        "sha256_in_prefix": "6ace2bd137fa8a61c984103dc79a83d8fe2d734b261df26fc15303ab106a823c",
+        "size_in_bytes": 1201
+      },
+      {
+        "_path": "site-packages/flask_restx/fields.py",
+        "path_type": "hardlink",
+        "sha256": "f06f022cdd75c44779fd4145e2812900069c6e1e2dde19f485282c7bb91acbc9",
+        "sha256_in_prefix": "f06f022cdd75c44779fd4145e2812900069c6e1e2dde19f485282c7bb91acbc9",
+        "size_in_bytes": 27991
+      },
+      {
+        "_path": "site-packages/flask_restx/inputs.py",
+        "path_type": "hardlink",
+        "sha256": "7c549cf19c2bf88647a180d18d86426a7fde8eeffc91de8715d1894315f22bc0",
+        "sha256_in_prefix": "7c549cf19c2bf88647a180d18d86426a7fde8eeffc91de8715d1894315f22bc0",
+        "size_in_bytes": 18422
+      },
+      {
+        "_path": "site-packages/flask_restx/marshalling.py",
+        "path_type": "hardlink",
+        "sha256": "bfbd953616ae212c3046f113047c1da4f4cba3619cdfca1fd71885ce3d36e51a",
+        "sha256_in_prefix": "bfbd953616ae212c3046f113047c1da4f4cba3619cdfca1fd71885ce3d36e51a",
+        "size_in_bytes": 9868
+      },
+      {
+        "_path": "site-packages/flask_restx/mask.py",
+        "path_type": "hardlink",
+        "sha256": "7d0e765a552303e4a2edc4a7b641e97658520c649500b3d35e63b9298f6809ab",
+        "sha256_in_prefix": "7d0e765a552303e4a2edc4a7b641e97658520c649500b3d35e63b9298f6809ab",
+        "size_in_bytes": 5470
+      },
+      {
+        "_path": "site-packages/flask_restx/model.py",
+        "path_type": "hardlink",
+        "sha256": "9b9be9663b10a1074d4e395276bc145e8054b0bcc0d5d8865a190c7e44537aae",
+        "sha256_in_prefix": "9b9be9663b10a1074d4e395276bc145e8054b0bcc0d5d8865a190c7e44537aae",
+        "size_in_bytes": 8219
+      },
+      {
+        "_path": "site-packages/flask_restx/namespace.py",
+        "path_type": "hardlink",
+        "sha256": "99f0bc0b366d5ba2a895d47d27f21fc6f65bfc5c3dbbe459cce6846b4ee3da3c",
+        "sha256_in_prefix": "99f0bc0b366d5ba2a895d47d27f21fc6f65bfc5c3dbbe459cce6846b4ee3da3c",
+        "size_in_bytes": 12943
+      },
+      {
+        "_path": "site-packages/flask_restx/postman.py",
+        "path_type": "hardlink",
+        "sha256": "05e356f04328e178f124bdc83cc506b105ac666ec1f9e08622dacd4eb44c75d9",
+        "sha256_in_prefix": "05e356f04328e178f124bdc83cc506b105ac666ec1f9e08622dacd4eb44c75d9",
+        "size_in_bytes": 6409
+      },
+      {
+        "_path": "site-packages/flask_restx/representations.py",
+        "path_type": "hardlink",
+        "sha256": "6c49608cf10487dfbcd822874147c42d8b68a955ec4f771636e10f039c7b6de2",
+        "sha256_in_prefix": "6c49608cf10487dfbcd822874147c42d8b68a955ec4f771636e10f039c7b6de2",
+        "size_in_bytes": 768
+      },
+      {
+        "_path": "site-packages/flask_restx/reqparse.py",
+        "path_type": "hardlink",
+        "sha256": "2a8603fdbda9bdfc98a1355156e524b722dfe98af6575f44f1168f63ac7ff69a",
+        "sha256_in_prefix": "2a8603fdbda9bdfc98a1355156e524b722dfe98af6575f44f1168f63ac7ff69a",
+        "size_in_bytes": 16270
+      },
+      {
+        "_path": "site-packages/flask_restx/resource.py",
+        "path_type": "hardlink",
+        "sha256": "32d63421587c249524b2a1b4460c52e360933ef4ac769b2e6ba1b2611cd2dc75",
+        "sha256_in_prefix": "32d63421587c249524b2a1b4460c52e360933ef4ac769b2e6ba1b2611cd2dc75",
+        "size_in_bytes": 3414
+      },
+      {
+        "_path": "site-packages/flask_restx/schemas/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "1959c64e676fc73de2e7ff8ee5fdeab830451b44f57765ba4c27b390f8c76a53",
+        "sha256_in_prefix": "1959c64e676fc73de2e7ff8ee5fdeab830451b44f57765ba4c27b390f8c76a53",
+        "size_in_bytes": 3332
+      },
+      {
+        "_path": "site-packages/flask_restx/schemas/oas-2.0.json",
+        "path_type": "hardlink",
+        "sha256": "b36871c8016292c5e66dd3b203e69aeff98bfef97e0b3c67c1909036095586a5",
+        "sha256_in_prefix": "b36871c8016292c5e66dd3b203e69aeff98bfef97e0b3c67c1909036095586a5",
+        "size_in_bytes": 40247
+      },
+      {
+        "_path": "site-packages/flask_restx/static/droid-sans.css",
+        "path_type": "hardlink",
+        "sha256": "3a2ecf75aa04e9899fc06c3e7ee502d50861dc2224d38b781215bf3b660ab154",
+        "sha256_in_prefix": "3a2ecf75aa04e9899fc06c3e7ee502d50861dc2224d38b781215bf3b660ab154",
+        "size_in_bytes": 778
+      },
+      {
+        "_path": "site-packages/flask_restx/static/favicon-16x16.png",
+        "path_type": "hardlink",
+        "sha256": "af24ad604dd7b3bcda8f975ab973075f4a2f70a4087944a12f8ef8b63a3e07c2",
+        "sha256_in_prefix": "af24ad604dd7b3bcda8f975ab973075f4a2f70a4087944a12f8ef8b63a3e07c2",
+        "size_in_bytes": 665
+      },
+      {
+        "_path": "site-packages/flask_restx/static/favicon-32x32.png",
+        "path_type": "hardlink",
+        "sha256": "3ed612f41e050ca5e7000cad6f1cbe7e7da39f65fca99c02e99e6591056e5837",
+        "sha256_in_prefix": "3ed612f41e050ca5e7000cad6f1cbe7e7da39f65fca99c02e99e6591056e5837",
+        "size_in_bytes": 628
+      },
+      {
+        "_path": "site-packages/flask_restx/static/files/.npmignore",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/flask_restx/static/files/droid-sans-latin-400.woff",
+        "path_type": "hardlink",
+        "sha256": "1a608dae17698385b2db83b639dcdc422aa70a179c2884752e5a8c2609e8894a",
+        "sha256_in_prefix": "1a608dae17698385b2db83b639dcdc422aa70a179c2884752e5a8c2609e8894a",
+        "size_in_bytes": 24888
+      },
+      {
+        "_path": "site-packages/flask_restx/static/files/droid-sans-latin-400.woff2",
+        "path_type": "hardlink",
+        "sha256": "197f29a9d43e95d57c1aee32ca7b618daa3d46938c0677bc5a4c3a0b3e188bc0",
+        "sha256_in_prefix": "197f29a9d43e95d57c1aee32ca7b618daa3d46938c0677bc5a4c3a0b3e188bc0",
+        "size_in_bytes": 21252
+      },
+      {
+        "_path": "site-packages/flask_restx/static/files/droid-sans-latin-700.woff",
+        "path_type": "hardlink",
+        "sha256": "1de1ea277a9c3a0c5fc227ac8134763cac3ec348357f7d188754413076ba9b6d",
+        "sha256_in_prefix": "1de1ea277a9c3a0c5fc227ac8134763cac3ec348357f7d188754413076ba9b6d",
+        "size_in_bytes": 26012
+      },
+      {
+        "_path": "site-packages/flask_restx/static/files/droid-sans-latin-700.woff2",
+        "path_type": "hardlink",
+        "sha256": "4d2e22f718a16470e25807c805a804def22aa0f32aef992265a2e8e0f50b9014",
+        "sha256_in_prefix": "4d2e22f718a16470e25807c805a804def22aa0f32aef992265a2e8e0f50b9014",
+        "size_in_bytes": 22296
+      },
+      {
+        "_path": "site-packages/flask_restx/static/oauth2-redirect.html",
+        "path_type": "hardlink",
+        "sha256": "397fd30a2499cd2c5f3411ade0ca7fbd786d5011639ca78a06824d580b83c122",
+        "sha256_in_prefix": "397fd30a2499cd2c5f3411ade0ca7fbd786d5011639ca78a06824d580b83c122",
+        "size_in_bytes": 2715
+      },
+      {
+        "_path": "site-packages/flask_restx/static/swagger-ui-bundle.js",
+        "path_type": "hardlink",
+        "sha256": "b7bd3f84476aed69506428830a7a73ba50a42495026692a631ff396055e932aa",
+        "sha256_in_prefix": "b7bd3f84476aed69506428830a7a73ba50a42495026692a631ff396055e932aa",
+        "size_in_bytes": 1046295
+      },
+      {
+        "_path": "site-packages/flask_restx/static/swagger-ui-bundle.js.map",
+        "path_type": "hardlink",
+        "sha256": "d0b75587032ff0d0955a22ad9a9fccc3b395cdff76f7140952b61f9c56fe7f8c",
+        "sha256_in_prefix": "d0b75587032ff0d0955a22ad9a9fccc3b395cdff76f7140952b61f9c56fe7f8c",
+        "size_in_bytes": 1539741
+      },
+      {
+        "_path": "site-packages/flask_restx/static/swagger-ui-es-bundle-core.js",
+        "path_type": "hardlink",
+        "sha256": "5d929a906c7711cecc66c562020717b16fdc9d53d7af43f818482093d36cefbb",
+        "sha256_in_prefix": "5d929a906c7711cecc66c562020717b16fdc9d53d7af43f818482093d36cefbb",
+        "size_in_bytes": 368620
+      },
+      {
+        "_path": "site-packages/flask_restx/static/swagger-ui-es-bundle-core.js.map",
+        "path_type": "hardlink",
+        "sha256": "cb3ed79006a62ca859abaf428862a71b6bee119ac70a243f4a89b757917377a3",
+        "sha256_in_prefix": "cb3ed79006a62ca859abaf428862a71b6bee119ac70a243f4a89b757917377a3",
+        "size_in_bytes": 1285354
+      },
+      {
+        "_path": "site-packages/flask_restx/static/swagger-ui-es-bundle.js",
+        "path_type": "hardlink",
+        "sha256": "7e04bdb561e9098b13017268b79f1f327724abea1353d4ee0c0292db9817ec6d",
+        "sha256_in_prefix": "7e04bdb561e9098b13017268b79f1f327724abea1353d4ee0c0292db9817ec6d",
+        "size_in_bytes": 1046085
+      },
+      {
+        "_path": "site-packages/flask_restx/static/swagger-ui-es-bundle.js.map",
+        "path_type": "hardlink",
+        "sha256": "7a030d1c7f224c3c99560d07f5214f9667b60597f8528354dc338b10fa60894b",
+        "sha256_in_prefix": "7a030d1c7f224c3c99560d07f5214f9667b60597f8528354dc338b10fa60894b",
+        "size_in_bytes": 1535427
+      },
+      {
+        "_path": "site-packages/flask_restx/static/swagger-ui-standalone-preset.js",
+        "path_type": "hardlink",
+        "sha256": "50b0fe0c52eb3f11b8788e4e5fa17145a6b67b2f086bb45a870031159222d249",
+        "sha256_in_prefix": "50b0fe0c52eb3f11b8788e4e5fa17145a6b67b2f086bb45a870031159222d249",
+        "size_in_bytes": 322863
+      },
+      {
+        "_path": "site-packages/flask_restx/static/swagger-ui-standalone-preset.js.map",
+        "path_type": "hardlink",
+        "sha256": "1c5ebbeeffa07a45a9bc2289417459fae268bb8e17f56e450e454900d8a85823",
+        "sha256_in_prefix": "1c5ebbeeffa07a45a9bc2289417459fae268bb8e17f56e450e454900d8a85823",
+        "size_in_bytes": 517830
+      },
+      {
+        "_path": "site-packages/flask_restx/static/swagger-ui.css",
+        "path_type": "hardlink",
+        "sha256": "09e11f0483178496cbd5491093a0da4010b4d4dd39b639f9ef43a087550dcea3",
+        "sha256_in_prefix": "09e11f0483178496cbd5491093a0da4010b4d4dd39b639f9ef43a087550dcea3",
+        "size_in_bytes": 144598
+      },
+      {
+        "_path": "site-packages/flask_restx/static/swagger-ui.css.map",
+        "path_type": "hardlink",
+        "sha256": "5dfe87d7eae692885d4eb431ea76007ae0ec66cfb7b38425abb65a8667f9e8a7",
+        "sha256_in_prefix": "5dfe87d7eae692885d4eb431ea76007ae0ec66cfb7b38425abb65a8667f9e8a7",
+        "size_in_bytes": 251096
+      },
+      {
+        "_path": "site-packages/flask_restx/static/swagger-ui.js",
+        "path_type": "hardlink",
+        "sha256": "4733ae9538d641e37cf19de11affe1ab092f9e0709802193afe73d5bb24458d4",
+        "sha256_in_prefix": "4733ae9538d641e37cf19de11affe1ab092f9e0709802193afe73d5bb24458d4",
+        "size_in_bytes": 256541
+      },
+      {
+        "_path": "site-packages/flask_restx/static/swagger-ui.js.map",
+        "path_type": "hardlink",
+        "sha256": "fd14f5e6e48851cc1a142d8958a113bbcd56c854822872cece140eeb1d2f21d2",
+        "sha256_in_prefix": "fd14f5e6e48851cc1a142d8958a113bbcd56c854822872cece140eeb1d2f21d2",
+        "size_in_bytes": 304572
+      },
+      {
+        "_path": "site-packages/flask_restx/swagger.py",
+        "path_type": "hardlink",
+        "sha256": "367e22f92bbd2e27b898c88ba71fe6b42cda3588ed1d32072ad58b90c9d1c8ff",
+        "sha256_in_prefix": "367e22f92bbd2e27b898c88ba71fe6b42cda3588ed1d32072ad58b90c9d1c8ff",
+        "size_in_bytes": 27158
+      },
+      {
+        "_path": "site-packages/flask_restx/templates/swagger-ui-css.html",
+        "path_type": "hardlink",
+        "sha256": "0cdfea3c8017a9aab1348e7abae11d41f858bf09004dc1393077dbf7ebf3a1e4",
+        "sha256_in_prefix": "0cdfea3c8017a9aab1348e7abae11d41f858bf09004dc1393077dbf7ebf3a1e4",
+        "size_in_bytes": 950
+      },
+      {
+        "_path": "site-packages/flask_restx/templates/swagger-ui-libs.html",
+        "path_type": "hardlink",
+        "sha256": "7ec53e3650cd5c5adc33303c1ef7c52a3688e7614d16cef4b0c6da41224bb21e",
+        "sha256_in_prefix": "7ec53e3650cd5c5adc33303c1ef7c52a3688e7614d16cef4b0c6da41224bb21e",
+        "size_in_bytes": 478
+      },
+      {
+        "_path": "site-packages/flask_restx/templates/swagger-ui.html",
+        "path_type": "hardlink",
+        "sha256": "4ad8212c45fbd263f48b027e6f077efa5af81e34dba3ff32d57e5c9845c6e410",
+        "sha256_in_prefix": "4ad8212c45fbd263f48b027e6f077efa5af81e34dba3ff32d57e5c9845c6e410",
+        "size_in_bytes": 4286
+      },
+      {
+        "_path": "site-packages/flask_restx/utils.py",
+        "path_type": "hardlink",
+        "sha256": "497c46d0db8ffc852ad9cd9b026fc6148504341d816858b785028cef84f59327",
+        "sha256_in_prefix": "497c46d0db8ffc852ad9cd9b026fc6148504341d816858b785028cef84f59327",
+        "size_in_bytes": 3317
+      },
+      {
+        "_path": "Lib/site-packages/flask_restx/__pycache__/__about__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flask_restx/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flask_restx/__pycache__/_http.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flask_restx/__pycache__/api.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flask_restx/__pycache__/apidoc.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flask_restx/__pycache__/cors.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flask_restx/__pycache__/errors.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flask_restx/__pycache__/fields.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flask_restx/__pycache__/inputs.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flask_restx/__pycache__/marshalling.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flask_restx/__pycache__/mask.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flask_restx/__pycache__/model.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flask_restx/__pycache__/namespace.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flask_restx/__pycache__/postman.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flask_restx/__pycache__/representations.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flask_restx/__pycache__/reqparse.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flask_restx/__pycache__/resource.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flask_restx/schemas/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flask_restx/__pycache__/swagger.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flask_restx/__pycache__/utils.cpython-312.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "9b0b9a50839b3c384262e1f20ef4a49fa8ce8847f98decf05812951c583dda80",
+  "size": 1572350,
+  "subdir": "noarch",
+  "timestamp": 1698227932000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/flask-restx-1.1.0-pyhd8ed1ab_0.conda",
+  "version": "1.1.0"
+}

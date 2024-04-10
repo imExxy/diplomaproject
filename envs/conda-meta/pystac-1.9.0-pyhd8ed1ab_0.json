@@ -1,0 +1,930 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.9",
+    "python-dateutil >=2.7.0"
+  ],
+  "extracted_package_dir": "D:\\xxx\\anaconda3\\pkgs\\pystac-1.9.0-pyhd8ed1ab_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/pystac-1.9.0.dist-info/INSTALLER",
+    "Lib/site-packages/pystac-1.9.0.dist-info/LICENSE",
+    "Lib/site-packages/pystac-1.9.0.dist-info/METADATA",
+    "Lib/site-packages/pystac-1.9.0.dist-info/RECORD",
+    "Lib/site-packages/pystac-1.9.0.dist-info/REQUESTED",
+    "Lib/site-packages/pystac-1.9.0.dist-info/WHEEL",
+    "Lib/site-packages/pystac-1.9.0.dist-info/direct_url.json",
+    "Lib/site-packages/pystac-1.9.0.dist-info/top_level.txt",
+    "Lib/site-packages/pystac/__init__.py",
+    "Lib/site-packages/pystac/asset.py",
+    "Lib/site-packages/pystac/cache.py",
+    "Lib/site-packages/pystac/catalog.py",
+    "Lib/site-packages/pystac/collection.py",
+    "Lib/site-packages/pystac/common_metadata.py",
+    "Lib/site-packages/pystac/errors.py",
+    "Lib/site-packages/pystac/extensions/__init__.py",
+    "Lib/site-packages/pystac/extensions/base.py",
+    "Lib/site-packages/pystac/extensions/classification.py",
+    "Lib/site-packages/pystac/extensions/datacube.py",
+    "Lib/site-packages/pystac/extensions/eo.py",
+    "Lib/site-packages/pystac/extensions/ext.py",
+    "Lib/site-packages/pystac/extensions/file.py",
+    "Lib/site-packages/pystac/extensions/grid.py",
+    "Lib/site-packages/pystac/extensions/hooks.py",
+    "Lib/site-packages/pystac/extensions/item_assets.py",
+    "Lib/site-packages/pystac/extensions/label.py",
+    "Lib/site-packages/pystac/extensions/mgrs.py",
+    "Lib/site-packages/pystac/extensions/pointcloud.py",
+    "Lib/site-packages/pystac/extensions/projection.py",
+    "Lib/site-packages/pystac/extensions/raster.py",
+    "Lib/site-packages/pystac/extensions/sar.py",
+    "Lib/site-packages/pystac/extensions/sat.py",
+    "Lib/site-packages/pystac/extensions/scientific.py",
+    "Lib/site-packages/pystac/extensions/storage.py",
+    "Lib/site-packages/pystac/extensions/table.py",
+    "Lib/site-packages/pystac/extensions/timestamps.py",
+    "Lib/site-packages/pystac/extensions/version.py",
+    "Lib/site-packages/pystac/extensions/view.py",
+    "Lib/site-packages/pystac/extensions/xarray_assets.py",
+    "Lib/site-packages/pystac/html/JSON.jinja2",
+    "Lib/site-packages/pystac/html/Macros.jinja2",
+    "Lib/site-packages/pystac/html/__init__.py",
+    "Lib/site-packages/pystac/html/jinja_env.py",
+    "Lib/site-packages/pystac/item.py",
+    "Lib/site-packages/pystac/item_collection.py",
+    "Lib/site-packages/pystac/layout.py",
+    "Lib/site-packages/pystac/link.py",
+    "Lib/site-packages/pystac/media_type.py",
+    "Lib/site-packages/pystac/provider.py",
+    "Lib/site-packages/pystac/py.typed",
+    "Lib/site-packages/pystac/rel_type.py",
+    "Lib/site-packages/pystac/serialization/__init__.py",
+    "Lib/site-packages/pystac/serialization/common_properties.py",
+    "Lib/site-packages/pystac/serialization/identify.py",
+    "Lib/site-packages/pystac/serialization/migrate.py",
+    "Lib/site-packages/pystac/stac_io.py",
+    "Lib/site-packages/pystac/stac_object.py",
+    "Lib/site-packages/pystac/static/__init__.py",
+    "Lib/site-packages/pystac/static/fields-normalized.json",
+    "Lib/site-packages/pystac/summaries.py",
+    "Lib/site-packages/pystac/utils.py",
+    "Lib/site-packages/pystac/validation/__init__.py",
+    "Lib/site-packages/pystac/validation/jsonschemas/__init__.py",
+    "Lib/site-packages/pystac/validation/jsonschemas/geojson/Feature.json",
+    "Lib/site-packages/pystac/validation/jsonschemas/geojson/Geometry.json",
+    "Lib/site-packages/pystac/validation/jsonschemas/stac-spec/v1.0.0/basics.json",
+    "Lib/site-packages/pystac/validation/jsonschemas/stac-spec/v1.0.0/catalog.json",
+    "Lib/site-packages/pystac/validation/jsonschemas/stac-spec/v1.0.0/collection.json",
+    "Lib/site-packages/pystac/validation/jsonschemas/stac-spec/v1.0.0/datetime.json",
+    "Lib/site-packages/pystac/validation/jsonschemas/stac-spec/v1.0.0/instrument.json",
+    "Lib/site-packages/pystac/validation/jsonschemas/stac-spec/v1.0.0/item.json",
+    "Lib/site-packages/pystac/validation/jsonschemas/stac-spec/v1.0.0/licensing.json",
+    "Lib/site-packages/pystac/validation/jsonschemas/stac-spec/v1.0.0/provider.json",
+    "Lib/site-packages/pystac/validation/local_validator.py",
+    "Lib/site-packages/pystac/validation/schema_uri_map.py",
+    "Lib/site-packages/pystac/validation/stac_validator.py",
+    "Lib/site-packages/pystac/version.py",
+    ".nonadmin",
+    "Lib/site-packages/pystac/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/pystac/__pycache__/asset.cpython-312.pyc",
+    "Lib/site-packages/pystac/__pycache__/cache.cpython-312.pyc",
+    "Lib/site-packages/pystac/__pycache__/catalog.cpython-312.pyc",
+    "Lib/site-packages/pystac/__pycache__/collection.cpython-312.pyc",
+    "Lib/site-packages/pystac/__pycache__/common_metadata.cpython-312.pyc",
+    "Lib/site-packages/pystac/__pycache__/errors.cpython-312.pyc",
+    "Lib/site-packages/pystac/extensions/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/pystac/extensions/__pycache__/base.cpython-312.pyc",
+    "Lib/site-packages/pystac/extensions/__pycache__/classification.cpython-312.pyc",
+    "Lib/site-packages/pystac/extensions/__pycache__/datacube.cpython-312.pyc",
+    "Lib/site-packages/pystac/extensions/__pycache__/eo.cpython-312.pyc",
+    "Lib/site-packages/pystac/extensions/__pycache__/ext.cpython-312.pyc",
+    "Lib/site-packages/pystac/extensions/__pycache__/file.cpython-312.pyc",
+    "Lib/site-packages/pystac/extensions/__pycache__/grid.cpython-312.pyc",
+    "Lib/site-packages/pystac/extensions/__pycache__/hooks.cpython-312.pyc",
+    "Lib/site-packages/pystac/extensions/__pycache__/item_assets.cpython-312.pyc",
+    "Lib/site-packages/pystac/extensions/__pycache__/label.cpython-312.pyc",
+    "Lib/site-packages/pystac/extensions/__pycache__/mgrs.cpython-312.pyc",
+    "Lib/site-packages/pystac/extensions/__pycache__/pointcloud.cpython-312.pyc",
+    "Lib/site-packages/pystac/extensions/__pycache__/projection.cpython-312.pyc",
+    "Lib/site-packages/pystac/extensions/__pycache__/raster.cpython-312.pyc",
+    "Lib/site-packages/pystac/extensions/__pycache__/sar.cpython-312.pyc",
+    "Lib/site-packages/pystac/extensions/__pycache__/sat.cpython-312.pyc",
+    "Lib/site-packages/pystac/extensions/__pycache__/scientific.cpython-312.pyc",
+    "Lib/site-packages/pystac/extensions/__pycache__/storage.cpython-312.pyc",
+    "Lib/site-packages/pystac/extensions/__pycache__/table.cpython-312.pyc",
+    "Lib/site-packages/pystac/extensions/__pycache__/timestamps.cpython-312.pyc",
+    "Lib/site-packages/pystac/extensions/__pycache__/version.cpython-312.pyc",
+    "Lib/site-packages/pystac/extensions/__pycache__/view.cpython-312.pyc",
+    "Lib/site-packages/pystac/extensions/__pycache__/xarray_assets.cpython-312.pyc",
+    "Lib/site-packages/pystac/html/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/pystac/html/__pycache__/jinja_env.cpython-312.pyc",
+    "Lib/site-packages/pystac/__pycache__/item.cpython-312.pyc",
+    "Lib/site-packages/pystac/__pycache__/item_collection.cpython-312.pyc",
+    "Lib/site-packages/pystac/__pycache__/layout.cpython-312.pyc",
+    "Lib/site-packages/pystac/__pycache__/link.cpython-312.pyc",
+    "Lib/site-packages/pystac/__pycache__/media_type.cpython-312.pyc",
+    "Lib/site-packages/pystac/__pycache__/provider.cpython-312.pyc",
+    "Lib/site-packages/pystac/__pycache__/rel_type.cpython-312.pyc",
+    "Lib/site-packages/pystac/serialization/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/pystac/serialization/__pycache__/common_properties.cpython-312.pyc",
+    "Lib/site-packages/pystac/serialization/__pycache__/identify.cpython-312.pyc",
+    "Lib/site-packages/pystac/serialization/__pycache__/migrate.cpython-312.pyc",
+    "Lib/site-packages/pystac/__pycache__/stac_io.cpython-312.pyc",
+    "Lib/site-packages/pystac/__pycache__/stac_object.cpython-312.pyc",
+    "Lib/site-packages/pystac/static/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/pystac/__pycache__/summaries.cpython-312.pyc",
+    "Lib/site-packages/pystac/__pycache__/utils.cpython-312.pyc",
+    "Lib/site-packages/pystac/validation/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/pystac/validation/jsonschemas/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/pystac/validation/__pycache__/local_validator.cpython-312.pyc",
+    "Lib/site-packages/pystac/validation/__pycache__/schema_uri_map.cpython-312.pyc",
+    "Lib/site-packages/pystac/validation/__pycache__/stac_validator.cpython-312.pyc",
+    "Lib/site-packages/pystac/__pycache__/version.cpython-312.pyc"
+  ],
+  "fn": "pystac-1.9.0-pyhd8ed1ab_0.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "D:\\xxx\\anaconda3\\pkgs\\pystac-1.9.0-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "0282b584c5853a0532f0418c6d3f4d82",
+  "name": "pystac",
+  "noarch": "python",
+  "package_tarball_full_path": "D:\\xxx\\anaconda3\\pkgs\\pystac-1.9.0-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/pystac-1.9.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/pystac-1.9.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "d6741f221073bf3f80a60be766d7c4b14cfe5fa396ebfb5c6c455e9ede1b61de",
+        "sha256_in_prefix": "d6741f221073bf3f80a60be766d7c4b14cfe5fa396ebfb5c6c455e9ede1b61de",
+        "size_in_bytes": 564
+      },
+      {
+        "_path": "site-packages/pystac-1.9.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "f22496a0427582b37f42f5690822499815860fb46b3dcc38d0e3203a0c832832",
+        "sha256_in_prefix": "f22496a0427582b37f42f5690822499815860fb46b3dcc38d0e3203a0c832832",
+        "size_in_bytes": 6396
+      },
+      {
+        "_path": "site-packages/pystac-1.9.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "9d73953fa66def90188a169ca74dc67eead8678cb76ede09686ecb6e4c8b7358",
+        "sha256_in_prefix": "9d73953fa66def90188a169ca74dc67eead8678cb76ede09686ecb6e4c8b7358",
+        "size_in_bytes": 9714
+      },
+      {
+        "_path": "site-packages/pystac-1.9.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/pystac-1.9.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "c903798389a0e00c9b4639208bef72cb889010589b1909a5cfbf0f8a4e4eafe0",
+        "sha256_in_prefix": "c903798389a0e00c9b4639208bef72cb889010589b1909a5cfbf0f8a4e4eafe0",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/pystac-1.9.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "bbad3504a354bef82a08f0c0d012f284c7a982746b84c4737bc218ed86bd1fe4",
+        "sha256_in_prefix": "bbad3504a354bef82a08f0c0d012f284c7a982746b84c4737bc218ed86bd1fe4",
+        "size_in_bytes": 102
+      },
+      {
+        "_path": "site-packages/pystac-1.9.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "3be6e96fe77346648822b5d5b82cc56fe780edebf0310cb07ceab611a113b692",
+        "sha256_in_prefix": "3be6e96fe77346648822b5d5b82cc56fe780edebf0310cb07ceab611a113b692",
+        "size_in_bytes": 7
+      },
+      {
+        "_path": "site-packages/pystac/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "55ae53336af8c2d0d1d27b440f60892a4b30d7c3393ac9893adf401c9fde0f46",
+        "sha256_in_prefix": "55ae53336af8c2d0d1d27b440f60892a4b30d7c3393ac9893adf401c9fde0f46",
+        "size_in_bytes": 8160
+      },
+      {
+        "_path": "site-packages/pystac/asset.py",
+        "path_type": "hardlink",
+        "sha256": "01db3bbf6274ce98be58b1b62b9d30e5ddb1f4b0875e893adbc51fc7d090ff20",
+        "sha256_in_prefix": "01db3bbf6274ce98be58b1b62b9d30e5ddb1f4b0875e893adbc51fc7d090ff20",
+        "size_in_bytes": 12951
+      },
+      {
+        "_path": "site-packages/pystac/cache.py",
+        "path_type": "hardlink",
+        "sha256": "aee3b37fec0d1277a39cf918856752944230bbfa2878292f4bcf9c70dfa598e9",
+        "sha256_in_prefix": "aee3b37fec0d1277a39cf918856752944230bbfa2878292f4bcf9c70dfa598e9",
+        "size_in_bytes": 12258
+      },
+      {
+        "_path": "site-packages/pystac/catalog.py",
+        "path_type": "hardlink",
+        "sha256": "07dd05b3e75b997547f52bfcfd29a6c88e5a32df72400f1961810cb2435c6b04",
+        "sha256_in_prefix": "07dd05b3e75b997547f52bfcfd29a6c88e5a32df72400f1961810cb2435c6b04",
+        "size_in_bytes": 46172
+      },
+      {
+        "_path": "site-packages/pystac/collection.py",
+        "path_type": "hardlink",
+        "sha256": "da591421e64b937532e6ff490521c8484b2303a8b772c4f28beb13cd10193545",
+        "sha256_in_prefix": "da591421e64b937532e6ff490521c8484b2303a8b772c4f28beb13cd10193545",
+        "size_in_bytes": 25651
+      },
+      {
+        "_path": "site-packages/pystac/common_metadata.py",
+        "path_type": "hardlink",
+        "sha256": "664303e71e351c9caef2606acca7e47d7853603ffe1b4ed8b0473fe986da8682",
+        "sha256_in_prefix": "664303e71e351c9caef2606acca7e47d7853603ffe1b4ed8b0473fe986da8682",
+        "size_in_bytes": 7504
+      },
+      {
+        "_path": "site-packages/pystac/errors.py",
+        "path_type": "hardlink",
+        "sha256": "0474afa03c20bb15f4b4943a954ab56f94e1942dc2cf20bb1da5c5bd7fc57026",
+        "sha256_in_prefix": "0474afa03c20bb15f4b4943a954ab56f94e1942dc2cf20bb1da5c5bd7fc57026",
+        "size_in_bytes": 3712
+      },
+      {
+        "_path": "site-packages/pystac/extensions/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/pystac/extensions/base.py",
+        "path_type": "hardlink",
+        "sha256": "4702171cb8f730fecdae253ae2c8dc8efccb3e9e73d82836df605cc0aa38e23b",
+        "sha256_in_prefix": "4702171cb8f730fecdae253ae2c8dc8efccb3e9e73d82836df605cc0aa38e23b",
+        "size_in_bytes": 10347
+      },
+      {
+        "_path": "site-packages/pystac/extensions/classification.py",
+        "path_type": "hardlink",
+        "sha256": "6162ae11026b6a96cefd276fc39247bf66d6d59aab591492ab02319592935c91",
+        "sha256_in_prefix": "6162ae11026b6a96cefd276fc39247bf66d6d59aab591492ab02319592935c91",
+        "size_in_bytes": 21677
+      },
+      {
+        "_path": "site-packages/pystac/extensions/datacube.py",
+        "path_type": "hardlink",
+        "sha256": "6cef543e0bb814a0f151f1e784c8104f6815f3391e8a5cd22461c845effd9018",
+        "sha256_in_prefix": "6cef543e0bb814a0f151f1e784c8104f6815f3391e8a5cd22461c845effd9018",
+        "size_in_bytes": 25561
+      },
+      {
+        "_path": "site-packages/pystac/extensions/eo.py",
+        "path_type": "hardlink",
+        "sha256": "ffdfe49ff768f754232f087d904a151d952875e3c6385b18c8da11219027c75f",
+        "sha256_in_prefix": "ffdfe49ff768f754232f087d904a151d952875e3c6385b18c8da11219027c75f",
+        "size_in_bytes": 25147
+      },
+      {
+        "_path": "site-packages/pystac/extensions/ext.py",
+        "path_type": "hardlink",
+        "sha256": "8de1f7de44893d75d09bb3b7f52f520d2afb85f667a0b0f433a462e766f7ed53",
+        "sha256_in_prefix": "8de1f7de44893d75d09bb3b7f52f520d2afb85f667a0b0f433a462e766f7ed53",
+        "size_in_bytes": 9607
+      },
+      {
+        "_path": "site-packages/pystac/extensions/file.py",
+        "path_type": "hardlink",
+        "sha256": "87ac9a946c980501923a4c9725e6d5985dec552265d5f4e0a88bfc9464692bd0",
+        "sha256_in_prefix": "87ac9a946c980501923a4c9725e6d5985dec552265d5f4e0a88bfc9464692bd0",
+        "size_in_bytes": 13850
+      },
+      {
+        "_path": "site-packages/pystac/extensions/grid.py",
+        "path_type": "hardlink",
+        "sha256": "1a732856fcdaa280ffeb93f3e03c31791d7cf7741606a6048e33dcfa56c8aa04",
+        "sha256_in_prefix": "1a732856fcdaa280ffeb93f3e03c31791d7cf7741606a6048e33dcfa56c8aa04",
+        "size_in_bytes": 3752
+      },
+      {
+        "_path": "site-packages/pystac/extensions/hooks.py",
+        "path_type": "hardlink",
+        "sha256": "6e1072382d08afd11b3cdbd491646f6884025e4921423b9f44989e964f0f1e45",
+        "sha256_in_prefix": "6e1072382d08afd11b3cdbd491646f6884025e4921423b9f44989e964f0f1e45",
+        "size_in_bytes": 3858
+      },
+      {
+        "_path": "site-packages/pystac/extensions/item_assets.py",
+        "path_type": "hardlink",
+        "sha256": "b91e4b1d1eab2f4e342e94e7375412d047f9fff1e76a007353bf50b42086b949",
+        "sha256_in_prefix": "b91e4b1d1eab2f4e342e94e7375412d047f9fff1e76a007353bf50b42086b949",
+        "size_in_bytes": 10114
+      },
+      {
+        "_path": "site-packages/pystac/extensions/label.py",
+        "path_type": "hardlink",
+        "sha256": "06479ce624542c4266769dbf4735e9585ee4918958aed90790e872cd2121dae5",
+        "sha256_in_prefix": "06479ce624542c4266769dbf4735e9585ee4918958aed90790e872cd2121dae5",
+        "size_in_bytes": 29064
+      },
+      {
+        "_path": "site-packages/pystac/extensions/mgrs.py",
+        "path_type": "hardlink",
+        "sha256": "3da90770b698dd29e3ce207b18957d244e6af42d1590fb4abbf2a2767997bebb",
+        "sha256_in_prefix": "3da90770b698dd29e3ce207b18957d244e6af42d1590fb4abbf2a2767997bebb",
+        "size_in_bytes": 6502
+      },
+      {
+        "_path": "site-packages/pystac/extensions/pointcloud.py",
+        "path_type": "hardlink",
+        "sha256": "fb43039fe72bcfbb4c64dba75098d1b5332296dd211085828a536271f52c05d1",
+        "sha256_in_prefix": "fb43039fe72bcfbb4c64dba75098d1b5332296dd211085828a536271f52c05d1",
+        "size_in_bytes": 20287
+      },
+      {
+        "_path": "site-packages/pystac/extensions/projection.py",
+        "path_type": "hardlink",
+        "sha256": "f75f1ac99f5f3415fccd02cbe1721c1f1eb247aff5af4996e037f079594aa2b5",
+        "sha256_in_prefix": "f75f1ac99f5f3415fccd02cbe1721c1f1eb247aff5af4996e037f079594aa2b5",
+        "size_in_bytes": 15826
+      },
+      {
+        "_path": "site-packages/pystac/extensions/raster.py",
+        "path_type": "hardlink",
+        "sha256": "2c967b83681488a130b5bf0dbd0612ccf92a81df468a233b36f5dd62430f6ed8",
+        "sha256_in_prefix": "2c967b83681488a130b5bf0dbd0612ccf92a81df468a233b36f5dd62430f6ed8",
+        "size_in_bytes": 25728
+      },
+      {
+        "_path": "site-packages/pystac/extensions/sar.py",
+        "path_type": "hardlink",
+        "sha256": "235e6a6fa4647f8dfaf1b9e879fe6a9cb76657c8521908abb7adb9d4dceec775",
+        "sha256_in_prefix": "235e6a6fa4647f8dfaf1b9e879fe6a9cb76657c8521908abb7adb9d4dceec775",
+        "size_in_bytes": 23085
+      },
+      {
+        "_path": "site-packages/pystac/extensions/sat.py",
+        "path_type": "hardlink",
+        "sha256": "99397fe89b1325eb71b6ae89e860af6adbaa9412fa489ecd376ed526d420fcda",
+        "sha256_in_prefix": "99397fe89b1325eb71b6ae89e860af6adbaa9412fa489ecd376ed526d420fcda",
+        "size_in_bytes": 11173
+      },
+      {
+        "_path": "site-packages/pystac/extensions/scientific.py",
+        "path_type": "hardlink",
+        "sha256": "05c8bd0863862cb94cc34a8753ebdf70dbaaab4dedcf494f4458d0f057fe137e",
+        "sha256_in_prefix": "05c8bd0863862cb94cc34a8753ebdf70dbaaab4dedcf494f4458d0f057fe137e",
+        "size_in_bytes": 12287
+      },
+      {
+        "_path": "site-packages/pystac/extensions/storage.py",
+        "path_type": "hardlink",
+        "sha256": "3a99419039a1217e52ba9bdf8698bfcf4da1991e4100ad6262776ddc0ad8775e",
+        "sha256_in_prefix": "3a99419039a1217e52ba9bdf8698bfcf4da1991e4100ad6262776ddc0ad8775e",
+        "size_in_bytes": 9843
+      },
+      {
+        "_path": "site-packages/pystac/extensions/table.py",
+        "path_type": "hardlink",
+        "sha256": "918642fe920bceee94f716773e008fbf8501f82ca9b7887e843bcc7351705981",
+        "sha256_in_prefix": "918642fe920bceee94f716773e008fbf8501f82ca9b7887e843bcc7351705981",
+        "size_in_bytes": 10838
+      },
+      {
+        "_path": "site-packages/pystac/extensions/timestamps.py",
+        "path_type": "hardlink",
+        "sha256": "7574519ef2c08985584ee6886869b961aa1cf0ab4df5781421d41c22c431fb68",
+        "sha256_in_prefix": "7574519ef2c08985584ee6886869b961aa1cf0ab4df5781421d41c22c431fb68",
+        "size_in_bytes": 10729
+      },
+      {
+        "_path": "site-packages/pystac/extensions/version.py",
+        "path_type": "hardlink",
+        "sha256": "e34c615066cfe1ab660e059db455ce15512dd1004eec53f950aabeddd1267af3",
+        "sha256_in_prefix": "e34c615066cfe1ab660e059db455ce15512dd1004eec53f950aabeddd1267af3",
+        "size_in_bytes": 15255
+      },
+      {
+        "_path": "site-packages/pystac/extensions/view.py",
+        "path_type": "hardlink",
+        "sha256": "578f635e21f63b2e8c9bc0585f3bf3805c3188754a5baa298a3a9d314cb375b9",
+        "sha256_in_prefix": "578f635e21f63b2e8c9bc0585f3bf3805c3188754a5baa298a3a9d314cb375b9",
+        "size_in_bytes": 11699
+      },
+      {
+        "_path": "site-packages/pystac/extensions/xarray_assets.py",
+        "path_type": "hardlink",
+        "sha256": "f21126a55896ff41372108517f84542587742284011aeeae8a8050ce6b9182e1",
+        "sha256_in_prefix": "f21126a55896ff41372108517f84542587742284011aeeae8a8050ce6b9182e1",
+        "size_in_bytes": 6094
+      },
+      {
+        "_path": "site-packages/pystac/html/JSON.jinja2",
+        "path_type": "hardlink",
+        "sha256": "b264a3ee43d085a09b3b97a929d1cbc49e73ef98e5ee2c6b6705475490b0c536",
+        "sha256_in_prefix": "b264a3ee43d085a09b3b97a929d1cbc49e73ef98e5ee2c6b6705475490b0c536",
+        "size_in_bytes": 827
+      },
+      {
+        "_path": "site-packages/pystac/html/Macros.jinja2",
+        "path_type": "hardlink",
+        "sha256": "015ab6968d4d8c5b4c694b5ff7d8d8a3f292249d8fe1ef9e29255788f329b3ae",
+        "sha256_in_prefix": "015ab6968d4d8c5b4c694b5ff7d8d8a3f292249d8fe1ef9e29255788f329b3ae",
+        "size_in_bytes": 1439
+      },
+      {
+        "_path": "site-packages/pystac/html/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "9954f7546a926afdc9c16a0204dc3dcdbc4283efd9765158b01c9e2e2f1f232b",
+        "sha256_in_prefix": "9954f7546a926afdc9c16a0204dc3dcdbc4283efd9765158b01c9e2e2f1f232b",
+        "size_in_bytes": 66
+      },
+      {
+        "_path": "site-packages/pystac/html/jinja_env.py",
+        "path_type": "hardlink",
+        "sha256": "25d12ffe48c0a37e49ad69ba4040a1b804510b730e9e768c69a272ac633306ba",
+        "sha256_in_prefix": "25d12ffe48c0a37e49ad69ba4040a1b804510b730e9e768c69a272ac633306ba",
+        "size_in_bytes": 357
+      },
+      {
+        "_path": "site-packages/pystac/item.py",
+        "path_type": "hardlink",
+        "sha256": "bd9ae38928bbb2fa51654f807ef7279e5333d799d60f244dc509171271f2ea21",
+        "sha256_in_prefix": "bd9ae38928bbb2fa51654f807ef7279e5333d799d60f244dc509171271f2ea21",
+        "size_in_bytes": 17713
+      },
+      {
+        "_path": "site-packages/pystac/item_collection.py",
+        "path_type": "hardlink",
+        "sha256": "46dfc81ca8f17597091845d2a175ac8ffaf34083257828432e7c8bc3ddf8f521",
+        "sha256_in_prefix": "46dfc81ca8f17597091845d2a175ac8ffaf34083257828432e7c8bc3ddf8f521",
+        "size_in_bytes": 9446
+      },
+      {
+        "_path": "site-packages/pystac/layout.py",
+        "path_type": "hardlink",
+        "sha256": "4cb05f666a2ca5a37de5d844106a4dacdc6f014a6d85ec3a03ca35b55e3b215c",
+        "sha256_in_prefix": "4cb05f666a2ca5a37de5d844106a4dacdc6f014a6d85ec3a03ca35b55e3b215c",
+        "size_in_bytes": 21904
+      },
+      {
+        "_path": "site-packages/pystac/link.py",
+        "path_type": "hardlink",
+        "sha256": "406c5491b2ab8bcc311d1773a79c859ba20b7fedafb0eed666e7012d2feff150",
+        "sha256_in_prefix": "406c5491b2ab8bcc311d1773a79c859ba20b7fedafb0eed666e7012d2feff150",
+        "size_in_bytes": 18179
+      },
+      {
+        "_path": "site-packages/pystac/media_type.py",
+        "path_type": "hardlink",
+        "sha256": "dc0266388c79cd89f939cc23f3bdfa1372d939b172c3dd1ec95b370e1e038e9b",
+        "sha256_in_prefix": "dc0266388c79cd89f939cc23f3bdfa1372d939b172c3dd1ec95b370e1e038e9b",
+        "size_in_bytes": 932
+      },
+      {
+        "_path": "site-packages/pystac/provider.py",
+        "path_type": "hardlink",
+        "sha256": "c39c885b093dcba03c4645972a06359734860c9b38a8202ba7653516f2b12474",
+        "sha256_in_prefix": "c39c885b093dcba03c4645972a06359734860c9b38a8202ba7653516f2b12474",
+        "size_in_bytes": 3960
+      },
+      {
+        "_path": "site-packages/pystac/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/pystac/rel_type.py",
+        "path_type": "hardlink",
+        "sha256": "0bca4a0c3095b9cacd482001daafa3cb46daaf5a0cbc946c3d23c8015b18e10b",
+        "sha256_in_prefix": "0bca4a0c3095b9cacd482001daafa3cb46daaf5a0cbc946c3d23c8015b18e10b",
+        "size_in_bytes": 987
+      },
+      {
+        "_path": "site-packages/pystac/serialization/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "5a7f2d44b8883435197e39c57bd885f00b9004939397bef6a0e23ac2efb1f8d9",
+        "sha256_in_prefix": "5a7f2d44b8883435197e39c57bd885f00b9004939397bef6a0e23ac2efb1f8d9",
+        "size_in_bytes": 414
+      },
+      {
+        "_path": "site-packages/pystac/serialization/common_properties.py",
+        "path_type": "hardlink",
+        "sha256": "e5bc066066580fa93fcf8d42c16cb0b160bd3a61dd0b7ee176a7b8eb9cc46bef",
+        "sha256_in_prefix": "e5bc066066580fa93fcf8d42c16cb0b160bd3a61dd0b7ee176a7b8eb9cc46bef",
+        "size_in_bytes": 4188
+      },
+      {
+        "_path": "site-packages/pystac/serialization/identify.py",
+        "path_type": "hardlink",
+        "sha256": "47494abb13c9fc159fbc2aa112281612225706c4bb0ac0dfdb3daafc18d434bd",
+        "sha256_in_prefix": "47494abb13c9fc159fbc2aa112281612225706c4bb0ac0dfdb3daafc18d434bd",
+        "size_in_bytes": 8884
+      },
+      {
+        "_path": "site-packages/pystac/serialization/migrate.py",
+        "path_type": "hardlink",
+        "sha256": "ae7b6589f2e3febbc915ae7abc5633c7e91640e900af38441b56b7a285c571cc",
+        "sha256_in_prefix": "ae7b6589f2e3febbc915ae7abc5633c7e91640e900af38441b56b7a285c571cc",
+        "size_in_bytes": 7244
+      },
+      {
+        "_path": "site-packages/pystac/stac_io.py",
+        "path_type": "hardlink",
+        "sha256": "fef7f96531889f804bc25b84861298d8f5da702fefd335d015a38cf3fdce31ef",
+        "sha256_in_prefix": "fef7f96531889f804bc25b84861298d8f5da702fefd335d015a38cf3fdce31ef",
+        "size_in_bytes": 15973
+      },
+      {
+        "_path": "site-packages/pystac/stac_object.py",
+        "path_type": "hardlink",
+        "sha256": "64e389cefbbf4689d1f1d07be923e98fc904478681d9452c7ed00b6e10d50ea5",
+        "sha256_in_prefix": "64e389cefbbf4689d1f1d07be923e98fc904478681d9452c7ed00b6e10d50ea5",
+        "size_in_bytes": 24132
+      },
+      {
+        "_path": "site-packages/pystac/static/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/pystac/static/fields-normalized.json",
+        "path_type": "hardlink",
+        "sha256": "c5d45a23cf7e0fe0b748d04307a8f067f6a5f007006429c8e36f15cef44e348a",
+        "sha256_in_prefix": "c5d45a23cf7e0fe0b748d04307a8f067f6a5f007006429c8e36f15cef44e348a",
+        "size_in_bytes": 24229
+      },
+      {
+        "_path": "site-packages/pystac/summaries.py",
+        "path_type": "hardlink",
+        "sha256": "42660d120339ce6fdd1080d0e8d1c9cf108ead5aaadb29353639191c395a7019",
+        "sha256_in_prefix": "42660d120339ce6fdd1080d0e8d1c9cf108ead5aaadb29353639191c395a7019",
+        "size_in_bytes": 10940
+      },
+      {
+        "_path": "site-packages/pystac/utils.py",
+        "path_type": "hardlink",
+        "sha256": "0dd4c33caec5963ab46c6018ca3e9a3298ba04f501e96c6c990f5c437dd0141c",
+        "sha256_in_prefix": "0dd4c33caec5963ab46c6018ca3e9a3298ba04f501e96c6c990f5c437dd0141c",
+        "size_in_bytes": 17678
+      },
+      {
+        "_path": "site-packages/pystac/validation/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "0a9eb4e4f886fe438e68c96584a6fd03b940d482212be32717ca54d49bbb29c8",
+        "sha256_in_prefix": "0a9eb4e4f886fe438e68c96584a6fd03b940d482212be32717ca54d49bbb29c8",
+        "size_in_bytes": 9015
+      },
+      {
+        "_path": "site-packages/pystac/validation/jsonschemas/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/pystac/validation/jsonschemas/geojson/Feature.json",
+        "path_type": "hardlink",
+        "sha256": "3957840b2ff19f9450ea97a12f85944d938c68a7a6bf115a2e69b98e007b9922",
+        "sha256_in_prefix": "3957840b2ff19f9450ea97a12f85944d938c68a7a6bf115a2e69b98e007b9922",
+        "size_in_bytes": 13777
+      },
+      {
+        "_path": "site-packages/pystac/validation/jsonschemas/geojson/Geometry.json",
+        "path_type": "hardlink",
+        "sha256": "152369d7eb6b3314ffc7deca1d66f9d498ed5b614ca38ed4e2c813fed01024fd",
+        "sha256_in_prefix": "152369d7eb6b3314ffc7deca1d66f9d498ed5b614ca38ed4e2c813fed01024fd",
+        "size_in_bytes": 4388
+      },
+      {
+        "_path": "site-packages/pystac/validation/jsonschemas/stac-spec/v1.0.0/basics.json",
+        "path_type": "hardlink",
+        "sha256": "66a60a5f7bba2baac3dd69bce0a8569e56ddbc31cfe6a77e1586e38c84b73040",
+        "sha256_in_prefix": "66a60a5f7bba2baac3dd69bce0a8569e56ddbc31cfe6a77e1586e38c84b73040",
+        "size_in_bytes": 533
+      },
+      {
+        "_path": "site-packages/pystac/validation/jsonschemas/stac-spec/v1.0.0/catalog.json",
+        "path_type": "hardlink",
+        "sha256": "7f672732102ac3ffd29c422ca2de0997be5666f3865711f96ba67969d10e4170",
+        "sha256_in_prefix": "7f672732102ac3ffd29c422ca2de0997be5666f3865711f96ba67969d10e4170",
+        "size_in_bytes": 2169
+      },
+      {
+        "_path": "site-packages/pystac/validation/jsonschemas/stac-spec/v1.0.0/collection.json",
+        "path_type": "hardlink",
+        "sha256": "f0e98830f53a44b03456e488be30d8230c0a1df9045cb25a8348a63c6c5fee1c",
+        "sha256_in_prefix": "f0e98830f53a44b03456e488be30d8230c0a1df9045cb25a8348a63c6c5fee1c",
+        "size_in_bytes": 7209
+      },
+      {
+        "_path": "site-packages/pystac/validation/jsonschemas/stac-spec/v1.0.0/datetime.json",
+        "path_type": "hardlink",
+        "sha256": "f487bd076213091289bc496c1a641fd05e79834b8bca108374cd693ecff3a1fc",
+        "sha256_in_prefix": "f487bd076213091289bc496c1a641fd05e79834b8bca108374cd693ecff3a1fc",
+        "size_in_bytes": 1472
+      },
+      {
+        "_path": "site-packages/pystac/validation/jsonschemas/stac-spec/v1.0.0/instrument.json",
+        "path_type": "hardlink",
+        "sha256": "886d00cc1f4256ea57e42047761ac7f15afa33fd773eb9675a58bfdb73f18d79",
+        "sha256_in_prefix": "886d00cc1f4256ea57e42047761ac7f15afa33fd773eb9675a58bfdb73f18d79",
+        "size_in_bytes": 696
+      },
+      {
+        "_path": "site-packages/pystac/validation/jsonschemas/stac-spec/v1.0.0/item.json",
+        "path_type": "hardlink",
+        "sha256": "141b66ffdbb16e36b8ad1dc872d7af9075160cd3191674c4e37ed1d61b50ae53",
+        "sha256_in_prefix": "141b66ffdbb16e36b8ad1dc872d7af9075160cd3191674c4e37ed1d61b50ae53",
+        "size_in_bytes": 6722
+      },
+      {
+        "_path": "site-packages/pystac/validation/jsonschemas/stac-spec/v1.0.0/licensing.json",
+        "path_type": "hardlink",
+        "sha256": "3dbdb067f887f04f6d398d5947b5f0a857c75b647544c10076796a985b23b10b",
+        "sha256_in_prefix": "3dbdb067f887f04f6d398d5947b5f0a857c75b647544c10076796a985b23b10b",
+        "size_in_bytes": 302
+      },
+      {
+        "_path": "site-packages/pystac/validation/jsonschemas/stac-spec/v1.0.0/provider.json",
+        "path_type": "hardlink",
+        "sha256": "9f7e7c3840b53f487ae855c21f6fd05deedee51de5dfb51fa4be7a53f5797132",
+        "sha256_in_prefix": "9f7e7c3840b53f487ae855c21f6fd05deedee51de5dfb51fa4be7a53f5797132",
+        "size_in_bytes": 1135
+      },
+      {
+        "_path": "site-packages/pystac/validation/local_validator.py",
+        "path_type": "hardlink",
+        "sha256": "b3412ab287b9e75701ad3085bbdcaafa3d6c29c9065246c1139f6201fdf20010",
+        "sha256_in_prefix": "b3412ab287b9e75701ad3085bbdcaafa3d6c29c9065246c1139f6201fdf20010",
+        "size_in_bytes": 4038
+      },
+      {
+        "_path": "site-packages/pystac/validation/schema_uri_map.py",
+        "path_type": "hardlink",
+        "sha256": "cd33d9f46f984a931e81a79dcea79a6b269eade69ce1247cc63ccf62a0b4f63d",
+        "sha256_in_prefix": "cd33d9f46f984a931e81a79dcea79a6b269eade69ce1247cc63ccf62a0b4f63d",
+        "size_in_bytes": 13674
+      },
+      {
+        "_path": "site-packages/pystac/validation/stac_validator.py",
+        "path_type": "hardlink",
+        "sha256": "9d44969b88018092e93390e9bff03907364d8d1c15130260b27f78a4471a22b0",
+        "sha256_in_prefix": "9d44969b88018092e93390e9bff03907364d8d1c15130260b27f78a4471a22b0",
+        "size_in_bytes": 11077
+      },
+      {
+        "_path": "site-packages/pystac/version.py",
+        "path_type": "hardlink",
+        "sha256": "d31fd7241de0cea258558338c52ebc84f30c521ecf601a50240cf84ec29da9b7",
+        "sha256_in_prefix": "d31fd7241de0cea258558338c52ebc84f30c521ecf601a50240cf84ec29da9b7",
+        "size_in_bytes": 2441
+      },
+      {
+        "_path": "Lib/site-packages/pystac/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pystac/__pycache__/asset.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pystac/__pycache__/cache.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pystac/__pycache__/catalog.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pystac/__pycache__/collection.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pystac/__pycache__/common_metadata.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pystac/__pycache__/errors.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pystac/extensions/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pystac/extensions/__pycache__/base.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pystac/extensions/__pycache__/classification.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pystac/extensions/__pycache__/datacube.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pystac/extensions/__pycache__/eo.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pystac/extensions/__pycache__/ext.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pystac/extensions/__pycache__/file.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pystac/extensions/__pycache__/grid.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pystac/extensions/__pycache__/hooks.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pystac/extensions/__pycache__/item_assets.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pystac/extensions/__pycache__/label.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pystac/extensions/__pycache__/mgrs.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pystac/extensions/__pycache__/pointcloud.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pystac/extensions/__pycache__/projection.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pystac/extensions/__pycache__/raster.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pystac/extensions/__pycache__/sar.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pystac/extensions/__pycache__/sat.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pystac/extensions/__pycache__/scientific.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pystac/extensions/__pycache__/storage.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pystac/extensions/__pycache__/table.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pystac/extensions/__pycache__/timestamps.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pystac/extensions/__pycache__/version.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pystac/extensions/__pycache__/view.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pystac/extensions/__pycache__/xarray_assets.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pystac/html/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pystac/html/__pycache__/jinja_env.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pystac/__pycache__/item.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pystac/__pycache__/item_collection.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pystac/__pycache__/layout.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pystac/__pycache__/link.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pystac/__pycache__/media_type.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pystac/__pycache__/provider.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pystac/__pycache__/rel_type.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pystac/serialization/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pystac/serialization/__pycache__/common_properties.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pystac/serialization/__pycache__/identify.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pystac/serialization/__pycache__/migrate.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pystac/__pycache__/stac_io.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pystac/__pycache__/stac_object.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pystac/static/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pystac/__pycache__/summaries.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pystac/__pycache__/utils.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pystac/validation/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pystac/validation/jsonschemas/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pystac/validation/__pycache__/local_validator.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pystac/validation/__pycache__/schema_uri_map.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pystac/validation/__pycache__/stac_validator.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pystac/__pycache__/version.cpython-312.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "323e28b957667bf80d8c6af6464afb0e849017cf3d46029c260ce0f1ccc3df0f",
+  "size": 120485,
+  "subdir": "noarch",
+  "timestamp": 1698227741000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/pystac-1.9.0-pyhd8ed1ab_0.conda",
+  "version": "1.9.0"
+}

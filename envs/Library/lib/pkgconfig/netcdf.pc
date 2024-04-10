@@ -1,0 +1,13 @@
+prefix=D:/xxx/Documents/psud/envs/Library
+exec_prefix=D:/xxx/Documents/psud/envs/Library
+libdir=D:/xxx/Documents/psud/envs/Library/lib
+includedir=D:/xxx/Documents/psud/envs/Library/include
+ccompiler=C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/cl.exe
+
+Name: netCDF
+Description: NetCDF Client Library for C
+URL: https://www.unidata.ucar.edu/netcdf
+Version: 4.9.2
+Libs: -L${libdir} -lnetcdf
+Libs.private: -lmfhdf -lhdf -lhdf5 -lhdf5_hl -lz -lzip -lblosc -ldebug -lzstd -loptimized -lzstd -lbzip2 -lcurl -lxml2
+Cflags: -I${includedir}

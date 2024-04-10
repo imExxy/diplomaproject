@@ -1,0 +1,14 @@
+prefix=D:/xxx/Documents/geeproject/condaenv/Library
+exec_prefix=${prefix}
+libdir=D:/xxx/Documents/geeproject/condaenv/Library/lib
+includedir=D:/xxx/Documents/geeproject/condaenv/Library/include
+
+Name: libavfilter
+Description: FFmpeg audio/video filtering library
+Version: 9.12.100
+Requires: 
+Requires.private: libswscale >= 7.5.100, libpostproc >= 57.3.100, libavformat >= 60.16.100, libavcodec >= 60.31.102, libswresample >= 4.12.100, libavutil >= 58.29.100
+Conflicts:
+Libs: -L${libdir}  -lavfilter 
+Libs.private: -LD:/xxx/Documents/geeproject/condaenv/Library/lib harfbuzz.lib usp10.lib gdi32.lib rpcrt4.lib freetype.lib png16.lib zlib.lib glib-2.0.lib intl.lib iconv.lib ws2_32.lib winmm.lib pcre2-8.lib graphite2.lib -LD:/xxx/Documents/geeproject/condaenv/Library/lib fontconfig.lib D:/xxx/Documents/geeproject/condaenv/Library/lib/expat.lib freetype.lib png16.lib zlib.lib -LD:/xxx/Documents/geeproject/condaenv/Library/lib freetype.lib png16.lib zlib.lib
+Cflags: -I${includedir}

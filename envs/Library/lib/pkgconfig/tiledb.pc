@@ -1,0 +1,14 @@
+prefix="D:/xxx/Documents/psud/envs/Library"
+exec_prefix="${prefix}"
+libdir="${prefix}/lib"
+includedir="${prefix}/include"
+
+Name: TileDB
+Description: The Storage Engine for Data Science
+URL: https://github.com/TileDB-Inc/TileDB
+Version: 2.18.2
+Requires: 
+Requires.private: libmagic pcre2-8 pcre2-posix webp imagedec imageenc imageioutil webpdecoder webpdmux webpmux
+Cflags: -I"${includedir}"
+Libs: -L"${libdir}" -ltiledb
+Libs.private: -L"${libdir}" -ltiledb 

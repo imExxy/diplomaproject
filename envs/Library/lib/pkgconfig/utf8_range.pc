@@ -1,0 +1,11 @@
+prefix=D:/xxx/Documents/psud/envs/Library
+exec_prefix=D:/xxx/Documents/psud/envs/Library
+libdir=D:/xxx/Documents/psud/envs/Library/lib
+includedir=D:/xxx/Documents/psud/envs/Library/include
+
+Name: UTF8 Range
+Description: Google's UTF8 Library
+Version: 1.0
+Requires: absl_strings
+Libs: -L${libdir} -lutf8_validity -lutf8_range 
+Cflags: -I${includedir}

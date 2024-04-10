@@ -1,0 +1,287 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "google-api-core >=1.31.6,<3.0.0dev,!=2.0.*,!=2.1.*,!=2.2.*,!=2.3.0",
+    "google-auth >=1.25.0,<3.0dev",
+    "grpcio >=1.38.0,<2.0.0dev",
+    "python >=3.8"
+  ],
+  "extracted_package_dir": "D:\\xxx\\anaconda3\\pkgs\\google-cloud-core-2.4.1-pyhd8ed1ab_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/google/cloud/_helpers/__init__.py",
+    "Lib/site-packages/google/cloud/_helpers/py.typed",
+    "Lib/site-packages/google/cloud/_http/__init__.py",
+    "Lib/site-packages/google/cloud/_http/py.typed",
+    "Lib/site-packages/google/cloud/_testing/__init__.py",
+    "Lib/site-packages/google/cloud/_testing/py.typed",
+    "Lib/site-packages/google/cloud/client/__init__.py",
+    "Lib/site-packages/google/cloud/client/py.typed",
+    "Lib/site-packages/google/cloud/environment_vars/__init__.py",
+    "Lib/site-packages/google/cloud/environment_vars/py.typed",
+    "Lib/site-packages/google/cloud/exceptions/__init__.py",
+    "Lib/site-packages/google/cloud/exceptions/py.typed",
+    "Lib/site-packages/google/cloud/obsolete/__init__.py",
+    "Lib/site-packages/google/cloud/obsolete/py.typed",
+    "Lib/site-packages/google/cloud/operation/__init__.py",
+    "Lib/site-packages/google/cloud/operation/py.typed",
+    "Lib/site-packages/google/cloud/version.py",
+    "Lib/site-packages/google_cloud_core-2.4.1.dist-info/INSTALLER",
+    "Lib/site-packages/google_cloud_core-2.4.1.dist-info/LICENSE",
+    "Lib/site-packages/google_cloud_core-2.4.1.dist-info/METADATA",
+    "Lib/site-packages/google_cloud_core-2.4.1.dist-info/RECORD",
+    "Lib/site-packages/google_cloud_core-2.4.1.dist-info/REQUESTED",
+    "Lib/site-packages/google_cloud_core-2.4.1.dist-info/WHEEL",
+    "Lib/site-packages/google_cloud_core-2.4.1.dist-info/direct_url.json",
+    "Lib/site-packages/google_cloud_core-2.4.1.dist-info/top_level.txt",
+    ".nonadmin",
+    "Lib/site-packages/google/cloud/_helpers/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/google/cloud/_http/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/google/cloud/_testing/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/google/cloud/client/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/google/cloud/environment_vars/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/google/cloud/exceptions/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/google/cloud/obsolete/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/google/cloud/operation/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/google/cloud/__pycache__/version.cpython-312.pyc"
+  ],
+  "fn": "google-cloud-core-2.4.1-pyhd8ed1ab_0.conda",
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "link": {
+    "source": "D:\\xxx\\anaconda3\\pkgs\\google-cloud-core-2.4.1-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "1853cdebbfe25fb6ee253855a44945a6",
+  "name": "google-cloud-core",
+  "noarch": "python",
+  "package_tarball_full_path": "D:\\xxx\\anaconda3\\pkgs\\google-cloud-core-2.4.1-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/google/cloud/_helpers/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "eda14c6f5dd1fb3a923f08d826f23b24be64cc35c9000f8ac9660616e04b59e4",
+        "sha256_in_prefix": "eda14c6f5dd1fb3a923f08d826f23b24be64cc35c9000f8ac9660616e04b59e4",
+        "size_in_bytes": 18644
+      },
+      {
+        "_path": "site-packages/google/cloud/_helpers/py.typed",
+        "path_type": "hardlink",
+        "sha256": "d175d27eddf897105a4e200fcbe1aef1e8ce3855e802c91bc929bd9b652aed46",
+        "sha256_in_prefix": "d175d27eddf897105a4e200fcbe1aef1e8ce3855e802c91bc929bd9b652aed46",
+        "size_in_bytes": 63
+      },
+      {
+        "_path": "site-packages/google/cloud/_http/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "a77171e7d81f6185674b5fbc4714c81ba7fc67a3480cd8f2490cd1e7925dbd48",
+        "sha256_in_prefix": "a77171e7d81f6185674b5fbc4714c81ba7fc67a3480cd8f2490cd1e7925dbd48",
+        "size_in_bytes": 16649
+      },
+      {
+        "_path": "site-packages/google/cloud/_http/py.typed",
+        "path_type": "hardlink",
+        "sha256": "d175d27eddf897105a4e200fcbe1aef1e8ce3855e802c91bc929bd9b652aed46",
+        "sha256_in_prefix": "d175d27eddf897105a4e200fcbe1aef1e8ce3855e802c91bc929bd9b652aed46",
+        "size_in_bytes": 63
+      },
+      {
+        "_path": "site-packages/google/cloud/_testing/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "7b384ed3135a127a4c687d1e077422d744cb81016f93b18aa33b710f40152d6d",
+        "sha256_in_prefix": "7b384ed3135a127a4c687d1e077422d744cb81016f93b18aa33b710f40152d6d",
+        "size_in_bytes": 3397
+      },
+      {
+        "_path": "site-packages/google/cloud/_testing/py.typed",
+        "path_type": "hardlink",
+        "sha256": "d175d27eddf897105a4e200fcbe1aef1e8ce3855e802c91bc929bd9b652aed46",
+        "sha256_in_prefix": "d175d27eddf897105a4e200fcbe1aef1e8ce3855e802c91bc929bd9b652aed46",
+        "size_in_bytes": 63
+      },
+      {
+        "_path": "site-packages/google/cloud/client/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "cd3b27dc5c1613b524878dc6f3956e9df70752534a7fe75c5a38fe8b50f8831a",
+        "sha256_in_prefix": "cd3b27dc5c1613b524878dc6f3956e9df70752534a7fe75c5a38fe8b50f8831a",
+        "size_in_bytes": 12266
+      },
+      {
+        "_path": "site-packages/google/cloud/client/py.typed",
+        "path_type": "hardlink",
+        "sha256": "d175d27eddf897105a4e200fcbe1aef1e8ce3855e802c91bc929bd9b652aed46",
+        "sha256_in_prefix": "d175d27eddf897105a4e200fcbe1aef1e8ce3855e802c91bc929bd9b652aed46",
+        "size_in_bytes": 63
+      },
+      {
+        "_path": "site-packages/google/cloud/environment_vars/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "9427b61324237893b62266eb491db70a3d97a7018a145cb5c4266e428d831c4a",
+        "sha256_in_prefix": "9427b61324237893b62266eb491db70a3d97a7018a145cb5c4266e428d831c4a",
+        "size_in_bytes": 1318
+      },
+      {
+        "_path": "site-packages/google/cloud/environment_vars/py.typed",
+        "path_type": "hardlink",
+        "sha256": "d175d27eddf897105a4e200fcbe1aef1e8ce3855e802c91bc929bd9b652aed46",
+        "sha256_in_prefix": "d175d27eddf897105a4e200fcbe1aef1e8ce3855e802c91bc929bd9b652aed46",
+        "size_in_bytes": 63
+      },
+      {
+        "_path": "site-packages/google/cloud/exceptions/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "a7208ee65c853bff7d0d3c14b09aa894ed223cea050e1286fde6d321fb2823a3",
+        "sha256_in_prefix": "a7208ee65c853bff7d0d3c14b09aa894ed223cea050e1286fde6d321fb2823a3",
+        "size_in_bytes": 2199
+      },
+      {
+        "_path": "site-packages/google/cloud/exceptions/py.typed",
+        "path_type": "hardlink",
+        "sha256": "d175d27eddf897105a4e200fcbe1aef1e8ce3855e802c91bc929bd9b652aed46",
+        "sha256_in_prefix": "d175d27eddf897105a4e200fcbe1aef1e8ce3855e802c91bc929bd9b652aed46",
+        "size_in_bytes": 63
+      },
+      {
+        "_path": "site-packages/google/cloud/obsolete/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "31e5e93a243a04e6239087881067cbe7dcad572fcd5f591c9db08541c514aacc",
+        "sha256_in_prefix": "31e5e93a243a04e6239087881067cbe7dcad572fcd5f591c9db08541c514aacc",
+        "size_in_bytes": 1479
+      },
+      {
+        "_path": "site-packages/google/cloud/obsolete/py.typed",
+        "path_type": "hardlink",
+        "sha256": "d175d27eddf897105a4e200fcbe1aef1e8ce3855e802c91bc929bd9b652aed46",
+        "sha256_in_prefix": "d175d27eddf897105a4e200fcbe1aef1e8ce3855e802c91bc929bd9b652aed46",
+        "size_in_bytes": 63
+      },
+      {
+        "_path": "site-packages/google/cloud/operation/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "483f5ec47bd3b499ba72fce7f053aecf7cb9f5fa7d76ba64fe105bd8e93597e0",
+        "sha256_in_prefix": "483f5ec47bd3b499ba72fce7f053aecf7cb9f5fa7d76ba64fe105bd8e93597e0",
+        "size_in_bytes": 9083
+      },
+      {
+        "_path": "site-packages/google/cloud/operation/py.typed",
+        "path_type": "hardlink",
+        "sha256": "d175d27eddf897105a4e200fcbe1aef1e8ce3855e802c91bc929bd9b652aed46",
+        "sha256_in_prefix": "d175d27eddf897105a4e200fcbe1aef1e8ce3855e802c91bc929bd9b652aed46",
+        "size_in_bytes": 63
+      },
+      {
+        "_path": "site-packages/google/cloud/version.py",
+        "path_type": "hardlink",
+        "sha256": "63f2b6db205d68011a98f2f071ae5cf26070828f9d0275171f23151ada416bc1",
+        "sha256_in_prefix": "63f2b6db205d68011a98f2f071ae5cf26070828f9d0275171f23151ada416bc1",
+        "size_in_bytes": 597
+      },
+      {
+        "_path": "site-packages/google_cloud_core-2.4.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/google_cloud_core-2.4.1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "sha256_in_prefix": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "size_in_bytes": 11358
+      },
+      {
+        "_path": "site-packages/google_cloud_core-2.4.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "5fb1373300741347b83acfa496fd78b9b4e969498ab1b8aeb43768ba60d7fa19",
+        "sha256_in_prefix": "5fb1373300741347b83acfa496fd78b9b4e969498ab1b8aeb43768ba60d7fa19",
+        "size_in_bytes": 2706
+      },
+      {
+        "_path": "site-packages/google_cloud_core-2.4.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "2daae27eb5d531d9b654ae63f605da06640630bc936faa7f24cceb8142bbea42",
+        "sha256_in_prefix": "2daae27eb5d531d9b654ae63f605da06640630bc936faa7f24cceb8142bbea42",
+        "size_in_bytes": 2809
+      },
+      {
+        "_path": "site-packages/google_cloud_core-2.4.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/google_cloud_core-2.4.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "f86fedd281ae13b503d03ad2a55667ab584730157d0c3d97912e6fed7a664e79",
+        "sha256_in_prefix": "f86fedd281ae13b503d03ad2a55667ab584730157d0c3d97912e6fed7a664e79",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "site-packages/google_cloud_core-2.4.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "7c7efa31d8613e9fc0600864aa56013474880883b6200096d3f8c811abb80f3f",
+        "sha256_in_prefix": "7c7efa31d8613e9fc0600864aa56013474880883b6200096d3f8c811abb80f3f",
+        "size_in_bytes": 113
+      },
+      {
+        "_path": "site-packages/google_cloud_core-2.4.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "ff542f48922114019fc5befd0fa0e107b494c365fa4f8af09f3fcb2eb6dc0f77",
+        "sha256_in_prefix": "ff542f48922114019fc5befd0fa0e107b494c365fa4f8af09f3fcb2eb6dc0f77",
+        "size_in_bytes": 7
+      },
+      {
+        "_path": "Lib/site-packages/google/cloud/_helpers/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/google/cloud/_http/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/google/cloud/_testing/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/google/cloud/client/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/google/cloud/environment_vars/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/google/cloud/exceptions/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/google/cloud/obsolete/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/google/cloud/operation/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/google/cloud/__pycache__/version.cpython-312.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "d01b787bad2ec4da9536ce2cedb3e53ed092fe6a4a596c043ab358bb9b2fbcdd",
+  "size": 28151,
+  "subdir": "noarch",
+  "timestamp": 1702003178653,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/google-cloud-core-2.4.1-pyhd8ed1ab_0.conda",
+  "version": "2.4.1"
+}

@@ -1,0 +1,234 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "click >=6.0",
+    "python >=3.6",
+    "setuptools"
+  ],
+  "extracted_package_dir": "D:\\xxx\\anaconda3\\pkgs\\whitebox-2.3.1-pyhd8ed1ab_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/whitebox-2.3.1.dist-info/AUTHORS.rst",
+    "Lib/site-packages/whitebox-2.3.1.dist-info/INSTALLER",
+    "Lib/site-packages/whitebox-2.3.1.dist-info/LICENSE",
+    "Lib/site-packages/whitebox-2.3.1.dist-info/METADATA",
+    "Lib/site-packages/whitebox-2.3.1.dist-info/RECORD",
+    "Lib/site-packages/whitebox-2.3.1.dist-info/REQUESTED",
+    "Lib/site-packages/whitebox-2.3.1.dist-info/WHEEL",
+    "Lib/site-packages/whitebox-2.3.1.dist-info/direct_url.json",
+    "Lib/site-packages/whitebox-2.3.1.dist-info/entry_points.txt",
+    "Lib/site-packages/whitebox-2.3.1.dist-info/top_level.txt",
+    "Lib/site-packages/whitebox/__init__.py",
+    "Lib/site-packages/whitebox/automation.py",
+    "Lib/site-packages/whitebox/cli.py",
+    "Lib/site-packages/whitebox/download_wbt.py",
+    "Lib/site-packages/whitebox/example.py",
+    "Lib/site-packages/whitebox/whitebox.py",
+    "Lib/site-packages/whitebox/whitebox_example.py",
+    "Lib/site-packages/whitebox/whitebox_tools.py",
+    ".nonadmin",
+    "Lib/site-packages/whitebox/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/whitebox/__pycache__/automation.cpython-312.pyc",
+    "Lib/site-packages/whitebox/__pycache__/cli.cpython-312.pyc",
+    "Lib/site-packages/whitebox/__pycache__/download_wbt.cpython-312.pyc",
+    "Lib/site-packages/whitebox/__pycache__/example.cpython-312.pyc",
+    "Lib/site-packages/whitebox/__pycache__/whitebox.cpython-312.pyc",
+    "Lib/site-packages/whitebox/__pycache__/whitebox_example.cpython-312.pyc",
+    "Lib/site-packages/whitebox/__pycache__/whitebox_tools.cpython-312.pyc",
+    "Scripts/whitebox-script.py",
+    "Scripts/whitebox.exe"
+  ],
+  "fn": "whitebox-2.3.1-pyhd8ed1ab_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "D:\\xxx\\anaconda3\\pkgs\\whitebox-2.3.1-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "cc0b538b83e3aa2e4b2fac0bd513b2ec",
+  "name": "whitebox",
+  "noarch": "python",
+  "package_tarball_full_path": "D:\\xxx\\anaconda3\\pkgs\\whitebox-2.3.1-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/whitebox-2.3.1.dist-info/AUTHORS.rst",
+        "path_type": "hardlink",
+        "sha256": "d77386790390e5cf85d2e17ee1fe0dc3a0e83d1a806b1243bf1d8557202c0263",
+        "sha256_in_prefix": "d77386790390e5cf85d2e17ee1fe0dc3a0e83d1a806b1243bf1d8557202c0263",
+        "size_in_bytes": 159
+      },
+      {
+        "_path": "site-packages/whitebox-2.3.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/whitebox-2.3.1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "159b50d4e0e4bcd5b271f61851cab116afbc2d3d6dfe09ad9363e0df2b0982b2",
+        "sha256_in_prefix": "159b50d4e0e4bcd5b271f61851cab116afbc2d3d6dfe09ad9363e0df2b0982b2",
+        "size_in_bytes": 1070
+      },
+      {
+        "_path": "site-packages/whitebox-2.3.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "efa096cd64ca403dd9582b78482ca6255a7b0caa5af20b57245e97744d63ecd6",
+        "sha256_in_prefix": "efa096cd64ca403dd9582b78482ca6255a7b0caa5af20b57245e97744d63ecd6",
+        "size_in_bytes": 11329
+      },
+      {
+        "_path": "site-packages/whitebox-2.3.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "6516a4bcb14629469d5f8506e9149c6802288b71c3adadc1025efcb3480f8e9d",
+        "sha256_in_prefix": "6516a4bcb14629469d5f8506e9149c6802288b71c3adadc1025efcb3480f8e9d",
+        "size_in_bytes": 1983
+      },
+      {
+        "_path": "site-packages/whitebox-2.3.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/whitebox-2.3.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "6bece9151209cceab941fba10736e1880d5e1d3ccd0899fc39d46f85d357d119",
+        "sha256_in_prefix": "6bece9151209cceab941fba10736e1880d5e1d3ccd0899fc39d46f85d357d119",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "site-packages/whitebox-2.3.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "299333db644d0bd62be1929244a6b3f7c07388e9aa4e463f60de2951afb6febb",
+        "sha256_in_prefix": "299333db644d0bd62be1929244a6b3f7c07388e9aa4e463f60de2951afb6febb",
+        "size_in_bytes": 104
+      },
+      {
+        "_path": "site-packages/whitebox-2.3.1.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "f3bc663648af3dd77e95b704b1d3d0da866edb68e14f3ded9f3a174f7f233902",
+        "sha256_in_prefix": "f3bc663648af3dd77e95b704b1d3d0da866edb68e14f3ded9f3a174f7f233902",
+        "size_in_bytes": 47
+      },
+      {
+        "_path": "site-packages/whitebox-2.3.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "a7b1fcc42bda90df5c5a19aca92b7011aa376a12a8ef73c74e01597b0742f6f4",
+        "sha256_in_prefix": "a7b1fcc42bda90df5c5a19aca92b7011aa376a12a8ef73c74e01597b0742f6f4",
+        "size_in_bytes": 9
+      },
+      {
+        "_path": "site-packages/whitebox/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "af18dc2c0727fbd708dd411c142f377fc897398059f3d92b81250f650b4b82fe",
+        "sha256_in_prefix": "af18dc2c0727fbd708dd411c142f377fc897398059f3d92b81250f650b4b82fe",
+        "size_in_bytes": 175
+      },
+      {
+        "_path": "site-packages/whitebox/automation.py",
+        "path_type": "hardlink",
+        "sha256": "eb8051ac040523cf56dddcc337c66db1085f334cee6465a0c38b3b1cf7314c15",
+        "sha256_in_prefix": "eb8051ac040523cf56dddcc337c66db1085f334cee6465a0c38b3b1cf7314c15",
+        "size_in_bytes": 4408
+      },
+      {
+        "_path": "site-packages/whitebox/cli.py",
+        "path_type": "hardlink",
+        "sha256": "b27cf5b525c53c364858aa96371849d3cfe14087cbe8e2ae68db733d4791a741",
+        "sha256_in_prefix": "b27cf5b525c53c364858aa96371849d3cfe14087cbe8e2ae68db733d4791a741",
+        "size_in_bytes": 401
+      },
+      {
+        "_path": "site-packages/whitebox/download_wbt.py",
+        "path_type": "hardlink",
+        "sha256": "3d6fd3114b8c7c6a9a636e10af569f9affe294a394f28ee70b1991652e307190",
+        "sha256_in_prefix": "3d6fd3114b8c7c6a9a636e10af569f9affe294a394f28ee70b1991652e307190",
+        "size_in_bytes": 8678
+      },
+      {
+        "_path": "site-packages/whitebox/example.py",
+        "path_type": "hardlink",
+        "sha256": "cccd2a5a897039202ebd14ed0df1b525dfa395f5a8b1914ccd41cc0f6b9ee7a8",
+        "sha256_in_prefix": "cccd2a5a897039202ebd14ed0df1b525dfa395f5a8b1914ccd41cc0f6b9ee7a8",
+        "size_in_bytes": 2605
+      },
+      {
+        "_path": "site-packages/whitebox/whitebox.py",
+        "path_type": "hardlink",
+        "sha256": "a4a72d50a61de101b583411608c3d9fa0650fcbd8d0c0098d947e55b38cf99a0",
+        "sha256_in_prefix": "a4a72d50a61de101b583411608c3d9fa0650fcbd8d0c0098d947e55b38cf99a0",
+        "size_in_bytes": 229
+      },
+      {
+        "_path": "site-packages/whitebox/whitebox_example.py",
+        "path_type": "hardlink",
+        "sha256": "c7532415194f18a6bf3abf083d32bae46953eb9c54660d83b4673572b0171ebe",
+        "sha256_in_prefix": "c7532415194f18a6bf3abf083d32bae46953eb9c54660d83b4673572b0171ebe",
+        "size_in_bytes": 6129
+      },
+      {
+        "_path": "site-packages/whitebox/whitebox_tools.py",
+        "path_type": "hardlink",
+        "sha256": "f14892e95e02eaa631784943c84c1c7b3c54959ff454546fa06d5e64135f2904",
+        "sha256_in_prefix": "f14892e95e02eaa631784943c84c1c7b3c54959ff454546fa06d5e64135f2904",
+        "size_in_bytes": 503114
+      },
+      {
+        "_path": "Lib/site-packages/whitebox/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/whitebox/__pycache__/automation.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/whitebox/__pycache__/cli.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/whitebox/__pycache__/download_wbt.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/whitebox/__pycache__/example.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/whitebox/__pycache__/whitebox.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/whitebox/__pycache__/whitebox_example.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/whitebox/__pycache__/whitebox_tools.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Scripts/whitebox-script.py",
+        "path_type": "windows_python_entry_point_script"
+      },
+      {
+        "_path": "Scripts/whitebox.exe",
+        "path_type": "windows_python_entry_point_exe"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "ded2339e61cb9e26e99c146257ffdd576d0a58dd7a7f3e8827c1f2817ee84c86",
+  "size": 63104,
+  "subdir": "noarch",
+  "timestamp": 1680142474000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/whitebox-2.3.1-pyhd8ed1ab_0.conda",
+  "version": "2.3.1"
+}

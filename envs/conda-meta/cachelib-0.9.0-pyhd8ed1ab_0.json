@@ -1,0 +1,214 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.7"
+  ],
+  "extracted_package_dir": "D:\\xxx\\anaconda3\\pkgs\\cachelib-0.9.0-pyhd8ed1ab_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/cachelib-0.9.0.dist-info/INSTALLER",
+    "Lib/site-packages/cachelib-0.9.0.dist-info/LICENSE.rst",
+    "Lib/site-packages/cachelib-0.9.0.dist-info/METADATA",
+    "Lib/site-packages/cachelib-0.9.0.dist-info/RECORD",
+    "Lib/site-packages/cachelib-0.9.0.dist-info/REQUESTED",
+    "Lib/site-packages/cachelib-0.9.0.dist-info/WHEEL",
+    "Lib/site-packages/cachelib-0.9.0.dist-info/direct_url.json",
+    "Lib/site-packages/cachelib-0.9.0.dist-info/top_level.txt",
+    "Lib/site-packages/cachelib/__init__.py",
+    "Lib/site-packages/cachelib/base.py",
+    "Lib/site-packages/cachelib/file.py",
+    "Lib/site-packages/cachelib/memcached.py",
+    "Lib/site-packages/cachelib/py.typed",
+    "Lib/site-packages/cachelib/redis.py",
+    "Lib/site-packages/cachelib/serializers.py",
+    "Lib/site-packages/cachelib/simple.py",
+    "Lib/site-packages/cachelib/uwsgi.py",
+    ".nonadmin",
+    "Lib/site-packages/cachelib/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/cachelib/__pycache__/base.cpython-312.pyc",
+    "Lib/site-packages/cachelib/__pycache__/file.cpython-312.pyc",
+    "Lib/site-packages/cachelib/__pycache__/memcached.cpython-312.pyc",
+    "Lib/site-packages/cachelib/__pycache__/redis.cpython-312.pyc",
+    "Lib/site-packages/cachelib/__pycache__/serializers.cpython-312.pyc",
+    "Lib/site-packages/cachelib/__pycache__/simple.cpython-312.pyc",
+    "Lib/site-packages/cachelib/__pycache__/uwsgi.cpython-312.pyc"
+  ],
+  "fn": "cachelib-0.9.0-pyhd8ed1ab_0.tar.bz2",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "D:\\xxx\\anaconda3\\pkgs\\cachelib-0.9.0-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "233ed566628f2a28242d0bb57e99a356",
+  "name": "cachelib",
+  "noarch": "python",
+  "package_tarball_full_path": "D:\\xxx\\anaconda3\\pkgs\\cachelib-0.9.0-pyhd8ed1ab_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/cachelib-0.9.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/cachelib-0.9.0.dist-info/LICENSE.rst",
+        "path_type": "hardlink",
+        "sha256": "cd418120812dc2626281ae027e81b648229d166b5aca7472cecd510038d36e7d",
+        "sha256_in_prefix": "cd418120812dc2626281ae027e81b648229d166b5aca7472cecd510038d36e7d",
+        "size_in_bytes": 1475
+      },
+      {
+        "_path": "site-packages/cachelib-0.9.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "fdacca6936606a7179092559ede0d256acd36c682c2808d5bb220a867dd79cd5",
+        "sha256_in_prefix": "fdacca6936606a7179092559ede0d256acd36c682c2808d5bb220a867dd79cd5",
+        "size_in_bytes": 1947
+      },
+      {
+        "_path": "site-packages/cachelib-0.9.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "bb125e0795349ebc9597de290e4b2bd6d9cd9d5057ccc8456f8181a23719d9b5",
+        "sha256_in_prefix": "bb125e0795349ebc9597de290e4b2bd6d9cd9d5057ccc8456f8181a23719d9b5",
+        "size_in_bytes": 1738
+      },
+      {
+        "_path": "site-packages/cachelib-0.9.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/cachelib-0.9.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0",
+        "sha256_in_prefix": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/cachelib-0.9.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "b202e91c5ef7a8fb5acf856c0c8b0ef1f002787ee3b26f91d906406e943e448d",
+        "sha256_in_prefix": "b202e91c5ef7a8fb5acf856c0c8b0ef1f002787ee3b26f91d906406e943e448d",
+        "size_in_bytes": 104
+      },
+      {
+        "_path": "site-packages/cachelib-0.9.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "0180b8abcc2019dfe147f17661c0e49ad426e3582ff7ee404e12ae42d34f1179",
+        "sha256_in_prefix": "0180b8abcc2019dfe147f17661c0e49ad426e3582ff7ee404e12ae42d34f1179",
+        "size_in_bytes": 9
+      },
+      {
+        "_path": "site-packages/cachelib/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "0ff093213c45cb3beb8a9f962a56313d6816517913ee65a98b01fbab53591b85",
+        "sha256_in_prefix": "0ff093213c45cb3beb8a9f962a56313d6816517913ee65a98b01fbab53591b85",
+        "size_in_bytes": 447
+      },
+      {
+        "_path": "site-packages/cachelib/base.py",
+        "path_type": "hardlink",
+        "sha256": "890dfbe29cd8ecc563ac2e742c3db873bf3c5d68f0a064e92353edbd7c6acdba",
+        "sha256_in_prefix": "890dfbe29cd8ecc563ac2e742c3db873bf3c5d68f0a064e92353edbd7c6acdba",
+        "size_in_bytes": 6713
+      },
+      {
+        "_path": "site-packages/cachelib/file.py",
+        "path_type": "hardlink",
+        "sha256": "8d27ee36f22506fc1d97a5c44a7d5d16f9e31908a326753654ea17fb9f9b90ed",
+        "sha256_in_prefix": "8d27ee36f22506fc1d97a5c44a7d5d16f9e31908a326753654ea17fb9f9b90ed",
+        "size_in_bytes": 11642
+      },
+      {
+        "_path": "site-packages/cachelib/memcached.py",
+        "path_type": "hardlink",
+        "sha256": "b11dfeff3ef5f4c38e6b84c67c269548235309b302e69c5f20e756594c4a9f4a",
+        "sha256_in_prefix": "b11dfeff3ef5f4c38e6b84c67c269548235309b302e69c5f20e756594c4a9f4a",
+        "size_in_bytes": 7147
+      },
+      {
+        "_path": "site-packages/cachelib/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/cachelib/redis.py",
+        "path_type": "hardlink",
+        "sha256": "f2b56bec5b7225ce38f8cf934e9ba155f18bd4e208ca80ecf4aa9e9befb89bed",
+        "sha256_in_prefix": "f2b56bec5b7225ce38f8cf934e9ba155f18bd4e208ca80ecf4aa9e9befb89bed",
+        "size_in_bytes": 5945
+      },
+      {
+        "_path": "site-packages/cachelib/serializers.py",
+        "path_type": "hardlink",
+        "sha256": "6e0b02cbadcd80ffc70a960af3210d5c16a69aec1172b0c81010e784321f0579",
+        "sha256_in_prefix": "6e0b02cbadcd80ffc70a960af3210d5c16a69aec1172b0c81010e784321f0579",
+        "size_in_bytes": 3117
+      },
+      {
+        "_path": "site-packages/cachelib/simple.py",
+        "path_type": "hardlink",
+        "sha256": "ab98f9583c0e14f74080923ac1c8f82e71426a2c778d4074b0356e2cefb0b166",
+        "sha256_in_prefix": "ab98f9583c0e14f74080923ac1c8f82e71426a2c778d4074b0356e2cefb0b166",
+        "size_in_bytes": 3481
+      },
+      {
+        "_path": "site-packages/cachelib/uwsgi.py",
+        "path_type": "hardlink",
+        "sha256": "e035f70bd406bc1ea655c83577baa92c812423a6dc72eabef0ce88fd86cf89c6",
+        "sha256_in_prefix": "e035f70bd406bc1ea655c83577baa92c812423a6dc72eabef0ce88fd86cf89c6",
+        "size_in_bytes": 2563
+      },
+      {
+        "_path": "Lib/site-packages/cachelib/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/cachelib/__pycache__/base.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/cachelib/__pycache__/file.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/cachelib/__pycache__/memcached.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/cachelib/__pycache__/redis.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/cachelib/__pycache__/serializers.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/cachelib/__pycache__/simple.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/cachelib/__pycache__/uwsgi.cpython-312.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "349848f0ae2032aff0a6bd2cdb69fe361c1022c6614bdcffa596db1e253ab0b4",
+  "size": 16459,
+  "subdir": "noarch",
+  "timestamp": 1656415567000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/cachelib-0.9.0-pyhd8ed1ab_0.tar.bz2",
+  "version": "0.9.0"
+}

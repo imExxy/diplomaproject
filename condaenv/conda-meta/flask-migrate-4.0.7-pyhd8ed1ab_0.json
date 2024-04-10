@@ -1,0 +1,279 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "alembic >=0.6",
+    "flask >=0.9",
+    "flask-sqlalchemy >=1.0",
+    "python >=3.6"
+  ],
+  "extracted_package_dir": "D:\\xxx\\anaconda3\\pkgs\\flask-migrate-4.0.7-pyhd8ed1ab_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/Flask_Migrate-4.0.7.dist-info/INSTALLER",
+    "Lib/site-packages/Flask_Migrate-4.0.7.dist-info/LICENSE",
+    "Lib/site-packages/Flask_Migrate-4.0.7.dist-info/METADATA",
+    "Lib/site-packages/Flask_Migrate-4.0.7.dist-info/RECORD",
+    "Lib/site-packages/Flask_Migrate-4.0.7.dist-info/REQUESTED",
+    "Lib/site-packages/Flask_Migrate-4.0.7.dist-info/WHEEL",
+    "Lib/site-packages/Flask_Migrate-4.0.7.dist-info/direct_url.json",
+    "Lib/site-packages/Flask_Migrate-4.0.7.dist-info/top_level.txt",
+    "Lib/site-packages/flask_migrate/__init__.py",
+    "Lib/site-packages/flask_migrate/cli.py",
+    "Lib/site-packages/flask_migrate/templates/aioflask-multidb/README",
+    "Lib/site-packages/flask_migrate/templates/aioflask-multidb/alembic.ini.mako",
+    "Lib/site-packages/flask_migrate/templates/aioflask-multidb/env.py",
+    "Lib/site-packages/flask_migrate/templates/aioflask-multidb/script.py.mako",
+    "Lib/site-packages/flask_migrate/templates/aioflask/README",
+    "Lib/site-packages/flask_migrate/templates/aioflask/alembic.ini.mako",
+    "Lib/site-packages/flask_migrate/templates/aioflask/env.py",
+    "Lib/site-packages/flask_migrate/templates/aioflask/script.py.mako",
+    "Lib/site-packages/flask_migrate/templates/flask-multidb/README",
+    "Lib/site-packages/flask_migrate/templates/flask-multidb/alembic.ini.mako",
+    "Lib/site-packages/flask_migrate/templates/flask-multidb/env.py",
+    "Lib/site-packages/flask_migrate/templates/flask-multidb/script.py.mako",
+    "Lib/site-packages/flask_migrate/templates/flask/README",
+    "Lib/site-packages/flask_migrate/templates/flask/alembic.ini.mako",
+    "Lib/site-packages/flask_migrate/templates/flask/env.py",
+    "Lib/site-packages/flask_migrate/templates/flask/script.py.mako",
+    ".nonadmin",
+    "Lib/site-packages/flask_migrate/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/flask_migrate/__pycache__/cli.cpython-312.pyc",
+    "Lib/site-packages/flask_migrate/templates/aioflask-multidb/__pycache__/env.cpython-312.pyc",
+    "Lib/site-packages/flask_migrate/templates/aioflask/__pycache__/env.cpython-312.pyc",
+    "Lib/site-packages/flask_migrate/templates/flask-multidb/__pycache__/env.cpython-312.pyc",
+    "Lib/site-packages/flask_migrate/templates/flask/__pycache__/env.cpython-312.pyc"
+  ],
+  "fn": "flask-migrate-4.0.7-pyhd8ed1ab_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "D:\\xxx\\anaconda3\\pkgs\\flask-migrate-4.0.7-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "0fc72bcf4b9da6cde3d35b996c140c91",
+  "name": "flask-migrate",
+  "noarch": "python",
+  "package_tarball_full_path": "D:\\xxx\\anaconda3\\pkgs\\flask-migrate-4.0.7-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/Flask_Migrate-4.0.7.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/Flask_Migrate-4.0.7.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "91f9171a5250bcacb763fffab4027cca7229d4741f79139784bf23654d5df832",
+        "sha256_in_prefix": "91f9171a5250bcacb763fffab4027cca7229d4741f79139784bf23654d5df832",
+        "size_in_bytes": 1082
+      },
+      {
+        "_path": "site-packages/Flask_Migrate-4.0.7.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "dd65b94ad90074ac7aea23f5d815df4f3a14b12078aea106c55b37aa8a259518",
+        "sha256_in_prefix": "dd65b94ad90074ac7aea23f5d815df4f3a14b12078aea106c55b37aa8a259518",
+        "size_in_bytes": 3101
+      },
+      {
+        "_path": "site-packages/Flask_Migrate-4.0.7.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "6c90a2102939b07520cfd588f6ad7873e11697117e326a0882ac72d286693541",
+        "sha256_in_prefix": "6c90a2102939b07520cfd588f6ad7873e11697117e326a0882ac72d286693541",
+        "size_in_bytes": 2909
+      },
+      {
+        "_path": "site-packages/Flask_Migrate-4.0.7.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/Flask_Migrate-4.0.7.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "a2241587fe4f9d033413780f762cf4f5608d9b08870cc6867abfde96a0777283",
+        "sha256_in_prefix": "a2241587fe4f9d033413780f762cf4f5608d9b08870cc6867abfde96a0777283",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/Flask_Migrate-4.0.7.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "10adb427cd9f8292038019d9e9333d554fe1ec9e1266399d18e2255d4d7100b1",
+        "sha256_in_prefix": "10adb427cd9f8292038019d9e9333d554fe1ec9e1266399d18e2255d4d7100b1",
+        "size_in_bytes": 109
+      },
+      {
+        "_path": "site-packages/Flask_Migrate-4.0.7.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "8cba0f822306ea8478ba036d7979f7207b24555232217552b59395abe0162dd5",
+        "sha256_in_prefix": "8cba0f822306ea8478ba036d7979f7207b24555232217552b59395abe0162dd5",
+        "size_in_bytes": 14
+      },
+      {
+        "_path": "site-packages/flask_migrate/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "24cc92180e7963c1b1cb71ef896bbbaaae6b3d43500567363480f63a27290f2c",
+        "sha256_in_prefix": "24cc92180e7963c1b1cb71ef896bbbaaae6b3d43500567363480f63a27290f2c",
+        "size_in_bytes": 10082
+      },
+      {
+        "_path": "site-packages/flask_migrate/cli.py",
+        "path_type": "hardlink",
+        "sha256": "bf57ceaa3a5423c667892b74340c5d694e2014ca19cace722c0a1fc2605d3075",
+        "sha256_in_prefix": "bf57ceaa3a5423c667892b74340c5d694e2014ca19cace722c0a1fc2605d3075",
+        "size_in_bytes": 10689
+      },
+      {
+        "_path": "site-packages/flask_migrate/templates/aioflask-multidb/README",
+        "path_type": "hardlink",
+        "sha256": "124e1c26a4dac677958ed92e7bef815cc95fa5fa773262518eaa19be74a2cf0c",
+        "sha256_in_prefix": "124e1c26a4dac677958ed92e7bef815cc95fa5fa773262518eaa19be74a2cf0c",
+        "size_in_bytes": 43
+      },
+      {
+        "_path": "site-packages/flask_migrate/templates/aioflask-multidb/alembic.ini.mako",
+        "path_type": "hardlink",
+        "sha256": "4a36049892b3cfa2bc41fb995ad2c900959c08a39d45b7d486c565a60bfca1c9",
+        "sha256_in_prefix": "4a36049892b3cfa2bc41fb995ad2c900959c08a39d45b7d486c565a60bfca1c9",
+        "size_in_bytes": 857
+      },
+      {
+        "_path": "site-packages/flask_migrate/templates/aioflask-multidb/env.py",
+        "path_type": "hardlink",
+        "sha256": "51c8deaa401bc948d392e40598214f1bb40ebea85ca3cfae1a9f1011bb68d13f",
+        "sha256_in_prefix": "51c8deaa401bc948d392e40598214f1bb40ebea85ca3cfae1a9f1011bb68d13f",
+        "size_in_bytes": 6573
+      },
+      {
+        "_path": "site-packages/flask_migrate/templates/aioflask-multidb/script.py.mako",
+        "path_type": "hardlink",
+        "sha256": "d7df153f1544377359def1dc46e0b14a82385e73988ab196b74d6a91b3caa09c",
+        "sha256_in_prefix": "d7df153f1544377359def1dc46e0b14a82385e73988ab196b74d6a91b3caa09c",
+        "size_in_bytes": 1246
+      },
+      {
+        "_path": "site-packages/flask_migrate/templates/aioflask/README",
+        "path_type": "hardlink",
+        "sha256": "28aa961a5e180b646a74e76afb2eaab930d6d1bec3fd464d1ee33c8253352fe7",
+        "sha256_in_prefix": "28aa961a5e180b646a74e76afb2eaab930d6d1bec3fd464d1ee33c8253352fe7",
+        "size_in_bytes": 44
+      },
+      {
+        "_path": "site-packages/flask_migrate/templates/aioflask/alembic.ini.mako",
+        "path_type": "hardlink",
+        "sha256": "4a36049892b3cfa2bc41fb995ad2c900959c08a39d45b7d486c565a60bfca1c9",
+        "sha256_in_prefix": "4a36049892b3cfa2bc41fb995ad2c900959c08a39d45b7d486c565a60bfca1c9",
+        "size_in_bytes": 857
+      },
+      {
+        "_path": "site-packages/flask_migrate/templates/aioflask/env.py",
+        "path_type": "hardlink",
+        "sha256": "9ba66d061769c2eabcf6f55e2d35a6353fb535f259a9aac2fe1b2ab82751f5bc",
+        "sha256_in_prefix": "9ba66d061769c2eabcf6f55e2d35a6353fb535f259a9aac2fe1b2ab82751f5bc",
+        "size_in_bytes": 3478
+      },
+      {
+        "_path": "site-packages/flask_migrate/templates/aioflask/script.py.mako",
+        "path_type": "hardlink",
+        "sha256": "f3fc6003e826fce85e8673bb0a22228d68279b4d1996ccc41ed207ac0605265d",
+        "sha256_in_prefix": "f3fc6003e826fce85e8673bb0a22228d68279b4d1996ccc41ed207ac0605265d",
+        "size_in_bytes": 494
+      },
+      {
+        "_path": "site-packages/flask_migrate/templates/flask-multidb/README",
+        "path_type": "hardlink",
+        "sha256": "01f88fe5fa1a576a1d6715f1b94b92212e9886422947b0ac3a8da6a6ec701dd7",
+        "sha256_in_prefix": "01f88fe5fa1a576a1d6715f1b94b92212e9886422947b0ac3a8da6a6ec701dd7",
+        "size_in_bytes": 40
+      },
+      {
+        "_path": "site-packages/flask_migrate/templates/flask-multidb/alembic.ini.mako",
+        "path_type": "hardlink",
+        "sha256": "4a36049892b3cfa2bc41fb995ad2c900959c08a39d45b7d486c565a60bfca1c9",
+        "sha256_in_prefix": "4a36049892b3cfa2bc41fb995ad2c900959c08a39d45b7d486c565a60bfca1c9",
+        "size_in_bytes": 857
+      },
+      {
+        "_path": "site-packages/flask_migrate/templates/flask-multidb/env.py",
+        "path_type": "hardlink",
+        "sha256": "178e22aac0312d354137fcc3f0231491d13b02e6f89e21cc9a8e7097d998e14c",
+        "sha256_in_prefix": "178e22aac0312d354137fcc3f0231491d13b02e6f89e21cc9a8e7097d998e14c",
+        "size_in_bytes": 6190
+      },
+      {
+        "_path": "site-packages/flask_migrate/templates/flask-multidb/script.py.mako",
+        "path_type": "hardlink",
+        "sha256": "d7df153f1544377359def1dc46e0b14a82385e73988ab196b74d6a91b3caa09c",
+        "sha256_in_prefix": "d7df153f1544377359def1dc46e0b14a82385e73988ab196b74d6a91b3caa09c",
+        "size_in_bytes": 1246
+      },
+      {
+        "_path": "site-packages/flask_migrate/templates/flask/README",
+        "path_type": "hardlink",
+        "sha256": "24bd0dae33abb1c3dc2a0466421d51de196fd7fae8843a2dd13be999d336ec99",
+        "sha256_in_prefix": "24bd0dae33abb1c3dc2a0466421d51de196fd7fae8843a2dd13be999d336ec99",
+        "size_in_bytes": 41
+      },
+      {
+        "_path": "site-packages/flask_migrate/templates/flask/alembic.ini.mako",
+        "path_type": "hardlink",
+        "sha256": "4a36049892b3cfa2bc41fb995ad2c900959c08a39d45b7d486c565a60bfca1c9",
+        "sha256_in_prefix": "4a36049892b3cfa2bc41fb995ad2c900959c08a39d45b7d486c565a60bfca1c9",
+        "size_in_bytes": 857
+      },
+      {
+        "_path": "site-packages/flask_migrate/templates/flask/env.py",
+        "path_type": "hardlink",
+        "sha256": "89b2b586c74eb0e0735cd536c90a002336bb7ff105cda5525b038dfcd4a93734",
+        "sha256_in_prefix": "89b2b586c74eb0e0735cd536c90a002336bb7ff105cda5525b038dfcd4a93734",
+        "size_in_bytes": 3344
+      },
+      {
+        "_path": "site-packages/flask_migrate/templates/flask/script.py.mako",
+        "path_type": "hardlink",
+        "sha256": "f3fc6003e826fce85e8673bb0a22228d68279b4d1996ccc41ed207ac0605265d",
+        "sha256_in_prefix": "f3fc6003e826fce85e8673bb0a22228d68279b4d1996ccc41ed207ac0605265d",
+        "size_in_bytes": 494
+      },
+      {
+        "_path": "Lib/site-packages/flask_migrate/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flask_migrate/__pycache__/cli.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flask_migrate/templates/aioflask-multidb/__pycache__/env.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flask_migrate/templates/aioflask/__pycache__/env.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flask_migrate/templates/flask-multidb/__pycache__/env.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flask_migrate/templates/flask/__pycache__/env.cpython-312.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "bd42a1c179222acfcbbb15ef4c66de504c5571c726a74942c73dff6e4ac1233f",
+  "size": 17632,
+  "subdir": "noarch",
+  "timestamp": 1710204114000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/flask-migrate-4.0.7-pyhd8ed1ab_0.conda",
+  "version": "4.0.7"
+}

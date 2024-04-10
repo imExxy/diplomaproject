@@ -1,0 +1,118 @@
+{
+  "build": "1000",
+  "build_number": 1000,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "vc 14.*"
+  ],
+  "extracted_package_dir": "D:\\xxx\\anaconda3\\pkgs\\graphite2-1.3.13-1000",
+  "features": "",
+  "files": [
+    "Library/bin/gr2fonttest.exe",
+    "Library/bin/graphite2.dll",
+    "Library/include/graphite2/Font.h",
+    "Library/include/graphite2/Log.h",
+    "Library/include/graphite2/Segment.h",
+    "Library/include/graphite2/Types.h",
+    "Library/lib/graphite2.lib",
+    "Library/lib/pkgconfig/graphite2.pc",
+    "Library/share/graphite2/graphite2-release.cmake",
+    "Library/share/graphite2/graphite2.cmake",
+    ".nonadmin"
+  ],
+  "fn": "graphite2-1.3.13-1000.tar.bz2",
+  "license": "LGPLv2",
+  "link": {
+    "source": "D:\\xxx\\anaconda3\\pkgs\\graphite2-1.3.13-1000",
+    "type": 1
+  },
+  "md5": "8fc0e04e5c852cadf2cad68b86a906ab",
+  "name": "graphite2",
+  "package_tarball_full_path": "D:\\xxx\\anaconda3\\pkgs\\graphite2-1.3.13-1000.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/bin/gr2fonttest.exe",
+        "path_type": "hardlink",
+        "sha256": "c367e94a7c84ccbb4d56b98c2e97e8819a9f20c7a58475be6a9e8a39bdaf6695",
+        "sha256_in_prefix": "c367e94a7c84ccbb4d56b98c2e97e8819a9f20c7a58475be6a9e8a39bdaf6695",
+        "size_in_bytes": 22528
+      },
+      {
+        "_path": "Library/bin/graphite2.dll",
+        "path_type": "hardlink",
+        "sha256": "62a88ad3f6a1b75e56429185430fd5507c0f2984f646e5ba7301c4531533a09f",
+        "sha256_in_prefix": "62a88ad3f6a1b75e56429185430fd5507c0f2984f646e5ba7301c4531533a09f",
+        "size_in_bytes": 136192
+      },
+      {
+        "_path": "Library/include/graphite2/Font.h",
+        "path_type": "hardlink",
+        "sha256": "60bb74b198922c7995c8bf7c3b809117d7b6176a8bc45999d2e1022c96913db4",
+        "sha256_in_prefix": "60bb74b198922c7995c8bf7c3b809117d7b6176a8bc45999d2e1022c96913db4",
+        "size_in_bytes": 18738
+      },
+      {
+        "_path": "Library/include/graphite2/Log.h",
+        "path_type": "hardlink",
+        "sha256": "db33ed8c1299d74130d3153ece07afe6b7886108f95ce351786bb01720a24ab0",
+        "sha256_in_prefix": "db33ed8c1299d74130d3153ece07afe6b7886108f95ce351786bb01720a24ab0",
+        "size_in_bytes": 2995
+      },
+      {
+        "_path": "Library/include/graphite2/Segment.h",
+        "path_type": "hardlink",
+        "sha256": "6654971a70a6ed798d25fdfc5d858a957fed29f9eb5d3c90f5cd9b8b65b8cca5",
+        "sha256_in_prefix": "6654971a70a6ed798d25fdfc5d858a957fed29f9eb5d3c90f5cd9b8b65b8cca5",
+        "size_in_bytes": 20303
+      },
+      {
+        "_path": "Library/include/graphite2/Types.h",
+        "path_type": "hardlink",
+        "sha256": "97dccf9d5420941775e5efc0a86f201a63d0dfdf8a6046096c37ec42ef2d758a",
+        "sha256_in_prefix": "97dccf9d5420941775e5efc0a86f201a63d0dfdf8a6046096c37ec42ef2d758a",
+        "size_in_bytes": 3857
+      },
+      {
+        "_path": "Library/lib/graphite2.lib",
+        "path_type": "hardlink",
+        "sha256": "3fc861fa353a61064adb75d21df6ec1cf44d1ab2869ecb9ff175775fc8817912",
+        "sha256_in_prefix": "3fc861fa353a61064adb75d21df6ec1cf44d1ab2869ecb9ff175775fc8817912",
+        "size_in_bytes": 16762
+      },
+      {
+        "_path": "Library/lib/pkgconfig/graphite2.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "C:/bld/graphite2_1545518572754/_h_env",
+        "sha256": "f406c14205a50e1b288b45943401d54f63aaa08f2f4be1ccb76ea1fe4baecb40",
+        "sha256_in_prefix": "d06dd0dfc2db472288b0c6fc4c6bc4fc097084e197dd24c012dd897b409486c9",
+        "size_in_bytes": 466
+      },
+      {
+        "_path": "Library/share/graphite2/graphite2-release.cmake",
+        "path_type": "hardlink",
+        "sha256": "fadadce16e280ff9852eeadee51813a39f516746138e2ec91d7343d8934b276b",
+        "sha256_in_prefix": "fadadce16e280ff9852eeadee51813a39f516746138e2ec91d7343d8934b276b",
+        "size_in_bytes": 1398
+      },
+      {
+        "_path": "Library/share/graphite2/graphite2.cmake",
+        "path_type": "hardlink",
+        "sha256": "1a3b0d2d038906076152ef5689ad8915f08e256521ce0a8c7b9e565aad60788a",
+        "sha256_in_prefix": "1a3b0d2d038906076152ef5689ad8915f08e256521ce0a8c7b9e565aad60788a",
+        "size_in_bytes": 3279
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "ed47008df8e57a83f45112985b76ac4339177486bd4d1d1b305d685a832532aa",
+  "size": 99391,
+  "subdir": "win-64",
+  "timestamp": 1545518639000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/graphite2-1.3.13-1000.tar.bz2",
+  "version": "1.3.13"
+}

@@ -1,0 +1,2 @@
+[console_scripts]
+geeadd = geeadd.geeadd:main

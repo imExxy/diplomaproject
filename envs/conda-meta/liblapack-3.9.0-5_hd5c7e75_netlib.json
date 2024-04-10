@@ -1,0 +1,103 @@
+{
+  "build": "5_hd5c7e75_netlib",
+  "build_number": 5,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "m2w64-gcc-libs",
+    "libblas 3.9.0.*"
+  ],
+  "extracted_package_dir": "D:\\xxx\\anaconda3\\pkgs\\liblapack-3.9.0-5_hd5c7e75_netlib",
+  "features": "",
+  "files": [
+    "Library/bin/liblapack.dll",
+    "Library/lib/cmake/lapack-3.9.0/lapack-config-version.cmake",
+    "Library/lib/cmake/lapack-3.9.0/lapack-config.cmake",
+    "Library/lib/cmake/lapack-3.9.0/lapack-targets-release.cmake",
+    "Library/lib/cmake/lapack-3.9.0/lapack-targets.cmake",
+    "Library/lib/lapack.lib",
+    "Library/lib/liblapack.dll.a",
+    "Library/lib/pkgconfig/lapack.pc",
+    ".nonadmin"
+  ],
+  "fn": "liblapack-3.9.0-5_hd5c7e75_netlib.tar.bz2",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "D:\\xxx\\anaconda3\\pkgs\\liblapack-3.9.0-5_hd5c7e75_netlib",
+    "type": 1
+  },
+  "md5": "5cd729d515884d1302f78010c4bf8748",
+  "name": "liblapack",
+  "package_tarball_full_path": "D:\\xxx\\anaconda3\\pkgs\\liblapack-3.9.0-5_hd5c7e75_netlib.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/bin/liblapack.dll",
+        "path_type": "hardlink",
+        "sha256": "2a5def7fb0e67ea56a389271883d9e98422dafd5858cb84d6244768950e88b0e",
+        "sha256_in_prefix": "2a5def7fb0e67ea56a389271883d9e98422dafd5858cb84d6244768950e88b0e",
+        "size_in_bytes": 8016464
+      },
+      {
+        "_path": "Library/lib/cmake/lapack-3.9.0/lapack-config-version.cmake",
+        "path_type": "hardlink",
+        "sha256": "85f5a487f3269b550b7f38d2227b0f5e17a7730920cffbcd1b115b300fc058e2",
+        "sha256_in_prefix": "85f5a487f3269b550b7f38d2227b0f5e17a7730920cffbcd1b115b300fc058e2",
+        "size_in_bytes": 2809
+      },
+      {
+        "_path": "Library/lib/cmake/lapack-3.9.0/lapack-config.cmake",
+        "path_type": "hardlink",
+        "sha256": "0d697916bec89c023f55b5ff98f49bd819be0157f7732d2f4ec16366ec9b97c6",
+        "sha256_in_prefix": "0d697916bec89c023f55b5ff98f49bd819be0157f7732d2f4ec16366ec9b97c6",
+        "size_in_bytes": 696
+      },
+      {
+        "_path": "Library/lib/cmake/lapack-3.9.0/lapack-targets-release.cmake",
+        "path_type": "hardlink",
+        "sha256": "96420abd8164cfebf00bcf1aa2d97da63d2bfc5c48b4fd76e858169e646789bc",
+        "sha256_in_prefix": "96420abd8164cfebf00bcf1aa2d97da63d2bfc5c48b4fd76e858169e646789bc",
+        "size_in_bytes": 1870
+      },
+      {
+        "_path": "Library/lib/cmake/lapack-3.9.0/lapack-targets.cmake",
+        "path_type": "hardlink",
+        "sha256": "f8295d7a604c0490e530698e6bbd0cf6fdf41675d9e4cba3c5e283883a0d4f17",
+        "sha256_in_prefix": "f8295d7a604c0490e530698e6bbd0cf6fdf41675d9e4cba3c5e283883a0d4f17",
+        "size_in_bytes": 3591
+      },
+      {
+        "_path": "Library/lib/lapack.lib",
+        "path_type": "hardlink",
+        "sha256": "2dd4a1c3bd95943af9ed459765879cc9e3aec917975892e25576db35b2d15123",
+        "sha256_in_prefix": "2dd4a1c3bd95943af9ed459765879cc9e3aec917975892e25576db35b2d15123",
+        "size_in_bytes": 316342
+      },
+      {
+        "_path": "Library/lib/liblapack.dll.a",
+        "path_type": "hardlink",
+        "sha256": "aab21b48fb4ddbbee25239a349197d1dbe76c2d06ce72d868adc5781bd4735b4",
+        "sha256_in_prefix": "aab21b48fb4ddbbee25239a349197d1dbe76c2d06ce72d868adc5781bd4735b4",
+        "size_in_bytes": 1098218
+      },
+      {
+        "_path": "Library/lib/pkgconfig/lapack.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "D:/bld/blas-split_1618010894685/_h_env",
+        "sha256": "e0b732eeb7585c95f507dd15dd7e62e95793accba2e3c485c488b20ccc070092",
+        "sha256_in_prefix": "ea4ecfd0870b6e3f416dd4a2f4f5382392e388f0494fc13f15e19a89b1c8bfb7",
+        "size_in_bytes": 326
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "b60ac4f2f367126ae56bfb887ff70a2b202b30597ada35506b13691c76c844e0",
+  "size": 2878872,
+  "subdir": "win-64",
+  "timestamp": 1618013145000,
+  "track_features": "blas_netlib",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/liblapack-3.9.0-5_hd5c7e75_netlib.tar.bz2",
+  "version": "3.9.0"
+}

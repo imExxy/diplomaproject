@@ -1,0 +1,8 @@
+poppler_datadir=D:/xxx/Documents/psud/envs/share/poppler
+
+Name: poppler-data
+Description: Encoding files for use with poppler
+Version: 0.4.12
+
+Cflags: -DPOPPLER_DATADIR=D:/xxx/Documents/psud/envs/share/poppler
+

@@ -1,0 +1,14 @@
+prefix=D:/xxx/Documents/geeproject/condaenv/Library
+exec_prefix=${prefix}
+libdir=D:/xxx/Documents/geeproject/condaenv/Library/lib
+includedir=D:/xxx/Documents/geeproject/condaenv/Library/include
+
+Name: libavcodec
+Description: FFmpeg codec library
+Version: 60.31.102
+Requires: 
+Requires.private: libswresample >= 4.12.100, libavutil >= 58.29.100
+Conflicts:
+Libs: -L${libdir}  -lavcodec 
+Libs.private: iconv.lib lzma.lib -LD:/xxx/Documents/geeproject/condaenv/Library/lib dav1d.lib -LD:/xxx/Documents/geeproject/condaenv/Library/lib aom.lib -LD:/xxx/Documents/geeproject/condaenv/Library/lib opus.lib -LD:/xxx/Documents/geeproject/condaenv/Library/lib SvtAv1Enc.lib -LD:/xxx/Documents/geeproject/condaenv/Library/lib libx264.lib -LD:/xxx/Documents/geeproject/condaenv/Library/lib x265.lib -LD:/xxx/Documents/geeproject/condaenv/Library/lib openh264.lib mfuuid.lib ole32.lib strmiids.lib ole32.lib user32.lib -LD:/xxx/Documents/geeproject/condaenv/Library/lib zlib.lib
+Cflags: -I${includedir}

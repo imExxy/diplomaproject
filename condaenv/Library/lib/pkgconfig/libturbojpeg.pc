@@ -1,0 +1,10 @@
+prefix=D:/xxx/Documents/geeproject/condaenv/Library
+exec_prefix=D:/xxx/Documents/geeproject/condaenv/Library
+libdir=D:/xxx/Documents/geeproject/condaenv/Library/lib
+includedir=D:/xxx/Documents/geeproject/condaenv/Library/include
+
+Name: libturbojpeg
+Description: A SIMD-accelerated JPEG codec that provides the TurboJPEG API
+Version: 3.0.0
+Libs: -L${libdir} -lturbojpeg
+Cflags: -I${includedir}

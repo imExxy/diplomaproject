@@ -1,0 +1,118 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "google-auth",
+    "httplib2 >=0.19.0",
+    "python >=3.6"
+  ],
+  "extracted_package_dir": "D:\\xxx\\anaconda3\\pkgs\\google-auth-httplib2-0.2.0-pyhd8ed1ab_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/google_auth_httplib2-0.2.0.dist-info/INSTALLER",
+    "Lib/site-packages/google_auth_httplib2-0.2.0.dist-info/LICENSE",
+    "Lib/site-packages/google_auth_httplib2-0.2.0.dist-info/METADATA",
+    "Lib/site-packages/google_auth_httplib2-0.2.0.dist-info/RECORD",
+    "Lib/site-packages/google_auth_httplib2-0.2.0.dist-info/REQUESTED",
+    "Lib/site-packages/google_auth_httplib2-0.2.0.dist-info/WHEEL",
+    "Lib/site-packages/google_auth_httplib2-0.2.0.dist-info/direct_url.json",
+    "Lib/site-packages/google_auth_httplib2-0.2.0.dist-info/top_level.txt",
+    "Lib/site-packages/google_auth_httplib2.py",
+    ".nonadmin",
+    "Lib/site-packages/__pycache__/google_auth_httplib2.cpython-312.pyc"
+  ],
+  "fn": "google-auth-httplib2-0.2.0-pyhd8ed1ab_0.conda",
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "link": {
+    "source": "D:\\xxx\\anaconda3\\pkgs\\google-auth-httplib2-0.2.0-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "94055b79d31f37866e2dd142eac21fe9",
+  "name": "google-auth-httplib2",
+  "noarch": "python",
+  "package_tarball_full_path": "D:\\xxx\\anaconda3\\pkgs\\google-auth-httplib2-0.2.0-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/google_auth_httplib2-0.2.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/google_auth_httplib2-0.2.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+        "sha256_in_prefix": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+        "size_in_bytes": 11357
+      },
+      {
+        "_path": "site-packages/google_auth_httplib2-0.2.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "29b6d7eabda8fa15afffa32bdcf918c5af7aab9f4e057bb6985f5627c30c9499",
+        "sha256_in_prefix": "29b6d7eabda8fa15afffa32bdcf918c5af7aab9f4e057bb6985f5627c30c9499",
+        "size_in_bytes": 2179
+      },
+      {
+        "_path": "site-packages/google_auth_httplib2-0.2.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "cbc7980e6b62ba7a21cc63ed0f4a776712a77ba4374be21c895b7d69bd9846b5",
+        "sha256_in_prefix": "cbc7980e6b62ba7a21cc63ed0f4a776712a77ba4374be21c895b7d69bd9846b5",
+        "size_in_bytes": 903
+      },
+      {
+        "_path": "site-packages/google_auth_httplib2-0.2.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/google_auth_httplib2-0.2.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "f86fedd281ae13b503d03ad2a55667ab584730157d0c3d97912e6fed7a664e79",
+        "sha256_in_prefix": "f86fedd281ae13b503d03ad2a55667ab584730157d0c3d97912e6fed7a664e79",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "site-packages/google_auth_httplib2-0.2.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "7891ffde27c35b2004cd54117df734626554ec1fe013f63eec40ef1dc5613116",
+        "sha256_in_prefix": "7891ffde27c35b2004cd54117df734626554ec1fe013f63eec40ef1dc5613116",
+        "size_in_bytes": 116
+      },
+      {
+        "_path": "site-packages/google_auth_httplib2-0.2.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "c50af85fdd42b0d5abd66c37aeb387f262a760b396fd486be54ee6a18c64ab81",
+        "sha256_in_prefix": "c50af85fdd42b0d5abd66c37aeb387f262a760b396fd486be54ee6a18c64ab81",
+        "size_in_bytes": 21
+      },
+      {
+        "_path": "site-packages/google_auth_httplib2.py",
+        "path_type": "hardlink",
+        "sha256": "67e55d556941f1172bc27e10d8c53d4871c9e476643d81df0eef311cab017902",
+        "sha256_in_prefix": "67e55d556941f1172bc27e10d8c53d4871c9e476643d81df0eef311cab017902",
+        "size_in_bytes": 10211
+      },
+      {
+        "_path": "Lib/site-packages/__pycache__/google_auth_httplib2.cpython-312.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "ead8e77d518f09fdc5a0f0c0e382c51e292d5eeb758847bc7835bf87f0d57fb9",
+  "size": 15005,
+  "subdir": "noarch",
+  "timestamp": 1702435684216,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/google-auth-httplib2-0.2.0-pyhd8ed1ab_0.conda",
+  "version": "0.2.0"
+}

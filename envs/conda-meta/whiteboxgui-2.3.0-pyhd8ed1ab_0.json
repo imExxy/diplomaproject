@@ -1,0 +1,149 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "ipyfilechooser",
+    "ipytree",
+    "ipywidgets",
+    "python >=3.6",
+    "whitebox",
+    "xorg-libx11"
+  ],
+  "extracted_package_dir": "D:\\xxx\\anaconda3\\pkgs\\whiteboxgui-2.3.0-pyhd8ed1ab_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/whiteboxgui-2.3.0.dist-info/INSTALLER",
+    "Lib/site-packages/whiteboxgui-2.3.0.dist-info/LICENSE",
+    "Lib/site-packages/whiteboxgui-2.3.0.dist-info/METADATA",
+    "Lib/site-packages/whiteboxgui-2.3.0.dist-info/RECORD",
+    "Lib/site-packages/whiteboxgui-2.3.0.dist-info/REQUESTED",
+    "Lib/site-packages/whiteboxgui-2.3.0.dist-info/WHEEL",
+    "Lib/site-packages/whiteboxgui-2.3.0.dist-info/dependency_links.txt",
+    "Lib/site-packages/whiteboxgui-2.3.0.dist-info/direct_url.json",
+    "Lib/site-packages/whiteboxgui-2.3.0.dist-info/top_level.txt",
+    "Lib/site-packages/whiteboxgui/__init__.py",
+    "Lib/site-packages/whiteboxgui/data/whitebox_tools.json",
+    "Lib/site-packages/whiteboxgui/whiteboxgui.py",
+    ".nonadmin",
+    "Lib/site-packages/whiteboxgui/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/whiteboxgui/__pycache__/whiteboxgui.cpython-312.pyc"
+  ],
+  "fn": "whiteboxgui-2.3.0-pyhd8ed1ab_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "D:\\xxx\\anaconda3\\pkgs\\whiteboxgui-2.3.0-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "96916399e481bbf4cc727ab14d539359",
+  "name": "whiteboxgui",
+  "noarch": "python",
+  "package_tarball_full_path": "D:\\xxx\\anaconda3\\pkgs\\whiteboxgui-2.3.0-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/whiteboxgui-2.3.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/whiteboxgui-2.3.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "eca7723b6d983dd90e1b6c01bf152c1110502ea66034465b3143268f48a129ea",
+        "sha256_in_prefix": "eca7723b6d983dd90e1b6c01bf152c1110502ea66034465b3143268f48a129ea",
+        "size_in_bytes": 1070
+      },
+      {
+        "_path": "site-packages/whiteboxgui-2.3.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "804ac1a3deb79fbf3f38343920ea5a782b0706bd38727a3bae5aefa073a400a4",
+        "sha256_in_prefix": "804ac1a3deb79fbf3f38343920ea5a782b0706bd38727a3bae5aefa073a400a4",
+        "size_in_bytes": 5702
+      },
+      {
+        "_path": "site-packages/whiteboxgui-2.3.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "d80104f489089eb5faf4a588dbb3aec8ae6ca5023d19968b278a57202a22b0f6",
+        "sha256_in_prefix": "d80104f489089eb5faf4a588dbb3aec8ae6ca5023d19968b278a57202a22b0f6",
+        "size_in_bytes": 1169
+      },
+      {
+        "_path": "site-packages/whiteboxgui-2.3.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/whiteboxgui-2.3.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "6bece9151209cceab941fba10736e1880d5e1d3ccd0899fc39d46f85d357d119",
+        "sha256_in_prefix": "6bece9151209cceab941fba10736e1880d5e1d3ccd0899fc39d46f85d357d119",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "site-packages/whiteboxgui-2.3.0.dist-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "88ded50f022ec4f1fe500d93f6881500dfa84f3f7a1cbd0ff2255124b001a56b",
+        "sha256_in_prefix": "88ded50f022ec4f1fe500d93f6881500dfa84f3f7a1cbd0ff2255124b001a56b",
+        "size_in_bytes": 44
+      },
+      {
+        "_path": "site-packages/whiteboxgui-2.3.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "95a1af06b149eed40c66552e9b0f32705ea697e48f6ed34b15a36e77bb73db78",
+        "sha256_in_prefix": "95a1af06b149eed40c66552e9b0f32705ea697e48f6ed34b15a36e77bb73db78",
+        "size_in_bytes": 107
+      },
+      {
+        "_path": "site-packages/whiteboxgui-2.3.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "965bd7861b6d264475044511db7d6b982a13f90815fc22ab54fa97a9e4293f40",
+        "sha256_in_prefix": "965bd7861b6d264475044511db7d6b982a13f90815fc22ab54fa97a9e4293f40",
+        "size_in_bytes": 12
+      },
+      {
+        "_path": "site-packages/whiteboxgui/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "3456990d02714c177e4a36dc54774ba06e320720be1d80d8c82df2ff40af458d",
+        "sha256_in_prefix": "3456990d02714c177e4a36dc54774ba06e320720be1d80d8c82df2ff40af458d",
+        "size_in_bytes": 297
+      },
+      {
+        "_path": "site-packages/whiteboxgui/data/whitebox_tools.json",
+        "path_type": "hardlink",
+        "sha256": "c7d82f6784148da2db0ae9fbc65a920361cd7ac7f9ce949a0f1e4d1f2462ff17",
+        "sha256_in_prefix": "c7d82f6784148da2db0ae9fbc65a920361cd7ac7f9ce949a0f1e4d1f2462ff17",
+        "size_in_bytes": 1240644
+      },
+      {
+        "_path": "site-packages/whiteboxgui/whiteboxgui.py",
+        "path_type": "hardlink",
+        "sha256": "113f80158b6a555f0a2824da899dd6a7cc7015bf6756c20e127c9ba0c8786330",
+        "sha256_in_prefix": "113f80158b6a555f0a2824da899dd6a7cc7015bf6756c20e127c9ba0c8786330",
+        "size_in_bytes": 31655
+      },
+      {
+        "_path": "Lib/site-packages/whiteboxgui/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/whiteboxgui/__pycache__/whiteboxgui.cpython-312.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "38c8f2b8981b761472e7a811af342d4980c10629548cb3fc57fd7b8191c0ad7c",
+  "size": 75364,
+  "subdir": "noarch",
+  "timestamp": 1680061282000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/whiteboxgui-2.3.0-pyhd8ed1ab_0.conda",
+  "version": "2.3.0"
+}

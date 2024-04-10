@@ -1,0 +1,185 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "earthengine-api >=0.1.230",
+    "ipywidgets",
+    "numpy",
+    "pandas",
+    "plotly >=5.2.2",
+    "python >=3.7"
+  ],
+  "extracted_package_dir": "D:\\xxx\\anaconda3\\pkgs\\sankee-0.2.4-pyhd8ed1ab_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/sankee-0.2.4.dist-info/INSTALLER",
+    "Lib/site-packages/sankee-0.2.4.dist-info/LICENSE",
+    "Lib/site-packages/sankee-0.2.4.dist-info/METADATA",
+    "Lib/site-packages/sankee-0.2.4.dist-info/RECORD",
+    "Lib/site-packages/sankee-0.2.4.dist-info/REQUESTED",
+    "Lib/site-packages/sankee-0.2.4.dist-info/WHEEL",
+    "Lib/site-packages/sankee-0.2.4.dist-info/direct_url.json",
+    "Lib/site-packages/sankee-0.2.4.dist-info/top_level.txt",
+    "Lib/site-packages/sankee/__init__.py",
+    "Lib/site-packages/sankee/datasets.py",
+    "Lib/site-packages/sankee/plotting.py",
+    "Lib/site-packages/sankee/sampling.py",
+    "Lib/site-packages/sankee/themes.py",
+    "Lib/site-packages/sankee/utils.py",
+    ".nonadmin",
+    "Lib/site-packages/sankee/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/sankee/__pycache__/datasets.cpython-312.pyc",
+    "Lib/site-packages/sankee/__pycache__/plotting.cpython-312.pyc",
+    "Lib/site-packages/sankee/__pycache__/sampling.cpython-312.pyc",
+    "Lib/site-packages/sankee/__pycache__/themes.cpython-312.pyc",
+    "Lib/site-packages/sankee/__pycache__/utils.cpython-312.pyc"
+  ],
+  "fn": "sankee-0.2.4-pyhd8ed1ab_0.conda",
+  "license": "GPL-3.0-or-later",
+  "link": {
+    "source": "D:\\xxx\\anaconda3\\pkgs\\sankee-0.2.4-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "5cddf4d134860b0e13d2709e0a8201ce",
+  "name": "sankee",
+  "noarch": "python",
+  "package_tarball_full_path": "D:\\xxx\\anaconda3\\pkgs\\sankee-0.2.4-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/sankee-0.2.4.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/sankee-0.2.4.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "406d936825739822f1c9599017584f36df74248f5152763f473642ab69e18215",
+        "sha256_in_prefix": "406d936825739822f1c9599017584f36df74248f5152763f473642ab69e18215",
+        "size_in_bytes": 1090
+      },
+      {
+        "_path": "site-packages/sankee-0.2.4.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "66f07454f9b2637f338737ea46015cbea41fa9fff91d9f828ac82ce1ec9d7987",
+        "sha256_in_prefix": "66f07454f9b2637f338737ea46015cbea41fa9fff91d9f828ac82ce1ec9d7987",
+        "size_in_bytes": 6651
+      },
+      {
+        "_path": "site-packages/sankee-0.2.4.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "c26bce060091be136389a326237ecdcd8e89c03ce6ec1f43a110c425003e48e0",
+        "sha256_in_prefix": "c26bce060091be136389a326237ecdcd8e89c03ce6ec1f43a110c425003e48e0",
+        "size_in_bytes": 1383
+      },
+      {
+        "_path": "site-packages/sankee-0.2.4.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/sankee-0.2.4.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "a6472d658cd44b8018567e9d27eef7ebb389662bc5d9ef1103d6ff6418e27f5f",
+        "sha256_in_prefix": "a6472d658cd44b8018567e9d27eef7ebb389662bc5d9ef1103d6ff6418e27f5f",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/sankee-0.2.4.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "0e5b401188b4b17946b8424e8a692230049c9a6c8fbd4b65ba708980a2841d51",
+        "sha256_in_prefix": "0e5b401188b4b17946b8424e8a692230049c9a6c8fbd4b65ba708980a2841d51",
+        "size_in_bytes": 102
+      },
+      {
+        "_path": "site-packages/sankee-0.2.4.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "60c8fbe2780a405428e9e19e6abb602fb5041be6e7bdd7b86186e903822acd22",
+        "sha256_in_prefix": "60c8fbe2780a405428e9e19e6abb602fb5041be6e7bdd7b86186e903822acd22",
+        "size_in_bytes": 7
+      },
+      {
+        "_path": "site-packages/sankee/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "ab6c702563970aae1bb6a32af589ad58fba7e8baa98e9f674244342a5a0ba249",
+        "sha256_in_prefix": "ab6c702563970aae1bb6a32af589ad58fba7e8baa98e9f674244342a5a0ba249",
+        "size_in_bytes": 189
+      },
+      {
+        "_path": "site-packages/sankee/datasets.py",
+        "path_type": "hardlink",
+        "sha256": "81298e121bc6d743e48759bf81f26650948f15b4f1ee1223cc527333ffef2c78",
+        "sha256_in_prefix": "81298e121bc6d743e48759bf81f26650948f15b4f1ee1223cc527333ffef2c78",
+        "size_in_bytes": 23376
+      },
+      {
+        "_path": "site-packages/sankee/plotting.py",
+        "path_type": "hardlink",
+        "sha256": "88327a61c833f7d3215e0ea5bb4bb8754d3cf28e31a65abec7ecd6a3cfebb720",
+        "sha256_in_prefix": "88327a61c833f7d3215e0ea5bb4bb8754d3cf28e31a65abec7ecd6a3cfebb720",
+        "size_in_bytes": 15694
+      },
+      {
+        "_path": "site-packages/sankee/sampling.py",
+        "path_type": "hardlink",
+        "sha256": "11366ab50254bae2ed481e313e003e04869d1f9ddaa36fb5da0cf1b7023e7eea",
+        "sha256_in_prefix": "11366ab50254bae2ed481e313e003e04869d1f9ddaa36fb5da0cf1b7023e7eea",
+        "size_in_bytes": 2644
+      },
+      {
+        "_path": "site-packages/sankee/themes.py",
+        "path_type": "hardlink",
+        "sha256": "4eb5b6357ee20ff94de1f3bc961867b821a560272cde8af624b31b7820641449",
+        "sha256_in_prefix": "4eb5b6357ee20ff94de1f3bc961867b821a560272cde8af624b31b7820641449",
+        "size_in_bytes": 3708
+      },
+      {
+        "_path": "site-packages/sankee/utils.py",
+        "path_type": "hardlink",
+        "sha256": "b40f8e536cddceda09a469fe55753dfade5302f2a3155345b2637fd8e9289a9a",
+        "sha256_in_prefix": "b40f8e536cddceda09a469fe55753dfade5302f2a3155345b2637fd8e9289a9a",
+        "size_in_bytes": 1702
+      },
+      {
+        "_path": "Lib/site-packages/sankee/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/sankee/__pycache__/datasets.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/sankee/__pycache__/plotting.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/sankee/__pycache__/sampling.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/sankee/__pycache__/themes.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/sankee/__pycache__/utils.cpython-312.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "956005eb40bb9e4d8d2a09410baaab11bcbbae780ff193ea8312e3dc4e2a24d2",
+  "size": 34172,
+  "subdir": "noarch",
+  "timestamp": 1687968681000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/sankee-0.2.4-pyhd8ed1ab_0.conda",
+  "version": "0.2.4"
+}

@@ -1,0 +1,11 @@
+prefix=D:/xxx/Documents/geeproject/condaenv/Library
+exec_prefix=D:/xxx/Documents/geeproject/condaenv/Library
+libdir=D:/xxx/Documents/geeproject/condaenv/Library/lib
+includedir=D:/xxx/Documents/geeproject/condaenv/Library/include
+
+Name: Graphite2
+Description: Font rendering engine for Complex Scripts
+Version: 3.0.1
+Libs: -LD:/xxx/Documents/geeproject/condaenv/Library/lib -lgraphite2
+Cflags: -ID:/xxx/Documents/geeproject/condaenv/Library/include
+

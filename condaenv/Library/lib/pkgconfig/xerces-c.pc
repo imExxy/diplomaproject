@@ -1,0 +1,11 @@
+prefix=D:/xxx/Documents/geeproject/condaenv/Library
+exec_prefix=D:/xxx/Documents/geeproject/condaenv/Library
+libdir=D:/xxx/Documents/geeproject/condaenv/Library/lib
+includedir=D:/xxx/Documents/geeproject/condaenv/Library/include
+
+Name: Xerces-C++
+Description: Validating XML parser library for C++
+Version: 3.2.5
+Libs: -LD:/xxx/Documents/geeproject/condaenv/Library/lib -lxerces-c
+Libs.private: 
+Cflags: -ID:/xxx/Documents/geeproject/condaenv/Library/include
