@@ -1,12 +1,12 @@
-{% extends "main.html" %}
+{% extends "mappage.html" %}
 
 {% block form %}
 <div>
-  <h3>Filter</h3>
+  <h3>MAP FORM</h3>
     <form action="" method="post" novalidate>
       {{ form.hidden_tag() }}
       <div class="row match-height">
-        <div class="col-xl-4 col-lg-6 col-md-12">
+        <div class="col-xl-6 col-lg-6 col-md-12">
           <div class="card">
             <div class="card-header">
               <h4 class="card-title">{{ form.raster_layers.label }}</h4>
@@ -14,8 +14,24 @@
             <div class="card-block">
               <div class="card-body">
                 <fieldset class="form-group">
+                  <div class="form-control" id="countrySelect" multiple="multiple">
+                    {{ form.raster_layers(class_="form-control", rows=2, multiple=True) }}
+                  </div>
+                </fieldset>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-6 col-lg-6 col-md-12">
+          <div class="card">
+            <div class="card-header">
+              <h4 class="card-title">{{ form.year_selection.label }}</h4>
+            </div>
+            <div class="card-block">
+              <div class="card-body">
+                <fieldset class="form-group">
                   <div class="form-control" id="basicInput">
-                    {{ form.raster_layers(class_="form-control") }}
+                    <h4>{{ form.year_selection(class_="form-control") }}</h4>
                   </div>
                 </fieldset>
               </div>
@@ -23,6 +39,7 @@
           </div>
         </div>
       </div>
+      <p>{{ form.m_submit(class_="btn btn-warning") }}</p>
     </form>
 </div>
 {% endblock %}

@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html class="loading" lang="en" data-textdirection="ltr">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+    <meta name="description" content="Chameleon Admin is a modern Bootstrap 4 webapp &amp; admin dashboard html template with a large number of components, elegant design, clean and organized code.">
+    <meta name="keywords" content="admin template, Chameleon admin template, dashboard template, gradient admin template, responsive admin template, webapp, eCommerce dashboard, analytic dashboard">
+    <meta name="author" content="ThemeSelect">
+    <title>Tables - Chameleon Admin - Modern Bootstrap 4 WebApp & Dashboard HTML Template + UI Kit</title>
+    <link rel="apple-touch-icon" href="theme-assets/images/ico/apple-icon-120.png">
+    <link rel="shortcut icon" type="image/x-icon" href="theme-assets/images/ico/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Muli:300,300i,400,400i,600,600i,700,700i%7CComfortaa:300,400,700" rel="stylesheet">
+    <link href="https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome.min.css" rel="stylesheet">
+    <!-- BEGIN VENDOR CSS-->
+    <link rel="stylesheet" type="text/css" href="theme-assets/css/vendors.css">
+    <!-- END VENDOR CSS-->
+    <!-- BEGIN CHAMELEON  CSS-->
+    <link rel="stylesheet" type="text/css" href="theme-assets/css/app-lite.css">
+    <!-- END CHAMELEON  CSS-->
+    <!-- BEGIN Page Level CSS-->
+    <link rel="stylesheet" type="text/css" href="theme-assets/css/core/menu/menu-types/vertical-menu.css">
+    <link rel="stylesheet" type="text/css" href="theme-assets/css/core/colors/palette-gradient.css">
+    <!-- END Page Level CSS-->
+    <!-- BEGIN Custom CSS-->
+    <!-- END Custom CSS-->
+  </head>
+  <body class="vertical-layout vertical-menu 2-columns   menu-expanded fixed-navbar" data-open="click" data-menu="vertical-menu" data-color="bg-gradient-x-purple-blue" data-col="2-columns">
+
+    <!-- fixed-top-->
+    <nav class="header-navbar navbar-expand-md navbar navbar-with-menu navbar-without-dd-arrow fixed-top navbar-semi-light">
+      <div class="navbar-wrapper">
+        <div class="navbar-container content">
+          <div class="collapse navbar-collapse show" id="navbar-mobile">
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ////////////////////////////////////////////////////////////////////////////-->
+
+
+    <div class="main-menu menu-fixed menu-light menu-accordion    menu-shadow " data-scroll-to-active="true" data-img="theme-assets/images/backgrounds/02.jpg">
+      <div class="navbar-header">
+        <ul class="nav navbar-nav flex-row">
+          <li class="nav-item mr-auto"><a class="navbar-brand" href="index.html"><img class="brand-logo" alt="Chameleon admin logo" src="theme-assets/images/sadness_crop.png"/>
+              <h3 class="brand-text">Пожары в ООПТ</h3></a></li>
+          <li class="nav-item d-md-none"><a class="nav-link close-navbar"><i class="ft-x"></i></a></li>
+        </ul>
+      </div>
+      <div class="main-menu-content">
+        <ul class="navigation navigation-main" id="main-menu-navigation" data-menu="menu-navigation">
+          <li class="active"><a href="/"><i class="la la-tree"></i><span class="menu-title" data-i18n="">Лесной покров</span></a>
+          </li>
+          <li class="active"><a href="/firms"><i class="la la-fire"></i><span class="menu-title" data-i18n="">Термоточки</span></a>
+          </li>
+          <li class="active"><a href="/map"><i class="la la-map"></i><span class="menu-title" data-i18n="">Карта</span></a>
+          </li>
+          <li class="active"><a href="/stats"><i class="la la-info"></i><span class="menu-title" data-i18n="">Статистика</span></a>
+          </li>
+          <li class="active"><a href="/statsindividual"><i class="la la-line-chart"></i><span class="menu-title" data-i18n="">Графики</span></a>
+          </li>
+        </ul>
+      </div><a class="btn btn-danger btn-block btn-glow btn-upgrade-pro mx-1" href="/update" target="_blank">Добавить записи</a>
+      <div class="navigation-background"></div>
+    </div>
+
+    <div class="app-content content">
+      <div class="content-wrapper">
+        <div class="content-wrapper-before"></div>
+        <div class="content-header row">
+          <div class="content-header-left col-md-4 col-12 mb-2">
+            <h3 class="content-header-title">Статистика</h3>
+          </div>
+          <div class="content-header-right col-md-8 col-12">
+          </div>
+        </div>
+        <div class="content-body"><!-- Basic Tables start -->
+
+<!-- Basic Tables end -->
+
+
+<!-- Table head options start -->
+{% block form %} {% endblock %}
+<div class="row match-height">
+	<div class="col-5">
+		<div class="card">
+			<div class="card-header">
+				<h4 class="card-title">Таблицы по регионам</h4>
+				<a class="heading-elements-toggle"><i class="la la-ellipsis-v font-medium-3"></i></a>
+			</div>
+			<div class="card-content collapse show">
+				<div class="card-body">
+					<p>Относительные характеристики</p>
+				</div>
+				<div class="table-responsive">
+					<table class="table">
+						<thead class="thead-dark">
+							<tr>
+								<th scope="col">#</th>
+                <th scope="col">Регион</th>
+                <th scope="col">Средние потери от площади, %</th>
+                <th scope="col">Средняя площадь возгораний относ. лесного покрова, %</th>
+							</tr>
+						</thead>
+						<tbody>
+							{% for row in rows %}
+							<tr>
+								<th scope="row">{{ row[0] }}</th>
+								<td>{{ row[1] }}</td>
+                <td>{{ '%0.2f'|format(row[2]|float) }}</td>
+                <td>{{ '%0.2f'|format(row[3]|float) }}</td>
+							</tr>
+							{% endfor %}
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+  <div class="col-7">
+		<div class="card">
+			<div class="card-header">
+				<h4 class="card-title">Таблицы по регионам</h4>
+				<a class="heading-elements-toggle"><i class="la la-ellipsis-v font-medium-3"></i></a>
+			</div>
+			<div class="card-content collapse show">
+				<div class="card-body">
+					<p>Абсолютные характеристики</p>
+				</div>
+				<div class="table-responsive">
+					<table class="table">
+						<thead class="thead-dark">
+							<tr>
+								<th scope="col">#</th>
+                <th scope="col">Регион</th>
+                <th scope="col">Общие потери от площади</th>
+                <th scope="col">Общая площадь возгораний</th>
+                <th scope="col">Общее число термоточек</th>
+                <th scope="col">Общая площадь лесного покрова</th>
+							</tr>
+						</thead>
+						<tbody>
+							{% for row in rows2 %}
+							<tr>
+								<th scope="row">{{ row[0] }}</th>
+								<td>{{ row[1] }}</td>
+                <td>{{ '%0.2f'|format(row[2]|float) }}</td>
+                <td>{{ '%0.2f'|format(row[3]|float) }}</td>
+                <td>{{ row[4] }}</td>
+                <td>{{ '%0.2f'|format(row[5]|float) }}</td>
+							</tr>
+							{% endfor %}
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="row match-height">
+	<div class="col-5">
+		<div class="card">
+			<div class="card-header">
+				<h4 class="card-title">Таблицы по ООПТ</h4>
+				<a class="heading-elements-toggle"><i class="la la-ellipsis-v font-medium-3"></i></a>
+			</div>
+			<div class="card-content collapse show">
+				<div class="card-body">
+					<p>Относительные характеристики</p>
+				</div>
+				<div class="table-responsive">
+					<table class="table">
+						<thead class="thead-dark">
+							<tr>
+								<th scope="col">#</th>
+                <th scope="col">ООПТ</th>
+                <th scope="col">Средние потери от площади, %</th>
+                <th scope="col">Средняя площадь возгораний относ. лесного покрова, %</th>
+							</tr>
+						</thead>
+						<tbody>
+							{% for row in rows3 %}
+							<tr>
+								<th scope="row">{{ row[0] }}</th>
+								<td>{{ row[1] }} {{row[2]}}</td>
+                <td>{{ '%0.2f'|format(row[3]|float) }}</td>
+                <td>{{ '%0.2f'|format(row[4]|float) }}</td>
+							</tr>
+							{% endfor %}
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+  <div class="col-7">
+		<div class="card">
+			<div class="card-header">
+				<h4 class="card-title">Таблицы по регионам</h4>
+				<a class="heading-elements-toggle"><i class="la la-ellipsis-v font-medium-3"></i></a>
+			</div>
+			<div class="card-content collapse show">
+				<div class="card-body">
+					<p>Абсолютные характеристики</p>
+				</div>
+				<div class="table-responsive">
+					<table class="table">
+						<thead class="thead-dark">
+							<tr>
+								<th scope="col">#</th>
+                <th scope="col">ООПТ</th>
+                <th scope="col">Общие потери от площади, %</th>
+                <th scope="col">Общая площадь возгораний</th>
+                <th scope="col">Общее число термоточек</th>
+                <th scope="col">Общая площадь лесного покрова</th>
+                <th scope="col">Кол-во ООПТ в регионе</th>
+							</tr>
+						</thead>
+						<tbody>
+							{% for row in rows4 %}
+							<tr>
+								<th scope="row">{{ row[0] }}</th>
+								<td>{{ row[1] }} {{ row[2] }}</td>
+                <td>{{ '%0.2f'|format(row[3]|float) }}</td>
+                <td>{{ '%0.2f'|format(row[4]|float) }}</td>
+                <td>{{ row[5] }}</td>
+                <td>{{ '%0.2f'|format(row[6]|float) }}</td>
+                <td>{{ row[7] }}</td>
+							</tr>
+							{% endfor %}
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="row">
+	<div class="col-6">
+		<div class="card">
+			<div class="card-header">
+				<h4 class="card-title">График 1</h4>
+			</div>
+			<div class="card-content collapse show">
+				<div class="card-body">
+					<p>График потерь лесного покрова (погибших лесов)</p>
+				</div>
+        <canvas id="lineChart" width="249" height="150"></canvas>
+				<div class="table-responsive">
+				</div>
+			</div>
+		</div>
+	</div>
+  <div class="col-6">
+		<div class="card">
+			<div class="card-header">
+				<h4 class="card-title">График 2</h4>
+			</div>
+			<div class="card-content collapse show">
+				<div class="card-body">
+					<p>График площадей возгораний</p>
+				</div>
+        <canvas id="lineChart2" width="249" height="150"></canvas>
+				<div class="table-responsive">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="row">
+  <div class="col-6">
+		<div class="card">
+			<div class="card-header">
+				<h4 class="card-title">График 3</h4>
+			</div>
+			<div class="card-content collapse show">
+				<div class="card-body">
+					<p>График количества термоточек</p>
+				</div>
+        <canvas id="lineChart2_2" width="249" height="200"></canvas>
+				<div class="table-responsive">
+				</div>
+			</div>
+		</div>
+	</div>
+  <div class="col-6">
+    <div class="card">
+			<div class="card-header">
+				<h4 class="card-title">График 4</h4>
+			</div>
+			<div class="card-content collapse show">
+				<div class="card-body">
+					<p>График трех величин относительно максимальных значений за период наблюдения</p>
+				</div>
+        <canvas id="lineChart3" width="249" height="200"></canvas>
+				<div class="table-responsive">
+				</div>
+			</div>
+		</div>
+  </div>
+</div>
+<!-- Table head options end -->
+
+
+        </div>
+      </div>
+    </div>
+    <!-- ////////////////////////////////////////////////////////////////////////////-->
+
+
+    <footer class="footer footer-static footer-light navbar-border navbar-shadow">
+      <div class="clearfix blue-grey lighten-2 text-sm-center mb-0 px-2"><span class="float-md-left d-block d-md-inline-block">2024  &copy; Copyright <p class="text-bold-800 grey darken-2">Александр Щеголев</p></span>
+      </div>
+    </footer>
+
+    <!-- BEGIN VENDOR JS-->
+    <script src="theme-assets/vendors/js/vendors.min.js" type="text/javascript"></script>
+    <!-- BEGIN VENDOR JS-->
+    <!-- BEGIN PAGE VENDOR JS-->
+    <!-- END PAGE VENDOR JS-->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+      var ctx = document.getElementById("lineChart").getContext("2d");
+      var lineChart = new Chart(ctx, {
+        type: "line",
+        data: {
+          labels: {{ labels1 | tojson }},
+          datasets: [
+            {
+              label: "Потери лесного покрова",
+              data: {{ values1 | tojson }},
+              fill: false,
+              borderColor: "rgb(75, 192, 192)",
+              lineTension: 0.1
+            }
+          ]
+        },
+        options: {
+          responsive: true
+        }
+      });
+    </script>
+    <script>
+      var ctx2 = document.getElementById("lineChart2").getContext("2d");
+      var lineChart = new Chart(ctx2, {
+        type: "line",
+        data: {
+          labels: {{ labels2 | tojson }},
+          datasets: [
+            {
+              label: "Площадь возгораний",
+              data: {{ values2 | tojson }},
+              fill: false,
+              borderColor: "rgb(75, 192, 192)",
+              lineTension: 0.1
+            }
+          ]
+        },
+        options: {
+          responsive: true
+        }
+      });
+    </script>
+    <script>
+      var ctx2_2 = document.getElementById("lineChart2_2").getContext("2d");
+      var lineChart = new Chart(ctx2_2, {
+        type: "line",
+        data: {
+          labels: {{ labels2_2 | tojson }},
+          datasets: [
+            {
+              label: "Количество термоточек",
+              data: {{ values2_2 | tojson }},
+              fill: false,
+              borderColor: "rgb(75, 192, 192)",
+              lineTension: 0.1
+            }
+          ]
+        },
+        options: {
+          responsive: true
+        }
+      });
+    </script>
+    <script>
+      var ctx3 = document.getElementById("lineChart3").getContext("2d");
+      var lineChart = new Chart(ctx3, {
+        type: "line",
+        data: {
+          labels: {{ labels3 | tojson }},
+          datasets: [
+            {
+              label: "Потери лесного покрова, % от макс.",
+              data: {{ values3_1 | tojson }},
+              fill: false,
+              borderColor: "rgb(75, 192, 192)",
+              lineTension: 0.1
+            },
+            {
+              label: "Площадь возгораний, % от макс.",
+              data: {{ values3_2 | tojson }},
+              fill: false,
+              borderColor: "rgb(191, 75, 201)",
+              lineTension: 0.1
+            },
+            {
+              label: "Количество термоточек, % от макс.",
+              data: {{ values3_3 | tojson }},
+              fill: false,
+              borderColor: "rgb(201, 130, 48)",
+              lineTension: 0.1
+            }
+          ]
+        },
+        options: {
+          responsive: true
+        }
+      });
+    </script>
+    <!-- BEGIN CHAMELEON  JS-->
+    <script src="theme-assets/js/core/app-menu-lite.js" type="text/javascript"></script>
+    <script src="theme-assets/js/core/app-lite.js" type="text/javascript"></script>
+    <!-- END CHAMELEON  JS-->
+    <!-- BEGIN PAGE LEVEL JS-->
+    <!-- END PAGE LEVEL JS-->
+  </body>
+</html>

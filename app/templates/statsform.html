@@ -1,0 +1,75 @@
+{% extends "statspage.html" %}
+
+{% block form %}
+<div>
+  <h3>MAP FORM</h3>
+    <form action="" method="post" novalidate>
+      {{ form.hidden_tag() }}
+      <div class="row match-height">
+        <div class="col-xl-4 col-lg-6 col-md-12">
+          <div class="card">
+            <div class="card-header">
+              <h4 class="card-title">{{ form.to_sort_rel.label }}</h4>
+            </div>
+            <div class="card-block">
+              <div class="card-body">
+                <fieldset class="form-group form-control" id="basicSelect">
+                  {{ form.to_sort_rel(id_="basicSelect", class_="form-group form-control") }}
+                </fieldset>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-6 col-md-12">
+          <div class="card">
+            <div class="card-header">
+              <h4 class="card-title">{{ form.to_sort_abs.label }}</h4>
+            </div>
+            <div class="card-block">
+              <div class="card-body">
+                <fieldset class="form-group">
+                  <div class="form-control" id="basicInput">
+                    <h4>{{ form.to_sort_abs(class_="form-control") }}</h4>
+                  </div>
+                </fieldset>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row match-height">
+        <div class="col-xl-4 col-lg-6 col-md-12">
+          <div class="card">
+            <div class="card-header">
+              <h4 class="card-title">{{ form.direction_rel.label }}</h4>
+            </div>
+            <div class="card-block">
+              <div class="card-body">
+                <fieldset class="form-group form-control" id="basicSelect">
+                  {{ form.direction_rel(id_="basicSelect", class_="form-group form-control") }}
+                </fieldset>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-6 col-md-12">
+          <div class="card">
+            <div class="card-header">
+              <h4 class="card-title">{{ form.direction_abs.label }}</h4>
+            </div>
+            <div class="card-block">
+              <div class="card-body">
+                <fieldset class="form-group">
+                  <div class="form-control" id="basicInput">
+                    <h4>{{ form.direction_abs(class_="form-control") }}</h4>
+                  </div>
+                </fieldset>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p>{{ form.s_submit(class_="btn btn-warning") }}</p>
+    </form>
+</div>
+{% endblock %}

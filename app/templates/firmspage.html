@@ -32,46 +32,6 @@
       <div class="navbar-wrapper">
         <div class="navbar-container content">
           <div class="collapse navbar-collapse show" id="navbar-mobile">
-            <ul class="nav navbar-nav mr-auto float-left">
-              <li class="nav-item d-block d-md-none"><a class="nav-link nav-menu-main menu-toggle hidden-xs" href="#"><i class="ft-menu"></i></a></li>
-              <li class="nav-item d-none d-md-block"><a class="nav-link nav-link-expand" href="#"><i class="ficon ft-maximize"></i></a></li>
-              <li class="nav-item dropdown navbar-search"><a class="nav-link dropdown-toggle hide" data-toggle="dropdown" href="#"><i class="ficon ft-search"></i></a>
-                <ul class="dropdown-menu">
-                  <li class="arrow_box">
-                    <form>
-                      <div class="input-group search-box">
-                        <div class="position-relative has-icon-right full-width">
-                          <input class="form-control" id="search" type="text" placeholder="Search here...">
-                          <div class="form-control-position navbar-search-close"><i class="ft-x">   </i></div>
-                        </div>
-                      </div>
-                    </form>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-            <ul class="nav navbar-nav float-right">
-              <li class="dropdown dropdown-language nav-item"><a class="dropdown-toggle nav-link" id="dropdown-flag" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="flag-icon flag-icon-us"></i><span class="selected-language"></span></a>
-                <div class="dropdown-menu" aria-labelledby="dropdown-flag">
-                  <div class="arrow_box"><a class="dropdown-item" href="#"><i class="flag-icon flag-icon-us"></i> English</a><a class="dropdown-item" href="#"><i class="flag-icon flag-icon-cn"></i> Chinese</a><a class="dropdown-item" href="#"><i class="flag-icon flag-icon-ru"></i> Russian</a><a class="dropdown-item" href="#"><i class="flag-icon flag-icon-fr"></i> French</a><a class="dropdown-item" href="#"><i class="flag-icon flag-icon-es"></i> Spanish</a></div>
-                </div>
-              </li>
-            </ul>
-            <ul class="nav navbar-nav float-right">
-              <li class="dropdown dropdown-notification nav-item"><a class="nav-link nav-link-label" href="#" data-toggle="dropdown"><i class="ficon ft-mail">             </i></a>
-                <div class="dropdown-menu dropdown-menu-right">
-                  <div class="arrow_box_right"><a class="dropdown-item" href="#"><i class="ft-book"></i> Read Mail</a><a class="dropdown-item" href="#"><i class="ft-bookmark"></i> Read Later</a><a class="dropdown-item" href="#"><i class="ft-check-square"></i> Mark all Read       </a></div>
-                </div>
-              </li>
-              <li class="dropdown dropdown-user nav-item"><a class="dropdown-toggle nav-link dropdown-user-link" href="#" data-toggle="dropdown">             <span class="avatar avatar-online"><img src="theme-assets/images/portrait/small/avatar-s-19.png" alt="avatar"><i></i></span></a>
-                <div class="dropdown-menu dropdown-menu-right">
-                  <div class="arrow_box_right"><a class="dropdown-item" href="#"><span class="avatar avatar-online"><img src="theme-assets/images/portrait/small/avatar-s-19.png" alt="avatar"><span class="user-name text-bold-700 ml-1">John Doe</span></span></a>
-                    <div class="dropdown-divider"></div><a class="dropdown-item" href="#"><i class="ft-user"></i> Edit Profile</a><a class="dropdown-item" href="#"><i class="ft-mail"></i> My Inbox</a><a class="dropdown-item" href="#"><i class="ft-check-square"></i> Task</a><a class="dropdown-item" href="#"><i class="ft-message-square"></i> Chats</a>
-                    <div class="dropdown-divider"></div><a class="dropdown-item" href="#"><i class="ft-power"></i> Logout</a>
-                  </div>
-                </div>
-              </li>
-            </ul>
           </div>
         </div>
       </div>
@@ -83,8 +43,8 @@
     <div class="main-menu menu-fixed menu-light menu-accordion    menu-shadow " data-scroll-to-active="true" data-img="theme-assets/images/backgrounds/02.jpg">
       <div class="navbar-header">
         <ul class="nav navbar-nav flex-row">
-          <li class="nav-item mr-auto"><a class="navbar-brand" href="index.html"><img class="brand-logo" alt="Chameleon admin logo" src="theme-assets/images/logo/logo.png"/>
-              <h3 class="brand-text">Chameleon</h3></a></li>
+          <li class="nav-item mr-auto"><a class="navbar-brand" href="index.html"><img class="brand-logo" alt="Chameleon admin logo" src="theme-assets/images/sadness_crop.png"/>
+              <h3 class="brand-text">Пожары в ООПТ</h3></a></li>
           <li class="nav-item d-md-none"><a class="nav-link close-navbar"><i class="ft-x"></i></a></li>
         </ul>
       </div>
@@ -96,8 +56,12 @@
           </li>
           <li class="active"><a href="/map"><i class="la la-map"></i><span class="menu-title" data-i18n="">Карта</span></a>
           </li>
+          <li class="active"><a href="/stats"><i class="la la-info"></i><span class="menu-title" data-i18n="">Статистика</span></a>
+          </li>
+          <li class="active"><a href="/statsindividual"><i class="la la-line-chart"></i><span class="menu-title" data-i18n="">Графики</span></a>
+          </li>
         </ul>
-      </div><a class="btn btn-danger btn-block btn-glow btn-upgrade-pro mx-1" href="/update" target="_blank">Добавить записи</a>
+      </div>
       <div class="navigation-background"></div>
     </div>
 
@@ -106,17 +70,9 @@
         <div class="content-wrapper-before"></div>
         <div class="content-header row">
           <div class="content-header-left col-md-4 col-12 mb-2">
-            <h3 class="content-header-title">Энергопотребление</h3>
+            <h3 class="content-header-title">Термоточки</h3>
           </div>
           <div class="content-header-right col-md-8 col-12">
-            <div class="breadcrumbs-top float-md-right">
-              <div class="breadcrumb-wrapper mr-1">
-                <ol class="breadcrumb">
-                  <li class="breadcrumb-item active">Энергопотребление
-                  </li>
-                </ol>
-              </div>
-            </div>
           </div>
         </div>
         <div class="content-body"><!-- Basic Tables start -->
@@ -129,7 +85,7 @@
 	<div class="col-12">
 		<div class="card">
 			<div class="card-header">
-				<h4 class="card-title">Таблица Энергопотребления</h4>
+				<h4 class="card-title">Таблица термоточек и площадей возгораний</h4>
 				<a class="heading-elements-toggle"><i class="la la-ellipsis-v font-medium-3"></i></a>
 				<div class="heading-elements">
 					<ul class="list-inline mb-0">
@@ -142,7 +98,7 @@
 			</div>
 			<div class="card-content collapse show">
 				<div class="card-body">
-					<p>Табличка с данными из файла</p>
+					<p>Данные с 2001 по 2023 год. В квадратных скобках указано количество термоточек (квалрат 1x1км. на спутниковом снимке, в котором обнаружен пожар)</p>
 				</div>
 				<div class="table-responsive">
 					<table class="table">
@@ -212,6 +168,85 @@
 		</div>
 	</div>
 </div>
+{% block form %} {% endblock %}
+<div class="row">
+	<div class="col-12">
+		<div class="card">
+			<div class="card-header">
+				<h4 class="card-title">Фильтр по регионам</h4>
+			</div>
+			<div class="card-content collapse show">
+				<div class="card-body">
+					<p>Данные по ООПТ указанного региона</p>
+				</div>
+				<div class="table-responsive">
+					<table class="table">
+						<thead class="thead-dark">
+							<tr>
+								<th scope="col">Категория</th>
+								<th scope="col">Название</th>
+								<th scope="col">2001</th>
+								<th scope="col">2002</th>
+                <th scope="col">2003</th>
+								<th scope="col">2004</th>
+                <th scope="col">2005</th>
+								<th scope="col">2006</th>
+                <th scope="col">2007</th>
+								<th scope="col">2008</th>
+                <th scope="col">2009</th>
+								<th scope="col">2010</th>
+                <th scope="col">2011</th>
+								<th scope="col">2012</th>
+                <th scope="col">2013</th>
+								<th scope="col">2014</th>
+                <th scope="col">2015</th>
+								<th scope="col">2016</th>
+                <th scope="col">2017</th>
+								<th scope="col">2018</th>
+                <th scope="col">2019</th>
+								<th scope="col">2020</th>
+                <th scope="col">2021</th>
+								<th scope="col">2022</th>
+                <th scope="col">2023</th>
+							</tr>
+						</thead>
+						<tbody>
+							{% for row in rows2 %}
+							<tr>
+								<th scope="row">{{ row[1] }}</th>
+								<td>{{ row[2] }}</td>
+								<td>{{ '%0.2f'|format(row[3]|float) }} [{{ row[4] }}]</td>
+								<td>{{ '%0.2f'|format(row[5]|float) }} [{{ row[6] }}]</td>
+                <td>{{ '%0.2f'|format(row[7]|float) }} [{{ row[8] }}]</td>
+								<td>{{ '%0.2f'|format(row[9]|float) }} [{{ row[10] }}]</td>
+                <td>{{ '%0.2f'|format(row[11]|float) }} [{{ row[12] }}]</td>
+                <td>{{ '%0.2f'|format(row[13]|float) }} [{{ row[14] }}]</td>
+								<td>{{ '%0.2f'|format(row[15]|float) }} [{{ row[16] }}]</td>
+                <td>{{ '%0.2f'|format(row[17]|float) }} [{{ row[18] }}]</td>
+								<td>{{ '%0.2f'|format(row[19]|float) }} [{{ row[20] }}]</td>
+                <td>{{ '%0.2f'|format(row[21]|float) }} [{{ row[22] }}]</td>
+                <td>{{ '%0.2f'|format(row[23]|float) }} [{{ row[24] }}]</td>
+								<td>{{ '%0.2f'|format(row[25]|float) }} [{{ row[26] }}]</td>
+                <td>{{ '%0.2f'|format(row[27]|float) }} [{{ row[28] }}]</td>
+								<td>{{ '%0.2f'|format(row[29]|float) }} [{{ row[30] }}]</td>
+                <td>{{ '%0.2f'|format(row[31]|float) }} [{{ row[32] }}]</td>
+                <td>{{ '%0.2f'|format(row[33]|float) }} [{{ row[34] }}]</td>
+								<td>{{ '%0.2f'|format(row[35]|float) }} [{{ row[36] }}]</td>
+                <td>{{ '%0.2f'|format(row[37]|float) }} [{{ row[38] }}]</td>
+								<td>{{ '%0.2f'|format(row[39]|float) }} [{{ row[40] }}]</td>
+                <td>{{ '%0.2f'|format(row[41]|float) }} [{{ row[42] }}]</td>
+                <td>{{ '%0.2f'|format(row[43]|float) }} [{{ row[44] }}]</td>
+								<td>{{ '%0.2f'|format(row[45]|float) }} [{{ row[46] }}]</td>
+                <td>{{ '%0.2f'|format(row[47]|float) }} [{{ row[48] }}]</td>
+							</tr>
+							{% endfor %}
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 <!-- Table head options end -->
 
 
@@ -222,12 +257,7 @@
 
 
     <footer class="footer footer-static footer-light navbar-border navbar-shadow">
-      <div class="clearfix blue-grey lighten-2 text-sm-center mb-0 px-2"><span class="float-md-left d-block d-md-inline-block">2018  &copy; Copyright <a class="text-bold-800 grey darken-2" href="https://themeselection.com" target="_blank">ThemeSelection</a></span>
-        <ul class="list-inline float-md-right d-block d-md-inline-blockd-none d-lg-block mb-0">
-          <li class="list-inline-item"><a class="my-1" href="https://themeselection.com/" target="_blank"> More themes</a></li>
-          <li class="list-inline-item"><a class="my-1" href="https://themeselection.com/support" target="_blank"> Support</a></li>
-          <li class="list-inline-item"><a class="my-1" href="https://themeselection.com/products/chameleon-admin-modern-bootstrap-webapp-dashboard-html-template-ui-kit/" target="_blank"> Purchase</a></li>
-        </ul>
+      <div class="clearfix blue-grey lighten-2 text-sm-center mb-0 px-2"><span class="float-md-left d-block d-md-inline-block">2024  &copy; Copyright <p class="text-bold-800 grey darken-2">Александр Щеголев</p></span>
       </div>
     </footer>
 

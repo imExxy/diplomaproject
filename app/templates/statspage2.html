@@ -61,7 +61,7 @@
           <li class="active"><a href="/statsindividual"><i class="la la-line-chart"></i><span class="menu-title" data-i18n="">Графики</span></a>
           </li>
         </ul>
-      </div>
+      </div><a class="btn btn-danger btn-block btn-glow btn-upgrade-pro mx-1" href="/update" target="_blank">Добавить записи</a>
       <div class="navigation-background"></div>
     </div>
 
@@ -70,7 +70,9 @@
         <div class="content-wrapper-before"></div>
         <div class="content-header row">
           <div class="content-header-left col-md-4 col-12 mb-2">
-            <h3 class="content-header-title">Лесной покров</h3>
+            <h3 class="content-header-title">Графики по ООПТ</h3>
+          </div>
+          <div class="content-header-right col-md-8 col-12">
           </div>
         </div>
         <div class="content-body"><!-- Basic Tables start -->
@@ -79,158 +81,54 @@
 
 
 <!-- Table head options start -->
+{% block form %} {% endblock %}
 <div class="row">
-	<div class="col-12">
+	<div class="col-6">
 		<div class="card">
 			<div class="card-header">
-				<h4 class="card-title">Таблица потерь лесного покрова</h4>
+				<h4 class="card-title">График 1</h4>
 			</div>
 			<div class="card-content collapse show">
 				<div class="card-body">
-					<p>Данные с 2001 по 2022 год + лесопокрытая площадь на 2000 год</p>
+					<p>График сгоревших площадей, кв. км.</p>
+          <p>{{ nfm }}</p>
 				</div>
+        <canvas id="lineChart" width="249" height="150"></canvas>
 				<div class="table-responsive">
-					<table class="table">
-						<thead class="thead-dark">
-							<tr>
-								<th scope="col">Категория</th>
-								<th scope="col">Название</th>
-								<th scope="col">2001</th>
-								<th scope="col">2002</th>
-                <th scope="col">2003</th>
-								<th scope="col">2004</th>
-                <th scope="col">2005</th>
-								<th scope="col">2006</th>
-                <th scope="col">2007</th>
-								<th scope="col">2008</th>
-                <th scope="col">2009</th>
-								<th scope="col">2010</th>
-                <th scope="col">2011</th>
-								<th scope="col">2012</th>
-                <th scope="col">2013</th>
-								<th scope="col">2014</th>
-                <th scope="col">2015</th>
-								<th scope="col">2016</th>
-                <th scope="col">2017</th>
-								<th scope="col">2018</th>
-                <th scope="col">2019</th>
-								<th scope="col">2020</th>
-                <th scope="col">2021</th>
-								<th scope="col">2022</th>
-                <th scope="col">Лесопокрытая площадь</th>
-							</tr>
-						</thead>
-						<tbody>
-							{% for row in rows %}
-							<tr>
-								<th scope="row">{{ row.category }}</th>
-								<td>{{ row.title }}</td>
-								<td>{{ '%0.2f'|format(row.year2001|float) }}</td>
-								<td>{{ '%0.2f'|format(row.year2002|float) }}</td>
-                <td>{{ '%0.2f'|format(row.year2003|float) }}</td>
-								<td>{{ '%0.2f'|format(row.year2004|float) }}</td>
-                <td>{{ '%0.2f'|format(row.year2005|float) }}</td>
-                <td>{{ '%0.2f'|format(row.year2006|float) }}</td>
-								<td>{{ '%0.2f'|format(row.year2007|float) }}</td>
-                <td>{{ '%0.2f'|format(row.year2008|float) }}</td>
-								<td>{{ '%0.2f'|format(row.year2009|float) }}</td>
-                <td>{{ '%0.2f'|format(row.year2010|float) }}</td>
-                <td>{{ '%0.2f'|format(row.year2011|float) }}</td>
-								<td>{{ '%0.2f'|format(row.year2012|float) }}</td>
-                <td>{{ '%0.2f'|format(row.year2013|float) }}</td>
-								<td>{{ '%0.2f'|format(row.year2014|float) }}</td>
-                <td>{{ '%0.2f'|format(row.year2015|float) }}</td>
-                <td>{{ '%0.2f'|format(row.year2016|float) }}</td>
-								<td>{{ '%0.2f'|format(row.year2017|float) }}</td>
-                <td>{{ '%0.2f'|format(row.year2018|float) }}</td>
-								<td>{{ '%0.2f'|format(row.year2019|float) }}</td>
-                <td>{{ '%0.2f'|format(row.year2020|float) }}</td>
-                <td>{{ '%0.2f'|format(row.year2021|float) }}</td>
-								<td>{{ '%0.2f'|format(row.year2022|float) }}</td>
-                <td>{{ '%0.2f'|format(row.area|float) }}</td>
-							</tr>
-							{% endfor %}
-						</tbody>
-					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+  <div class="col-6">
+		<div class="card">
+			<div class="card-header">
+				<h4 class="card-title">График 2</h4>
+			</div>
+			<div class="card-content collapse show">
+				<div class="card-body">
+					<p>График площадей пожаров, кв. км.</p>
+          <p>{{ nfm }}</p>
+				</div>
+        <canvas id="lineChart2" width="249" height="150"></canvas>
+				<div class="table-responsive">
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
-{% block form %} {% endblock %}
 <div class="row">
-	<div class="col-12">
+  <div class="col-6">
 		<div class="card">
 			<div class="card-header">
-				<h4 class="card-title">Фильтр по регионам</h4>
+				<h4 class="card-title">График 3</h4>
 			</div>
 			<div class="card-content collapse show">
 				<div class="card-body">
-					<p>Данные по ООПТ указанного региона</p>
+					<p>График количества термоточек</p>
+          <p>{{ nfm }}</p>
 				</div>
+        <canvas id="lineChart3" width="249" height="150"></canvas>
 				<div class="table-responsive">
-					<table class="table">
-						<thead class="thead-dark">
-							<tr>
-								<th scope="col">Категория</th>
-								<th scope="col">Название</th>
-								<th scope="col">2001</th>
-								<th scope="col">2002</th>
-                <th scope="col">2003</th>
-								<th scope="col">2004</th>
-                <th scope="col">2005</th>
-								<th scope="col">2006</th>
-                <th scope="col">2007</th>
-								<th scope="col">2008</th>
-                <th scope="col">2009</th>
-								<th scope="col">2010</th>
-                <th scope="col">2011</th>
-								<th scope="col">2012</th>
-                <th scope="col">2013</th>
-								<th scope="col">2014</th>
-                <th scope="col">2015</th>
-								<th scope="col">2016</th>
-                <th scope="col">2017</th>
-								<th scope="col">2018</th>
-                <th scope="col">2019</th>
-								<th scope="col">2020</th>
-                <th scope="col">2021</th>
-								<th scope="col">2022</th>
-                <th scope="col">Лесопокрытая площадь</th>
-							</tr>
-						</thead>
-						<tbody>
-							{% for row in rows2 %}
-							<tr>
-								<th scope="row">{{ row[1] }}</th>
-								<td>{{ row[2] }}</td>
-								<td>{{ '%0.2f'|format(row[3]|float) }}</td>
-								<td>{{ '%0.2f'|format(row[4]|float) }}</td>
-                <td>{{ '%0.2f'|format(row[5]|float) }}</td>
-								<td>{{ '%0.2f'|format(row[6]|float) }}</td>
-                <td>{{ '%0.2f'|format(row[7]|float) }}</td>
-                <td>{{ '%0.2f'|format(row[8]|float) }}</td>
-								<td>{{ '%0.2f'|format(row[9]|float) }}</td>
-                <td>{{ '%0.2f'|format(row[10]|float) }}</td>
-								<td>{{ '%0.2f'|format(row[11]|float) }}</td>
-                <td>{{ '%0.2f'|format(row[12]|float) }}</td>
-                <td>{{ '%0.2f'|format(row[13]|float) }}</td>
-								<td>{{ '%0.2f'|format(row[14]|float) }}</td>
-                <td>{{ '%0.2f'|format(row[15]|float) }}</td>
-								<td>{{ '%0.2f'|format(row[16]|float) }}</td>
-                <td>{{ '%0.2f'|format(row[17]|float) }}</td>
-                <td>{{ '%0.2f'|format(row[18]|float) }}</td>
-								<td>{{ '%0.2f'|format(row[19]|float) }}</td>
-                <td>{{ '%0.2f'|format(row[20]|float) }}</td>
-								<td>{{ '%0.2f'|format(row[21]|float) }}</td>
-                <td>{{ '%0.2f'|format(row[22]|float) }}</td>
-                <td>{{ '%0.2f'|format(row[23]|float) }}</td>
-								<td>{{ '%0.2f'|format(row[24]|float) }}</td>
-                <td>{{ '%0.2f'|format(row[25]|float) }}</td>
-							</tr>
-							{% endfor %}
-						</tbody>
-					</table>
 				</div>
 			</div>
 		</div>
@@ -255,6 +153,70 @@
     <!-- BEGIN VENDOR JS-->
     <!-- BEGIN PAGE VENDOR JS-->
     <!-- END PAGE VENDOR JS-->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+      var ctx = document.getElementById("lineChart").getContext("2d");
+      var lineChart = new Chart(ctx, {
+        type: "line",
+        data: {
+          labels: {{ labels | tojson }},
+          datasets: [
+            {
+              label: "Потери лесного покрова",
+              data: {{ values | tojson }},
+              fill: false,
+              borderColor: "rgb(75, 192, 192)",
+              lineTension: 0.1
+            }
+          ]
+        },
+        options: {
+          responsive: true
+        }
+      });
+    </script>
+    <script>
+      var ctx2 = document.getElementById("lineChart2").getContext("2d");
+      var lineChart = new Chart(ctx2, {
+        type: "line",
+        data: {
+          labels: {{ labels2 | tojson }},
+          datasets: [
+            {
+              label: "Площадь возгорания",
+              data: {{ values2 | tojson }},
+              fill: false,
+              borderColor: "rgb(75, 192, 192)",
+              lineTension: 0.1
+            }
+          ]
+        },
+        options: {
+          responsive: true
+        }
+      });
+    </script>
+    <script>
+      var ctx3 = document.getElementById("lineChart3").getContext("2d");
+      var lineChart = new Chart(ctx3, {
+        type: "line",
+        data: {
+          labels: {{ labels3 | tojson }},
+          datasets: [
+            {
+              label: "Количество термоточек",
+              data: {{ values3 | tojson }},
+              fill: false,
+              borderColor: "rgb(75, 192, 192)",
+              lineTension: 0.1
+            }
+          ]
+        },
+        options: {
+          responsive: true
+        }
+      });
+    </script>
     <!-- BEGIN CHAMELEON  JS-->
     <script src="theme-assets/js/core/app-menu-lite.js" type="text/javascript"></script>
     <script src="theme-assets/js/core/app-lite.js" type="text/javascript"></script>

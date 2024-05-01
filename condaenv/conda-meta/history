@@ -412,3 +412,10 @@
 +defaults/win-64::dnspython-2.4.2-py312haa95532_0
 +defaults/win-64::email-validator-1.2.1-py312haa95532_0
 # update specs: ['anaconda::flask-wtf']
+==> 2024-04-10 15:41:34 <==
+# cmd: D:\xxx\anaconda3\Scripts\conda-script.py install Flask-WTF=1.2.0
+# conda version: 23.11.0
+-anaconda/noarch::flask-wtf-0.15.1-pyhd3eb1b0_0
++conda-forge/noarch::flask-wtf-1.2.0-pyhd8ed1ab_0
+# update specs: ['flask-wtf=1.2.0']
+# neutered specs: ['flask-wtf==1.2.0']

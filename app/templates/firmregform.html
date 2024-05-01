@@ -1,0 +1,27 @@
+{% extends "firmspage.html" %}
+
+{% block form %}
+<div>
+  <h3>Фильтр</h3>
+    <form action="" method="post" novalidate>
+      {{ form.hidden_tag() }}
+      <div class="row match-height">
+        <div class="col-xl-4 col-lg-6 col-md-12">
+          <div class="card">
+            <div class="card-header">
+              <h4 class="card-title">{{ form.reg.label }}</h4>
+            </div>
+            <div class="card-block">
+              <div class="card-body">
+                <fieldset class="form-group form-control" id="basicInput">
+                  {{ form.reg(class_="form-control") }}
+                </fieldset>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p>{{ form.fr_submit(class_="btn btn-warning") }}</p>
+    </form>
+</div>
+{% endblock %}

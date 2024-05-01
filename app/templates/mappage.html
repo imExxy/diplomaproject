@@ -32,46 +32,6 @@
       <div class="navbar-wrapper">
         <div class="navbar-container content">
           <div class="collapse navbar-collapse show" id="navbar-mobile">
-            <ul class="nav navbar-nav mr-auto float-left">
-              <li class="nav-item d-block d-md-none"><a class="nav-link nav-menu-main menu-toggle hidden-xs" href="#"><i class="ft-menu"></i></a></li>
-              <li class="nav-item d-none d-md-block"><a class="nav-link nav-link-expand" href="#"><i class="ficon ft-maximize"></i></a></li>
-              <li class="nav-item dropdown navbar-search"><a class="nav-link dropdown-toggle hide" data-toggle="dropdown" href="#"><i class="ficon ft-search"></i></a>
-                <ul class="dropdown-menu">
-                  <li class="arrow_box">
-                    <form>
-                      <div class="input-group search-box">
-                        <div class="position-relative has-icon-right full-width">
-                          <input class="form-control" id="search" type="text" placeholder="Search here...">
-                          <div class="form-control-position navbar-search-close"><i class="ft-x">   </i></div>
-                        </div>
-                      </div>
-                    </form>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-            <ul class="nav navbar-nav float-right">
-              <li class="dropdown dropdown-language nav-item"><a class="dropdown-toggle nav-link" id="dropdown-flag" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="flag-icon flag-icon-us"></i><span class="selected-language"></span></a>
-                <div class="dropdown-menu" aria-labelledby="dropdown-flag">
-                  <div class="arrow_box"><a class="dropdown-item" href="#"><i class="flag-icon flag-icon-us"></i> English</a><a class="dropdown-item" href="#"><i class="flag-icon flag-icon-cn"></i> Chinese</a><a class="dropdown-item" href="#"><i class="flag-icon flag-icon-ru"></i> Russian</a><a class="dropdown-item" href="#"><i class="flag-icon flag-icon-fr"></i> French</a><a class="dropdown-item" href="#"><i class="flag-icon flag-icon-es"></i> Spanish</a></div>
-                </div>
-              </li>
-            </ul>
-            <ul class="nav navbar-nav float-right">
-              <li class="dropdown dropdown-notification nav-item"><a class="nav-link nav-link-label" href="#" data-toggle="dropdown"><i class="ficon ft-mail">             </i></a>
-                <div class="dropdown-menu dropdown-menu-right">
-                  <div class="arrow_box_right"><a class="dropdown-item" href="#"><i class="ft-book"></i> Read Mail</a><a class="dropdown-item" href="#"><i class="ft-bookmark"></i> Read Later</a><a class="dropdown-item" href="#"><i class="ft-check-square"></i> Mark all Read       </a></div>
-                </div>
-              </li>
-              <li class="dropdown dropdown-user nav-item"><a class="dropdown-toggle nav-link dropdown-user-link" href="#" data-toggle="dropdown">             <span class="avatar avatar-online"><img src="theme-assets/images/portrait/small/avatar-s-19.png" alt="avatar"><i></i></span></a>
-                <div class="dropdown-menu dropdown-menu-right">
-                  <div class="arrow_box_right"><a class="dropdown-item" href="#"><span class="avatar avatar-online"><img src="theme-assets/images/portrait/small/avatar-s-19.png" alt="avatar"><span class="user-name text-bold-700 ml-1">John Doe</span></span></a>
-                    <div class="dropdown-divider"></div><a class="dropdown-item" href="#"><i class="ft-user"></i> Edit Profile</a><a class="dropdown-item" href="#"><i class="ft-mail"></i> My Inbox</a><a class="dropdown-item" href="#"><i class="ft-check-square"></i> Task</a><a class="dropdown-item" href="#"><i class="ft-message-square"></i> Chats</a>
-                    <div class="dropdown-divider"></div><a class="dropdown-item" href="#"><i class="ft-power"></i> Logout</a>
-                  </div>
-                </div>
-              </li>
-            </ul>
           </div>
         </div>
       </div>
@@ -83,8 +43,8 @@
     <div class="main-menu menu-fixed menu-light menu-accordion    menu-shadow " data-scroll-to-active="true" data-img="theme-assets/images/backgrounds/02.jpg">
       <div class="navbar-header">
         <ul class="nav navbar-nav flex-row">
-          <li class="nav-item mr-auto"><a class="navbar-brand" href="index.html"><img class="brand-logo" alt="Chameleon admin logo" src="theme-assets/images/logo/logo.png"/>
-              <h3 class="brand-text">Chameleon</h3></a></li>
+          <li class="nav-item mr-auto"><a class="navbar-brand" href="index.html"><img class="brand-logo" alt="Chameleon admin logo" src="theme-assets/images/sadness_crop.png"/>
+              <h3 class="brand-text">Пожары в ООПТ</h3></a></li>
           <li class="nav-item d-md-none"><a class="nav-link close-navbar"><i class="ft-x"></i></a></li>
         </ul>
       </div>
@@ -96,6 +56,10 @@
           </li>
           <li class="active"><a href="/map"><i class="la la-map"></i><span class="menu-title" data-i18n="">Карта</span></a>
           </li>
+          <li class="active"><a href="/stats"><i class="la la-info"></i><span class="menu-title" data-i18n="">Статистика</span></a>
+          </li>
+          <li class="active"><a href="/statsindividual"><i class="la la-line-chart"></i><span class="menu-title" data-i18n="">Графики</span></a>
+          </li>
         </ul>
       </div><a class="btn btn-danger btn-block btn-glow btn-upgrade-pro mx-1" href="/update" target="_blank">Добавить записи</a>
       <div class="navigation-background"></div>
@@ -106,17 +70,9 @@
         <div class="content-wrapper-before"></div>
         <div class="content-header row">
           <div class="content-header-left col-md-4 col-12 mb-2">
-            <h3 class="content-header-title">Энергопотребление</h3>
+            <h3 class="content-header-title">Карта</h3>
           </div>
           <div class="content-header-right col-md-8 col-12">
-            <div class="breadcrumbs-top float-md-right">
-              <div class="breadcrumb-wrapper mr-1">
-                <ol class="breadcrumb">
-                  <li class="breadcrumb-item active">Энергопотребление
-                  </li>
-                </ol>
-              </div>
-            </div>
           </div>
         </div>
         <div class="content-body"><!-- Basic Tables start -->
@@ -126,25 +82,23 @@
 
 <!-- Table head options start -->
 <div class="row">
+  {% block form %} {% endblock %}
+</div>
+<div class="row">
 	<div class="col-12">
 		<div class="card">
 			<div class="card-header">
 				<h4 class="card-title">Карта</h4>
-				<a class="heading-elements-toggle"><i class="la la-ellipsis-v font-medium-3"></i></a>
-				<div class="heading-elements">
-					<ul class="list-inline mb-0">
-						<li><a data-action="collapse"><i class="ft-minus"></i></a></li>
-						<li><a data-action="reload"><i class="ft-rotate-cw"></i></a></li>
-						<li><a data-action="expand"><i class="ft-maximize"></i></a></li>
-						<li><a data-action="close"><i class="ft-x"></i></a></li>
-					</ul>
-				</div>
 			</div>
 			<div class="card-content collapse show">
 				<div class="card-body">
-					<p>Карта</p>
+					<p>Карта лесного покрова и его потерь</p>
+          {{ folmap | safe }}
 				</div>
-				{{ folmap | safe }}
+        <div class="card-body">
+          <p>Карта термоточек</p>
+          {{ folmap2 | safe }}
+        </div>
 			</div>
 		</div>
 	</div>
@@ -159,12 +113,7 @@
 
 
     <footer class="footer footer-static footer-light navbar-border navbar-shadow">
-      <div class="clearfix blue-grey lighten-2 text-sm-center mb-0 px-2"><span class="float-md-left d-block d-md-inline-block">2018  &copy; Copyright <a class="text-bold-800 grey darken-2" href="https://themeselection.com" target="_blank">ThemeSelection</a></span>
-        <ul class="list-inline float-md-right d-block d-md-inline-blockd-none d-lg-block mb-0">
-          <li class="list-inline-item"><a class="my-1" href="https://themeselection.com/" target="_blank"> More themes</a></li>
-          <li class="list-inline-item"><a class="my-1" href="https://themeselection.com/support" target="_blank"> Support</a></li>
-          <li class="list-inline-item"><a class="my-1" href="https://themeselection.com/products/chameleon-admin-modern-bootstrap-webapp-dashboard-html-template-ui-kit/" target="_blank"> Purchase</a></li>
-        </ul>
+      <div class="clearfix blue-grey lighten-2 text-sm-center mb-0 px-2"><span class="float-md-left d-block d-md-inline-block">2024  &copy; Copyright <p class="text-bold-800 grey darken-2">Александр Щеголев</p></span>
       </div>
     </footer>
 

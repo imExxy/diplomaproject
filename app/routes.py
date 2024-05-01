@@ -1,6 +1,6 @@
 from app import app
 from app import db
-from flask import Flask, render_template, redirect, url_for
+from flask import Flask, render_template, redirect, url_for, session
 #import pika, sys
 import folium
 import geemap.foliumap as geemap
@@ -14,7 +14,7 @@ from sqlalchemy import select
 
 
 from app.models import Fires, Regions, Firms
-from app.forms import MapForm
+from app.forms import MapForm, StatsFormReg, StatsIndiv, FiresReg, FirmsReg
 #from app.models import Regions
 
 
@@ -34,8 +34,8 @@ def sendmsg(task):
 
     connection.close()
 
-@app.route("/")
-@app.route("/index")
+@app.route("/", methods=['GET', 'POST'])
+@app.route("/index", methods=['GET', 'POST'])
 def index():
     con = sqlite3.connect("app.db")
     cur = con.cursor()
@@ -44,9 +44,20 @@ def index():
         return redirect(url_for('getdata'))
     #regionsresponse = Regions.query.all()
     #power = Power.query.all()
-    return render_template("main.html", rows=firesresponse)
+    firesregquery = """select *
+    from fires f
+    join regions r on f.id = r.oopt_id
+    where r.region like \'"""
+    selected_region = ""
+    form_fr = FiresReg()
+    if(form_fr.validate_on_submit()):
+        if(form_fr.reg.data):
+            selected_region = form_fr.reg.data
+    toexec = firesregquery + selected_region + "\';"
+    regresponse = cur.execute(toexec).fetchall()
+    return render_template("fireregform.html", rows=firesresponse, rows2=regresponse, form=form_fr)
 
-@app.route("/firms")
+@app.route("/firms", methods=['GET', 'POST'])
 def firmspage():
     con = sqlite3.connect("app.db")
     cur = con.cursor()
@@ -56,8 +67,19 @@ def firmspage():
     if(firmsresplen == 0):
         print("none detected")
         return redirect(url_for('getfirmsdata'))
-    print("detected", firmsresponse)
-    return render_template("firmspage.html", rows=firmsresponse)
+    #print("detected", firmsresponse)
+    form_firmr = FirmsReg()
+    firmsregquery = """select *
+    from firms f
+    join regions r on f.id = r.oopt_id
+    where r.region like \'"""
+    selected_region = ""
+    if(form_firmr.validate_on_submit()):
+        if(form_firmr.reg.data):
+            selected_region = form_firmr.reg.data
+    toexec = firmsregquery + selected_region + "\';"
+    regresponse = cur.execute(toexec).fetchall()
+    return render_template("firmregform.html", rows=firmsresponse, rows2=regresponse, form=form_firmr)
 
 @app.route("/update")
 def update():
@@ -67,7 +89,7 @@ def update():
 @app.route("/map", methods=['GET', 'POST'])
 def map():
     ee.Initialize(project='alshcheg-project1')
-    form = MapForm()
+    formmap = MapForm()
     eurffl = ee.Image("users/sashatyu/2001-2022_fire_forest_loss_annual/EUR_fire_forest_loss_2001-22_annual")
     gff = ee.Image("UMD/hansen/global_forest_change_2021_v1_9")
     gfftc = gff.select(['treecover2000'])
@@ -86,15 +108,60 @@ def map():
         width=800,
         height=600,
     )
-    #m.add_geojson(in_geojson = "./fed_oopt_vect.geojson", layer_name = 'GeoJSON', fill_colors=["#6AFF59"])
-    m.add_layer(ee_object = gfftc, vis_params = vis_params, name='GFFTC')
-    m.add_layer(ee_object = eurffl, vis_params = {"palette": ["#F782FF"]}, name='EURFFL')
+    m2 = geemap.Map(
+        width=800,
+        height=600,
+    )
+    if formmap.validate_on_submit():
+        if (formmap.raster_layers.data):
+            print("1: ", formmap.raster_layers)
+            #print("2: ", formmap.raster_layers[0])
+            print("3: ", formmap.raster_layers.data)
+            resplist = formmap.raster_layers.data
+            if('gff' in resplist):
+                print("to add gff")
+                #session["l1"] = "yes"
+                m.add_layer(ee_object = gfftc, vis_params = vis_params, name='GFFTC')
+            #else:
+                #print("removing l1")
+                #session.pop("l1", None)
+            if('eurffl' in resplist):
+                print("to add eurffl")
+                #session["l2"] = "yes"
+                m.add_layer(ee_object = eurffl, vis_params = {"palette": ["#F782FF"]}, name='EURFFL')
+            #else:
+                #print("removing l2")
+                #session.pop("l2", None)
+        if (formmap.year_selection.data):
+            selected_year = formmap.year_selection.data
+            if(selected_year >= 2001 and selected_year <= 2023):
+                firms = ee.ImageCollection("FIRMS").select('confidence')
+                def firms_mask(m):
+                    firms_mask = m.gte(10)
+                    masked = m.updateMask(firms_mask)
+                    return masked
+                firmsM = firms.map(firms_mask)
+                testforyear = firmsM.filterDate(ee.Date.fromYMD(selected_year, 1, 1), ee.Date.fromYMD(selected_year, 12, 31))
+                m2.add_layer(ee_object = testforyear, vis_params = {"palette": ["#F782FF"]}, name='FIRMS')
+    #print(session)
+    #if("l1" in session):
+        #print("l1 att 2")
+        #m.add_layer(ee_object = gfftc, vis_params = vis_params, name='GFFTC')
+        #return render_template("mapform.html", folmap=m._repr_html_(), form=formmap)
+    #if("l2" in session):
+        #print("l2 att 2")
+        #m.add_layer(ee_object = eurffl, vis_params = {"palette": ["#F782FF"]}, name='EURFFL')
+        #return render_template("mapform.html", folmap=m._repr_html_(), form=formmap)
+    #m.add_layer(ee_object = gfftc, vis_params = vis_params, name='GFFTC')
+    #m.add_layer(ee_object = eurffl, vis_params = {"palette": ["#6AFF59"]}, name='EURFFL')
+    m.add_geojson(in_geojson = "./fed_oopt_vect.geojson", layer_name = 'GeoJSON', fill_colors=["#F782FF"])
+    m2.add_geojson(in_geojson = "./fed_oopt_vect.geojson", layer_name = 'GeoJSON', fill_colors=["#F782FF"])
     #m.addLayer(gfftc, 'GFFTC')
     #m.addLayer(fed_oopt, {}, 'oopt')
     #m.add_data(data = oopt_gdf, column = 'TITLE')
-    m.addLayerControl()
-    m.setControlVisibility()
-    return render_template("mappage.html", folmap=m._repr_html_(), form=form)
+    #m.addLayerControl()
+    #m.setControlVisibility()
+    return render_template("mapform.html", folmap=m._repr_html_(), folmap2=m2._repr_html_(), form=formmap)
 
 @app.route("/getdata")
 def getdata():
@@ -222,7 +289,7 @@ def getdata():
             #if j>0:
                 #print(i, ", ", subdivlist)
             #regionsdf.iloc[i] = [i, curelem["TITLE"], subdivlist[j]]
-            rdfcol1 = np.append(rdfcol1, i)
+            rdfcol1 = np.append(rdfcol1, i+1)
             rdfcol2 = np.append(rdfcol2, curelem["TITLE"])
             rdfcol3 = np.append(rdfcol3, subdivlist[j])
             #rdfcol3.append(subdivlist[j])
@@ -331,3 +398,203 @@ def getfirmsdata():
             db.session.commit()
             print("sent!")
     return redirect(url_for('firmspage'))
+
+@app.route("/stats",  methods=['GET', 'POST'])
+def stats():
+    con = sqlite3.connect("app.db")
+    cur = con.cursor()
+    sf1 = StatsFormReg()
+    qtext1 = """select sum(year2001) as y2001, sum(year2002) as y2002, sum(year2003) as y2003,
+    sum(year2004) as y2004, sum(year2005) as y2005, sum(year2006) as y2006,
+    sum(year2007) as y2007, sum(year2008) as y2008, sum(year2009) as y2009,
+    sum(year2010) as y2010, sum(year2011) as y2011, sum(year2012) as y2012,
+    sum(year2013) as y2013, sum(year2014) as y2014, sum(year2015) as y2015,
+    sum(year2016) as y2016, sum(year2017) as y2017, sum(year2018) as y2018,
+    sum(year2019) as y2019, sum(year2020) as y2020, sum(year2021) as y2021,
+    sum(year2022) as y2022
+    from fires;"""
+    qtext2 = """select sum(area2001) as a2001, sum(area2002) as y2002, sum(area2003) as y2003,
+    sum(area2004) as a2004, sum(area2005) as a2005, sum(area2006) as a2006,
+    sum(area2007) as a2007, sum(area2008) as a2008, sum(area2009) as a2009,
+    sum(area2010) as a2010, sum(area2011) as a2011, sum(area2012) as a2012,
+    sum(area2013) as a2013, sum(area2014) as a2014, sum(area2015) as a2015,
+    sum(area2016) as a2016, sum(area2017) as a2017, sum(area2018) as a2018,
+    sum(area2019) as a2019, sum(area2020) as a2020, sum(area2021) as a2021,
+    sum(area2022) as a2022, sum(area2023) as a2023
+    from firms;"""
+    qtext2_2 = """select sum(firmcount2001) as fc2001, sum(firmcount2002) as fc2002, sum(firmcount2003) as fc2003,
+    sum(firmcount2004) as fc2004, sum(firmcount2005) as fc2005, sum(firmcount2006) as fc2006,
+    sum(firmcount2007) as fc2007, sum(firmcount2008) as fc2008, sum(firmcount2009) as fc2009,
+    sum(firmcount2010) as fc2010, sum(firmcount2011) as fc2011, sum(firmcount2012) as fc2012,
+    sum(firmcount2013) as fc2013, sum(firmcount2014) as fc2014, sum(firmcount2015) as fc2015,
+    sum(firmcount2016) as fc2016, sum(firmcount2017) as fc2017, sum(firmcount2018) as fc2018,
+    sum(firmcount2019) as fc2019, sum(firmcount2020) as fc2020, sum(firmcount2021) as fc2021,
+    sum(firmcount2022) as fc2022, sum(firmcount2023) as fc2023
+    from firms;"""
+    q1res = cur.execute(qtext1).fetchall()
+    q2res = cur.execute(qtext2).fetchall()
+    q2res2 = cur.execute(qtext2_2).fetchall()
+    q1l = len(q1res)
+    """for i in range(q1l):
+        print(i, " - ", q1res[i])"""
+    q1labels = np.arange(2001, 2023)
+    q2labels = np.arange(2001, 2024)
+    q1labelsstr = []
+    q2labelsstr = []
+    for year in q1labels:
+        q1labelsstr.append(str(year))
+    for year in q2labels:
+        q2labelsstr.append(str(year))
+    q1reslist = list(q1res[0])
+    q2reslist = list(q2res[0])
+    q2res2list = list(q2res2[0])
+    lossmax = max(q1reslist) / 1000000
+    firmsareamax = max(q2reslist) / 1000000
+    firmscountmax = max(q2res2list)
+    lossnorm = []
+    firmsareanorm = []
+    firmscountnorm = []
+    for i in range(len(q1reslist)):
+        temp = q1reslist[i] / 1000000 #to sq km
+        q1reslist[i] = temp
+        lossnorm.append(temp / lossmax * 100)
+    for i in range(len(q2reslist)):
+        temp = q2reslist[i] / 1000000
+        q2reslist[i] = temp
+        firmsareanorm.append(temp / firmsareamax * 100)
+        firmscountnorm.append(q2res2list[i] / firmscountmax * 100) # no need to convert sq m to sq km
+    firmsareanorm.pop()
+    firmscountnorm.pop()
+    # creating a view
+    cur.execute("""create view if not exists lossallyears as
+    select (year2001 + year2002 +  year2003 +year2004 + year2005 +year2006 + year2007 +
+    year2008 + year2009 + year2010 + year2011 + year2012 + year2013 + year2014 + year2015 +
+    year2016 + year2017 + year2018 + year2019 + year2020 + year2021 + year2022) as comb, id
+    from fires;""")
+    cur.execute("""create view if not exists firmsareaallyears as
+    select (area2001 + area2002 +  area2003 + area2004 + area2005 + area2006 + area2007 +
+    area2008 + area2009 + area2010 + area2011 + area2012 + area2013 + area2014 + area2015 +
+    area2016 + area2017 + area2018 + area2019 + area2020 + area2021 + area2022 + area2023) as combfa, id
+    from firms;""")
+    cur.execute("""create view if not exists firmscountallyears as
+    select (firmcount2001 + firmcount2002 +  firmcount2003 + firmcount2004 + firmcount2005 + firmcount2006 + firmcount2007 +
+    firmcount2008 + firmcount2009 + firmcount2010 + firmcount2011 + firmcount2012 + firmcount2013 + firmcount2014 + firmcount2015 +
+    firmcount2016 + firmcount2017 + firmcount2018 + firmcount2019 + firmcount2020 + firmcount2021 + firmcount2022 + firmcount2023)
+    as combfc, id from firms;""")
+    # region query
+    queryforlossbyregions = """select r.region, (avg(l.comb) * 100 / 22 / f2.area) as meanratioloss,
+    (avg(f.combfa) * 100 / 23 / f2.area) as meanratiofa
+    from regions r
+    left join lossallyears l on r.oopt_id = l.id
+    left join firmsareaallyears f on r.oopt_id = f.id
+    left join fires f2 on r.oopt_id  = f2.id
+    group by r.region """
+    queryforregionsabs = """select r.region, sum(l.comb) as totalloss, sum(f.combfa) as totalfirmsarea,
+    sum(f3.combfc) as totalfirmscount,
+    sum(f2.area) as forest, count (oopt_id) as oopts
+    from regions r
+    left join lossallyears l on r.oopt_id = l.id
+    left join firmsareaallyears f on r.oopt_id = f.id
+    left join fires f2 on r.oopt_id  = f2.id
+    left join firmscountallyears f3 on r.oopt_id = f3.id
+    group by r.region """
+    queryooptrel = """select category, title, (l.comb * 100 / 22 / f.area)
+    as meanratioloss, (f2.combfa * 100 / 23 / f.area) as meanratiofa
+    from fires f
+    join lossallyears l on f.id = l.id
+    join firmsareaallyears f2 on f.id = f2.id """
+    queryooptabs = """select category, title, l.comb as totalloss, f2.combfa as totalfirmsarea,
+    f3.combfc as totalfirmscount, area as forest
+    from fires f
+    join lossallyears l on f.id = l.id
+    join firmsareaallyears f2 on f.id = f2.id
+    join firmscountallyears f3 on f.id = f3.id """
+    qrelright = "order by meanratioloss"
+    qabsright = "order by totalloss"
+    if(sf1.validate_on_submit):
+        print("In!")
+        if(sf1.to_sort_rel.data == "fa"):
+            print("Change")
+            qrelright = "order by meanratiofa"
+        if(sf1.direction_rel.data == "down"):
+            qrelright += " desc"
+            print("Change2")
+        if(sf1.to_sort_abs.data == "fa"):
+            qabsright = "order by totalfirmsarea"
+        if(sf1.to_sort_abs.data == "fc"):
+            qabsright = "order by totalfirmscount"
+        if(sf1.to_sort_abs.data == "forest"):
+            qabsright = "order by forest"
+        if(sf1.direction_abs.data == "down"):
+            qabsright += " desc"
+    regionreltext = queryforlossbyregions + qrelright + ";"
+    regionabstext = queryforregionsabs + qabsright + ";"
+    ooptreltext = queryooptrel + qrelright + ";"
+    ooptabstext = queryooptabs + qabsright + ";"
+    regionsrel = cur.execute(regionreltext).fetchall()
+    regionsabs = cur.execute(regionabstext).fetchall()
+    ooptrel = cur.execute(ooptreltext).fetchall()
+    ooptabs = cur.execute(ooptabstext).fetchall()
+    for i in range(len(regionsrel)):
+        #print(i, " - ", regionsrel[i])
+        regionsrel[i] = (i+1,) + regionsrel[i]
+    for i in range(len(regionsabs)):
+        regionsabs[i] = (i+1,) + regionsabs[i]
+    for i in range(len(ooptrel)):
+        ooptrel[i] = (i+1,) + ooptrel[i]
+    for i in range(len(ooptabs)):
+        ooptabs[i] = (i+1,) + ooptabs[i]
+    return render_template("statsform.html", labels1=q1labelsstr, values1=q1reslist, labels2=q2labelsstr, values2=q2reslist,
+                           labels2_2=q2labelsstr, values2_2=q2res2list, labels3=q1labelsstr, values3_1=lossnorm,
+                           values3_2=firmsareanorm, values3_3=firmscountnorm, rows=regionsrel, rows2=regionsabs,
+                           rows3 = ooptrel, rows4 = ooptabs, form=sf1)
+
+@app.route("/statsindividual",  methods=['GET', 'POST'])
+def stats_indiv():
+    con = sqlite3.connect("app.db")
+    cur = con.cursor()
+    si_form = StatsIndiv()
+    selected_oopt = "Тункинский"
+    selected_region = "Республика Бурятия"
+    if(si_form.validate_on_submit()):
+        if(si_form.oopt.data):
+            selected_oopt = si_form.oopt.data
+    #t1query = Fires.query
+    #t1query = t1query.filter(Fires.title == selected_oopt)
+    #t1queryres = t1query.all()
+    t1query = "select * from fires where title like \'" + selected_oopt + "\';"
+    t1qres = cur.execute(t1query).fetchall()
+    notfoundmessage = ""
+    if(len(t1qres) == 0): # go back to default
+        selected_oopt = "Тункинский"
+        notfoundmessage = "Результаты не найдены, графики представлены для Тункинского национального парка"
+        t1query = "select * from fires where title like \'" + selected_oopt + "\';"
+        t1qres = cur.execute(t1query).fetchall()
+    t2query = "select * from firms where title like \'" + selected_oopt + "\';"
+    t2qres = cur.execute(t2query).fetchall()
+    print("outputting")
+    print(t1qres)
+    print(t2qres)
+    losslist = list(t1qres[0])
+    losslisttrim = losslist[3:-1]
+    fafclist = list(t2qres[0])
+    falist = fafclist[3::2]
+    fclist = fafclist[4::2]
+    for i in range(len(losslisttrim)):
+        losslisttrim[i] /= 1000000
+    for i in range(len(falist)):
+        falist[i] /= 1000000
+    print("test: ", losslisttrim)
+    print("test fa : ", falist)
+    print("test fc : ", fclist)
+    #print(t1queryres.year2003)
+    q1labels = np.arange(2001, 2023)
+    q2labels = np.arange(2001, 2024)
+    q1labelsstr = []
+    q2labelsstr = []
+    for year in q1labels:
+        q1labelsstr.append(str(year))
+    for year in q2labels:
+        q2labelsstr.append(str(year))
+    return render_template("statsform2.html", form=si_form, labels=q1labels.tolist(), values=losslisttrim,
+    labels2=q2labels.tolist(), values2=falist, labels3=q2labels.tolist(), values3=fclist, nfm=notfoundmessage)
