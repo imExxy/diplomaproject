@@ -312,6 +312,12 @@ def getdata():
 def getfirmsdata():
     print("getfirmsdata entered")
     ee.Initialize(project='alshcheg-project1')
+    # extra (forested mask setup)
+    gff = ee.Image("UMD/hansen/global_forest_change_2021_v1_9")
+    gffex = gff.select(['treecover2000']).gt(30)
+    gffex = gffex.mask(gffex)
+    forestedAreaImage = gffex.gt(0).multiply(ee.Image.pixelArea())
+    # extra end
     years = ee.List.sequence(2001, 2023)
 
     fed_oopt = ee.FeatureCollection("users/konstantinkobyakov/fed_oopt")
@@ -324,9 +330,14 @@ def getfirmsdata():
         return masked
 
     firmsM = firms.map(firms_mask)
+    # extra step begin
+    def forestmaskhelper(m):
+        return m.updateMask(forestedAreaImage)
+    testmask = firmsM.map(forestmaskhelper)
+    # extra step end
 
     def byYear(x):
-        firms2 = firmsM.filterDate(ee.Date.fromYMD(x, 1, 1), ee.Date.fromYMD(x, 12, 31))
+        firms2 = testmask.filterDate(ee.Date.fromYMD(x, 1, 1), ee.Date.fromYMD(x, 12, 31))
         cf = firms2.count().rename('colfire')
         area = ee.Image.pixelArea()
         firmsmask = cf.gt(0)
@@ -403,6 +414,15 @@ def getfirmsdata():
 def stats():
     con = sqlite3.connect("app.db")
     cur = con.cursor()
+    firesresponse = Fires.query.all()
+    if(len(firesresponse) == 0):
+        return redirect(url_for('getdata'))
+    firmsresponse = Firms.query.all()
+    firmsresplen = len(firmsresponse)
+    #print(firmsresplen)
+    if(firmsresplen == 0):
+        #print("none detected")
+        return redirect(url_for('getfirmsdata'))
     sf1 = StatsFormReg()
     qtext1 = """select sum(year2001) as y2001, sum(year2002) as y2002, sum(year2003) as y2003,
     sum(year2004) as y2004, sum(year2005) as y2005, sum(year2006) as y2006,
@@ -553,6 +573,15 @@ def stats():
 def stats_indiv():
     con = sqlite3.connect("app.db")
     cur = con.cursor()
+    firesresponse = Fires.query.all()
+    if(len(firesresponse) == 0):
+        return redirect(url_for('getdata'))
+    firmsresponse = Firms.query.all()
+    firmsresplen = len(firmsresponse)
+    #print(firmsresplen)
+    if(firmsresplen == 0):
+        #print("none detected")
+        return redirect(url_for('getfirmsdata'))
     si_form = StatsIndiv()
     selected_oopt = "Тункинский"
     selected_region = "Республика Бурятия"
