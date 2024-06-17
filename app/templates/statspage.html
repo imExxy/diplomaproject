@@ -61,7 +61,7 @@
           <li class="active"><a href="/statsindividual"><i class="la la-line-chart"></i><span class="menu-title" data-i18n="">Графики</span></a>
           </li>
         </ul>
-      </div><a class="btn btn-danger btn-block btn-glow btn-upgrade-pro mx-1" href="/update" target="_blank">Добавить записи</a>
+      </div>
       <div class="navigation-background"></div>
     </div>
 
@@ -134,10 +134,11 @@
 							<tr>
 								<th scope="col">#</th>
                 <th scope="col">Регион</th>
-                <th scope="col">Общие потери от площади</th>
-                <th scope="col">Общая площадь возгораний</th>
+                <th scope="col">Общие потери от площади, кв. м.</th>
+                <th scope="col">Общая площадь возгораний, кв. м.</th>
                 <th scope="col">Общее число термоточек</th>
-                <th scope="col">Общая площадь лесного покрова</th>
+                <th scope="col">Общая площадь лесного покрова, кв. м.</th>
+                <th scope="col">Кол-во ООПТ в регионе</th>
 							</tr>
 						</thead>
 						<tbody>
@@ -149,6 +150,7 @@
                 <td>{{ '%0.2f'|format(row[3]|float) }}</td>
                 <td>{{ row[4] }}</td>
                 <td>{{ '%0.2f'|format(row[5]|float) }}</td>
+                <td>{{ row[6] }}</td>
 							</tr>
 							{% endfor %}
 						</tbody>
@@ -168,6 +170,7 @@
 			<div class="card-content collapse show">
 				<div class="card-body">
 					<p>Относительные характеристики</p>
+          <p>Средняя доля сгоревших лесов за год - {{lossmean}} % от лесопокрытой площади</p>
 				</div>
 				<div class="table-responsive">
 					<table class="table">
@@ -175,7 +178,7 @@
 							<tr>
 								<th scope="col">#</th>
                 <th scope="col">ООПТ</th>
-                <th scope="col">Средние потери от площади, %</th>
+                <th scope="col">Средние потери от площади, кв. м.</th>
                 <th scope="col">Средняя площадь возгораний относ. лесного покрова, %</th>
 							</tr>
 						</thead>
@@ -197,12 +200,14 @@
   <div class="col-7">
 		<div class="card">
 			<div class="card-header">
-				<h4 class="card-title">Таблицы по регионам</h4>
+				<h4 class="card-title">Таблицы по ООПТ</h4>
 				<a class="heading-elements-toggle"><i class="la la-ellipsis-v font-medium-3"></i></a>
 			</div>
 			<div class="card-content collapse show">
 				<div class="card-body">
 					<p>Абсолютные характеристики</p>
+          <p>Средняя площадь сгоревших лесов за все время - {{abslossmean}} кв.м. ({{'%0.3f'|format((abslossmean / 1000000)|float)}} кв.км.)</p>
+          <p>За год - {{'%0.3f'|format(abslossmean / 22)}} кв.м. ({{'%0.3f'|format((abslossmean / 22 / 1000000)|float)}} кв.км.)</p>
 				</div>
 				<div class="table-responsive">
 					<table class="table">
@@ -210,11 +215,10 @@
 							<tr>
 								<th scope="col">#</th>
                 <th scope="col">ООПТ</th>
-                <th scope="col">Общие потери от площади, %</th>
-                <th scope="col">Общая площадь возгораний</th>
+                <th scope="col">Общие потери от площади, кв. м</th>
+                <th scope="col">Общая площадь возгораний, кв. м</th>
                 <th scope="col">Общее число термоточек</th>
-                <th scope="col">Общая площадь лесного покрова</th>
-                <th scope="col">Кол-во ООПТ в регионе</th>
+                <th scope="col">Общая площадь лесного покрова, кв. м</th>
 							</tr>
 						</thead>
 						<tbody>
@@ -226,7 +230,6 @@
                 <td>{{ '%0.2f'|format(row[4]|float) }}</td>
                 <td>{{ row[5] }}</td>
                 <td>{{ '%0.2f'|format(row[6]|float) }}</td>
-                <td>{{ row[7] }}</td>
 							</tr>
 							{% endfor %}
 						</tbody>
@@ -245,6 +248,12 @@
 			<div class="card-content collapse show">
 				<div class="card-body">
 					<p>График потерь лесного покрова (погибших лесов)</p>
+          <p>Коэффициент наклона: {{'%0.3f'|format(splrlist1[0]|float)}}; p-value: {{'%0.3f'|format(splrlist1[1]|float)}}</p>
+          {% if splrlist1[1] >= 0.05 %}
+          <p>Тренд отсутствует</p>
+          {% else %}
+          <p>Тренд присутствует</p>
+          {% endif %}
 				</div>
         <canvas id="lineChart" width="249" height="150"></canvas>
 				<div class="table-responsive">
@@ -260,6 +269,12 @@
 			<div class="card-content collapse show">
 				<div class="card-body">
 					<p>График площадей возгораний</p>
+          <p>Коэффициент наклона: {{'%0.3f'|format(splrlist2[0]|float)}}; p-value: {{'%0.3f'|format(splrlist2[1]|float)}}</p>
+          {% if splrlist2[1] >= 0.05 %}
+          <p>Тренд отсутствует</p>
+          {% else %}
+          <p>Тренд присутствует</p>
+          {% endif %}
 				</div>
         <canvas id="lineChart2" width="249" height="150"></canvas>
 				<div class="table-responsive">
@@ -277,6 +292,12 @@
 			<div class="card-content collapse show">
 				<div class="card-body">
 					<p>График количества термоточек</p>
+          <p>Коэффициент наклона: {{'%0.3f'|format(splrlist22[0]|float)}}; p-value: {{'%0.3f'|format(splrlist22[1]|float)}}</p>
+          {% if splrlist22[1] >= 0.05 %}
+          <p>Тренд отсутствует</p>
+          {% else %}
+          <p>Тренд присутствует</p>
+          {% endif %}
 				</div>
         <canvas id="lineChart2_2" width="249" height="200"></canvas>
 				<div class="table-responsive">

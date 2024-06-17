@@ -419,3 +419,24 @@
 +conda-forge/noarch::flask-wtf-1.2.0-pyhd8ed1ab_0
 # update specs: ['flask-wtf=1.2.0']
 # neutered specs: ['flask-wtf==1.2.0']
+==> 2024-05-16 15:08:09 <==
+# cmd: D:\xxx\anaconda3\Scripts\conda-script.py install waitress
+# conda version: 23.11.0
++defaults/noarch::waitress-2.0.0-pyhd3eb1b0_0
+# update specs: ['waitress']
+==> 2024-05-16 16:42:03 <==
+# cmd: D:\xxx\anaconda3\Scripts\conda-script.py install pyopenssl
+# conda version: 23.11.0
+-conda-forge/noarch::pyopenssl-24.0.0-pyhd8ed1ab_0
++defaults/win-64::pyopenssl-24.0.0-py312haa95532_0
+# update specs: ['pyopenssl']
+==> 2024-06-01 17:26:13 <==
+# cmd: D:\xxx\anaconda3\Scripts\conda-script.py install scipy
+# conda version: 23.11.0
+-conda-forge/win-64::openssl-3.2.1-hcfcfb64_0
+-conda-forge/win-64::scipy-1.12.0-py312h8753938_2
+-defaults/win-64::certifi-2024.2.2-py312haa95532_0
++conda-forge/noarch::certifi-2024.2.2-pyhd8ed1ab_0
++conda-forge/win-64::openssl-3.3.0-h2466b09_3
++conda-forge/win-64::scipy-1.13.1-py312h1f4e10d_0
+# update specs: ['scipy']

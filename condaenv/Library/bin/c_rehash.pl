@@ -12,7 +12,7 @@
 # Perl c_rehash script, scan all files in a directory
 # and add symbolic links to their hash values.
 
-my $dir = "D:/xxx/Documents/geeproject/condaenv\\Library";
+my $dir = "C:\\Program Files\\Common Files\\ssl";
 my $prefix = "D:/xxx/Documents/geeproject/condaenv\\Library";
 
 my $errorcount = 0;

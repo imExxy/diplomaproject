@@ -61,7 +61,7 @@
           <li class="active"><a href="/statsindividual"><i class="la la-line-chart"></i><span class="menu-title" data-i18n="">Графики</span></a>
           </li>
         </ul>
-      </div><a class="btn btn-danger btn-block btn-glow btn-upgrade-pro mx-1" href="/update" target="_blank">Добавить записи</a>
+      </div>
       <div class="navigation-background"></div>
     </div>
 
@@ -91,7 +91,13 @@
 			<div class="card-content collapse show">
 				<div class="card-body">
 					<p>График сгоревших площадей, кв. км.</p>
+          <p>Коэффициент наклона: {{'%0.3f'|format(lrreslist[0]|float)}}; p-value: {{'%0.3f'|format(lrreslist[1]|float)}}</p>
           <p>{{ nfm }}</p>
+          {% if lrreslist[1] >= 0.05 %}
+          <p>Тренд отсутствует</p>
+          {% else %}
+          <p>Тренд присутствует</p>
+          {% endif %}
 				</div>
         <canvas id="lineChart" width="249" height="150"></canvas>
 				<div class="table-responsive">
@@ -107,7 +113,13 @@
 			<div class="card-content collapse show">
 				<div class="card-body">
 					<p>График площадей пожаров, кв. км.</p>
+          <p>Коэффициент наклона: {{'%0.3f'|format(lrreslist2[0]|float)}}; p-value: {{'%0.3f'|format(lrreslist2[1]|float)}}</p>
           <p>{{ nfm }}</p>
+          {% if lrreslist2[1] >= 0.05 %}
+          <p>Тренд отсутствует</p>
+          {% else %}
+          <p>Тренд присутствует</p>
+          {% endif %}
 				</div>
         <canvas id="lineChart2" width="249" height="150"></canvas>
 				<div class="table-responsive">
@@ -125,7 +137,13 @@
 			<div class="card-content collapse show">
 				<div class="card-body">
 					<p>График количества термоточек</p>
+          <p>Коэффициент наклона: {{'%0.3f'|format(lrreslist3[0]|float)}}; p-value: {{'%0.3f'|format(lrreslist3[1]|float)}}</p>
           <p>{{ nfm }}</p>
+          {% if lrreslist3[1] >= 0.05 %}
+          <p>Тренд отсутствует</p>
+          {% else %}
+          <p>Тренд присутствует</p>
+          {% endif %}
 				</div>
         <canvas id="lineChart3" width="249" height="150"></canvas>
 				<div class="table-responsive">

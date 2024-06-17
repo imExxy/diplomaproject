@@ -11,6 +11,7 @@ import pandas as pd
 import numpy as np
 import sqlite3
 from sqlalchemy import select
+import scipy.stats as ss
 
 
 from app.models import Fires, Regions, Firms
@@ -37,6 +38,7 @@ def sendmsg(task):
 @app.route("/", methods=['GET', 'POST'])
 @app.route("/index", methods=['GET', 'POST'])
 def index():
+    print(__name__)
     con = sqlite3.connect("app.db")
     cur = con.cursor()
     firesresponse = Fires.query.all()
@@ -485,6 +487,15 @@ def stats():
         firmscountnorm.append(q2res2list[i] / firmscountmax * 100) # no need to convert sq m to sq km
     firmsareanorm.pop()
     firmscountnorm.pop()
+    sp_lr_res1 = ss.linregress(np.arange(22), np.array(q1reslist))
+    sp_lr_res2 = ss.linregress(np.arange(23), np.array(q2reslist))
+    sp_lr_res22 = ss.linregress(np.arange(23), np.array(q2res2list))
+    splrlist1 = [sp_lr_res1.slope, sp_lr_res1.pvalue]
+    splrlist2 = [sp_lr_res2.slope, sp_lr_res2.pvalue]
+    splrlist22 = [sp_lr_res22.slope, sp_lr_res22.pvalue]
+    # pearson
+    pearsonres = ss.pearsonr(lossnorm, firmsareanorm)
+    print("R: ", pearsonres.statistic, "; p-value: ", pearsonres.pvalue)
     # creating a view
     cur.execute("""create view if not exists lossallyears as
     select (year2001 + year2002 +  year2003 +year2004 + year2005 +year2006 + year2007 +
@@ -564,10 +575,45 @@ def stats():
         ooptrel[i] = (i+1,) + ooptrel[i]
     for i in range(len(ooptabs)):
         ooptabs[i] = (i+1,) + ooptabs[i]
+    # NEW EXPERIMENT (MEAN, STDEV)
+    musigmaqtext = """select (l.comb * 100 / 22 / f.area)
+    as meanratioloss, (f2.combfa * 100 / 23 / f.area) as meanratiofa
+    from fires f
+    join lossallyears l on f.id = l.id
+    join firmsareaallyears f2 on f.id = f2.id
+    where f.area > 0
+    group by title;"""
+    #absmusigmaqtext = """select f.id, (l.comb)
+    #as absloss, (f2.combfa) as absfa
+    #from fires f
+    #join lossallyears l on f.id = l.id
+    #join firmsareaallyears f2 on f.id = f2.id
+    #where f.area > 0
+    #group by title;"""
+    musigmaq = cur.execute(musigmaqtext).fetchall() # gives 2 relative rows
+    #absmusigmaq = cur.execute(absmusigmaqtext).fetchall()
+    musigmaloss = [float(elem[0]) for elem in musigmaq]
+    #absmusigmaloss = [float(elem[0]) for elem in absmusigmaq]
+    musigmaloss = np.array(musigmaloss)
+    #absmusigmaloss = np.array(absmusigmaloss)
+    absmusigmaloss = [float(elem[3]) for elem in ooptabs]
+    absmusigmaloss = np.array(absmusigmaloss)
+    abslossmean = np.round(np.mean(absmusigmaloss), 3)
+    print("LOSS MEAN+STDEV TEST: ", musigmaloss)
+    musigmaarea = [float(elem[1]) for elem in musigmaq]
+    musigmaarea = np.array(musigmaarea)
+    print("AREA MEAN+STDEV TEST: ", musigmaarea)
+    lossmean = np.round(np.mean(musigmaloss), 3)
+    lossstd = np.round(np.std(musigmaloss), 2)
+    print("LOSS TEST 2: ", lossmean, "; ", lossstd)
+    areamean = np.round(np.mean(musigmaarea), 2)
+    areastd = np.round(np.std(musigmaarea), 2)
+    print("AREA TEST 2: ", areamean, "; ", areastd)
     return render_template("statsform.html", labels1=q1labelsstr, values1=q1reslist, labels2=q2labelsstr, values2=q2reslist,
                            labels2_2=q2labelsstr, values2_2=q2res2list, labels3=q1labelsstr, values3_1=lossnorm,
                            values3_2=firmsareanorm, values3_3=firmscountnorm, rows=regionsrel, rows2=regionsabs,
-                           rows3 = ooptrel, rows4 = ooptabs, form=sf1)
+                           rows3 = ooptrel, rows4 = ooptabs, form=sf1, splrlist1 = splrlist1, splrlist2 = splrlist2,
+                           splrlist22 = splrlist22, lossmean = lossmean, abslossmean = abslossmean)
 
 @app.route("/statsindividual",  methods=['GET', 'POST'])
 def stats_indiv():
@@ -617,6 +663,20 @@ def stats_indiv():
     print("test fa : ", falist)
     print("test fc : ", fclist)
     #print(t1queryres.year2003)
+    linreg_labels = np.arange(22)
+    linreg_values = np.array(losslisttrim)
+    lr_res = ss.linregress(linreg_labels, linreg_values)
+    lr_res2 = ss.linregress(np.arange(23), np.array(falist))
+    lr_res3 = ss.linregress(np.arange(23), np.array(fclist))
+    print("labels: ", linreg_labels)
+    print("values: ", linreg_values)
+    print("slope:", lr_res.slope)
+    print("p-value:", lr_res.pvalue)
+
+    #
+    lrreslist = [lr_res.slope, lr_res.pvalue]
+    lrreslist2 = [lr_res2.slope, lr_res2.pvalue]
+    lrreslist3 = [lr_res3.slope, lr_res3.pvalue]
     q1labels = np.arange(2001, 2023)
     q2labels = np.arange(2001, 2024)
     q1labelsstr = []
@@ -626,4 +686,5 @@ def stats_indiv():
     for year in q2labels:
         q2labelsstr.append(str(year))
     return render_template("statsform2.html", form=si_form, labels=q1labels.tolist(), values=losslisttrim,
-    labels2=q2labels.tolist(), values2=falist, labels3=q2labels.tolist(), values3=fclist, nfm=notfoundmessage)
+    labels2=q2labels.tolist(), values2=falist, labels3=q2labels.tolist(), values3=fclist, nfm=notfoundmessage,
+    lrreslist = lrreslist, lrreslist2 = lrreslist2, lrreslist3 = lrreslist3)
